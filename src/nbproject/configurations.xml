@@ -14,6 +14,7 @@
       <itemPath>Node_PJS.h</itemPath>
       <itemPath>PJS.h</itemPath>
       <itemPath>PJS_Node.h</itemPath>
+      <itemPath>Task.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -32,6 +33,7 @@
       <itemPath>Node_PJS.cpp</itemPath>
       <itemPath>PJS.cpp</itemPath>
       <itemPath>PJS_Node.cpp</itemPath>
+      <itemPath>Task.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -99,6 +101,10 @@
       </item>
       <item path="PJS_Node.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Task.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Task.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -162,6 +168,10 @@
       <item path="PJS_Node.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="PJS_Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Task.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Task.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
