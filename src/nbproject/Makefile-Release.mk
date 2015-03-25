@@ -35,16 +35,20 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Apollo.o \
+	${OBJECTDIR}/Baseline.o \
 	${OBJECTDIR}/CCU.o \
 	${OBJECTDIR}/CCU_Node.o \
 	${OBJECTDIR}/CCU_PJS.o \
 	${OBJECTDIR}/Clock.o \
 	${OBJECTDIR}/Job.o \
+	${OBJECTDIR}/JobGen_PJS.o \
 	${OBJECTDIR}/JobGenerator.o \
 	${OBJECTDIR}/Node.o \
 	${OBJECTDIR}/Node_PJS.o \
 	${OBJECTDIR}/PJS.o \
 	${OBJECTDIR}/PJS_Node.o \
+	${OBJECTDIR}/Task.o \
 	${OBJECTDIR}/main.o
 
 
@@ -52,8 +56,8 @@ OBJECTFILES= \
 CFLAGS=
 
 # CC Compiler Flags
-CCFLAGS=
-CXXFLAGS=
+CCFLAGS=-std=c++11
+CXXFLAGS=-std=c++11
 
 # Fortran Compiler Flags
 FFLAGS=
@@ -71,6 +75,16 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/src: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/src ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Apollo.o: Apollo.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Apollo.o Apollo.cpp
+
+${OBJECTDIR}/Baseline.o: Baseline.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Baseline.o Baseline.cpp
 
 ${OBJECTDIR}/CCU.o: CCU.cpp 
 	${MKDIR} -p ${OBJECTDIR}
@@ -97,6 +111,11 @@ ${OBJECTDIR}/Job.o: Job.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Job.o Job.cpp
 
+${OBJECTDIR}/JobGen_PJS.o: JobGen_PJS.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/JobGen_PJS.o JobGen_PJS.cpp
+
 ${OBJECTDIR}/JobGenerator.o: JobGenerator.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -121,6 +140,11 @@ ${OBJECTDIR}/PJS_Node.o: PJS_Node.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PJS_Node.o PJS_Node.cpp
+
+${OBJECTDIR}/Task.o: Task.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Task.o Task.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
