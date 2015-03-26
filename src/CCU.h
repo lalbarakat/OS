@@ -9,7 +9,6 @@
 #include "CCU_PJS.h"
 
 class CCU {
-    using Matrix = std::vector<std::vector<int>>;
 public:
     CCU();
     CCU(const CCU& orig);
@@ -18,7 +17,6 @@ public:
     void update_matrix();
     
 private:
-    Matrix mat;
     std::vector<std::vector<int>> wait_time_matrix;
     std::vector <Node*> node_list;
     
