@@ -17,6 +17,7 @@ public:
     void update_matrix();
     
 private:
+    void init_matrix();
     std::vector<std::vector<int>> wait_time_matrix;
     std::vector <Node*> node_list;
     
