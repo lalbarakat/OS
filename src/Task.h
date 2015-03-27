@@ -3,12 +3,10 @@
 
 class Task {
 public:
-    Task(int taskid, int cputime, int memoryrequired){
-        task_id = taskid;
-        CPU_time = cputime; 
-        memory_required = memoryrequired;
-    }
-  
+   // Task();
+    //virtual ~Task();
+    Task(int taskid, int cputime, int memoryrequired);
+    
     void setCPU_time(int CPU_time) {
         this->CPU_time = CPU_time;
     }
@@ -20,7 +18,6 @@ public:
     void setTask_id(int task_id) {
         this->task_id = task_id;
     }
-    
     
     int getCPU_time() const {
         return CPU_time;
