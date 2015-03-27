@@ -2,6 +2,31 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
         <activeConfTypeElem>1</activeConfTypeElem>
-        <activeConfIndexElem>1</activeConfIndexElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
     </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/saasbook/Documents/OS/src/Task.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/CCU_Node.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/Node_PJS.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/PJS.h</file>
+            <file>file:/home/saasbook/Documents/OS/src/PJS_Node.h</file>
+            <file>file:/home/saasbook/Documents/OS/src/Clock.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/PJS_Node.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/Task.h</file>
+            <file>file:/home/saasbook/Documents/OS/src/Node.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/CCU_Node.h</file>
+            <file>file:/home/saasbook/Documents/OS/src/CCU_PJS.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/CCU_PJS.h</file>
+            <file>file:/home/saasbook/Documents/OS/src/CCU.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/CCU.h</file>
+            <file>file:/home/saasbook/Documents/OS/src/JobGenerator.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/Job.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/Node_PJS.h</file>
+            <file>file:/home/saasbook/Documents/OS/src/Job.h</file>
+            <file>file:/home/saasbook/Documents/OS/src/PJS.cpp</file>
+            <file>file:/home/saasbook/Documents/OS/src/main.cpp</file>
+        </group>
+    </open-files>
 </project-private>

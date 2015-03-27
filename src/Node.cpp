@@ -2,26 +2,18 @@
 //#include "Task.h"
 
 
-Node::Node() {
-}
+//Node::Node() {
+//}
 
-Node::Node(const Node& orig) {
-}
+//Node::Node(const Node& orig) {
+//}
 
-Node::~Node() {
-}
+//Node::~Node() {
+//}
 
-void Node::Scheduler(){
-  
-//    Task tmp = new Task(22,33,44);
-//    std::shared_ptr<CPU> ptr_myCPU(new c1());  // Works because holds a pointer to base class
-//
-//    std::thread thread1(&CPU::Execute(tmp), ptr_myCPU);
-    
-        
-    
-
-}
+//void Node::Scheduler(){
+//   
+//}
 
 //void Node::SumbitTask(Task t)
 void Node::SumbitTask() {

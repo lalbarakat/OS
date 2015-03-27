@@ -12,17 +12,24 @@
 #include <vector>
 #include <queue>
 #include <thread>
-#include <memory>
+#include <chrono>
 
 class CPU {
 public:
-    CPU();
+    CPU(){
+      //  std::thread tex(&CPU::Execute,this); 
+    //    tex.join();
+    };
     bool isBusy(){return status;};
     void Busy(){status = true;}
-    void Execute (Task t){
-        std::cout<<t.getCPU_time()<<std::endl;    
+    void Execute (){
+        int x=0;
+        while(x<5){
+            std::cout<< "Hi, This Ex"<<std::endl;
+            x++;
+        }    
     };
-    virtual ~CPU();
+   // virtual ~CPU();
 private:
     int id;
     bool status = false;
@@ -32,11 +39,49 @@ private:
 
 class Node {
 public:
-    Node();
-    Node(const Node& orig);
-    virtual ~Node();
+    Node(){
+        std::thread ts(&Node::Scheduler,this); 
+       // ts.join();
+       // CPU *core = new CPU();
+        std::thread tx(&Node::Executer,this); 
+        std::thread tx2(&Node::foo,this); 
+        tx2.join();
+        
+    };
+    //Node(const Node& orig);
+   // virtual ~Node();
    // void SumbitTask(Task t);
-    void Scheduler();
+    void Scheduler(){   
+        int x =0;
+        while(x<10){
+            std::cout<<"Howdy yall, Im scheduler"<<std::endl; 
+            x++;
+        int y=10000000;
+        for(int i=0;i<y;i++){}
+
+        }
+    };
+    
+    void Executer(){
+        int x =0;
+        while(x<10){
+            std::cout<<"Howdy yall, Im Executer"<<std::endl; 
+            x++;
+        int y=10000000;
+        for(int i=0;i<y;i++){}
+        }
+    }; 
+    
+     void foo(){
+        int x =0;
+        while(x<10){
+            std::cout<<"Howdy yall, Im foo"<<std::endl; 
+            x++;
+        int y=10000000;
+        for(int i=0;i<y;i++){}
+        }
+    }; 
+    
     void SumbitTask();
     void PrintQ();
     //scheduler
