@@ -72,7 +72,7 @@ void Node::SumbitTask() {
 
 
 void Node::PrintQ() {
-    
+    /*
     for(int i=0; i<QTasks.size();i++) {
 //        std::cout<<"Taskid = " + std::to_string(QTasks[i].getTask_id());
 //        std::cout<<"\tCPU = " + std::to_string(QTasks[i].getCPU_time());
@@ -82,6 +82,6 @@ void Node::PrintQ() {
                 "\tCPU = " + std::to_string(QTasks[i].getCPU_time()) + 
                 "\tMemory = "+ std::to_string(QTasks[i].getMemory_required())
                 <<std::endl;
-    }
+    }*/
 }
 
