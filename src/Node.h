@@ -13,6 +13,9 @@
 #include <queue>
 #include <thread>
 #include <chrono>
+#include<mutex>
+
+//std::mutex node_mutex;
 
 class CPU {
 public:
@@ -22,6 +25,10 @@ public:
     };
     bool isBusy(){return status;};
     void Busy(){status = true;}
+
+    int getId(){ return id;}
+    void setId(int id) {this->id = id;}
+
     void Execute (){
         int x=0;
         while(x<5){
@@ -39,22 +46,21 @@ private:
 
 class Node {
 public:
-    Node(){
+    Node(int _id){
+        id = _id;
         std::thread ts(&Node::Scheduler,this); 
-       // ts.join();
-       // CPU *core = new CPU();
+        ts.join();
         std::thread tx(&Node::Executer,this); 
-        std::thread tx2(&Node::foo,this); 
-        tx2.join();
+        tx.join();
         
     };
     //Node(const Node& orig);
-   // virtual ~Node();
+    virtual ~Node();
    // void SumbitTask(Task t);
     void Scheduler(){   
         int x =0;
         while(x<10){
-            std::cout<<"Howdy yall, Im scheduler"<<std::endl; 
+            std::cout<<"scheduler \t nodeid  "<<std::endl;
             x++;
         int y=10000000;
         for(int i=0;i<y;i++){}
@@ -65,17 +71,7 @@ public:
     void Executer(){
         int x =0;
         while(x<10){
-            std::cout<<"Howdy yall, Im Executer"<<std::endl; 
-            x++;
-        int y=10000000;
-        for(int i=0;i<y;i++){}
-        }
-    }; 
-    
-     void foo(){
-        int x =0;
-        while(x<10){
-            std::cout<<"Howdy yall, Im foo"<<std::endl; 
+            std::cout<<"Executer"+std::to_string(this->getId())<<std::endl; 
             x++;
         int y=10000000;
         for(int i=0;i<y;i++){}
@@ -84,10 +80,13 @@ public:
     
     void SumbitTask();
     void PrintQ();
+    int getId(){ return id;}
+   // void setId(int id) {this->id = id;}
     //scheduler
 private:
     int CORESNUM = 1;
     int MAINMEMORY = 8192; //8GB
+    int id;
     std::vector<Task> QTasks;
    
     //queue of task

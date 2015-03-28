@@ -8,8 +8,8 @@
 //Node::Node(const Node& orig) {
 //}
 
-//Node::~Node() {
-//}
+Node::~Node() {
+}
 
 //void Node::Scheduler(){
 //   
@@ -26,6 +26,50 @@ void Node::SumbitTask() {
     
     std::cout<<QTasks.size()<<std::endl;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 void Node::PrintQ() {
     
