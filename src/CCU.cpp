@@ -1,11 +1,16 @@
 #include "CCU.h"
 
-CCU::CCU(std::vector<Node*> _node_list, std::mutex& _output_mutex) {
+void CCU::update_matrix(std::mutex* output_mutex){
+    while(running){
+        std::this_thread::yield();
+    }
+}
+
+CCU::CCU(std::vector<Node*> _node_list, std::mutex* output_mutex) {
     node_list = _node_list;
-    output_mutex = _output_mutex;
     running = true;
     init_matrix();
-    update_thread(this->update_matrix);
+    thread_ptr= std::unique_ptr<std::thread>(new std::thread(&CCU::update_matrix, this, output_mutex));
 }
 
 CCU::CCU(const CCU& orig) {
@@ -14,7 +19,7 @@ CCU::CCU(const CCU& orig) {
 CCU::~CCU() {
     if(running){
         running = false;
-        update_thread.join();
+        thread_ptr->join();
     }
 }
 
@@ -25,8 +30,4 @@ int CCU::apply_matrix(Task t){
     ;
 }
 
-void CCU::update_matrix(){
-    while(running){
-        std::this_thread::yield();
-    }
-}
+
