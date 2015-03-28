@@ -1,3 +1,5 @@
+//#include <c++/4.6/iostream>
+
 #include "Node.h"
 //#include "Task.h"
 
@@ -21,7 +23,10 @@ void Node::Scheduler(){
 }
 
 void Node::CreateExecuters(){
-    std::cout<<id;
+    int num = 4;
+    for (int i = 0; i < num; i++){
+        CPU *c = new CPU(i);
+    }
 }
 //void Node::SumbitTask(Task t)
 void Node::SumbitTask() {
@@ -31,7 +36,6 @@ void Node::SumbitTask() {
         Task *tmp = new Task(i,i,i);
         QTasks.push_back(*tmp);
     }
-    
     std::cout<<QTasks.size()<<std::endl;
 }
 
@@ -56,18 +60,17 @@ void Node::PrintQ() {
 
 CPU::CPU(int _id){
     int id = _id;
-    int num = 4;
-    std::thread t[num];
-    for (int i = 0; i < num; ++i) {
-      //  t[i] = std::thread(&CPU::Executer, this);
-    }
-    for (int i = 0; i < num; ++i) {
-       // t[i].join();
-    }
+    std::thread ex (&CPU::Executer, this);
+    ex.join();
+    
 }
 
 CPU::CPU(const CPU& orig){
 }
 
 CPU::~CPU(){
+}
+
+void CPU::Executer(){
+    std::cout<<"This is executer"<<std::endl;
 }

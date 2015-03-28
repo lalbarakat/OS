@@ -14,7 +14,7 @@ std::mutex output_mutex;
      Node *n =new Node(id);
     }
 int main(int argc, char** argv) {
-    int num_nodes = 4;
+    int num_nodes = 2;
     std::thread t[num_nodes];
 
     //Launch a group of threads
@@ -33,6 +33,7 @@ int main(int argc, char** argv) {
         t[i].join();
     }
     
+   // Node *n = new Node(1);
     
     return 0;
 }
