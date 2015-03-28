@@ -2,19 +2,27 @@
 //#include "Task.h"
 
 
-//Node::Node() {
-//}
+Node::Node(int _id) {
+    id = _id;
+    std::thread ts (&Node::Scheduler, this);
+    ts.join();
+    std::thread tx (&Node::CreateExecuters, this);
+    tx.join();
+}
 
-//Node::Node(const Node& orig) {
-//}
+Node::Node(const Node& orig) {
+}
 
 Node::~Node() {
 }
 
-//void Node::Scheduler(){
-//   
-//}
+void Node::Scheduler(){
+    std::cout <<"This is scheduler"<<std::endl;
+}
 
+void Node::CreateExecuters(){
+    std::cout<<id;
+}
 //void Node::SumbitTask(Task t)
 void Node::SumbitTask() {
     int num= 100;
@@ -26,49 +34,6 @@ void Node::SumbitTask() {
     
     std::cout<<QTasks.size()<<std::endl;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 void Node::PrintQ() {
@@ -85,3 +50,24 @@ void Node::PrintQ() {
     }*/
 }
 
+/*******************************************************************************
+ ************************CPU FUNCTIONS******************************************
+ ******************************************************************************/
+
+CPU::CPU(int _id){
+    int id = _id;
+    int num = 4;
+    std::thread t[num];
+    for (int i = 0; i < num; ++i) {
+      //  t[i] = std::thread(&CPU::Executer, this);
+    }
+    for (int i = 0; i < num; ++i) {
+       // t[i].join();
+    }
+}
+
+CPU::CPU(const CPU& orig){
+}
+
+CPU::~CPU(){
+}
