@@ -1,6 +1,7 @@
 #include <cstdlib>
 #include "Node.h"
 #include "Task.h"
+#include "PJS.h"
 
 using namespace std;
 std::mutex output_mutex;
@@ -32,7 +33,7 @@ int main(int argc, char** argv) {
     for (int i = 0; i < num_nodes; ++i) {
         t[i].join();
     }
-    
+    PJS PJS_obj = new PJS();
    // Node *n = new Node(1);
     
     return 0;
