@@ -7,7 +7,7 @@
 
 #include "Job.h"
 #include "Task.h"
-#include "Node.h"  // By Laith we will use shared memory for communication 
+#include "Node.h"  //  
 #include "CCU_Node.h"
 #include "CCU_PJS.h"
 

@@ -35,6 +35,7 @@ private:
 
 class Node {
 public:
+    Node_PJS NodePJS;
     Node(int _id);
     Node(const Node& orig);
     virtual ~Node();
