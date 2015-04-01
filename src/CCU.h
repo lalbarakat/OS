@@ -11,21 +11,22 @@
 #include "CCU_Node.h"
 #include "CCU_PJS.h"
 
+
 class CCU {
 public:
-    CCU(std::vector <Node*> _node_list, std::mutex& _output_mutex); // By Laith we will use shared memory for communication
+    CCU(std::vector <Node*> _node_list, std::mutex* _output_mutex);
     CCU(const CCU& orig);
     virtual ~CCU();
     int apply_matrix(Task t);
-    void update_matrix();
+    void update_matrix(std::mutex* output_mutex);
     
 private:
     void init_matrix();
     std::vector<std::vector<int>> wait_time_matrix;
-    std::vector <Node*> node_list; // By Laith we will use shared memory for communication
-    std::thread  update_thread;
+    std::vector <Node*> node_list;
     bool running;
     std::mutex output_mutex;
+    std::unique_ptr<std::thread> thread_ptr;
 };
 
 #endif	/* CCU_H */

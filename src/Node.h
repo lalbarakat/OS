@@ -13,83 +13,41 @@
 #include <queue>
 #include <thread>
 #include <chrono>
+#include<mutex>
+
+//std::mutex node_mutex;
 
 class CPU {
 public:
-    CPU(){
-      //  std::thread tex(&CPU::Execute,this); 
-    //    tex.join();
-    };
+    CPU(int _id);
+    CPU(const CPU& orig);
+    virtual ~CPU();
     bool isBusy(){return status;};
     void Busy(){status = true;}
-    void Execute (){
-        int x=0;
-        while(x<5){
-            std::cout<< "Hi, This Ex"<<std::endl;
-            x++;
-        }    
-    };
-   // virtual ~CPU();
+    int getId(){ return id;}
+    void setId(int id) {this->id = id;}
+    void Executer();
+   
 private:
     int id;
     bool status = false;
 };
 
-  
-
 class Node {
 public:
-    Node(){
-        std::thread ts(&Node::Scheduler,this); 
-       // ts.join();
-       // CPU *core = new CPU();
-        std::thread tx(&Node::Executer,this); 
-        std::thread tx2(&Node::foo,this); 
-        tx2.join();
-        
-    };
-    //Node(const Node& orig);
-   // virtual ~Node();
-   // void SumbitTask(Task t);
-    void Scheduler(){   
-        int x =0;
-        while(x<10){
-            std::cout<<"Howdy yall, Im scheduler"<<std::endl; 
-            x++;
-        int y=10000000;
-        for(int i=0;i<y;i++){}
-
-        }
-    };
-    
-    void Executer(){
-        int x =0;
-        while(x<10){
-            std::cout<<"Howdy yall, Im Executer"<<std::endl; 
-            x++;
-        int y=10000000;
-        for(int i=0;i<y;i++){}
-        }
-    }; 
-    
-     void foo(){
-        int x =0;
-        while(x<10){
-            std::cout<<"Howdy yall, Im foo"<<std::endl; 
-            x++;
-        int y=10000000;
-        for(int i=0;i<y;i++){}
-        }
-    }; 
-    
+    Node(int _id);
+    Node(const Node& orig);
+    virtual ~Node();
+    void Scheduler();
+    void CreateExecuters();    
     void SumbitTask();
     void PrintQ();
-    //scheduler
+    int getId(){ return id;}
 private:
+    int id;
     int CORESNUM = 1;
     int MAINMEMORY = 8192; //8GB
     std::vector<Task> QTasks;
-   
     //queue of task
 };
 
