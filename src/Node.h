@@ -4,6 +4,7 @@
 #include "Node_PJS.h"
 #include "PJS_Node.h"
 #include "CCU_Node.h"
+#include "Node_CCU.h"
 #include "Task.h"
 
 #include<stdio.h>
@@ -36,6 +37,7 @@ private:
 class Node {
 public:
     Node_PJS NodePJS;
+    Node_CCU NodeCCU;
     Node(int _id);
     Node(const Node& orig);
     virtual ~Node();
