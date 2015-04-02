@@ -1,4 +1,5 @@
 #include "PJS.h"
+#include "Node.h"
 
 PJS::PJS() {
     

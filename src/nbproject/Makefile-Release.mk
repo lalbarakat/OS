@@ -45,6 +45,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/JobGen_PJS.o \
 	${OBJECTDIR}/JobGenerator.o \
 	${OBJECTDIR}/Node.o \
+	${OBJECTDIR}/Node_CCU.o \
 	${OBJECTDIR}/Node_PJS.o \
 	${OBJECTDIR}/PJS.o \
 	${OBJECTDIR}/PJS_Node.o \
@@ -125,6 +126,11 @@ ${OBJECTDIR}/Node.o: Node.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Node.o Node.cpp
+
+${OBJECTDIR}/Node_CCU.o: Node_CCU.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Node_CCU.o Node_CCU.cpp
 
 ${OBJECTDIR}/Node_PJS.o: Node_PJS.cpp 
 	${MKDIR} -p ${OBJECTDIR}
