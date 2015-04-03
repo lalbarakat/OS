@@ -3,9 +3,19 @@
 #include "Node.h"
 //#include "Task.h"
 
+inline void threadsafe_msg(std::string s){
+    output_mutex.lock();
+    std::cout<<s<<std::endl;
+    output_mutex.unlock();
+}
+inline void threadsafe_msg(std::string s, int id){
+    output_mutex.lock();
+    std::cout<<s<<id<<std::endl;
+    output_mutex.unlock();
+}
 
 Node::Node(int _id,int num_cores) {
-    std::cout<<"Node constructor id = "<< _id<<std::endl;
+    threadsafe_msg("Node constructor id = ",_id);
     id = _id;
     CORESNUM = num_cores;
     std::thread ts (&Node::Scheduler, this);
@@ -21,7 +31,9 @@ Node::~Node() {
 }
 
 void Node::Scheduler(){
-    std::cout <<"This is scheduler"<<std::endl;
+    output_mutex.lock();
+    threadsafe_msg("This is scheduler");
+    output_mutex.unlock();
 //    while(true)
     {
       while(!queue.empty()) 
@@ -30,7 +42,7 @@ void Node::Scheduler(){
 }
 
 void Node::CreateExecuters(){
-    std::cout<<"hello";    
+    threadsafe_msg("hello");
     for (int i = 0; i < CORESNUM; i++){
         CPU *c = new CPU(this);
     }
@@ -80,7 +92,7 @@ Task Node::getTask(){
 
 CPU::CPU(Node* ptr){
 //    int id = _id;
-    std::cout<<"CPU constructor" <<ptr->getId()<<std::endl;
+    threadsafe_msg("CPU constructor",ptr->getId());
     std::thread ex (&CPU::Executer, this);
     ex.join();
     
@@ -94,5 +106,5 @@ CPU::~CPU(){
 
 void CPU::Executer(){
    // Task t = getTask();
-    std::cout<<"This is executer"<<std::endl;
+    threadsafe_msg("This is executer");
 }
