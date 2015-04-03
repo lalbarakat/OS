@@ -34,8 +34,6 @@ public:
     void addTask(Task t);
     Task getTask();
     void Create_Waittime_matrix();
-   // void SumbitTask();
-    //void PrintQ();
     int getId(){ return id;}
 private:
     int id;
