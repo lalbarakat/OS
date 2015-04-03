@@ -28,7 +28,6 @@ private:
     bool running;
     std::mutex output_mutex;
     std::unique_ptr<std::thread> thread_ptr;
-    std::condition_variable finish;
 };
 
 #endif	/* CCU_H */
