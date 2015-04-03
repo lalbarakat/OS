@@ -16,7 +16,7 @@ inline void threadsafe_msg(std::string s, T val){
 }
 
 Node::Node(int _id,int num_cores) {
-    threadsafe_msg("Node constructor id = ",_id);
+    threadsafe_msg<int>("Node constructor id = ",_id);
     id = _id;
     CORESNUM = num_cores;
     std::thread ts (&Node::Scheduler, this);
@@ -93,7 +93,7 @@ Task Node::getTask(){
 
 CPU::CPU(Node* ptr){
 //    int id = _id;
-    threadsafe_msg("CPU constructor",ptr->getId());
+    threadsafe_msg<int>("CPU constructor",ptr->getId());
     std::thread ex (&CPU::Executer, this);
     ex.join();
     
