@@ -43,6 +43,7 @@ private:
     int MAINMEMORY = 8192; //8GB
     std::queue<Task> queue;
     std::mutex qmutex;
+    std::mutex output_mutex;
     //queue of task
     std::unique_ptr<std::thread> node_thread_ptr;
     std::unique_ptr<std::thread> scheduler_thread_ptr;

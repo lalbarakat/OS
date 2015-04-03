@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
     for (int i = 0; i < num_nodes; ++i) {
         create_nodes(i,1+i);
     }
-        
+    create_PJS(); 
     output_mutex.lock();
     std::cout<<"Main thread still here"<<std::endl;
     output_mutex.unlock();

@@ -1,7 +1,4 @@
-//#include <c++/4.6/iostream>
-
 #include "Node.h"
-#include "Task.h"
 
 inline void threadsafe_msg(std::string s){
     output_mutex.lock();
@@ -33,8 +30,7 @@ Node::~Node() {
     {
         delete (*it);
     }
-    
-    
+       
 }
 //Start node creates Scheduler, Executors and other operations such as creation of wait time matrices, sending them to CCU, PJS etc.
 void Node::Start_Node(){
@@ -48,10 +44,8 @@ void Node::Create_Waittime_matrix(){
 
 }
 void Node::Scheduler(){
-    output_mutex.lock();
-    threadsafe_msg("This is scheduler");
-    output_mutex.unlock();
-//    while(true)
+     threadsafe_msg("This is scheduler");
+    //    while(true)
     {
       while(!queue.empty()) 
         addTask(PJSNode.getTask());
@@ -60,7 +54,7 @@ void Node::Scheduler(){
 
 void Node::CreateExecuters(){
  
-    threadsafe_msg("hello");
+    threadsafe_msg("Creating Executers");
     for (int i = 0; i < CORESNUM; i++){
         CPU_ptr_list.push_back(new CPU(this));
         }
@@ -111,7 +105,9 @@ Task Node::getTask(){
 CPU::CPU(Node* ptr){
        
     executor_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&CPU::Executer,this));
-    std::cout<<"CPU constructor" <<ptr->getId()<<std::endl;
+    //std::cout<<"CPU constructor" <<ptr->getId()<<std::endl;
+    threadsafe_msg("CPU constructor");
+    //threadsafe_msg(ptr->getId());
     
 }
 

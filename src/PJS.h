@@ -28,10 +28,11 @@ public:
         // next, resize the rows -- adding complete new columns if necessary
         m.resize( rows, row_t( cols, value ) );
     }
-    
+    void Start_PJS(std::vector<Node *> Nodes_list);
 private:
     matrix_t wait_time_matrix;    
     std::vector <int> list_of_nodes;
+    std::unique_ptr<std::thread> PJS_thread_ptr;
     };
 
 #endif	/* PJS_H */

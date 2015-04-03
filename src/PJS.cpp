@@ -10,8 +10,14 @@ PJS::PJS(const PJS& orig) {
 
 
 PJS::PJS(std::vector<Node *> Nodes_list) {
-//PJS constructocr
-std::cout<<"PJS Constructor" <<std::endl;    
+    
+ PJS_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&PJS::Start_PJS,this,Nodes_list));
+
+}
+
+void PJS::Start_PJS(std::vector<Node *> Nodes_list)
+{
+    //PJS constructocr
 //creating dummy tasks
 std::vector<Task> Task_list;
 Task *t1 = new Task(1,30,1);

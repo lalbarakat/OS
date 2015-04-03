@@ -10,7 +10,9 @@
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Baseline.h</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Job.h</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Node_PJS.cpp</file>
+            <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/PJS_Node.h</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Task.cpp</file>
+            <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/CCU.h</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Task.h</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Job.cpp</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/CCU_Node.cpp</file>
@@ -23,6 +25,7 @@
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Baseline.cpp</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/PJS.cpp</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/PJS.h</file>
+            <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Globals.h</file>
             <file>file:/C:/Users/karthik/Documents/NetBeansProjects/csce613/OS/src/Node.cpp</file>
         </group>
     </open-files>

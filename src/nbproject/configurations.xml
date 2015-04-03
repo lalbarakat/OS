@@ -10,6 +10,7 @@
       <itemPath>CCU_Node.h</itemPath>
       <itemPath>CCU_PJS.h</itemPath>
       <itemPath>Clock.h</itemPath>
+      <itemPath>Globals.h</itemPath>
       <itemPath>Job.h</itemPath>
       <itemPath>JobGen_PJS.h</itemPath>
       <itemPath>JobGenerator.h</itemPath>
@@ -33,6 +34,7 @@
       <itemPath>CCU_Node.cpp</itemPath>
       <itemPath>CCU_PJS.cpp</itemPath>
       <itemPath>Clock.cpp</itemPath>
+      <itemPath>Globals.cpp</itemPath>
       <itemPath>Job.cpp</itemPath>
       <itemPath>JobGen_PJS.cpp</itemPath>
       <itemPath>JobGenerator.cpp</itemPath>
