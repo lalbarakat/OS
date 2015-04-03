@@ -4,6 +4,7 @@
 #include <vector>
 #include <thread>
 #include <mutex>
+#include <condition_variable>
 
 #include "Job.h"
 #include "Task.h"
@@ -27,6 +28,7 @@ private:
     bool running;
     std::mutex output_mutex;
     std::unique_ptr<std::thread> thread_ptr;
+    std::condition_variable finish;
 };
 
 #endif	/* CCU_H */
