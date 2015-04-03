@@ -1,5 +1,6 @@
 #ifndef CCU_PJS_H
 #define	CCU_PJS_H
+#include "Globals.h"
 
 class CCU_PJS {
 public:

@@ -9,6 +9,7 @@
 #include<iostream>
 #include<vector>
 #include<list>
+#include "Globals.h"
 
 class JobGenerator {
 public:

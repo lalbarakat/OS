@@ -3,7 +3,7 @@
 #include <queue>
 #include <mutex>
 #include "Task.h"
-
+#include "Globals.h"
 class PJS_Node {
 public:
     PJS_Node();

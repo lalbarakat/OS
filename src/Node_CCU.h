@@ -7,6 +7,7 @@
 
 #ifndef NODE_CCU_H
 #define	NODE_CCU_H
+#include "Globals.h"
 
 class Node_CCU {
 public:

@@ -1,5 +1,6 @@
 #ifndef TASK_H
 #define	TASK_H
+#include "Globals.h"
 
 class Task {
 public:

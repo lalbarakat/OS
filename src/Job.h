@@ -2,6 +2,7 @@
 #define	JOB_H
 
 #include "Task.h"
+#include "Globals.h"
 
 #include<stdio.h>
 #include<iostream>

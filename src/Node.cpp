@@ -3,9 +3,20 @@
 #include "Node.h"
 #include "Task.h"
 
+inline void threadsafe_msg(std::string s){
+    output_mutex.lock();
+    std::cout<<s<<std::endl;
+    output_mutex.unlock();
+}
+template<typename T>
+inline void threadsafe_msg(std::string s, T val){
+    output_mutex.lock();
+    std::cout<<s<<val<<std::endl;
+    output_mutex.unlock();
+}
 
 Node::Node(int _id,int num_cores) {
-    std::cout<<"Node constructor id = "<< _id<<std::endl;
+    threadsafe_msg("Node constructor id = ",_id);
     id = _id;
     CORESNUM = num_cores;
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
@@ -37,7 +48,9 @@ void Node::Create_Waittime_matrix(){
 
 }
 void Node::Scheduler(){
-    std::cout <<"This is scheduler"<<std::endl;
+    output_mutex.lock();
+    threadsafe_msg("This is scheduler");
+    output_mutex.unlock();
 //    while(true)
     {
       while(!queue.empty()) 
@@ -47,6 +60,7 @@ void Node::Scheduler(){
 
 void Node::CreateExecuters(){
  
+    threadsafe_msg("hello");
     for (int i = 0; i < CORESNUM; i++){
         CPU_ptr_list.push_back(new CPU(this));
         }
@@ -110,5 +124,5 @@ CPU::~CPU(){
 
 void CPU::Executer( ){
    // Task t = getTask();
-    std::cout<<"This is executer"<<std::endl;
+    threadsafe_msg("This is executer");
 }
