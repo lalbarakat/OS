@@ -1,25 +1,41 @@
 //#include <c++/4.6/iostream>
 
 #include "Node.h"
-//#include "Task.h"
+#include "Task.h"
 
 
 Node::Node(int _id,int num_cores) {
     std::cout<<"Node constructor id = "<< _id<<std::endl;
     id = _id;
     CORESNUM = num_cores;
-    std::thread ts (&Node::Scheduler, this);
-    ts.join();
-    std::thread tx (&Node::CreateExecuters, this);
-    tx.join();
+    node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
 }
 
 Node::Node(const Node& orig) {
 }
 
 Node::~Node() {
+    scheduler_thread_ptr->join();
+    node_thread_ptr->join();
+    //Destroy the CPU Objects
+    for (std::vector<CPU *>::iterator it = CPU_ptr_list.begin() ; it != CPU_ptr_list.end(); ++it)
+    {
+        delete (*it);
+    }
+    
+    
 }
+//Start node creates Scheduler, Executors and other operations such as creation of wait time matrices, sending them to CCU, PJS etc.
+void Node::Start_Node(){
+    scheduler_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Scheduler,this));
+    CreateExecuters();   
+    Create_Waittime_matrix();
 
+    }
+
+void Node::Create_Waittime_matrix(){
+
+}
 void Node::Scheduler(){
     std::cout <<"This is scheduler"<<std::endl;
 //    while(true)
@@ -30,10 +46,10 @@ void Node::Scheduler(){
 }
 
 void Node::CreateExecuters(){
-    std::cout<<"hello";    
+ 
     for (int i = 0; i < CORESNUM; i++){
-        CPU *c = new CPU(this);
-    }
+        CPU_ptr_list.push_back(new CPU(this));
+        }
 }
 void Node::addTask(Task t){
     qmutex.lock();
@@ -79,10 +95,9 @@ Task Node::getTask(){
  ******************************************************************************/
 
 CPU::CPU(Node* ptr){
-//    int id = _id;
+       
+    executor_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&CPU::Executer,this));
     std::cout<<"CPU constructor" <<ptr->getId()<<std::endl;
-    std::thread ex (&CPU::Executer, this);
-    ex.join();
     
 }
 
@@ -90,9 +105,10 @@ CPU::CPU(const CPU& orig){
 }
 
 CPU::~CPU(){
+    executor_thread_ptr->join();
 }
 
-void CPU::Executer(){
+void CPU::Executer( ){
    // Task t = getTask();
     std::cout<<"This is executer"<<std::endl;
 }

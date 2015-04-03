@@ -14,7 +14,6 @@
 #include <queue>
 #include <thread>
 #include <chrono>
-#include<mutex>
 #include <queue>
 
 //std::mutex node_mutex;
@@ -28,10 +27,12 @@ public:
     Node(int _id,int num);
     Node(const Node& orig);
     virtual ~Node();
+    void Start_Node();
     void Scheduler();
     void CreateExecuters(); 
     void addTask(Task t);
     Task getTask();
+    void Create_Waittime_matrix();
    // void SumbitTask();
     //void PrintQ();
     int getId(){ return id;}
@@ -42,6 +43,9 @@ private:
     std::queue<Task> queue;
     std::mutex qmutex;
     //queue of task
+    std::unique_ptr<std::thread> node_thread_ptr;
+    std::unique_ptr<std::thread> scheduler_thread_ptr;
+    std::vector<CPU *> CPU_ptr_list;
 };
 class CPU {
 public:
@@ -57,6 +61,7 @@ public:
 private:
     int id;
     bool status = false;
+    std::unique_ptr<std::thread> executor_thread_ptr;
 };
 
 
