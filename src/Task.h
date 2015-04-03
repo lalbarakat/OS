@@ -38,11 +38,21 @@ public:
         return no_op;
     }
     
+    int getCores_required() const {
+        return cores_required;
+    }
+
+    void setCores_required(int cores_required) {
+        this->cores_required = cores_required;
+    }
+
+    
 private:
     // member variables
     int task_id; // task id unqiue for each task in a job.
     int CPU_time; // Amount of time CPU takes to execute the task.
     int memory_required; // Amount of Main Memory required to execute the task.
+    int cores_required;
     bool no_op=false;
     
 };
