@@ -9,7 +9,7 @@
 #define	BASELINE_H
 
 #include "PJS.h"
-
+#include "Globals.h"
 
 class Baseline : PJS {
 public:

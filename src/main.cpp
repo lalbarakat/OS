@@ -5,7 +5,6 @@
 #include "CCU.h"
 
 using namespace std;
-std::mutex output_mutex;
 
 /*
  * 

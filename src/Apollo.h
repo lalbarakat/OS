@@ -9,6 +9,7 @@
 #define	APOLLO_H
 
 #include "PJS.h"
+#include "Globals.h"
 
 class Apollo : PJS {
 public:

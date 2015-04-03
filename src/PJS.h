@@ -6,6 +6,7 @@
 #include "Node.h"
 #include "CCU_PJS.h"
 #include "JobGen_PJS.h"
+#include "Globals.h"
 typedef std::vector <float> row_t;
 typedef std::vector <row_t> matrix_t;
 

@@ -7,6 +7,7 @@
 
 #ifndef JOBGEN_PJS_H
 #define	JOBGEN_PJS_H
+#include "Globals.h"
 
 class JobGen_PJS {
 public:

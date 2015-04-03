@@ -10,7 +10,7 @@
 #include "Node.h"  //  
 #include "CCU_Node.h"
 #include "CCU_PJS.h"
-
+#include "Globals.h"
 
 class CCU {
 public:

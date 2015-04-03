@@ -1,6 +1,7 @@
 #ifndef NODE_PJS_H
 #define	NODE_PJS_H
 
+#include "Globals.h"
 class Node_PJS {
 public:
     Node_PJS();

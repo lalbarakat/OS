@@ -16,6 +16,7 @@
 #include <chrono>
 #include<mutex>
 #include <queue>
+#include "Globals.h"
 
 //std::mutex node_mutex;
 class CPU;
