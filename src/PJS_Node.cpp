@@ -17,9 +17,13 @@ void PJS_Node::addTask(Task t){
 }
 
 Task PJS_Node::getTask(){
+    Task t(0,0,0);
+    t.setNo_op();
     queue_mutex.lock();
-    Task t= task_queue.front();
-    task_queue.pop();
+    if(!task_queue.empty()){
+        Task t= task_queue.front();
+        task_queue.pop();
+    }
     queue_mutex.unlock();
     return t;
 }
