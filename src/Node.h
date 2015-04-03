@@ -25,7 +25,7 @@ public:
     PJS_Node PJSNode;
     Node_CCU NodeCCU;
     std::mutex queue_mutex;
-    Node(int _id);
+    Node(int _id,int num);
     Node(const Node& orig);
     virtual ~Node();
     void Scheduler();

@@ -4,9 +4,10 @@
 //#include "Task.h"
 
 
-Node::Node(int _id) {
+Node::Node(int _id,int num_cores) {
     std::cout<<"Node constructor id = "<< _id<<std::endl;
     id = _id;
+    CORESNUM = num_cores;
     std::thread ts (&Node::Scheduler, this);
     ts.join();
     std::thread tx (&Node::CreateExecuters, this);
@@ -21,14 +22,16 @@ Node::~Node() {
 
 void Node::Scheduler(){
     std::cout <<"This is scheduler"<<std::endl;
-  //  while(true) 
-    //addTask(PJSNode.getTask());
+//    while(true)
+    {
+      while(!queue.empty()) 
+        addTask(PJSNode.getTask());
+    }
 }
 
 void Node::CreateExecuters(){
-    std::cout<<"hello";
-    int num = 4;
-    for (int i = 0; i < num; i++){
+    std::cout<<"hello";    
+    for (int i = 0; i < CORESNUM; i++){
         CPU *c = new CPU(this);
     }
 }

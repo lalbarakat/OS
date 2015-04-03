@@ -3,6 +3,7 @@
 #include <vector>
 #include "Node_PJS.h"
 #include "PJS_Node.h"
+#include "Node.h"
 #include "CCU_PJS.h"
 #include "JobGen_PJS.h"
 typedef std::vector <float> row_t;
@@ -12,6 +13,7 @@ typedef std::vector <row_t> matrix_t;
 class PJS {
 public:
     PJS();
+    PJS(std::vector<Node *> Nodes_list);
     PJS(const PJS& orig);
     virtual ~PJS();  
     void resize( matrix_t& m, unsigned rows, unsigned cols, float value = 0.0 )
