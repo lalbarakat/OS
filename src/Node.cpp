@@ -8,14 +8,15 @@ inline void threadsafe_msg(std::string s){
     std::cout<<s<<std::endl;
     output_mutex.unlock();
 }
-inline void threadsafe_msg(std::string s, int id){
+template<typename T>
+inline void threadsafe_msg(std::string s, T val){
     output_mutex.lock();
-    std::cout<<s<<id<<std::endl;
+    std::cout<<s<<val<<std::endl;
     output_mutex.unlock();
 }
 
 Node::Node(int _id,int num_cores) {
-    threadsafe_msg("Node constructor id = ",_id);
+    threadsafe_msg<int>("Node constructor id = ",_id);
     id = _id;
     CORESNUM = num_cores;
     std::thread ts (&Node::Scheduler, this);
@@ -92,7 +93,7 @@ Task Node::getTask(){
 
 CPU::CPU(Node* ptr){
 //    int id = _id;
-    threadsafe_msg("CPU constructor",ptr->getId());
+    threadsafe_msg<int>("CPU constructor",ptr->getId());
     std::thread ex (&CPU::Executer, this);
     ex.join();
     
