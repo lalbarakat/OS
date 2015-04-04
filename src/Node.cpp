@@ -13,14 +13,15 @@ inline void threadsafe_msg(std::string s, T val){
 }
 
 Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores),
-        cv(new std::condition_variable),PJSNode(cv) 
+        pjsNodecv(new std::condition_variable),PJSNode(pjsNodecv) 
 {
     threadsafe_msg("Node constructor id = ",_id);   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
 }
 
 Node::Node(const Node& orig) : id(orig.getId()), 
-        CORESNUM(orig.getCoreNum()),cv(new std::condition_variable),PJSNode(cv) 
+        CORESNUM(orig.getCoreNum()),pjsNodecv(new std::condition_variable),
+        PJSNode(pjsNodecv) 
 {
     threadsafe_msg("Node constructor id = ",orig.getId());   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));   
@@ -61,7 +62,7 @@ void Node::CreateExecuters(){
     threadsafe_msg("Creating Executers");
     for (int i = 0; i < CORESNUM; i++){
         CPU_ptr_list.push_back(new CPU(this));
-        }
+    }
 }
 void Node::addTask(Task t){
     qmutex.lock();

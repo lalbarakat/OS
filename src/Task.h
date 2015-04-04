@@ -6,7 +6,9 @@ class Task {
 public:
    // Task();
     //virtual ~Task();
-    Task(int taskid, int cputime, int memoryrequired);
+    Task(int taskid, int cputime, int memoryrequired, bool _no_op=false);
+    
+    Task(const Task& orig);
     
     void setCPU_time(int CPU_time) {
         this->CPU_time = CPU_time;
@@ -34,7 +36,7 @@ public:
     void setNo_op(){
         no_op=true;
     }
-    bool getNo_op(){
+    bool getNo_op() const{
         return no_op;
     }
     
@@ -43,7 +45,7 @@ private:
     int task_id; // task id unqiue for each task in a job.
     int CPU_time; // Amount of time CPU takes to execute the task.
     int memory_required; // Amount of Main Memory required to execute the task.
-    bool no_op=false;
+    bool no_op;
     
 };
 
