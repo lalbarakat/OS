@@ -1,5 +1,5 @@
 #include "Node.h"
-
+#include <chrono>
 inline void threadsafe_msg(std::string s){
     output_mutex.lock();
     std::cout<<s<<std::endl;
@@ -55,7 +55,7 @@ void Node::Scheduler(){
     while(!queue.empty())
     {
         std::unique_lock<std::mutex> lk(*condition_mutex);
-        pjsNodecv->wait(lk,[]{return true;} );
+        pjsNodecv->wait_for(lk, std::chrono::seconds(10),[]{return true;} );
         addTask(PJSNode.getTask());
     }
 }

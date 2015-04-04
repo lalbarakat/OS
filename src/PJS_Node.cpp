@@ -26,5 +26,6 @@ Task PJS_Node::getTask(){
         task_queue.pop();
     }
     queue_mutex.unlock();
+    cv->notify_one();
     return t;
 }
