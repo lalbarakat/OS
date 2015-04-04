@@ -1,7 +1,8 @@
 #include "PJS_Node.h"
 #include "Task.h"
 
-PJS_Node::PJS_Node() {
+PJS_Node::PJS_Node(std::condition_variable* _cv) {
+    cv = _cv;
 }
 
 PJS_Node::PJS_Node(const PJS_Node& orig) {

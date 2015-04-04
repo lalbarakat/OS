@@ -7,6 +7,7 @@
 #include "Node_CCU.h"
 #include "Task.h"
 
+#include<condition_variable>
 #include<stdio.h>
 #include<iostream>
 #include<list>
@@ -20,8 +21,10 @@
 //std::mutex node_mutex;
 class CPU;
 
+
 class Node {
 public:
+    
     PJS_Node PJSNode;
     Node_CCU NodeCCU;
     std::mutex queue_mutex;
@@ -36,7 +39,9 @@ public:
     void Create_Waittime_matrix();
    // void SumbitTask();
     //void PrintQ();
-    int getId(){ return id;}
+    int getId() const { return id;}
+    int getCoreNum() const {return CORESNUM;}
+    int getMemory() const {return MAINMEMORY;}
 private:
     int id;
     int CORESNUM = 1;
@@ -44,6 +49,8 @@ private:
     std::queue<Task> queue;
     std::mutex qmutex;
     std::mutex output_mutex;
+    std::mutex pjsNode_mutex;
+    std::condition_variable* pjsNodecv;
     //queue of task
     std::unique_ptr<std::thread> node_thread_ptr;
     std::unique_ptr<std::thread> scheduler_thread_ptr;
@@ -51,6 +58,7 @@ private:
 };
 class CPU {
 public:
+    
     CPU(Node*);
     CPU(const CPU& orig);
     virtual ~CPU();

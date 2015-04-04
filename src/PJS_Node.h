@@ -2,11 +2,12 @@
 #define	PJS_NODE_H
 #include <queue>
 #include <mutex>
+#include <condition_variable>
 #include "Task.h"
 #include "Globals.h"
 class PJS_Node {
 public:
-    PJS_Node();
+    PJS_Node(std::condition_variable* cv);
     PJS_Node(const PJS_Node& orig);
     virtual ~PJS_Node();
     void addTask(Task t);
@@ -14,6 +15,7 @@ public:
 private:
     std::queue<Task> task_queue;
     std::mutex queue_mutex;
+    std::condition_variable* cv;
 };
 
 #endif	/* PJS_NODE_H */

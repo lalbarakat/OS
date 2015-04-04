@@ -12,14 +12,18 @@ inline void threadsafe_msg(std::string s, T val){
     output_mutex.unlock();
 }
 
-Node::Node(int _id,int num_cores) {
-    threadsafe_msg("Node constructor id = ",_id);
-    id = _id;
-    CORESNUM = num_cores;
+Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores),
+        cv(new std::condition_variable),PJSNode(cv) 
+{
+    threadsafe_msg("Node constructor id = ",_id);   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
 }
 
-Node::Node(const Node& orig) {
+Node::Node(const Node& orig) : id(orig.getId()), 
+        CORESNUM(orig.getCoreNum()),cv(new std::condition_variable),PJSNode(cv) 
+{
+    threadsafe_msg("Node constructor id = ",orig.getId());   
+    node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));   
 }
 
 Node::~Node() {
