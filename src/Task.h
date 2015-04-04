@@ -55,7 +55,7 @@ private:
     int CPU_time; // Amount of time CPU takes to execute the task.
     int memory_required; // Amount of Main Memory required to execute the task.
     int cores_required;
-    bool no_op=false;
+    bool no_op;
     
 };
 

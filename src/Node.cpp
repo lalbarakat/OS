@@ -12,8 +12,9 @@ inline void threadsafe_msg(std::string s, T val){
     output_mutex.unlock();
 }
 
-Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores),
-        pjsNodecv(new std::condition_variable),PJSNode(pjsNodecv) 
+Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores), 
+        condition_mutex(new std::mutex), pjsNodecv(new std::condition_variable),
+        PJSNode(pjsNodecv, condition_mutex) 
 {
     threadsafe_msg("Node constructor id = ",_id);   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
@@ -21,7 +22,7 @@ Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores),
 
 Node::Node(const Node& orig) : id(orig.getId()), 
         CORESNUM(orig.getCoreNum()),pjsNodecv(new std::condition_variable),
-        PJSNode(pjsNodecv) 
+        condition_mutex(new std::mutex), PJSNode(pjsNodecv,condition_mutex) 
 {
     threadsafe_msg("Node constructor id = ",orig.getId());   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));   
@@ -51,8 +52,10 @@ void Node::Create_Waittime_matrix(){
 void Node::Scheduler(){
      threadsafe_msg("This is scheduler");
     //    while(true)
+    while(!queue.empty())
     {
-      while(!queue.empty()) 
+        std::unique_lock<std::mutex> lk(*condition_mutex);
+        pjsNodecv->wait(lk,[]{return true;} );
         addTask(PJSNode.getTask());
     }
 }

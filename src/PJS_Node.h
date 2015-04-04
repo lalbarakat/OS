@@ -7,7 +7,7 @@
 #include "Globals.h"
 class PJS_Node {
 public:
-    PJS_Node(std::condition_variable* cv);
+    PJS_Node(std::condition_variable* _cv, std::mutex* _condition_mutex);
     PJS_Node(const PJS_Node& orig);
     virtual ~PJS_Node();
     void addTask(Task t);
@@ -15,6 +15,7 @@ public:
 private:
     std::queue<Task> task_queue;
     std::mutex queue_mutex;
+    std::mutex* condition_mutex;
     std::condition_variable* cv;
 };
 

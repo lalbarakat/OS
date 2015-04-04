@@ -50,6 +50,7 @@ private:
     std::mutex qmutex;
     std::mutex output_mutex;
     std::mutex pjsNode_mutex;
+    std::mutex* condition_mutex;
     std::condition_variable* pjsNodecv;
     //queue of task
     std::unique_ptr<std::thread> node_thread_ptr;
