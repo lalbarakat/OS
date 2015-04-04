@@ -16,6 +16,7 @@ void PJS_Node::addTask(Task t){
     queue_mutex.lock();
     task_queue.push(t);
     queue_mutex.unlock();
+    cv->notify_one();
 }
 bool PJS_Node::isEmpty(){
     std::lock_guard<std::mutex> lock(queue_mutex);
@@ -29,6 +30,16 @@ Task PJS_Node::getTask(){
         task_queue.pop();
     }
     queue_mutex.unlock();
-    cv->notify_one();
+    
+    return t;
+}
+
+Task PJS_Node::PeekTask(){
+    Task t(0,0,0, true);
+    queue_mutex.lock();
+    if(!task_queue.empty()){
+        t= task_queue.front();
+            }
+    queue_mutex.unlock();
     return t;
 }

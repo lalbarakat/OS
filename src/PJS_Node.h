@@ -12,6 +12,7 @@ public:
     virtual ~PJS_Node();
     void addTask(Task t);
     Task getTask();
+    Task PeekTask();
     bool isEmpty();
 private:
     std::queue<Task> task_queue;

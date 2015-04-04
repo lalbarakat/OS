@@ -41,6 +41,7 @@ public:
     void CreateExecuters(); 
     void addTask(Task t);
     Task getTask();
+    Task PeekTask();
     int FindMinVal(int Cores[4],int Memory[4],int numofcores, int mainmemory,
         int task_cores,int task_mem);
     float Estimatewaittime(int cores, int Memory);

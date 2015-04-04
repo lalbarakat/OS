@@ -1,5 +1,6 @@
 #include "Node.h"
 #include <chrono>
+
 inline void threadsafe_msg(std::string s){
     output_mutex.lock();
     std::cout<<s<<std::endl;
@@ -118,8 +119,13 @@ void Node::Scheduler(){
     while(sched_running)
     {
         std::unique_lock<std::mutex> lk(*condition_mutex);
-        pjsNodecv->wait(lk,[this]{return PJSNode.isEmpty();} );
-        addTask(PJSNode.getTask());
+        pjsNodecv->wait(lk,[this]{return !PJSNode.isEmpty();} );
+        threadsafe_msg<int>("Task from PJS_Node",PJSNode.PeekTask().getTask_id());
+        threadsafe_msg<int>("Task from PJS_Node",PJSNode.PeekTask().getCores_required());
+        addTask(PJSNode.getTask());        
+        threadsafe_msg<int>("Task id",PeekTask().getTask_id());
+        threadsafe_msg<int>("Task exec time",PeekTask().getCPU_time());
+        threadsafe_msg<int>("Task memory",PeekTask().getMemory_required());
     }
 }
 
@@ -165,6 +171,13 @@ Task Node::getTask(){
     return t;
 }
 
+Task Node::PeekTask(){
+    qmutex.lock();
+    Task t= queue.front();
+    qmutex.unlock();
+    return t;
+}
+
 /*******************************************************************************
  ************************CPU FUNCTIONS******************************************
  ******************************************************************************/
@@ -172,9 +185,8 @@ Task Node::getTask(){
 CPU::CPU(Node* ptr){
        
     executor_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&CPU::Executer,this));
-    //std::cout<<"CPU constructor" <<ptr->getId()<<std::endl;
     threadsafe_msg("CPU constructor");
-    //threadsafe_msg(ptr->getId());
+    
     
 }
 
