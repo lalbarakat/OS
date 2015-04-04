@@ -7,10 +7,12 @@
 #include "Node_CCU.h"
 #include "Task.h"
 
+#include <algorithm>
 #include<condition_variable>
 #include<stdio.h>
 #include<iostream>
 #include<list>
+#include<deque>
 #include <vector>
 #include <queue>
 #include <thread>
@@ -18,6 +20,9 @@
 #include <queue>
 #include "Globals.h"
 
+typedef std::vector <float> row_t;
+
+typedef std::vector <row_t> matrix_t;
 //std::mutex node_mutex;
 class CPU;
 
@@ -36,7 +41,23 @@ public:
     void CreateExecuters(); 
     void addTask(Task t);
     Task getTask();
+    int FindMinVal(int Cores[4],int Memory[4],int numofcores, int mainmemory,
+        int task_cores,int task_mem);
+    float Estimatewaittime(int cores, int Memory);
     void Create_Waittime_matrix();
+    int Mem_array[4] = {4,8,12,16};
+    int cores_array[4] = {2,4,6,8};
+    void resize( matrix_t& m, unsigned rows, unsigned cols, float value = 0.0 )
+    {
+        // first, resize all the available columns
+        unsigned min = (m.size() < rows) ? m.size() : rows;
+        for (unsigned row = 0; row < min; row++)
+          {
+          m[ row ].resize( cols, value );
+          }
+        // next, resize the rows -- adding complete new columns if necessary
+        m.resize( rows, row_t( cols, value ) );
+    }
    // void SumbitTask();
     //void PrintQ();
     int getId() const { return id;}
@@ -47,7 +68,8 @@ private:
     int CORESNUM = 1;
     int MAINMEMORY = 8192; //8GB
     bool sched_running=true;
-    std::queue<Task> queue;
+    std::deque<Task> queue;
+    matrix_t local_wait_time_matrix;
     std::mutex qmutex;
     std::mutex output_mutex;
     std::mutex pjsNode_mutex;
