@@ -12,6 +12,7 @@ public:
     virtual ~PJS_Node();
     void addTask(Task t);
     Task getTask();
+    bool isEmpty();
 private:
     std::queue<Task> task_queue;
     std::mutex queue_mutex;

@@ -46,6 +46,7 @@ private:
     int id;
     int CORESNUM = 1;
     int MAINMEMORY = 8192; //8GB
+    bool sched_running=true;
     std::queue<Task> queue;
     std::mutex qmutex;
     std::mutex output_mutex;

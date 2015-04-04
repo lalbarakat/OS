@@ -29,6 +29,7 @@ Node::Node(const Node& orig) : id(orig.getId()),
 }
 
 Node::~Node() {
+    sched_running=false;
     scheduler_thread_ptr->join();
     node_thread_ptr->join();
     //Destroy the CPU Objects
@@ -51,11 +52,10 @@ void Node::Create_Waittime_matrix(){
 }
 void Node::Scheduler(){
      threadsafe_msg("This is scheduler");
-    //    while(true)
-    while(!queue.empty())
+    while(sched_running)
     {
         std::unique_lock<std::mutex> lk(*condition_mutex);
-        pjsNodecv->wait_for(lk, std::chrono::seconds(10),[]{return true;} );
+        pjsNodecv->wait(lk,[this]{return PJSNode.isEmpty();} );
         addTask(PJSNode.getTask());
     }
 }
