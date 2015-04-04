@@ -41,6 +41,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/CCU_Node.o \
 	${OBJECTDIR}/CCU_PJS.o \
 	${OBJECTDIR}/Clock.o \
+	${OBJECTDIR}/Globals.o \
 	${OBJECTDIR}/Job.o \
 	${OBJECTDIR}/JobGen_PJS.o \
 	${OBJECTDIR}/JobGenerator.o \
@@ -106,6 +107,11 @@ ${OBJECTDIR}/Clock.o: Clock.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Clock.o Clock.cpp
+
+${OBJECTDIR}/Globals.o: Globals.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Globals.o Globals.cpp
 
 ${OBJECTDIR}/Job.o: Job.cpp 
 	${MKDIR} -p ${OBJECTDIR}
