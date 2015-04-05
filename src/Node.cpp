@@ -48,6 +48,7 @@ void Node::Start_Node(){
     Create_Waittime_matrix();
 
     }
+
 int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
         int task_cores,int task_mem)
  {
@@ -76,24 +77,27 @@ int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
             min_memory = Memory[i];
         }
      }
-     if(min_memory < min_core) return min_memory;
+     
+    /* for(int i =0 ;i<CORESNUM;i++)
+     cout<<Cores[i]<<" ";
+     cout<<endl<<endl;
+    for(int i =0 ;i<MAINMEMORY;i++)
+     cout<<Memory[i]<<" ";
+     cout<<endl<<endl;*/
+     if(min_memory > min_core) return min_memory;
      else return min_core;
  }
 
+
 float Node::Estimatewaittime(int cores, int memory)
 {
- int available_memory = MAINMEMORY;
- int available_cores = CORESNUM;
- int waiting_time;
  int Cores[CORESNUM]={0};
  int Memory[MAINMEMORY]={0};
  int min_val=0;
     for (std::deque<Task>::iterator it = queue.begin(); it!=queue.end(); ++it)
     {
         Task task = *it;
-        min_val = 
-            Node::FindMinVal(Cores,Memory,CORESNUM,MAINMEMORY,
-                task.getCores_required(),task.getMemory_required());
+        min_val = FindMinVal(Cores,Memory,CORESNUM,MAINMEMORY,task.getCores_required(),task.getMemory_required());
         
         int reqdcore = 0;
         int reqdmem = 0;
@@ -114,7 +118,12 @@ float Node::Estimatewaittime(int cores, int memory)
             }
         }
     }
-}
+// cout<<"\n\n\n;";
+ 
+ return Node::FindMinVal(Cores,Memory,CORESNUM,MAINMEMORY,cores,memory);
+        
+ }
+
 void Node::Scheduler(){
     threadsafe_msg("This is scheduler");
     std::unique_lock<std::mutex> lk(condition_mutex);
@@ -147,25 +156,33 @@ void Node::addTask(Task t){
     queue.push_back(t);
     qmutex.unlock();
 }
+
 void Node::Create_Waittime_matrix(){
-    Task *t1= new Task(1,30,2);
-    t1->setCores_required(2);
+    Task *t1= new Task(1,40,4,2);
+    
     queue.push_back(*t1);
-    Task *t2= new Task(1,30,2);
-    t2->setCores_required(2);
+    Task *t2= new Task(1,10,2,2);
+    
     queue.push_back(*t2);
-    Task *t3= new Task(1,30,2);
-    t3->setCores_required(2);
+    Task *t3= new Task(1,30,4,2);
+    
     queue.push_back(*t3);
-    Task *t4= new Task(1,30,2);
-    t4->setCores_required(2);
-    queue.push_back(*t4);    
+    Task *t4= new Task(1,20,2,4);
+    //queue.push_back(*t4);    
     resize(local_wait_time_matrix,4,4,-1);
+    
     for (int i=0; i<local_wait_time_matrix.size(); i++) 
     {
         for (int j=0; j<local_wait_time_matrix.size(); j++) 
         {
-            local_wait_time_matrix[i][j] = Estimatewaittime(cores_array[i],Mem_array[j]);
+            Task *t = new Task(5,0,Mem_array[j],cores_array[i]);
+            queue.push_back(*t);
+            if(cores_array[i] > CORESNUM || Mem_array[j] > MAINMEMORY)
+                local_wait_time_matrix[i][j] = -1;
+            else
+                local_wait_time_matrix[i][j] = Estimatewaittime(cores_array[i],Mem_array[j]);
+            queue.pop_back();
+            delete t;
         }
     }
 }
