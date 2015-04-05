@@ -13,6 +13,7 @@ typedef std::vector <row_t> matrix_t;
 
 class PJS {
 public:
+    CCU_PJS CCUPJS;
     PJS();
     PJS(std::vector<Node *> Nodes_list);
     PJS(const PJS& orig);
