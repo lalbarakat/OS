@@ -6,6 +6,7 @@
  */
 
 #include "Node_CCU.h"
+#include "CCU.h"
 
 Node_CCU::Node_CCU() {
 }
@@ -20,6 +21,7 @@ void Node_CCU::addWaitTimeMatrix(std::pair<int,matrix_t> _pair){
     queue_mutex.lock();
     matrix_queue.push(_pair);
     queue_mutex.unlock();
+    ccu->notify();
 }
 void Node_CCU::addWaitTimeMatrix(int _id, matrix_t _mat){
     std::pair<int,matrix_t> p(_id, _mat);

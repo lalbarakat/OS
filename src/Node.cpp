@@ -26,7 +26,7 @@ Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores)
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
 }
 
-Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum()) 
+Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum())
 {
     threadsafe_msg("Node constructor id = ",orig.getId());   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));   
