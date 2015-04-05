@@ -51,8 +51,8 @@ void Node::Start_Node(){
     Create_Waittime_matrix();
     while(ccu_com_running){
         NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
-        threadsafe_msg("Front of the queue is:", NodeCCU.peekWaitTimeMatrix().first);
-        std::this_thread::sleep_for(std::chrono::seconds(30));
+        //threadsafe_msg("Front of the queue is:", NodeCCU.peekWaitTimeMatrix().first);
+        std::this_thread::sleep_for(std::chrono::seconds(10));
     }
 }
 

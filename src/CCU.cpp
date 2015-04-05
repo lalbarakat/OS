@@ -8,7 +8,10 @@ void CCU::update_matrix(){
         if(!running)
             break;
         
-        
+        std::pair<int,Node_CCU::matrix_t> p=Node::NodeCCU.getWaitTimeMatrix();
+        output_mutex.lock();
+        std::cout<<"Got matrix from"<<p.first<<std::endl;
+        output_mutex.unlock();
     }
 }
 

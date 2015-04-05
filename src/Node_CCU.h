@@ -27,7 +27,7 @@ public:
     void addWaitTimeMatrix(int _id, matrix_t _mat);
     void addWaitTimeMatrix(std::pair<int, matrix_t> _pair);
     bool isEmpty();
-    CCU* ccu=NULL;
+    CCU* ccu;
 private:
     std::queue <std::pair<int, matrix_t>> matrix_queue;
     std::mutex queue_mutex;
