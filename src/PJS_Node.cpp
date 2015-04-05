@@ -37,7 +37,7 @@ Task PJS_Node::PeekTask(){
     queue_mutex.lock();
     if(!task_queue.empty()){
         t= task_queue.front();
-            }
+    }
     queue_mutex.unlock();
     return t;
 }
