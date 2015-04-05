@@ -2,6 +2,7 @@
 #include <chrono>
 
 Node_CCU Node::NodeCCU;
+
 inline void threadsafe_msg(std::string s){
     output_mutex.lock();
     std::cout<<s<<std::endl;
