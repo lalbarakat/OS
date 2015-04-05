@@ -26,7 +26,7 @@ Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores)
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
 }
 
-Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum()) 
+Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum())
 {
     threadsafe_msg("Node constructor id = ",orig.getId());   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));   
@@ -52,8 +52,8 @@ void Node::Start_Node(){
     Create_Waittime_matrix();
     while(ccu_com_running){
         NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
-        threadsafe_msg("Front of the queue is:", NodeCCU.peekWaitTimeMatrix().first);
-        std::this_thread::sleep_for(std::chrono::seconds(30));
+        //threadsafe_msg("Front of the queue is:", NodeCCU.peekWaitTimeMatrix().first);
+        std::this_thread::sleep_for(std::chrono::seconds(10));
     }
 }
 
