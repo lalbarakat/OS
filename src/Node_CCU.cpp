@@ -41,6 +41,7 @@ std::pair<int, Node_CCU::matrix_t> Node_CCU::getWaitTimeMatrix(){
         matrix_queue.pop();
     }
     queue_mutex.unlock();
+    return a;
 }
 
 std::pair<int, Node_CCU::matrix_t> Node_CCU::peekWaitTimeMatrix(){
@@ -52,4 +53,5 @@ std::pair<int, Node_CCU::matrix_t> Node_CCU::peekWaitTimeMatrix(){
         a.second=matrix_queue.front().second;
     }
     queue_mutex.unlock();
+    return a;
 }

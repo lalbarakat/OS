@@ -1,6 +1,8 @@
 #include "Node.h"
 #include <chrono>
 
+Node_CCU Node::NodeCCU;
+
 inline void threadsafe_msg(std::string s){
     output_mutex.lock();
     std::cout<<s<<std::endl;
@@ -32,6 +34,7 @@ Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum())
 
 Node::~Node() {
     sched_running=false;
+    ccu_com_running=false;
     scheduler_thread_ptr->join();
     node_thread_ptr->join();
     //Destroy the CPU Objects
@@ -45,9 +48,14 @@ Node::~Node() {
 void Node::Start_Node(){
     scheduler_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Scheduler,this));
     CreateExecuters();   
+    
     Create_Waittime_matrix();
-
+    while(ccu_com_running){
+        NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
+        threadsafe_msg("Front of the queue is:", NodeCCU.peekWaitTimeMatrix().first);
+        std::this_thread::sleep_for(std::chrono::seconds(30));
     }
+}
 
 int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
         int task_cores,int task_mem)
@@ -87,7 +95,6 @@ int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
      if(min_memory > min_core) return min_memory;
      else return min_core;
  }
-
 
 float Node::Estimatewaittime(int cores, int memory)
 {
@@ -131,26 +138,26 @@ void Node::Scheduler(){
     {
         pjsNodecv.wait(lk,[this]{return !PJSNode.isEmpty();} );
         Task t=PJSNode.PeekTask();
+       
+        
         threadsafe_msg<int>("Task from PJS_Node",t.getTask_id());
         threadsafe_msg<int>("Task from PJS_Node",t.getCores_required());
         addTask(PJSNode.getTask());
         threadsafe_msg<int>("Task id",id,t.getTask_id());
         threadsafe_msg<int>("Task exec time",id,t.getCPU_time());
         threadsafe_msg<int>("Task memory",id,t.getMemory_required());
-        threadsafe_msg<int>("Task memory",id,t.getMemory_required());
-        
+                
     }
 }
+
 void Node::notifyPJS(){
     pjsNodecv.notify_one();
 }
 void Node::CreateExecuters(){
  
     threadsafe_msg("Creating Executers");
-    for (int i = 0; i < CORESNUM; i++){
-        CPU_ptr_list.push_back(new CPU(this));
+    CPU_ptr_list.push_back(new CPU(this));
     }
-}
 void Node::addTask(Task t){
     qmutex.lock();
     queue.push_back(t);
@@ -222,5 +229,6 @@ CPU::~CPU(){
 
 void CPU::Executer( ){
    // Task t = getTask();
+    
     threadsafe_msg("This is executer");
 }
