@@ -13,6 +13,7 @@
 #include <queue>
 #include <mutex>
 
+class CCU;
 class Node_CCU {
 public:
     typedef std::vector <float> row_t;
@@ -26,6 +27,7 @@ public:
     void addWaitTimeMatrix(int _id, matrix_t _mat);
     void addWaitTimeMatrix(std::pair<int, matrix_t> _pair);
     bool isEmpty();
+    CCU* ccu;
 private:
     std::queue <std::pair<int, matrix_t>> matrix_queue;
     std::mutex queue_mutex;

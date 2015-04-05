@@ -27,7 +27,6 @@ typedef std::vector <row_t> matrix_t;
 //std::mutex node_mutex;
 class CPU;
 
-
 class Node {
 public:
     
