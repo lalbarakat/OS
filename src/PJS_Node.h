@@ -17,8 +17,6 @@ public:
 private:
     std::queue<Task> task_queue;
     std::mutex queue_mutex;
-    std::mutex* condition_mutex;
-    std::condition_variable* cv;
 };
 
 #endif	/* PJS_NODE_H */
