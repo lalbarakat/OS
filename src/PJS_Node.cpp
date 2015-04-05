@@ -1,8 +1,7 @@
 #include "PJS_Node.h"
 #include "Task.h"
 
-PJS_Node::PJS_Node(std::condition_variable* _cv, std::mutex* _condition_mutex): 
-        cv(_cv), condition_mutex(_condition_mutex)
+PJS_Node::PJS_Node()
 {
 }
 
@@ -16,7 +15,6 @@ void PJS_Node::addTask(Task t){
     queue_mutex.lock();
     task_queue.push(t);
     queue_mutex.unlock();
-    cv->notify_one();
 }
 bool PJS_Node::isEmpty(){
     std::lock_guard<std::mutex> lock(queue_mutex);

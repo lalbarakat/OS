@@ -1,4 +1,5 @@
 #include <cstdlib>
+#include <chrono>
 #include "Node.h"
 #include "Task.h"
 #include "PJS.h"
@@ -32,11 +33,12 @@ int main(int argc, char** argv) {
     for (int i = 0; i < num_nodes; ++i) {
         create_nodes(i,1+i);
     }
+    
     create_PJS(); 
     output_mutex.lock();
     std::cout<<"Main thread still here"<<std::endl;
     output_mutex.unlock();
-    
+    std::this_thread::sleep_for(std::chrono::seconds(20));
     return 0;
 }
 

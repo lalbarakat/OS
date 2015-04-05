@@ -12,18 +12,19 @@ inline void threadsafe_msg(std::string s, T val){
     std::cout<<s<<val<<std::endl;
     output_mutex.unlock();
 }
-
-Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores), 
-        condition_mutex(new std::mutex), pjsNodecv(new std::condition_variable),
-        PJSNode(pjsNodecv, condition_mutex) 
+template<typename T>
+inline void threadsafe_msg(std::string s, T val,T val2){
+    output_mutex.lock();
+    std::cout<<s<<val<<":"<<val2<<std::endl;
+    output_mutex.unlock();
+}
+Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores)
 {
     threadsafe_msg("Node constructor id = ",_id);   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
 }
 
-Node::Node(const Node& orig) : id(orig.getId()), 
-        CORESNUM(orig.getCoreNum()),pjsNodecv(new std::condition_variable),
-        condition_mutex(new std::mutex), PJSNode(pjsNodecv,condition_mutex) 
+Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum()) 
 {
     threadsafe_msg("Node constructor id = ",orig.getId());   
     node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));   
@@ -115,20 +116,25 @@ float Node::Estimatewaittime(int cores, int memory)
     }
 }
 void Node::Scheduler(){
-     threadsafe_msg("This is scheduler");
+    threadsafe_msg("This is scheduler");
+    std::unique_lock<std::mutex> lk(condition_mutex);
     while(sched_running)
     {
-        std::unique_lock<std::mutex> lk(*condition_mutex);
-        pjsNodecv->wait(lk,[this]{return !PJSNode.isEmpty();} );
-        threadsafe_msg<int>("Task from PJS_Node",PJSNode.PeekTask().getTask_id());
-        threadsafe_msg<int>("Task from PJS_Node",PJSNode.PeekTask().getCores_required());
-        addTask(PJSNode.getTask());        
-        threadsafe_msg<int>("Task id",PeekTask().getTask_id());
-        threadsafe_msg<int>("Task exec time",PeekTask().getCPU_time());
-        threadsafe_msg<int>("Task memory",PeekTask().getMemory_required());
+        pjsNodecv.wait(lk,[this]{return !PJSNode.isEmpty();} );
+        Task t=PJSNode.PeekTask();
+        threadsafe_msg<int>("Task from PJS_Node",t.getTask_id());
+        threadsafe_msg<int>("Task from PJS_Node",t.getCores_required());
+        addTask(PJSNode.getTask());
+        threadsafe_msg<int>("Task id",id,t.getTask_id());
+        threadsafe_msg<int>("Task exec time",id,t.getCPU_time());
+        threadsafe_msg<int>("Task memory",id,t.getMemory_required());
+        threadsafe_msg<int>("Task memory",id,t.getMemory_required());
+        
     }
 }
-
+void Node::notifyPJS(){
+    pjsNodecv.notify_one();
+}
 void Node::CreateExecuters(){
  
     threadsafe_msg("Creating Executers");

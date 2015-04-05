@@ -64,6 +64,7 @@ public:
     int getId() const { return id;}
     int getCoreNum() const {return CORESNUM;}
     int getMemory() const {return MAINMEMORY;}
+    void notifyPJS();
 private:
     int id;
     int CORESNUM = 1;
@@ -74,8 +75,8 @@ private:
     std::mutex qmutex;
     std::mutex output_mutex;
     std::mutex pjsNode_mutex;
-    std::mutex* condition_mutex;
-    std::condition_variable* pjsNodecv;
+    std::mutex condition_mutex;
+    std::condition_variable pjsNodecv;
     //queue of task
     std::unique_ptr<std::thread> node_thread_ptr;
     std::unique_ptr<std::thread> scheduler_thread_ptr;
