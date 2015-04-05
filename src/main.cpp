@@ -12,20 +12,20 @@ using namespace std;
  */
 std::vector<Node *> Nodes_list;
  void create_nodes(int id,int num_cores) {
-     std::cout<<"Node # " << id <<std::endl;
-     Node *n =new Node(id,num_cores);
-     //adding to the list of nodes.
-     Nodes_list.push_back(n);
+    std::cout<<"Node # " << id <<std::endl;
+    Node *n =new Node(id,num_cores);
+    //adding to the list of nodes.
+    Nodes_list.push_back(n);
     }
  
  void create_ccu() {
-     std::cout<<"CCU thread created " <<std::endl;
+    std::cout<<"CCU thread created " <<std::endl;
      
     }
   
  void create_PJS() {
-     std::cout<<"PJS thread created " <<std::endl;
-     PJS *PJS_obj = new PJS(Nodes_list);
+    std::cout<<"PJS thread created " <<std::endl;
+    PJS *PJS_obj = new PJS(Nodes_list);
     }
  
 int main(int argc, char** argv) {
