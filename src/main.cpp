@@ -38,7 +38,7 @@ int main(int argc, char** argv) {
     output_mutex.lock();
     std::cout<<"Main thread still here"<<std::endl;
     output_mutex.unlock();
-    std::this_thread::sleep_for(std::chrono::seconds(20));
+    std::this_thread::sleep_for(std::chrono::seconds(120));
     return 0;
 }
 

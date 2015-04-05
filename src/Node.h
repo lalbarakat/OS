@@ -31,7 +31,7 @@ class Node {
 public:
     
     PJS_Node PJSNode;
-    Node_CCU NodeCCU;
+    static Node_CCU NodeCCU;
     std::mutex queue_mutex;
     Node(int _id,int num);
     Node(const Node& orig);
@@ -70,6 +70,7 @@ private:
     int CORESNUM = 1;
     int MAINMEMORY = 8192; //8GB
     bool sched_running=true;
+    bool ccu_com_running=true;
     std::deque<Task> queue;
     matrix_t local_wait_time_matrix;
     std::mutex qmutex;

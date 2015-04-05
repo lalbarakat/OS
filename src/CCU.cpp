@@ -2,7 +2,9 @@
 
 void CCU::update_matrix(){
     while(running){
-        std::this_thread::yield();
+        std::unique_lock<std::mutex> lk(cv_mutex);
+        cv.wait(lk,[]{return !Node::NodeCCU.isEmpty();});
+        
     }
 }
 
@@ -30,4 +32,6 @@ int CCU::apply_matrix(Task t){
     ;
 }
 
-
+void CCU::notify(){
+    cv.notify_one();
+}

@@ -1,6 +1,8 @@
 #include "Node.h"
 #include <chrono>
 
+Node_CCU Node::NodeCCU;
+
 inline void threadsafe_msg(std::string s){
     output_mutex.lock();
     std::cout<<s<<std::endl;
@@ -32,6 +34,7 @@ Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum())
 
 Node::~Node() {
     sched_running=false;
+    ccu_com_running=false;
     scheduler_thread_ptr->join();
     node_thread_ptr->join();
     //Destroy the CPU Objects
@@ -47,8 +50,12 @@ void Node::Start_Node(){
     CreateExecuters();   
     
     Create_Waittime_matrix();
-
+    while(ccu_com_running){
+        NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
+        threadsafe_msg("Front of the queue is:", NodeCCU.peekWaitTimeMatrix().first);
+        std::this_thread::sleep_for(std::chrono::seconds(30));
     }
+}
 
 int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
         int task_cores,int task_mem)
