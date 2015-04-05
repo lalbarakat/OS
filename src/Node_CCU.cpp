@@ -31,7 +31,7 @@ bool Node_CCU::isEmpty(){
     return matrix_queue.empty();
 }
 
-std::pair<int, matrix_t> Node_CCU::getWaitTimeMatrix(){
+std::pair<int, Node_CCU::matrix_t> Node_CCU::getWaitTimeMatrix(){
     matrix_t empty;
     std::pair<int, matrix_t> a(-1, empty);
     queue_mutex.lock();
@@ -43,7 +43,7 @@ std::pair<int, matrix_t> Node_CCU::getWaitTimeMatrix(){
     queue_mutex.unlock();
 }
 
-std::pair<int, matrix_t> Node_CCU::getWaitTimeMatrix(){
+std::pair<int, Node_CCU::matrix_t> Node_CCU::peekWaitTimeMatrix(){
     matrix_t empty;
     std::pair<int, matrix_t> a(-1, empty);
     queue_mutex.lock();
