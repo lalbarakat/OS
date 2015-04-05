@@ -82,6 +82,8 @@ private:
     std::unique_ptr<std::thread> node_thread_ptr;
     std::unique_ptr<std::thread> scheduler_thread_ptr;
     std::vector<CPU *> CPU_ptr_list;
+    
+    friend class CPU;
 };
 class CPU {
 public:
@@ -98,6 +100,7 @@ public:
 private:
     int id;
     bool status = false;
+    Node *node_ptr;
     std::unique_ptr<std::thread> executor_thread_ptr;
 };
 

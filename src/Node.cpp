@@ -183,12 +183,12 @@ void Node::Create_Waittime_matrix(){
         for (int j=0; j<local_wait_time_matrix.size(); j++) 
         {
             Task *t = new Task(5,0,Mem_array[j],cores_array[i]);
-            queue.push_back(*t);
+            addTask(*t);
             if(cores_array[i] > CORESNUM || Mem_array[j] > MAINMEMORY)
                 local_wait_time_matrix[i][j] = -1;
             else
                 local_wait_time_matrix[i][j] = Estimatewaittime(cores_array[i],Mem_array[j]);
-            queue.pop_back();
+            getTask();
             delete t;
         }
     }
@@ -214,6 +214,7 @@ Task Node::PeekTask(){
 
 CPU::CPU(Node* ptr){
        
+    node_ptr = ptr;
     executor_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&CPU::Executer,this));
     threadsafe_msg("CPU constructor");
     
@@ -231,4 +232,5 @@ void CPU::Executer( ){
    // Task t = getTask();
     
     threadsafe_msg("This is executer");
+    
 }
