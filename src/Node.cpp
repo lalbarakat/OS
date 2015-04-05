@@ -1,6 +1,7 @@
 #include "Node.h"
 #include <chrono>
 
+Node_CCU Node::NodeCCU;
 inline void threadsafe_msg(std::string s){
     output_mutex.lock();
     std::cout<<s<<std::endl;
@@ -48,7 +49,7 @@ void Node::Start_Node(){
     CreateExecuters();   
     Create_Waittime_matrix();
     while(ccu_com_running){
-        NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
+        Node::NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
         std::this_thread::sleep_for(std::chrono::seconds(30));
     }
 }
