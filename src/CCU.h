@@ -15,6 +15,7 @@
 
 class CCU {
 public:
+    CCU();
     CCU(std::vector <Node*> _node_list);
     CCU(const CCU& orig);
     virtual ~CCU();

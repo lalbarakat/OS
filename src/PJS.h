@@ -30,10 +30,12 @@ public:
         m.resize( rows, row_t( cols, value ) );
     }
     void Start_PJS(std::vector<Node *> Nodes_list);
+    void notifyCCU();
 private:
     matrix_t wait_time_matrix;    
     std::vector <int> list_of_nodes;
     std::unique_ptr<std::thread> PJS_thread_ptr;
+    std::condition_variable ccuPJScv;
     };
 
 #endif	/* PJS_H */

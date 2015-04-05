@@ -24,6 +24,9 @@ CCU::CCU(std::vector<Node*> _node_list) {
     thread_ptr= std::unique_ptr<std::thread>(new std::thread(&CCU::update_matrix, this));
 }
 
+CCU::CCU(){
+}
+
 CCU::CCU(const CCU& orig) {
 }
 
