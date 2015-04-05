@@ -1,14 +1,14 @@
 #ifndef TASK_H
 #define	TASK_H
-#include "Globals.h"
+//#include "Globals.h"
 
 class Task {
 public:
    // Task();
     //virtual ~Task();
-    Task(int taskid, int cputime, int memoryrequired, bool _no_op=false);
+    Task(int taskid, int cputime, int memoryrequired,int coresrequired);
     
-    Task(const Task& orig);
+    
     
     void setCPU_time(int CPU_time) {
         this->CPU_time = CPU_time;

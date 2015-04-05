@@ -233,14 +233,14 @@ void CPU::validate(int Cores[],int Memory[],int coresnum,int mainmemory)
     for(int i=0;i<coresnum;i++)
     {
         time_t now = time(0);
-        if(Cores[i]<now)
+        if(Cores[i]<=now && Cores[i]!=0)
             Cores[i]=0;
     }
     
     for(int i=0;i<mainmemory;i++)
     {
         time_t now = time(0);
-        if(Memory[i]<now)
+        if(Memory[i]<=now && Memory[i]!=0)
             Memory[i]=0;
     }
     std::sort(Cores,Cores+coresnum);
@@ -276,17 +276,17 @@ int CPU::numberoffreememory(int Memory[],int mainmemory)
 void CPU::printtologfile(Task t,time_t now)
 {
     char* dt = ctime(&now);
-    output_mutex.lock();
-    std::cout<<"Task "<<t.getTask_id()<<"started executing at Node"<<node_ptr->getId()<<" consuming "<<t.getCores_required()<<"Cores "
-            "and" <<t.getMemory_required()<<"amount of memory at time"<<dt<<"for time"<<t.getCPU_time()<<"seconds";
-    output_mutex.unlock();
+    //output_mutex.lock();
+    std::cout<<"Task "<<t.getTask_id()<<"started executing at Node "<<node_ptr->getId()<<" consuming "<<t.getCores_required()<<" Cores "
+            "and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
+//    output_mutex.unlock();
 }
 
 bool CPU::IsScheduled(Task t, int Cores[],int Memory[],int coresnum,int mainmemory)
 {
     time_t now = time(0);
     
-   if( numberoffreecores(Cores,coresnum) > t.getCores_required() && numberoffreememory(Memory,mainmemory) > t.getMemory_required())
+   if( numberoffreecores(Cores,coresnum) >= t.getCores_required() && numberoffreememory(Memory,mainmemory) >= t.getMemory_required())
    {
        for(int i=0;i<t.getCores_required();i++)
        {
@@ -304,6 +304,7 @@ bool CPU::IsScheduled(Task t, int Cores[],int Memory[],int coresnum,int mainmemo
        return false;
    }
 }
+
 
 void CPU::Executer(Node *ptr ){
    // Task t = getTask();

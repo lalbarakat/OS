@@ -12,6 +12,8 @@ void CCU::update_matrix(){
         output_mutex.lock();
         std::cout<<"Got matrix from"<<p.first<<std::endl;
         output_mutex.unlock();
+        //Aggregation of wait time matrix happens here
+        
     }
 }
 
