@@ -139,7 +139,7 @@ void Node::Scheduler(){
         threadsafe_msg<int>("Task id",id,t.getTask_id());
         threadsafe_msg<int>("Task exec time",id,t.getCPU_time());
         threadsafe_msg<int>("Task memory",id,t.getMemory_required());
-        
+                
     }
 }
 
@@ -149,10 +149,8 @@ void Node::notifyPJS(){
 void Node::CreateExecuters(){
  
     threadsafe_msg("Creating Executers");
-    for (int i = 0; i < CORESNUM; i++){
-        CPU_ptr_list.push_back(new CPU(this));
+    CPU_ptr_list.push_back(new CPU(this));
     }
-}
 void Node::addTask(Task t){
     qmutex.lock();
     queue.push_back(t);
@@ -224,5 +222,6 @@ CPU::~CPU(){
 
 void CPU::Executer( ){
    // Task t = getTask();
+    
     threadsafe_msg("This is executer");
 }
