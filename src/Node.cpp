@@ -45,6 +45,7 @@ Node::~Node() {
 void Node::Start_Node(){
     scheduler_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Scheduler,this));
     CreateExecuters();   
+    
     Create_Waittime_matrix();
 
     }
@@ -88,7 +89,6 @@ int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
      else return min_core;
  }
 
-
 float Node::Estimatewaittime(int cores, int memory)
 {
  int Cores[CORESNUM]={0};
@@ -131,16 +131,18 @@ void Node::Scheduler(){
     {
         pjsNodecv.wait(lk,[this]{return !PJSNode.isEmpty();} );
         Task t=PJSNode.PeekTask();
+       
+        
         threadsafe_msg<int>("Task from PJS_Node",t.getTask_id());
         threadsafe_msg<int>("Task from PJS_Node",t.getCores_required());
         addTask(PJSNode.getTask());
         threadsafe_msg<int>("Task id",id,t.getTask_id());
         threadsafe_msg<int>("Task exec time",id,t.getCPU_time());
         threadsafe_msg<int>("Task memory",id,t.getMemory_required());
-        threadsafe_msg<int>("Task memory",id,t.getMemory_required());
         
     }
 }
+
 void Node::notifyPJS(){
     pjsNodecv.notify_one();
 }
