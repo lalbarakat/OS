@@ -1,5 +1,6 @@
 #include "Node.h"
 #include <chrono>
+#include <ctime>
 
 Node_CCU Node::NodeCCU;
 
@@ -215,11 +216,9 @@ Task Node::PeekTask(){
 CPU::CPU(Node* ptr){
        
     node_ptr = ptr;
-    executor_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&CPU::Executer,this));
-    threadsafe_msg("CPU constructor");
-    
-    
-}
+    executor_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&CPU::Executer,this,node_ptr));
+    threadsafe_msg("CPU constructor"); 
+    }
 
 CPU::CPU(const CPU& orig){
 }
@@ -228,9 +227,97 @@ CPU::~CPU(){
     executor_thread_ptr->join();
 }
 
-void CPU::Executer( ){
+
+void CPU::validate(int Cores[],int Memory[],int coresnum,int mainmemory)
+{
+    for(int i=0;i<coresnum;i++)
+    {
+        time_t now = time(0);
+        if(Cores[i]<now)
+            Cores[i]=0;
+    }
+    
+    for(int i=0;i<mainmemory;i++)
+    {
+        time_t now = time(0);
+        if(Memory[i]<now)
+            Memory[i]=0;
+    }
+    std::sort(Cores,Cores+coresnum);
+    std::sort(Memory,Memory+mainmemory);
+}
+
+int CPU::numberoffreecores(int Cores[],int coresnum)
+{
+    int freecores = 0;
+    for(int i = 0;i<coresnum;i++)
+    {
+        if(Cores[i]==0)
+            freecores++;
+        else
+            break;
+    }
+    return freecores;
+}
+
+int CPU::numberoffreememory(int Memory[],int mainmemory)
+{
+    int freememory = 0;
+    for(int i = 0;i<mainmemory;i++)
+    {
+        if(Memory[i]==0)
+            freememory++;
+        else
+            break;
+    }
+    return freememory;
+}
+
+void CPU::printtologfile(Task t,time_t now)
+{
+    char* dt = ctime(&now);
+    output_mutex.lock();
+    std::cout<<"Task "<<t.getTask_id()<<"started executing at Node"<<node_ptr->getId()<<" consuming "<<t.getCores_required()<<"Cores "
+            "and" <<t.getMemory_required()<<"amount of memory at time"<<dt<<"for time"<<t.getCPU_time()<<"seconds";
+    output_mutex.unlock();
+}
+
+bool CPU::IsScheduled(Task t, int Cores[],int Memory[],int coresnum,int mainmemory)
+{
+    time_t now = time(0);
+    
+   if( numberoffreecores(Cores,coresnum) > t.getCores_required() && numberoffreememory(Memory,mainmemory) > t.getMemory_required())
+   {
+       for(int i=0;i<t.getCores_required();i++)
+       {
+           Cores[i] = now + t.getCPU_time();
+       }
+       for(int i=0;i<t.getMemory_required();i++)
+       {
+           Memory[i] = now + t.getCPU_time();
+       }
+       printtologfile(t,now);
+       return true;
+   }
+   else
+   {
+       return false;
+   }
+}
+
+void CPU::Executer(Node *ptr ){
    // Task t = getTask();
+    int Cores[ptr->CORESNUM]={0};
+    int Memory[ptr->MAINMEMORY]={0};
     
-    threadsafe_msg("This is executer");
-    
+    while(!(ptr->queue.empty()))
+    {
+        Task t = ptr->PeekTask();
+        validate(Cores,Memory,ptr->CORESNUM,ptr->MAINMEMORY);
+        if(IsScheduled(t,Cores,Memory,ptr->CORESNUM,ptr->MAINMEMORY))
+        {
+            ptr->getTask();
+        }
+    }
+    threadsafe_msg("This is executer");    
 }

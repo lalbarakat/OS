@@ -18,6 +18,7 @@
 #include <thread>
 #include <chrono>
 #include <queue>
+#include <ctime>
 #include "Globals.h"
 
 typedef std::vector <float> row_t;
@@ -95,8 +96,13 @@ public:
     void Busy(){status = true;}
     int getId(){ return id;}
     void setId(int id) {this->id = id;}
-    void Executer();
-   
+    void Executer(Node *ptr);
+    void validate(int Cores[],int Memory[],int coresnum,int mainmemory);
+    bool IsScheduled(Task t, int Cores[],int Memory[],int coresnum,int mainmemory);
+    int numberoffreememory(int Memory[],int mainmemory);
+    int numberoffreecores(int Cores[],int coresnum);
+    void printtologfile(Task t,time_t now);
+
 private:
     int id;
     bool status = false;
