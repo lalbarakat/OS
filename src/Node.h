@@ -21,9 +21,6 @@
 #include <ctime>
 #include "Globals.h"
 
-typedef std::vector <float> row_t;
-
-typedef std::vector <row_t> matrix_t;
 //std::mutex node_mutex;
 class CPU;
 

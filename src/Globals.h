@@ -7,7 +7,9 @@
 
 #ifndef GLOBALS_H
 #define	GLOBALS_H
-
+#include <vector>
+typedef std::vector <float> row_t;
+typedef std::vector <row_t> matrix_t;
 
 #endif	/* GLOBALS_H */
 
