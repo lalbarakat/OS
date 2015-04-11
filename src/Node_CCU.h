@@ -11,7 +11,7 @@
 #include <utility>
 #include <vector>
 #include <queue>
-#include <mutex>
+
 typedef std::pair<int, matrix_t> intMatPair;
 class CCU;
 class Node_CCU {
