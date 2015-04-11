@@ -10,7 +10,7 @@ PJS::PJS(const PJS& orig) {
 
 
 PJS::PJS(std::vector<Node *> Nodes_list) {
-    Start_PJS(Nodes_list);
+    //Start_PJS(Nodes_list);
 }
 
 void PJS::Start_PJS(std::vector<Node *> Nodes_list)
