@@ -1,5 +1,6 @@
 #include "CCU.h"
-typedef std::pair<int,Node_CCU::matrix_t> nodeMatPair;
+
+typedef std::pair<int,matrix_t> nodeMatPair;
 void CCU::update_matrix(){
     
     if(!Node::NodeCCU.isEmpty()){

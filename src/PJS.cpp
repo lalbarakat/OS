@@ -10,9 +10,7 @@ PJS::PJS(const PJS& orig) {
 
 
 PJS::PJS(std::vector<Node *> Nodes_list) {
-    
- PJS_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&PJS::Start_PJS,this,Nodes_list));
-
+    Start_PJS(Nodes_list);
 }
 
 void PJS::Start_PJS(std::vector<Node *> Nodes_list)
@@ -45,10 +43,8 @@ int i=0;
 for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.end(); ++it)
 {
     (*it)->PJSNode.addTask(Task_list[i]);
-    (*it)->notifyPJS();
     i++;
     (*it)->PJSNode.addTask(Task_list[i]);
-    (*it)->notifyPJS();
     i++;
 }
 }
@@ -57,6 +53,3 @@ for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.en
 PJS::~PJS() {
 }
 
-void PJS::notifyCCU(){
-    ccuPJScv.notify_one();
-}

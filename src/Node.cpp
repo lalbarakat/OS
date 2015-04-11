@@ -4,54 +4,29 @@
 
 Node_CCU Node::NodeCCU;
 
-inline void threadsafe_msg(std::string s){
-    std::cout<<s<<std::endl;
-}
-template<typename T>
-inline void threadsafe_msg(std::string s, T val){
-    std::cout<<s<<val<<std::endl;
-}
-template<typename T>
-inline void threadsafe_msg(std::string s, T val,T val2){
-    std::cout<<s<<val<<":"<<val2<<std::endl;
-}
 Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores)
 {
-    threadsafe_msg("Node constructor id = ",_id);   
-    node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
+    std::cout<<"Node constructor id = "<<_id<<std::endl;   
+    CreateExecuters();          
 }
 
 Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum())
 {
-    threadsafe_msg("Node constructor id = ",orig.getId());   
-    node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));   
+    std::cout<<"Node constructor id = "<<orig.getId()<<std::endl;   
+    CreateExecuters();   
 }
 
 Node::~Node() {
-    sched_running=false;
-    ccu_com_running=false;
-    scheduler_thread_ptr->join();
-    node_thread_ptr->join();
-    //Destroy the CPU Objects
     for (std::vector<CPU *>::iterator it = CPU_ptr_list.begin() ; it != CPU_ptr_list.end(); ++it)
     {
         delete (*it);
     }
        
 }
-//Start node creates Scheduler, Executors and other operations such as creation of wait time matrices, sending them to CCU, PJS etc.
-void Node::Start_Node(){
-    scheduler_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Scheduler,this));
-    CreateExecuters();   
-    
-    Create_Waittime_matrix();
-    while(ccu_com_running){
-        NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
-        //threadsafe_msg("Front of the queue is:", NodeCCU.peekWaitTimeMatrix().first);
-        std::this_thread::sleep_for(std::chrono::seconds(10));
-    }
-}
 
+void Node::SendMatrix(){
+    NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
+}
 int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
         int task_cores,int task_mem)
  {
@@ -127,36 +102,25 @@ float Node::Estimatewaittime(int cores, int memory)
  }
 
 void Node::Scheduler(){
-    threadsafe_msg("This is scheduler");
-    std::unique_lock<std::mutex> lk(condition_mutex);
-    while(sched_running)
-    {
-        pjsNodecv.wait(lk,[this]{return !PJSNode.isEmpty();} );
-        Task t=PJSNode.PeekTask();
-       
-        
-        threadsafe_msg<int>("Task from PJS_Node",t.getTask_id());
-        threadsafe_msg<int>("Task from PJS_Node",t.getCores_required());
-        addTask(PJSNode.getTask());
-        threadsafe_msg<int>("Task id",id,t.getTask_id());
-        threadsafe_msg<int>("Task exec time",id,t.getCPU_time());
-        threadsafe_msg<int>("Task memory",id,t.getMemory_required());
-                
-    }
+    std::cout<<"This is scheduler"<<std::endl;
+    Task t=PJSNode.PeekTask();
+    std::cout<<"Task from PJS_Node"<<t.getTask_id()<<std::endl;
+    std::cout<<"Task from PJS_Node"<<t.getCores_required()<<std::endl;
+    addTask(PJSNode.getTask());
+    std::cout<<"Task id"<<id<<t.getTask_id()<<std::endl;
+    std::cout<<"Task exec time"<<id<<t.getCPU_time()<<std::endl;
+    std::cout<<"Task memory"<<id<<t.getMemory_required()<<std::endl;
 }
 
-void Node::notifyPJS(){
-    pjsNodecv.notify_one();
-}
+
 void Node::CreateExecuters(){
  
-    threadsafe_msg("Creating Executers");
+    std::cout<<"Creating Executers"<<std::endl;
     CPU_ptr_list.push_back(new CPU(this));
-    }
+}
+
 void Node::addTask(Task t){
-    qmutex.lock();
     queue.push_back(t);
-    qmutex.unlock();
 }
 
 void Node::Create_Waittime_matrix(){
@@ -189,18 +153,13 @@ void Node::Create_Waittime_matrix(){
     }
 }
 Task Node::getTask(){
-    qmutex.lock();
     Task t= queue.front();
     queue.pop_front();
-    qmutex.unlock();
     return t;
 }
 
 Task Node::PeekTask(){
-    qmutex.lock();
-    Task t= queue.front();
-    qmutex.unlock();
-    return t;
+    return queue.front();
 }
 
 /*******************************************************************************
@@ -210,19 +169,19 @@ Task Node::PeekTask(){
 CPU::CPU(Node* ptr){
        
     node_ptr = ptr;
-    executor_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&CPU::Executer,this,node_ptr));
-    threadsafe_msg("CPU constructor"); 
-    }
+    std::cout<<"CPU constructor"<<std::endl; 
+    Cores.resize(ptr->CORESNUM,0);
+    Memory.resize(ptr->MAINMEMORY,0);
+}
 
 CPU::CPU(const CPU& orig){
 }
 
 CPU::~CPU(){
-    executor_thread_ptr->join();
 }
 
 
-void CPU::validate(int Cores[],int Memory[],int coresnum,int mainmemory)
+void CPU::validate(int coresnum,int mainmemory)
 {
     for(int i=0;i<coresnum;i++)
     {
@@ -237,11 +196,11 @@ void CPU::validate(int Cores[],int Memory[],int coresnum,int mainmemory)
         if(Memory[i]<=now && Memory[i]!=0)
             Memory[i]=0;
     }
-    std::sort(Cores,Cores+coresnum);
-    std::sort(Memory,Memory+mainmemory);
+    std::sort(Cores.begin(),Cores.begin()+coresnum);
+    std::sort(Memory.begin(),Memory.begin()+mainmemory);
 }
 
-int CPU::numberoffreecores(int Cores[],int coresnum)
+int CPU::numberoffreecores(int coresnum)
 {
     int freecores = 0;
     for(int i = 0;i<coresnum;i++)
@@ -254,7 +213,7 @@ int CPU::numberoffreecores(int Cores[],int coresnum)
     return freecores;
 }
 
-int CPU::numberoffreememory(int Memory[],int mainmemory)
+int CPU::numberoffreememory(int mainmemory)
 {
     int freememory = 0;
     for(int i = 0;i<mainmemory;i++)
@@ -270,17 +229,15 @@ int CPU::numberoffreememory(int Memory[],int mainmemory)
 void CPU::printtologfile(Task t,time_t now)
 {
     char* dt = ctime(&now);
-    //output_mutex.lock();
     std::cout<<"Task "<<t.getTask_id()<<"started executing at Node "<<node_ptr->getId()<<" consuming "<<t.getCores_required()<<" Cores "
             "and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
-//    output_mutex.unlock();
 }
 
-bool CPU::IsScheduled(Task t, int Cores[],int Memory[],int coresnum,int mainmemory)
+bool CPU::IsScheduled(Task t,int coresnum,int mainmemory)
 {
     time_t now = time(0);
     
-   if( numberoffreecores(Cores,coresnum) >= t.getCores_required() && numberoffreememory(Memory,mainmemory) >= t.getMemory_required())
+   if( numberoffreecores(coresnum) >= t.getCores_required() && numberoffreememory(mainmemory) >= t.getMemory_required())
    {
        for(int i=0;i<t.getCores_required();i++)
        {
@@ -302,17 +259,14 @@ bool CPU::IsScheduled(Task t, int Cores[],int Memory[],int coresnum,int mainmemo
 
 void CPU::Executer(Node *ptr ){
    // Task t = getTask();
-    int Cores[ptr->CORESNUM]={0};
-    int Memory[ptr->MAINMEMORY]={0};
-    
     while(!(ptr->queue.empty()))
     {
         Task t = ptr->PeekTask();
-        validate(Cores,Memory,ptr->CORESNUM,ptr->MAINMEMORY);
-        if(IsScheduled(t,Cores,Memory,ptr->CORESNUM,ptr->MAINMEMORY))
+        validate(ptr->CORESNUM,ptr->MAINMEMORY);
+        if(IsScheduled(t,ptr->CORESNUM,ptr->MAINMEMORY))
         {
             ptr->getTask();
         }
     }
-    threadsafe_msg("This is executer");    
+    std::cout<<"This is executer"<<std::endl;    
 }

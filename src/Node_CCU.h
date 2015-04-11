@@ -12,25 +12,22 @@
 #include <vector>
 #include <queue>
 #include <mutex>
-
+typedef std::pair<int, matrix_t> intMatPair;
 class CCU;
 class Node_CCU {
 public:
-    typedef std::vector <float> row_t;
-    typedef std::vector <row_t> matrix_t;
     
     Node_CCU();
     Node_CCU(const Node_CCU& orig);
     virtual ~Node_CCU();
-    std::pair<int, matrix_t> getWaitTimeMatrix();
-    std::pair<int, matrix_t> peekWaitTimeMatrix();
+    intMatPair getWaitTimeMatrix();
+    intMatPair peekWaitTimeMatrix();
     void addWaitTimeMatrix(int _id, matrix_t _mat);
-    void addWaitTimeMatrix(std::pair<int, matrix_t> _pair);
+    void addWaitTimeMatrix(intMatPair _pair);
     bool isEmpty();
     CCU* ccu;
 private:
-    std::queue <std::pair<int, matrix_t>> matrix_queue;
-    std::mutex queue_mutex;
+    std::queue <intMatPair> matrix_queue;
 };
 
 #endif	/* NODE_CCU_H */

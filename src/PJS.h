@@ -7,9 +7,6 @@
 #include "CCU_PJS.h"
 #include "JobGen_PJS.h"
 #include "Globals.h"
-typedef std::vector <float> row_t;
-typedef std::vector <row_t> matrix_t;
-
 
 class PJS {
 public:
@@ -30,12 +27,9 @@ public:
         m.resize( rows, row_t( cols, value ) );
     }
     void Start_PJS(std::vector<Node *> Nodes_list);
-    void notifyCCU();
 private:
     matrix_t wait_time_matrix;    
     std::vector <int> list_of_nodes;
-    std::unique_ptr<std::thread> PJS_thread_ptr;
-    std::condition_variable ccuPJScv;
     };
 
 #endif	/* PJS_H */
