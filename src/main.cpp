@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
     std::cout<<"Main thread still here"<<std::endl;
     output_mutex.unlock();
     CCU ccu_obj(Nodes_list);
-    std::this_thread::sleep_for(std::chrono::seconds(120));
+    std::this_thread::sleep_for(std::chrono::seconds(60));
     return 0;
 }
 
