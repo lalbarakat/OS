@@ -9,6 +9,8 @@ void CCU::update_matrix(){
     }
 }
 
+void Aggregate_matrices()
+
 CCU::CCU(std::vector<Node*> _node_list) {
     Node::NodeCCU.ccu=this;
     init_matrix();
