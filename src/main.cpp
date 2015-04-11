@@ -65,7 +65,7 @@ int main(int argc, char** argv) {
         if(counter%NODE_EXECUTOR_TIME == 0){
             for(std::vector<Node*>::iterator it = Nodes_list.begin(); it != Nodes_list.end(); it++){
                 //Insert executor code.
-                ;
+                (*it)->Execute();
             }
         }
         if(counter%NODE_MATRIX_SEND_TIME==0){
@@ -78,7 +78,7 @@ int main(int argc, char** argv) {
             ;
         }
         if(counter%PJS_SCHEDULING_TIME==0){
-            //Have PJS send jobs to main.
+            //Have PJS send jobs to Nodes.
         }
         std::this_thread::yield();
         //increment clock

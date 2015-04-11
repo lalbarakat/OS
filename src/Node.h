@@ -31,6 +31,7 @@ public:
     virtual ~Node();
     void SendMatrix();
     void Scheduler();
+    void Execute();
     void CreateExecuters(); 
     void addTask(Task t);
     Task getTask();
