@@ -1,8 +1,6 @@
 #ifndef PJS_NODE_H
 #define	PJS_NODE_H
 #include <queue>
-#include <mutex>
-#include <condition_variable>
 #include "Task.h"
 #include "Globals.h"
 class PJS_Node {
@@ -16,7 +14,6 @@ public:
     bool isEmpty();
 private:
     std::queue<Task> task_queue;
-    std::mutex queue_mutex;
 };
 
 #endif	/* PJS_NODE_H */
