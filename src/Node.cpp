@@ -112,6 +112,9 @@ void Node::Scheduler(){
     std::cout<<"Task memory"<<id<<t.getMemory_required()<<std::endl;
 }
 
+void Node::Execute(){
+    CPU_ptr_list[0]->Executer(this);
+}
 
 void Node::CreateExecuters(){
  
