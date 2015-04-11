@@ -7,5 +7,4 @@
 
 #include "Globals.h"
 
-std::mutex output_mutex;
 

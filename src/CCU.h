@@ -2,9 +2,6 @@
 #define	CCU_H
 
 #include <vector>
-#include <thread>
-#include <mutex>
-#include <condition_variable>
 
 #include "Job.h"
 #include "Task.h"
@@ -21,15 +18,10 @@ public:
     virtual ~CCU();
     int apply_matrix(Task t);
     void update_matrix();
-    void notify();
 private:
     void init_matrix();
     std::vector<std::vector<int>> wait_time_matrix;
     std::vector <Node*> node_list;
-    bool running;
-    std::unique_ptr<std::thread> thread_ptr;
-    std::condition_variable cv;
-    std::mutex cv_mutex;
 };
 
 #endif	/* CCU_H */

@@ -5,21 +5,15 @@
 Node_CCU Node::NodeCCU;
 
 inline void threadsafe_msg(std::string s){
-    output_mutex.lock();
     std::cout<<s<<std::endl;
-    output_mutex.unlock();
 }
 template<typename T>
 inline void threadsafe_msg(std::string s, T val){
-    output_mutex.lock();
     std::cout<<s<<val<<std::endl;
-    output_mutex.unlock();
 }
 template<typename T>
 inline void threadsafe_msg(std::string s, T val,T val2){
-    output_mutex.lock();
     std::cout<<s<<val<<":"<<val2<<std::endl;
-    output_mutex.unlock();
 }
 Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores)
 {
