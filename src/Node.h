@@ -21,7 +21,6 @@
 #include <ctime>
 #include "Globals.h"
 
-//std::mutex node_mutex;
 class CPU;
 
 class Node {
@@ -61,7 +60,6 @@ public:
     int getId() const { return id;}
     int getCoreNum() const {return CORESNUM;}
     int getMemory() const {return MAINMEMORY;}
-    void notifyPJS();
 private:
     int id;
     int CORESNUM = 1;
@@ -70,11 +68,6 @@ private:
     bool ccu_com_running=true;
     std::deque<Task> queue;
     matrix_t local_wait_time_matrix;
-    std::mutex qmutex;
-    std::mutex output_mutex;
-    std::mutex pjsNode_mutex;
-    std::mutex condition_mutex;
-    std::condition_variable pjsNodecv;
     //queue of task
     std::unique_ptr<std::thread> node_thread_ptr;
     std::unique_ptr<std::thread> scheduler_thread_ptr;
@@ -93,17 +86,18 @@ public:
     int getId(){ return id;}
     void setId(int id) {this->id = id;}
     void Executer(Node *ptr);
-    void validate(int Cores[],int Memory[],int coresnum,int mainmemory);
-    bool IsScheduled(Task t, int Cores[],int Memory[],int coresnum,int mainmemory);
-    int numberoffreememory(int Memory[],int mainmemory);
-    int numberoffreecores(int Cores[],int coresnum);
+    void validate(int coresnum,int mainmemory);
+    bool IsScheduled(Task t,int coresnum,int mainmemory);
+    int numberoffreememory(int mainmemory);
+    int numberoffreecores(int coresnum);
     void printtologfile(Task t,time_t now);
 
 private:
     int id;
     bool status = false;
     Node *node_ptr;
-    std::unique_ptr<std::thread> executor_thread_ptr;
+    std::vector<int> Cores;
+    std::vector<int> Memory;
 };
 
 

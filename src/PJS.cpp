@@ -45,10 +45,8 @@ int i=0;
 for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.end(); ++it)
 {
     (*it)->PJSNode.addTask(Task_list[i]);
-    (*it)->notifyPJS();
     i++;
     (*it)->PJSNode.addTask(Task_list[i]);
-    (*it)->notifyPJS();
     i++;
 }
 }
