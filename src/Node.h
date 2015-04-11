@@ -15,7 +15,6 @@
 #include<deque>
 #include <vector>
 #include <queue>
-#include <thread>
 #include <chrono>
 #include <queue>
 #include <ctime>
@@ -28,11 +27,10 @@ public:
     
     PJS_Node PJSNode;
     static Node_CCU NodeCCU;
-    std::mutex queue_mutex;
     Node(int _id,int num);
     Node(const Node& orig);
     virtual ~Node();
-    void Start_Node();
+    void SendMatrix();
     void Scheduler();
     void CreateExecuters(); 
     void addTask(Task t);
@@ -64,13 +62,9 @@ private:
     int id;
     int CORESNUM = 1;
     int MAINMEMORY = 8192; //8GB
-    bool sched_running=true;
-    bool ccu_com_running=true;
     std::deque<Task> queue;
     matrix_t local_wait_time_matrix;
     //queue of task
-    std::unique_ptr<std::thread> node_thread_ptr;
-    std::unique_ptr<std::thread> scheduler_thread_ptr;
     std::vector<CPU *> CPU_ptr_list;
     
     friend class CPU;

@@ -7,40 +7,26 @@ Node_CCU Node::NodeCCU;
 Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores)
 {
     std::cout<<"Node constructor id = "<<_id<<std::endl;   
-    node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));        
+    CreateExecuters();          
 }
 
 Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum())
 {
     std::cout<<"Node constructor id = "<<orig.getId()<<std::endl;   
-    node_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Start_Node,this));   
+    CreateExecuters();   
 }
 
 Node::~Node() {
-    sched_running=false;
-    ccu_com_running=false;
-    scheduler_thread_ptr->join();
-    node_thread_ptr->join();
-    //Destroy the CPU Objects
     for (std::vector<CPU *>::iterator it = CPU_ptr_list.begin() ; it != CPU_ptr_list.end(); ++it)
     {
         delete (*it);
     }
        
 }
-//Start node creates Scheduler, Executors and other operations such as creation of wait time matrices, sending them to CCU, PJS etc.
-void Node::Start_Node(){
-    scheduler_thread_ptr = std::unique_ptr<std::thread>(new std::thread(&Node::Scheduler,this));
-    CreateExecuters();   
-    
-    Create_Waittime_matrix();
-    while(ccu_com_running){
-        NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
-        //threadsafe_msg("Front of the queue is:", NodeCCU.peekWaitTimeMatrix().first);
-        std::this_thread::sleep_for(std::chrono::seconds(10));
-    }
-}
 
+void Node::SendMatrix(){
+    NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
+}
 int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
         int task_cores,int task_mem)
  {
