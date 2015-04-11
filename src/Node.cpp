@@ -152,6 +152,7 @@ void Node::Create_Waittime_matrix(){
         }
     }
 }
+
 Task Node::getTask(){
     Task t= queue.front();
     queue.pop_front();

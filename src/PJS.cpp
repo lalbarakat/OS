@@ -16,7 +16,10 @@ PJS::PJS(std::vector<Node *> Nodes_list) {
 void PJS::Start_PJS(std::vector<Node *> Nodes_list)
 {
     //PJS constructocr
-//creating dummy tasks
+    //Reading the aggregated wait time matrices from CCU_PJS
+    if(!(PJS::CCUPJS.isEmpty())){
+    CCUPJS.getMatrix();
+    }
 std::vector<Task> Task_list;
 Task t1(1,30,1,2);
 Task_list.push_back(t1);

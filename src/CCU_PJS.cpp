@@ -8,27 +8,27 @@ CCU_PJS::CCU_PJS(const CCU_PJS& orig) {
 
 CCU_PJS::~CCU_PJS() {
 }
-void CCU_PJS::addMatrix(matrix_t m) {
-    matrix_queue.push(m);
+void CCU_PJS::addMatrix(AggregatedMatPair m) {
+    AggregatedMatrices_queue.push(m);
 }
 
-matrix_t CCU_PJS::getMatrix() {
-    matrix_t m;
-    if(!matrix_queue.empty()) {
-        m= matrix_queue.front();
-        matrix_queue.pop();
+AggregatedMatPair CCU_PJS::getMatrix() {
+    AggregatedMatPair m;
+    if(!AggregatedMatrices_queue.empty()) {
+        m= AggregatedMatrices_queue.front();
+        AggregatedMatrices_queue.pop();
     }
     return m;
 }
 
 bool CCU_PJS::isEmpty(){
-    return matrix_queue.empty();
+    return AggregatedMatrices_queue.empty();
 }
 
-matrix_t CCU_PJS::PeekMatrix(){
-    matrix_t m;
-    if(!matrix_queue.empty()) {
-        m= matrix_queue.front();
+AggregatedMatPair CCU_PJS::PeekMatrix(){
+    AggregatedMatPair m;
+    if(!AggregatedMatrices_queue.empty()) {
+        m= AggregatedMatrices_queue.front();
     }
     return m;
 }
