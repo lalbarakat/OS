@@ -45,7 +45,7 @@ int main(int argc, char** argv) {
     }
     PJS PJS_obj(Nodes_list);
     std::cout<<"Main thread still here"<<std::endl;
-    CCU ccu_obj(Nodes_list);
+    CCU ccu_obj(Nodes_list,&PJS_obj);
     std::cout<<"Type any key to finish this program:"<<std::endl;
     std::thread t(waitForInput);
     
