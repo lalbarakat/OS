@@ -53,10 +53,11 @@ int main(int argc, char** argv) {
     
     while(running){
         //Do things here
-        if(counter%JOB_GENERATOR_TIME==0){
-            //Generate a job to be given to the PJS
-            ;
+        if(counter%PJS_SCHEDULING_TIME==0){
+            //Have PJS send jobs to Nodes.
+               PJS_obj.Start_PJS(Nodes_list);
         }
+        
         if(counter%NODE_SCHEDULER_TIME == 0){
             for(std::vector<Node*>::iterator it= Nodes_list.begin(); it!=Nodes_list.end(); it++){
                 (*it)->Scheduler();
@@ -75,11 +76,10 @@ int main(int argc, char** argv) {
         }
         if(counter%CCU_UPDATE_TIME==0){
             //Check for matricies to update CCU
+            ccu_obj.update_matrix();
             ;
         }
-        if(counter%PJS_SCHEDULING_TIME==0){
-            //Have PJS send jobs to Nodes.
-        }
+        
         std::this_thread::yield();
         //increment clock
         counter++;
