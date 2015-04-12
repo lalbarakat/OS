@@ -1,6 +1,7 @@
 #include <cstdlib>
 #include <chrono>
-#include <thread>
+#include <climits>
+#include <sstream>
 #include <iostream>
 #include "Node.h"
 #include "Task.h"
@@ -44,14 +45,22 @@ int main(int argc, char** argv) {
         create_node(i,1+i);
     }
     PJS PJS_obj(Nodes_list);
-    std::cout<<"Main thread still here"<<std::endl;
+    unsigned long long num_loops;
+    if(argc < 2){
+        num_loops= ULLONG_MAX;
+    }
+    else{
+        std::istringstream ss(argv[1]);
+        if(!(ss>>num_loops)){
+            std::cerr<<"Invalid number"<< argv[1]<< std::endl;
+        }
+    }
+    std::cout<<"Going to run for "<<num_loops<<" loops."<<std::endl;
     CCU ccu_obj(Nodes_list,&PJS_obj);
-    std::cout<<"Type any key to finish this program:"<<std::endl;
-    std::thread t(waitForInput);
     
-    unsigned int counter=0;
+    unsigned long long counter=0;
     
-    while(running){
+    while(counter<num_loops){
         //Do things here
         if(counter%PJS_SCHEDULING_TIME==0){
             //Have PJS send jobs to Nodes.
@@ -80,12 +89,10 @@ int main(int argc, char** argv) {
             ;
         }
         
-        std::this_thread::yield();
         //increment clock
         counter++;
         //collect stats
     }
-    t.join();
     return 0;
 }
 
