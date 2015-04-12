@@ -6,5 +6,4 @@
  */
 
 #include "Globals.h"
-
-
+Stats stats;

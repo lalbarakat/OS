@@ -45,6 +45,8 @@ int main(int argc, char** argv) {
         create_node(i,1+i);
     }
     PJS PJS_obj(Nodes_list);
+    CCU ccu_obj(Nodes_list,&PJS_obj);
+    
     unsigned long long num_loops;
     if(argc < 2){
         num_loops= ULLONG_MAX;
@@ -56,10 +58,8 @@ int main(int argc, char** argv) {
         }
     }
     std::cout<<"Going to run for "<<num_loops<<" loops."<<std::endl;
-    CCU ccu_obj(Nodes_list,&PJS_obj);
-    
+
     unsigned long long counter=0;
-    
     while(counter<num_loops){
         //Do things here
         if(counter%PJS_SCHEDULING_TIME==0){
@@ -92,6 +92,7 @@ int main(int argc, char** argv) {
         //increment clock
         counter++;
         //collect stats
+        stats.incClock();
     }
     return 0;
 }

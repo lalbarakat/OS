@@ -50,6 +50,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Node_PJS.o \
 	${OBJECTDIR}/PJS.o \
 	${OBJECTDIR}/PJS_Node.o \
+	${OBJECTDIR}/Stats.o \
 	${OBJECTDIR}/Task.o \
 	${OBJECTDIR}/main.o
 
@@ -58,8 +59,8 @@ OBJECTFILES= \
 CFLAGS=
 
 # CC Compiler Flags
-CCFLAGS=-pthread -std=c++11
-CXXFLAGS=-pthread -std=c++11
+CCFLAGS=-Wall -std=c++11
+CXXFLAGS=-Wall -std=c++11
 
 # Fortran Compiler Flags
 FFLAGS=
@@ -152,6 +153,11 @@ ${OBJECTDIR}/PJS_Node.o: PJS_Node.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PJS_Node.o PJS_Node.cpp
+
+${OBJECTDIR}/Stats.o: Stats.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Stats.o Stats.cpp
 
 ${OBJECTDIR}/Task.o: Task.cpp 
 	${MKDIR} -p ${OBJECTDIR}
