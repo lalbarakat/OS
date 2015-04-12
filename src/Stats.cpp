@@ -30,3 +30,9 @@ void Stats::recordCompletedTask(int jobId,int taskId, unsigned long long startTi
     taskCounter++;
 }
 
+void Stats::finalPrint(){
+    std::ofstream out(filename);
+    out<<"Completed "<<jobCounter<<" jobs and "<<taskCounter<<" tasks in"
+            <<clock<<" cycles."<<std::endl;
+    out.close();
+}

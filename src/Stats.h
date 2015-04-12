@@ -30,7 +30,7 @@ public:
     //Print out a record of the CpuUtilization at one time stamp
     //Potentailly record CpuUtilization at various times.
     void recordCpuUtilization(int coresUsed, int totalCores);
-    unsigned long long getClock(){return clock;};
+    unsigned long long getClock(){return clock;}
     void incClock(){clock++;}
     
     
