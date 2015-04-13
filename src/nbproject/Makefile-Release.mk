@@ -50,6 +50,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Node_PJS.o \
 	${OBJECTDIR}/PJS.o \
 	${OBJECTDIR}/PJS_Node.o \
+	${OBJECTDIR}/Stats.o \
 	${OBJECTDIR}/Task.o \
 	${OBJECTDIR}/main.o
 
@@ -152,6 +153,11 @@ ${OBJECTDIR}/PJS_Node.o: PJS_Node.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PJS_Node.o PJS_Node.cpp
+
+${OBJECTDIR}/Stats.o: Stats.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Stats.o Stats.cpp
 
 ${OBJECTDIR}/Task.o: Task.cpp 
 	${MKDIR} -p ${OBJECTDIR}

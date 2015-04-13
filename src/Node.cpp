@@ -140,9 +140,9 @@ void Node::Create_Waittime_matrix(){
     //queue.push_back(*t4);    
     resize(local_wait_time_matrix,4,4,-1);
     
-    for (int i=0; i<local_wait_time_matrix.size(); i++) 
+    for (size_t i=0; i<local_wait_time_matrix.size(); i++) 
     {
-        for (int j=0; j<local_wait_time_matrix.size(); j++) 
+        for (size_t j=0; j<local_wait_time_matrix.size(); j++) 
         {
             Task *t = new Task(5,0,Mem_array[j],cores_array[i]);
             addTask(*t);
