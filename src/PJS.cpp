@@ -8,7 +8,6 @@ PJS::PJS() {
 PJS::PJS(const PJS& orig) {
 }
 
-
 PJS::PJS(std::vector<Node *> Nodes_list) {
     //Start_PJS(Nodes_list);
 }
@@ -51,7 +50,6 @@ for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.en
     i++;
 }
 }
-
 
 PJS::~PJS() {
 }
