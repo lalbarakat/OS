@@ -1,7 +1,6 @@
 #ifndef PJS_H
 #define	PJS_H
 #include <vector>
-#include "Node_PJS.h"
 #include "PJS_Node.h"
 #include "Node.h"
 #include "CCU_PJS.h"

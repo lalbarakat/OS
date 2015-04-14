@@ -62,6 +62,12 @@ int main(int argc, char** argv) {
     unsigned long long counter=0;
     while(counter<num_loops){
         //Do things here
+       //Reset the statistics
+        stats.setCoresUSed(0);
+        stats.settotalCores(0);
+        stats.setGBUSed(0);
+        stats.settotalGB(0);
+        
         if(counter%PJS_SCHEDULING_TIME==0){
             //Have PJS send jobs to Nodes.
                PJS_obj.Start_PJS(Nodes_list);
@@ -93,6 +99,7 @@ int main(int argc, char** argv) {
         counter++;
         //collect stats
         stats.incClock();
+        //Record the statistics;
     }
     return 0;
 }

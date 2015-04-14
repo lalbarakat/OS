@@ -174,9 +174,7 @@ CPU::CPU(Node* ptr){
        
     node_ptr = ptr;
     std::cout<<"CPU constructor"<<std::endl; 
-    Cores.resize(ptr->CORESNUM,0);
-    Memory.resize(ptr->MAINMEMORY,0);
-}
+    }
 
 CPU::CPU(const CPU& orig){
 }
@@ -189,31 +187,41 @@ void CPU::validate(int coresnum,int mainmemory)
 {
     for(int i=0;i<coresnum;i++)
     {
-        time_t now = time(0);
-        if(Cores[i]<=now && Cores[i]!=0)
-            Cores[i]=0;
+        
+        Cores[i].second--;
+        if(Cores[i].second==0)
+        {
+            NodePJS_queue.push(Cores[i].first);           
+        }
     }
     
     for(int i=0;i<mainmemory;i++)
     {
         time_t now = time(0);
-        if(Memory[i]<=now && Memory[i]!=0)
-            Memory[i]=0;
+        Memory[i].second--;
+        if(Memory[i].second==0)
+            stats.recordCompletedTask(Memory[i].first.getJob_id(),Memory[i].first.getTask_id(),now);
+          
     }
-    std::sort(Cores.begin(),Cores.begin()+coresnum);
-    std::sort(Memory.begin(),Memory.begin()+mainmemory);
+    std::sort(Cores.begin(),Cores.end(),Xgreater());
+    std::sort(Memory.begin(),Memory.end(),Xgreater());
 }
+
 
 int CPU::numberoffreecores(int coresnum)
 {
     int freecores = 0;
     for(int i = 0;i<coresnum;i++)
     {
-        if(Cores[i]==0)
+        if(Cores[i].second==0)
             freecores++;
         else
-            break;
+        {
+            stats.incCoresUSed();
+            //increasing the cores used to track CPU Utilization
+        }
     }
+    stats.inctotalCores();
     return freecores;
 }
 
@@ -222,11 +230,14 @@ int CPU::numberoffreememory(int mainmemory)
     int freememory = 0;
     for(int i = 0;i<mainmemory;i++)
     {
-        if(Memory[i]==0)
+        if(Memory[i].second==0)
             freememory++;
         else
-            break;
+        {
+            stats.incGBUSed();
+        }
     }
+    stats.inctotalGB();
     return freememory;
 }
 
@@ -245,11 +256,11 @@ bool CPU::IsScheduled(Task t,int coresnum,int mainmemory)
    {
        for(int i=0;i<t.getCores_required();i++)
        {
-           Cores[i] = now + t.getCPU_time();
+           Cores[i].second = t.getCPU_time();
        }
        for(int i=0;i<t.getMemory_required();i++)
        {
-           Memory[i] = now + t.getCPU_time();
+           Memory[i].second = t.getCPU_time();
        }
        printtologfile(t,now);
        return true;
