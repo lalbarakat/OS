@@ -16,10 +16,10 @@ typedef std::vector <float> row_t;
 typedef std::vector <row_t> matrix_t;
 extern Stats stats;
 
-#ifndef NODEPJS_QUEUE
-#define	NODEPJS_QUEUE
+//#ifndef NodePJS_QUEUE
+//#define	NodePJS_QUEUE
 std::queue<Task> NodePJS_queue;
-#endif
+//#endif
 
 #endif	/* GLOBALS_H */
 

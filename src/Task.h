@@ -33,6 +33,10 @@ public:
     int getTask_id() const {
         return task_id;
     }
+    
+    int getJob_id() const {
+        return job_id;
+    }
     void setNo_op(){
         no_op=true;
     }
@@ -51,6 +55,7 @@ public:
     
 private:
     // member variables
+    int job_id;// id of job of which task is a sub part.
     int task_id; // task id unqiue for each task in a job.
     int CPU_time; // Amount of time CPU takes to execute the task.
     int memory_required; // Amount of Main Memory required to execute the task.

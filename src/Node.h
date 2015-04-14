@@ -1,7 +1,6 @@
 #ifndef NODE_H
 #define	NODE_H
 
-#include "Node_PJS.h"
 #include "PJS_Node.h"
 #include "CCU_Node.h"
 #include "Node_CCU.h"
@@ -84,7 +83,6 @@ public:
     bool IsScheduled(Task t,int coresnum,int mainmemory);
     int numberoffreememory(int mainmemory);
     int numberoffreecores(int coresnum);
-    //bool mysortfunction(std::pair<Task,int> first, std::pair<Task,int> second);
     struct Xgreater
     {
         bool operator()( const std::pair<Task,int>& lx, const std::pair<Task,int>& rx ) const {

@@ -7,6 +7,7 @@
 
 #include "Stats.h"
 #include <fstream>
+#include<ctime>
 Stats::Stats():filename("output.txt"),jobCounter(0),taskCounter(0),clock(0) {
 }
 
@@ -28,6 +29,33 @@ void Stats::recordCompletedTask(int jobId,int taskId, unsigned long long startTi
             jobId<<") completed in" << (clock-startTime) << "." << std::endl;
     out.close();
     taskCounter++;
+}
+
+void Stats::recordCpuUtilization()
+{
+    time_t now =time(0);
+    std::ofstream out(filename);
+    out<< "CPU Utilization :  cores used " << coresUsed <<" out of "<<totalCores<<" at " <<now<<std::endl;
+    out.close();
+    taskCounter++;
+}
+
+void Stats::recordMemoryUtilization()
+{
+    time_t now =time(0);
+    std::ofstream out(filename);
+    out<< "Memory Utilization :  Memory used " << GBUsed <<" out of "<<totalGB<<" at " <<now<< std::endl;
+    out.close();
+    taskCounter++;
+}
+void Stats::recordCompletedTask(int jobId, int taskId, time_t timeStamp)
+{
+    std::ofstream out(filename);
+    out<<"Task(" << taskId << ") of Job("<<
+            jobId<<") completed at" << timeStamp << "." << std::endl;
+    out.close();
+    taskCounter++;
+    
 }
 
 void Stats::finalPrint(){

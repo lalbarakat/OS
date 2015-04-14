@@ -187,17 +187,20 @@ void CPU::validate(int coresnum,int mainmemory)
 {
     for(int i=0;i<coresnum;i++)
     {
-        //time_t now = time(0);
+        
         Cores[i].second--;
         if(Cores[i].second==0)
-            NodePJS_queue.push(Cores[i].first);
+        {
+            NodePJS_queue.push(Cores[i].first);           
+        }
     }
     
     for(int i=0;i<mainmemory;i++)
     {
+        time_t now = time(0);
         Memory[i].second--;
         if(Memory[i].second==0)
-            NodePJS_queue.push(Memory[i].first);
+            stats.recordCompletedTask(Memory[i].first.getJob_id(),Memory[i].first.getTask_id(),now);
           
     }
     std::sort(Cores.begin(),Cores.end(),Xgreater());
@@ -213,8 +216,12 @@ int CPU::numberoffreecores(int coresnum)
         if(Cores[i].second==0)
             freecores++;
         else
-            break;
+        {
+            stats.incCoresUSed();
+            //increasing the cores used to track CPU Utilization
+        }
     }
+    stats.inctotalCores();
     return freecores;
 }
 
@@ -226,8 +233,11 @@ int CPU::numberoffreememory(int mainmemory)
         if(Memory[i].second==0)
             freememory++;
         else
-            break;
+        {
+            stats.incGBUSed();
+        }
     }
+    stats.inctotalGB();
     return freememory;
 }
 
