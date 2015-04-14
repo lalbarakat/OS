@@ -18,7 +18,7 @@ extern Stats stats;
 
 //#ifndef NodePJS_QUEUE
 //#define	NodePJS_QUEUE
-std::queue<Task> NodePJS_queue;
+extern std::queue<Task> NodePJS_queue;
 //#endif
 
 #endif	/* GLOBALS_H */

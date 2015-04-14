@@ -200,7 +200,7 @@ void CPU::validate(int coresnum,int mainmemory)
         time_t now = time(0);
         Memory[i].second--;
         if(Memory[i].second==0)
-            stats.recordCompletedTask(Memory[i].first.getJob_id(),Memory[i].first.getTask_id(),now);
+            stats.recordCompletedTask(Memory[i].first.getJob_id(),Memory[i].first.getTaskId(),now);
           
     }
     std::sort(Cores.begin(),Cores.end(),Xgreater());

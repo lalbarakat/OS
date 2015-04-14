@@ -7,3 +7,4 @@
 
 #include "Globals.h"
 Stats stats;
+std::queue<Task> NodePJS_queue;
