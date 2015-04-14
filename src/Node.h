@@ -84,14 +84,22 @@ public:
     bool IsScheduled(Task t,int coresnum,int mainmemory);
     int numberoffreememory(int mainmemory);
     int numberoffreecores(int coresnum);
+    //bool mysortfunction(std::pair<Task,int> first, std::pair<Task,int> second);
+    struct Xgreater
+    {
+        bool operator()( const std::pair<Task,int>& lx, const std::pair<Task,int>& rx ) const {
+    	return lx.second < rx.second;
+        }
+    };
     void printtologfile(Task t,time_t now);
 
 private:
     int id;
     bool status = false;
     Node *node_ptr;
-    std::vector<int> Cores;
-    std::vector<int> Memory;
+    std::vector<std::pair<Task,int> > Cores;
+    std::vector<std::pair<Task,int> > Memory;
+    
 };
 
 
