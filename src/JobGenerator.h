@@ -7,21 +7,20 @@
 
 #include<stdio.h>
 #include<iostream>
+#include<fstream>
 #include<vector>
 #include<list>
 #include "Globals.h"
 
 class JobGenerator {
 public:
-    JobGenerator();
+    JobGenerator(std::string filename);
    // JobGenerator(const JobGenerator& orig);
     virtual ~JobGenerator();
-    void GenereateJobs(std::vector <std::list<Task> > &Graph);
-    void DFS(int el,std::vector <std::list<Task> > &adlist,int visited[]);
-    void PrintJobs();
+    std::vector<Job> GenerateJobs();
 private:
      std::vector<Job> list_jobs;
-
+     std::ifstream f_in;
 };
 
 #endif	/* JOBGENERATOR_H */

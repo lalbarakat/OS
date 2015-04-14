@@ -30,7 +30,7 @@ public:
         return memory_required;
     }
 
-    int getTask_id() const {
+    int getTaskId() const {
         return task_id;
     }
     void setNo_op(){

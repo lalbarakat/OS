@@ -1,32 +1,44 @@
 #include "JobGenerator.h"
+#include <fstream>
 
-JobGenerator::JobGenerator() {
+JobGenerator::JobGenerator(std::string filename): f_in(filename){
+    
 }
 
 //JobGenerator::JobGenerator(const JobGenerator& orig) {
 //}
 
 JobGenerator::~JobGenerator() {
+    f_in.close();
 }
-
-void JobGenerator::GenereateJobs(std::vector <std::list<Task> > &Graph) {
-    Job *job_obj = new Job(1,Graph);
-    list_jobs.push_back(*job_obj);
+Task getTask(std::ifstream& f_in){
+   int task_id, cpu_time, memory, cores_used;
+   f_in>>task_id;
+   f_in>>cpu_time;
+   f_in>>memory;
+   f_in>>cores_used;
+   Task t(task_id, cpu_time, memory, cores_used);
+   return t;
 }
-
-void JobGenerator::DFS(int el, std::vector<std::list<Task> >& adlist, int visited[]) {
-    // cout<<" element is "<<el;
-    /*std::list<task> listt = adlist[el];
-    for(std::list<task>::iterator k = listt.begin();k!=listt.end();k++) {
-        if(visited[*k]==0) {
-            visited[*k] = 1;
-            DFS(*k,adlist,visited);
+std::vector<Job> JobGenerator::GenerateJobs() {
+    int job_id, num_tasks;
+    f_in>>job_id;
+    f_in>>num_tasks;
+    Job job(job_id, num_tasks);
+    for(int i=0; i<num_tasks; i++){
+        int num_dep;
+        Task t=getTask(f_in);
+        job.addTask(t);
+        f_in>>num_dep;
+        for(int j=0;j<num_dep;j++){
+            int dep_id;
+            f_in>>dep_id;
+            job.addDependency(t.getTaskId(),dep_id);
         }
     }
-    */
-
 }
 
+/*
 void JobGenerator::PrintJobs() {
     std::vector<Job>::iterator itr;
     for(itr=list_jobs.begin();itr!=list_jobs.end();itr++) {
@@ -37,3 +49,4 @@ void JobGenerator::PrintJobs() {
     
 
 }
+ */

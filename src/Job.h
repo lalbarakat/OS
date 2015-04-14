@@ -12,13 +12,25 @@
 class Job {
 public:
     Job();
-    Job(int jobid, std::vector <std::list<Task> > &graph);
+    Job(int jobid, int num_tasks);
+    //Job(int jobid, std::vector <std::list<int> >& adlist, std::vector<Task> _tasks);
     //Job(const Job& orig);
     virtual ~Job();
+    void addTask(Task t);
+    //i should be dependent on j
+    void addDependency(int i, int j);
+    std::vector<Task> getNextTasks();
+    void notifyFinishedTask(int task_id);
+    bool isFinished();
 private:
     int job_id;
-    std::vector <std::list<Task> > adlist;
-
+    //Used to graph the graph
+    std::vector <std::list<int>> parent_list;
+    std::vector <std::list<int>> child_list;
+    std::vector <Task> task_list;
+    std::vector<bool> isComplete;
+    void traverse(int i);
+    bool arePredecessorsComplete(int task_id);
 };
 
 #endif	/* JOB_H */
