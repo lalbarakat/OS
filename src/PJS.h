@@ -3,6 +3,7 @@
 #include <vector>
 #include "PJS_Node.h"
 #include "Node.h"
+#include "JobGenerator.h"
 #include "CCU_PJS.h"
 #include "JobGen_PJS.h"
 #include "Globals.h"

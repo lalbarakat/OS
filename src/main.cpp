@@ -67,7 +67,9 @@ int main(int argc, char** argv) {
         stats.settotalCores(0);
         stats.setGBUSed(0);
         stats.settotalGB(0);
-        
+        if(counter%JOB_GENERATOR_TIME==0){
+            
+        }
         if(counter%PJS_SCHEDULING_TIME==0){
             //Have PJS send jobs to Nodes.
                PJS_obj.Start_PJS(Nodes_list);

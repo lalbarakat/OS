@@ -21,21 +21,37 @@ Task getTask(std::ifstream& f_in){
    return t;
 }
 std::vector<Job> JobGenerator::GenerateJobs() {
-    int job_id, num_tasks;
-    f_in>>job_id;
-    f_in>>num_tasks;
-    Job job(job_id, num_tasks);
-    for(int i=0; i<num_tasks; i++){
-        int num_dep;
-        Task t=getTask(f_in);
-        job.addTask(t);
-        f_in>>num_dep;
-        for(int j=0;j<num_dep;j++){
-            int dep_id;
-            f_in>>dep_id;
-            job.addDependency(t.getTaskId(),dep_id);
+    std::vector<Job> ret;
+    for(int i=0;i<3;i++){
+        int job_id, num_tasks;
+        f_in>>job_id;
+        f_in>>num_tasks;
+        if(!f_in.good()){
+            break;
         }
+        Job job(job_id, num_tasks);
+        
+        for(int j=0; j<num_tasks; j++){
+            int num_dep;
+            
+            Task t=getTask(f_in);
+            if(!f_in.good()){
+                break;
+            }
+            job.addTask(t);
+            f_in>>num_dep;
+            for(int k=0;k<num_dep;k++){
+                int dep_id;
+                f_in>>dep_id;
+                job.addDependency(t.getTaskId(),dep_id);
+            }
+        }
+        if(!f_in.good()){
+            break;
+        }
+        ret.push_back(job);
     }
+    return ret;
 }
 
 /*
