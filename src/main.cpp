@@ -102,6 +102,8 @@ int main(int argc, char** argv) {
         //collect stats
         stats.incClock();
         //Record the statistics;
+        stats.recordMemoryUtilization();
+        stats.recordCpuUtilization();
     }
     return 0;
 }

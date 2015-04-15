@@ -174,6 +174,8 @@ CPU::CPU(Node* ptr){
        
     node_ptr = ptr;
     std::cout<<"CPU constructor"<<std::endl; 
+    Cores.reserve(ptr->CORESNUM);
+    Memory.reserve(ptr->MAINMEMORY);
     }
 
 CPU::CPU(const CPU& orig){
