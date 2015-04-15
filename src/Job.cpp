@@ -74,8 +74,14 @@ std::vector<Task> Job::notifyFinishedTask(int task_id){
 void Job::printAdList(){
     for(int i=0;i<task_list.size();i++){
         Task t=task_list[i];
-        std::cout<<"Task "<<t.getTaskId()<<" of Job"
-                <<t.getJob_id()<<"(cpu:"<<t.getCPU_time()<<") (mem:"<< t.getMemory_required()
-                <<")(cores:"<<t.getCores_required()<<std::endl;
+        std::cout<<"Task "<<t.getTaskId()<<" of Job"<<t.getJob_id();
+        std::cout<<"(cpu:"<<t.getCPU_time()<<", ";
+        std::cout<<"mem:"<< t.getMemory_required()<<", ";
+        std::cout<<"cores:"<<t.getCores_required()<<")"<<std::endl;
+        std::cout<<"Dependencies: ";
+        for(int j=0; j<parent_list[i].size(); j++){
+            std::cout<<parent_list[i][j]<<",";
+        }
+        std::cout<<std::endl;
     }
 }
