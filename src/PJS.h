@@ -29,6 +29,11 @@ public:
     void Start_PJS(std::vector<Node *> Nodes_list);
     void RecieveJobs();
     void CheckForTasks();
+    Node* lookupnode(std::vector<Node *> Nodes_list,int min_node);
+    void stable_matcher(std::vector<Node *> Nodes_list,std::vector<Task>Task_list,std::vector<intMatPair> matpair); //matpair is the list of aggregated wait time matrices.
+    bool IsAlreadymatched(std::vector<int> matched_Nodes_list,int node_id);
+    std::vector<Task> Greedy_matcher(std::vector<Node *> Nodes_list,std::vector<Task>Task_list,std::vector<intMatPair> matpair); //matpair is the list of aggregated wait time matrices.
+    
 private:
     matrix_t wait_time_matrix;    
     std::vector <int> list_of_nodes;
