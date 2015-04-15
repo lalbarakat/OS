@@ -18,7 +18,7 @@ bool PJS_Node::isEmpty(){
     return task_queue.empty();
 }
 Task PJS_Node::getTask(){
-    Task t(0,0,0, true);
+    Task t(0,0,0,0, true);
     if(!task_queue.empty()){
         t= task_queue.front();
         task_queue.pop();
@@ -28,7 +28,7 @@ Task PJS_Node::getTask(){
 }
 
 Task PJS_Node::PeekTask(){
-    Task t(0,0,0, true);
+    Task t(0,0,0,0, true);
     if(!task_queue.empty()){
         t= task_queue.front();
     }

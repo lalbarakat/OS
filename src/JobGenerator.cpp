@@ -11,13 +11,13 @@ JobGenerator::JobGenerator(std::string filename): f_in(filename){
 JobGenerator::~JobGenerator() {
     f_in.close();
 }
-Task getTask(std::ifstream& f_in){
+Task getTask(std::ifstream& f_in, int job_id){
    int task_id, cpu_time, memory, cores_used;
    f_in>>task_id;
    f_in>>cpu_time;
    f_in>>memory;
    f_in>>cores_used;
-   Task t(task_id, cpu_time, memory, cores_used);
+   Task t(job_id, task_id, cpu_time, memory, cores_used);
    return t;
 }
 std::vector<Job> JobGenerator::GenerateJobs() {
@@ -34,7 +34,7 @@ std::vector<Job> JobGenerator::GenerateJobs() {
         for(int j=0; j<num_tasks; j++){
             int num_dep;
             
-            Task t=getTask(f_in);
+            Task t=getTask(f_in, job_id);
             if(!f_in.good()){
                 break;
             }

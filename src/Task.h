@@ -6,7 +6,7 @@ class Task {
 public:
    // Task();
     //virtual ~Task();
-    Task(int taskid, int cputime, int memoryrequired,int coresrequired);
+    Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired);
     
     
     

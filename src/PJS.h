@@ -27,9 +27,14 @@ public:
         m.resize( rows, row_t( cols, value ) );
     }
     void Start_PJS(std::vector<Node *> Nodes_list);
+    void RecieveJobs();
+    void CheckForTasks();
 private:
     matrix_t wait_time_matrix;    
     std::vector <int> list_of_nodes;
+    std::vector <Job> list_of_jobs;
+    std::vector <Task> curBatch;
+    JobGenerator jobGen;
     };
 
 #endif	/* PJS_H */

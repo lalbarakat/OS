@@ -5,8 +5,9 @@
 //Task::~Task() {
 //}
 
-Task::Task(int taskid, int cputime, int memoryrequired,int coresrequired)
+Task::Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired)
 {
+        job_id=jobId;
         task_id = taskid;
         CPU_time = cputime;
         memory_required = memoryrequired;
