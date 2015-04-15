@@ -32,7 +32,7 @@ public:
 private:
     matrix_t wait_time_matrix;    
     std::vector <int> list_of_nodes;
-    std::vector <Job> list_of_jobs;
+    std::vector <Job> job_list;
     std::vector <Task> curBatch;
     JobGenerator jobGen;
     };

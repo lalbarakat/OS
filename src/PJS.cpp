@@ -1,6 +1,7 @@
 #include "PJS.h"
 #include "Node.h"
 #include "Task.h"
+#include <set>
 
 PJS::PJS() : jobGen("jobs.txt"){
 }
@@ -55,5 +56,31 @@ PJS::~PJS() {
 }
 
 void PJS::CheckForTasks(){
-    
+    std::vector<Task> newTasks;
+    while(!NodePJS_queue.empty()){
+        Task t = NodePJS_queue.front();
+        int i;
+        for(i=0; i<job_list.size(); i++){
+            if(job_list[i].getJobId()==t.getJob_id()){
+                std::vector<Task> retTasks = job_list[i].notifyFinishedTask(t.getTaskId());
+                for(size_t i=0; i<retTasks.size(); i++){
+                    curBatch.push_back(retTasks[i]);
+                }
+                NodePJS_queue.pop();
+                break;
+            }
+        }
+    } 
+}
+
+void PJS::RecieveJobs(){
+    std::vector<Job> newJobs = jobGen.GenerateJobs();
+    for(size_t i=0; i<newJobs.size(); i++){
+        Job j= newJobs[i];
+        std::vector<Task> initialTasks= j.getFirstTasks();
+        for(size_t j=0; j<initialTasks.size(); j++){
+            curBatch.push_back(initialTasks[j]);
+        }
+        job_list.push_back(j);
+    }
 }

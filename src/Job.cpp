@@ -45,7 +45,7 @@ bool Job::arePredecessorsComplete(int task_id){
     }
     return true;
 }
-std::vector<Task> Job::getNextTasks(){
+std::vector<Task> Job::getFirstTasks(){
     std::vector<Task> ret_vec;
     for(size_t i=0; i<task_list.size(); i++){
         if(arePredecessorsComplete(i)){
@@ -55,6 +55,18 @@ std::vector<Task> Job::getNextTasks(){
     return ret_vec;
 }
 
-void Job::notifyFinishedTask(int task_id){
+std::vector<Task> Job::notifyFinishedTask(int task_id){
+    std::vector<Task> ret;
+    //The task was resent just return an empty vector
+    if(isComplete[task_id]){
+        return ret;
+    }
     isComplete[task_id]=true;
+    for(int i=0; i<child_list[task_id].size();i++){
+        int id=child_list[task_id][i];
+        if(arePredecessorsComplete(id)){
+            ret.push_back(task_list[id]);
+        }
+    }
+    return ret;
 }
