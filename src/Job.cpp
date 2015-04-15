@@ -1,4 +1,5 @@
 #include "Job.h"
+#include <iostream>
 #include <deque>
 Job::Job() {
 }
@@ -69,4 +70,12 @@ std::vector<Task> Job::notifyFinishedTask(int task_id){
         }
     }
     return ret;
+}
+void Job::printAdList(){
+    for(int i=0;i<task_list.size();i++){
+        Task t=task_list[i];
+        std::cout<<"Task "<<t.getTaskId()<<" of Job"
+                <<t.getJob_id()<<"(cpu:"<<t.getCPU_time()<<") (mem:"<< t.getMemory_required()
+                <<")(cores:"<<t.getCores_required()<<std::endl;
+    }
 }

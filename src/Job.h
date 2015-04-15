@@ -22,6 +22,7 @@ public:
     }
     //i should be dependent on j
     void addDependency(int i, int j);
+    void printAdList();
     std::vector<Task> getFirstTasks();
     std::vector<Task> notifyFinishedTask(int task_id);
     bool isFinished();
