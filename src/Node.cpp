@@ -189,22 +189,22 @@ void CPU::validate(int coresnum,int mainmemory)
 {
     for(int i=0;i<coresnum;i++)
     {
-        
-        
+        if(Cores[i].second>0)
+            Cores[i].second--;
         if(Cores[i].second==0)
-        {
+        {         
             NodePJS_queue.push(Cores[i].first);           
+            time_t now = time(0);
+            stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId(),now);
         }
     }
     
     for(int i=0;i<mainmemory;i++)
-    {
-        time_t now = time(0);
-        Memory[i].second--;
-        if(Memory[i].second==0)
-            stats.recordCompletedTask(Memory[i].first.getJob_id(),Memory[i].first.getTaskId(),now);
-          
+    {      
+        if(Memory[i].second>0)
+            Memory[i].second--;       
     }
+    
     std::sort(Cores.begin(),Cores.end(),Xgreater());
     std::sort(Memory.begin(),Memory.end(),Xgreater());
 }
@@ -259,10 +259,12 @@ bool CPU::IsScheduled(Task t,int coresnum,int mainmemory)
        for(int i=0;i<t.getCores_required();i++)
        {
            Cores[i].second = t.getCPU_time();
+           Cores[i].first = t;
        }
        for(int i=0;i<t.getMemory_required();i++)
        {
            Memory[i].second = t.getCPU_time();
+           Memory[i].first = t;
        }
        printtologfile(t,now);
        return true;
@@ -276,14 +278,29 @@ bool CPU::IsScheduled(Task t,int coresnum,int mainmemory)
 
 void CPU::Executer(Node *ptr ){
    // Task t = getTask();
-    while(!(ptr->queue.empty()))
+    
+    
+    /*while(!(ptr->queue.empty()))
     {
         Task t = ptr->PeekTask();
-        validate(ptr->CORESNUM,ptr->MAINMEMORY);
+        
         if(IsScheduled(t,ptr->CORESNUM,ptr->MAINMEMORY))
         {
             ptr->getTask();
         }
     }
+    
+    validate(ptr->CORESNUM,ptr->MAINMEMORY);
+    */
+     Task t = ptr->PeekTask();
+    while(!(ptr->queue.empty()) && IsScheduled(t,ptr->CORESNUM,ptr->MAINMEMORY))
+    {                        
+            ptr->getTask();
+            t = ptr->PeekTask();
+    }
+    
+    validate(ptr->CORESNUM,ptr->MAINMEMORY);
+    
     std::cout<<"This is executer"<<std::endl;    
+    
 }

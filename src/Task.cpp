@@ -5,7 +5,7 @@
 //Task::~Task() {
 //}
 
-Task::Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired, bool isOppunrtinistic = false)
+Task::Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired, bool isOppunrtinistic )
 {
         job_id=jobId;
         task_id = taskid;
