@@ -6,7 +6,7 @@ class Task {
 public:
    // Task();
     //virtual ~Task();
-    Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired);
+    Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired,bool isOppurtunistic = false);
     
     
     
@@ -61,6 +61,7 @@ private:
     int memory_required; // Amount of Main Memory required to execute the task.
     int cores_required;
     bool no_op;
+    bool isOppurtunistic = false;
     
 };
 

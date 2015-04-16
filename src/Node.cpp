@@ -190,7 +190,7 @@ void CPU::validate(int coresnum,int mainmemory)
     for(int i=0;i<coresnum;i++)
     {
         
-        Cores[i].second--;
+        
         if(Cores[i].second==0)
         {
             NodePJS_queue.push(Cores[i].first);           

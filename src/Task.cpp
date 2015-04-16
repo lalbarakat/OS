@@ -5,13 +5,16 @@
 //Task::~Task() {
 //}
 
-Task::Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired)
+Task::Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired, bool isOppunrtinistic = false)
 {
         job_id=jobId;
         task_id = taskid;
         CPU_time = cputime;
         memory_required = memoryrequired;
         cores_required = coresrequired;       
+        isOppurtunistic = isOppunrtinistic;
 }
+
+
 
 
