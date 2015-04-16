@@ -25,7 +25,7 @@ public:
     
     PJS_Node PJSNode;
     static Node_CCU NodeCCU;
-    Node(int _id,int num);
+    Node(int _id,int numofcores,int mainmemory);
     Node(const Node& orig);
     virtual ~Node();
     void SendMatrix();

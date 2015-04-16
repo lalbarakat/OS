@@ -4,13 +4,13 @@
 
 Node_CCU Node::NodeCCU;
 
-Node::Node(int _id,int num_cores): id(_id), CORESNUM(num_cores)
+Node::Node(int _id,int num_cores,int memory): id(_id), CORESNUM(num_cores),MAINMEMORY(memory)
 {
     std::cout<<"Node constructor id = "<<_id<<std::endl;   
     CreateExecuters();          
 }
 
-Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum())
+Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum()), MAINMEMORY(orig.getMemory())
 {
     std::cout<<"Node constructor id = "<<orig.getId()<<std::endl;   
     CreateExecuters();   

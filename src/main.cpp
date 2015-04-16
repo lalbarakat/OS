@@ -3,6 +3,7 @@
 #include <climits>
 #include <sstream>
 #include <iostream>
+#include <time.h>       /* time */
 #include "Node.h"
 #include "Task.h"
 #include "Clock.h"
@@ -27,23 +28,29 @@ void waitForInput(){
 }
 
 std::vector<Node *> Nodes_list;
- void create_node(int id,int num_cores) {
+
+ void create_node(int id,int num_cores,int memoryGB) {
     std::cout<<"Node # " << id <<std::endl;
-    Node *n =new Node(id,num_cores);
+    Node *n =new Node(id,num_cores,memoryGB);
     //adding to the list of nodes.
     Nodes_list.push_back(n);
 }
-
- 
  
  /*
  * 
  */ 
 int main(int argc, char** argv) {
     int num_nodes = 5;
+    int randomcores[]={2,4,6,8};
+    int randommemory[]={4,8,12,16};
     for (int i = 0; i < num_nodes; ++i) {
-        create_node(i,1+i);
+          srand (time(NULL));
+          int r = rand()%4;
+          srand (time(NULL));
+          int s = rand()%4;
+        create_node(i,randomcores[r],randommemory[s]);
     }
+    
     PJS PJS_obj(Nodes_list);
     CCU ccu_obj(Nodes_list,&PJS_obj);
     
