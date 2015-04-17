@@ -23,6 +23,7 @@ public:
     //i should be dependent on j
     void addDependency(int i, int j);
     void printAdList();
+    unsigned long long getStartTime() const {return start_time;}
     std::vector<Task> getFirstTasks();
     std::vector<Task> notifyFinishedTask(int task_id);
     bool isFinished();
@@ -35,6 +36,7 @@ private:
     std::vector<bool> isComplete;
     void traverse(int i);
     bool arePredecessorsComplete(int task_id);
+    unsigned long long start_time;
 };
 
 #endif	/* JOB_H */

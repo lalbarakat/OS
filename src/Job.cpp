@@ -2,11 +2,13 @@
 #include <iostream>
 #include <deque>
 Job::Job() {
+    start_time=stats.getClock();
 }
 Job::Job(int id, int num_tasks):job_id(id)
 {
     parent_list.resize(num_tasks);
     child_list.resize(num_tasks);
+    start_time=stats.getClock();
 }
 /*
 Job::Job(int jobid, std::vector<std::list<Task> >& graph, std::vector<Task> _tasks): 

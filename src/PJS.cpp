@@ -152,7 +152,14 @@ void PJS::CheckForTasks(){
         for(i=0; i<job_list.size(); i++){
             if(job_list[i].getJobId()==t.getJob_id()){
                 std::vector<Task> retTasks = job_list[i].notifyFinishedTask(t.getTaskId());
+                if(job_list[i].isFinished()){
+                    stats.recordCompletedJob(job_list[i].getJobId(),job_list[i].getStartTime());
+                }
+                
                 for(size_t i=0; i<retTasks.size(); i++){
+                    
+                    retTasks[i].setStartTime(stats.getClock());
+                    
                     curBatch.push_back(retTasks[i]);
                 }
                 NodePJS_queue.pop();
@@ -165,12 +172,14 @@ void PJS::CheckForTasks(){
 void PJS::RecieveJobs(){
     std::vector<Job> newJobs = jobGen.GenerateJobs();
     for(size_t i=0; i<newJobs.size(); i++){
-        Job j= newJobs[i];
-        std::vector<Task> initialTasks= j.getFirstTasks();
+        Job job= newJobs[i];
+        std::vector<Task> initialTasks = job.getFirstTasks();
         for(size_t j=0; j<initialTasks.size(); j++){
+            
+            initialTasks[j].setStartTime(stats.getClock());
             curBatch.push_back(initialTasks[j]);
         }
-        job_list.push_back(j);
+        job_list.push_back(job);
     }
     if(newJobs.size()==0){
         out_of_jobs=true;
