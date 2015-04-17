@@ -72,7 +72,7 @@ std::vector<Task> PJS::Greedy_matcher(std::vector<Node *> Nodes_list,std::vector
         Node *matched_node = lookupnode(Nodes_list,min_node);
         if(matched_node)
         {
-//            matched_node->PJSNode.addTask(task);
+            matched_node->PJSNode.addTask(task);
             cout<<" node matched "<<matched_node->getId()<<" with task "<<task.getTaskId()<<endl;
             matched_Nodes_list.push_back(min_node);
             //remove the matched task from unmatched_Task_list
@@ -121,23 +121,24 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
     Task_list.push_back(t10);
     //send 10 tasks to 5 nodes.
     std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,curBatch,matpair);
-    curBatch.clear();
     std::cout<<"unmatched task list "<<std::endl;
+    curBatch.clear();
     for( std::vector<Task>::iterator iter = unmatched_task_list.begin(); iter != unmatched_task_list.end(); ++iter )
     {
         curBatch.push_back(*iter);
         std::cout<<(*iter).getTaskId()<<std::endl;
     }
     
-
-int i=0;
-for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.end(); ++it)
-{
-    (*it)->PJSNode.addTask(Task_list[i]);
-    i++;
-    (*it)->PJSNode.addTask(Task_list[i]);
-    i++;
-}
+    /*
+    int i=0;
+    for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.end(); ++it)
+    {
+        (*it)->PJSNode.addTask(Task_list[i]);
+        i++;
+        (*it)->PJSNode.addTask(Task_list[i]);
+        i++;
+    }
+     */
 }
 
 PJS::~PJS() {
