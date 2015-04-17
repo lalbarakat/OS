@@ -81,7 +81,7 @@
       </toolsSet>
       <compileType>
         <ccTool>
-          <commandLine>-pthread -std=c++11</commandLine>
+          <commandLine>-std=c++11</commandLine>
         </ccTool>
       </compileType>
       <item path="Apollo.cpp" ex="false" tool="1" flavor2="0">

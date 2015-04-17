@@ -44,6 +44,7 @@ public:
     void incGBUSed(){GBUsed++;}
     void inctotalGB(){totalGB++;}
     
+    unsigned long getCoresUSed(){return coresUsed;}
     void setCoresUSed(int coresused){coresUsed =coresused;}
     void settotalCores(int totalcores){totalCores = totalcores;}
     void setGBUSed(int gbused ){GBUsed = gbused;}

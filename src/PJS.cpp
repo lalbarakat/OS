@@ -171,4 +171,7 @@ void PJS::RecieveJobs(){
         }
         job_list.push_back(j);
     }
+    if(newJobs.size()==0){
+        out_of_jobs=true;
+    }
 }
