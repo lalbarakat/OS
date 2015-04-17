@@ -120,10 +120,12 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
     Task t10(0,10,320,5,3);
     Task_list.push_back(t10);
     //send 10 tasks to 5 nodes.
-    std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,Task_list,matpair);
+    std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,curBatch,matpair);
+    curBatch.clear();
     std::cout<<"unmatched task list "<<std::endl;
     for( std::vector<Task>::iterator iter = unmatched_task_list.begin(); iter != unmatched_task_list.end(); ++iter )
     {
+        curBatch.push_back(*iter);
         std::cout<<(*iter).getTaskId()<<std::endl;
     }
     

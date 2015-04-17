@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
     
     unsigned long long num_loops;
     if(argc < 2){
-        num_loops= ULLONG_MAX;
+        num_loops= 1000;
     }
     else{
         std::istringstream ss(argv[1]);
@@ -95,6 +95,7 @@ int main(int argc, char** argv) {
         }
         if(counter%NODE_MATRIX_SEND_TIME==0){
             for(std::vector<Node*>::iterator it= Nodes_list.begin(); it!=Nodes_list.end(); it++){
+                (*it)->Create_Waittime_matrix();
                 (*it)->SendMatrix();
             }
         }
