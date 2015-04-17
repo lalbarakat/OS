@@ -20,13 +20,27 @@ Stats::Stats(const Stats& orig) {
 
 Stats::~Stats() {
 }
-
+void Stats::recordCompletedJob(int jobId){
+    std::ofstream out(filename, std::ofstream::app);
+    out<<"Job(" << jobId << ") completed at" << clock << "." << std::endl;
+    out.close();
+    jobCounter++;
+}
 void Stats::recordCompletedJob(int jobId, unsigned long long startTime){
     std::ofstream out(filename, std::ofstream::app);
     out<<"Job(" << jobId << ") completed in" << (clock-startTime) << "." << std::endl;
     out.close();
     jobCounter++;
 }
+
+void Stats::recordCompletedTask(int jobId,int taskId){
+    std::ofstream out(filename, std::ofstream::app);
+    out<<"Task(" << taskId << ") of Job("<<
+            jobId<<") completed at" << clock<< "." << std::endl;
+    out.close();
+    taskCounter++;
+}
+
 void Stats::recordCompletedTask(int jobId,int taskId, unsigned long long startTime){
     std::ofstream out(filename, std::ofstream::app);
     out<<"Task(" << taskId << ") of Job("<<
@@ -37,30 +51,20 @@ void Stats::recordCompletedTask(int jobId,int taskId, unsigned long long startTi
 
 void Stats::recordCpuUtilization()
 {
-    time_t now =time(0);
     std::ofstream out(filename, std::ofstream::app);
-    out<< "CPU Utilization :  cores used " << coresUsed <<" out of "<<totalCores<<" at " <<now<<std::endl;
+    out<< "CPU Utilization :  cores used " << coresUsed <<" out of "<<totalCores<<" at " <<clock<<std::endl;
     out.close();
     taskCounter++;
 }
 
 void Stats::recordMemoryUtilization()
 {
-    time_t now =time(0);
     std::ofstream out(filename, std::ofstream::app);
-    out<< "Memory Utilization :  Memory used " << GBUsed <<" out of "<<totalGB<<" at " <<now<< std::endl;
+    out<< "Memory Utilization :  Memory used " << GBUsed <<" out of "<<totalGB<<" at " <<clock<< std::endl;
     out.close();
     taskCounter++;
 }
-void Stats::recordCompletedTask(int jobId, int taskId, time_t timeStamp)
-{
-    std::ofstream out(filename, std::ofstream::app);
-    out<<"Task(" << taskId << ") of Job("<<
-            jobId<<") completed at" << timeStamp << "." << std::endl;
-    out.close();
-    taskCounter++;
-    
-}
+
 
 void Stats::finalPrint(){
     std::ofstream out(filename, std::ofstream::app);

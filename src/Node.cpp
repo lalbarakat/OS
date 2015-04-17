@@ -193,9 +193,8 @@ void CPU::validate(int coresnum,int mainmemory)
             Cores[i].second--;
         if(Cores[i].second==0)
         {         
-            NodePJS_queue.push(Cores[i].first);           
-            time_t now = time(0);
-            stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId(),now);
+            NodePJS_queue.push(Cores[i].first);
+            stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId());
         }
     }
     
