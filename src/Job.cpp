@@ -77,7 +77,7 @@ void Job::printAdList(){
     for(int i=0;i<task_list.size();i++){
         Task t=task_list[i];
         std::cout<<"Task "<<t.getTaskId()<<" of Job"<<t.getJob_id();
-        std::cout<<"(cpu:"<<t.getCPU_time()<<", ";
+        std::cout<<"cpu:"<<t.getCPU_time()<<", ";
         std::cout<<"mem:"<< t.getMemory_required()<<", ";
         std::cout<<"cores:"<<t.getCores_required()<<")"<<std::endl;
         std::cout<<"Dependencies: ";

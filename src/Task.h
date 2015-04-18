@@ -61,6 +61,11 @@ public:
     void setStartTime(unsigned long long clock){
         start_time = clock;
     }
+    
+    void SetTaskMode(bool mode)  {//mode = 1 for oppurtunistic, 0 for regular
+         isOppurtunistic = mode;
+    }
+    
     unsigned long long getStartTime(){
         return start_time;
     }

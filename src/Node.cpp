@@ -123,7 +123,8 @@ void Node::CreateExecuters(){
 }
 
 void Node::Create_Waittime_matrix(){
-    Task *t1= new Task(0,1,40,4,2);
+    
+/*    Task *t1= new Task(0,1,40,4,2);
     
     regularQueue.push_back(*t1);
     Task *t2= new Task(0,1,10,2,2);
@@ -132,7 +133,7 @@ void Node::Create_Waittime_matrix(){
     Task *t3= new Task(0,1,30,4,2);
     
     regularQueue.push_back(*t3);
-    Task *t4= new Task(0,1,20,2,4);
+    Task *t4= new Task(0,1,20,2,4);*/
     //queue.push_back(*t4);    
     resize(local_wait_time_matrix,4,4,-1);
     
@@ -140,7 +141,7 @@ void Node::Create_Waittime_matrix(){
     {
         for (size_t j=0; j<local_wait_time_matrix.size(); j++) 
         {
-            Task *t = new Task(0,5,0,Mem_array[j],cores_array[i]);
+            Task *t = new Task(0,5,0,Mem_array[j],cores_array[i],1);
             addRegularTask(*t);
             if(cores_array[i] > CORESNUM || Mem_array[j] > MAINMEMORY)
                 local_wait_time_matrix[i][j] = -1;
@@ -243,10 +244,9 @@ int CPU::numberoffreecores(int coresnum,bool isRegular)
             freecores++;
         else
         {
-            stats.incCoresUSed();
+      //      stats.incCoresUSed();
             //increasing the cores used to track CPU Utilization
         }
-        stats.inctotalCores();
     }
     //stats.inctotalCores();
     return freecores;
@@ -261,10 +261,10 @@ int CPU::numberoffreememory(int mainmemory,bool isRegular)
             freememory++;
         else
         {
-            stats.incGBUSed();
+//            stats.incGBUSed();
         }
-        stats.inctotalGB();
     }
+  //  stats.inctotalGB();
     return freememory;
 }
 
@@ -293,13 +293,12 @@ void CPU::validate(int coresnum,int mainmemory)
 {
     for(int i=0;i<coresnum;i++)
     {
-        if(Cores[i].second>0){
+        if(Cores[i].second>0)
             Cores[i].second--;
-            if(Cores[i].second==0 && !Cores[i].first.getNo_op())
-            {         
-                NodePJS_queue.push(Cores[i].first);
-                stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId());
-            }
+        if(Cores[i].second==0)
+        {         
+            NodePJS_queue.push(Cores[i].first);
+            stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId());
         }
     }
     
@@ -317,9 +316,8 @@ void CPU::validate(int coresnum,int mainmemory)
 bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegular)
 {
     time_t now = time(0);
-    int num_core=numberoffreecores(coresnum,isRegular);
-    int num_memory=numberoffreememory(mainmemory, isRegular);
-   if( num_core >= t.getCores_required() && num_memory >= t.getMemory_required())
+    
+   if( numberoffreecores(coresnum,isRegular) >= t.getCores_required() && numberoffreememory(mainmemory,isRegular) >= t.getMemory_required())
    {
        
        int reqdcores = 0;
@@ -359,7 +357,7 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
             {
                     Memory[i].first.setCPU_time(Memory[i].second);
                     ptr->addOppurtunisticTasktofront(Memory[i].first);
-                    //preempt the opportunistic task and put it back in the opportunistic queue.
+                    //preempt the oppurtunistic task and put it back in the oppurtinistic queue.
                     Zerointhearrays(t,Memory[i].first);
                     Memory[i].second = t.getCPU_time();
                     Memory[i].first = t;
@@ -398,5 +396,7 @@ void CPU::Executer(Node *ptr ){
 
             validate(ptr->CORESNUM,ptr->MAINMEMORY);
 //            std::cout<<"This is executer"<<std::endl;    
+            stats.inctotalCores(ptr->CORESNUM);
+            stats.inctotalGB(ptr->MAINMEMORY);
               
 }
