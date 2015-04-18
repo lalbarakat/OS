@@ -51,20 +51,25 @@ void Stats::recordCompletedTask(int jobId,int taskId, unsigned long long startTi
 
 void Stats::recordCpuUtilization()
 {
-    std::ofstream out(filename, std::ofstream::app);
-    out<< "CPU Utilization :  cores used " << coresUsed <<" out of "<<totalCores<<" at " <<clock<<std::endl;
-    out.close();
+    if(coresUsed!=prevCores){
+        std::ofstream out(filename, std::ofstream::app);
+        out<< "CPU Utilization :  cores used " << coresUsed <<" out of "<<totalCores<<" at " <<clock<<std::endl<<std::endl;
+        out.close();
+        prevCores=coresUsed;
+    }
     taskCounter++;
 }
 
 void Stats::recordMemoryUtilization()
 {
-    std::ofstream out(filename, std::ofstream::app);
-    out<< "Memory Utilization :  Memory used " << GBUsed <<" out of "<<totalGB<<" at " <<clock<< std::endl<<std::endl;
-    out.close();
+    if(GBUsed!=prevGB){
+        std::ofstream out(filename, std::ofstream::app);
+        out<< "Memory Utilization :  Memory used " << GBUsed <<" out of "<<totalGB<<" at " <<clock<< std::endl;
+        out.close();
+        prevGB=GBUsed;
+    }
     taskCounter++;
 }
-
 
 void Stats::finalPrint(){
     std::ofstream out(filename, std::ofstream::app);

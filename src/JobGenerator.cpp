@@ -43,7 +43,7 @@ std::vector<Job> JobGenerator::GenerateJobs() {
             for(int k=0;k<num_dep;k++){
                 int dep_id;
                 f_in>>dep_id;
-                job.addDependency(t.getTaskId(),dep_id);
+                job.addDependency(dep_id,t.getTaskId());
             }
         }
         if(!f_in.good()){

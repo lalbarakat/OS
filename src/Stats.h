@@ -56,8 +56,12 @@ private:
     unsigned int jobCounter;
     unsigned int taskCounter;
     unsigned long long clock;
+    
+    unsigned long prevCores;
     unsigned long coresUsed;
     unsigned long totalCores;
+    
+    unsigned long prevGB;
     unsigned long GBUsed;
     unsigned long totalGB;
 };
