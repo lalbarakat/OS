@@ -155,7 +155,8 @@ void Node::Create_Waittime_matrix(){
 }
 
 
-Task* Node::getRegularTask(Task *t){
+Task* Node::getRegularTask(){
+    Task *t = NULL;
     if(regularQueue.empty())
     {
         t=NULL;
@@ -166,14 +167,14 @@ Task* Node::getRegularTask(Task *t){
     return t;
 }
 
-Task* Node::PeekRegularTask(Task *t){
+Task* Node::PeekRegularTask(){
+    
     if(regularQueue.empty())
-    {
-        t=NULL;
+    {    
         return NULL;
     }
-    t= &(regularQueue.front());
-    return t;
+    return &(regularQueue.front());
+    
 }
 
 
@@ -181,10 +182,10 @@ void Node::addRegularTask(Task t){
     regularQueue.push_back(t);
 }
 
-Task* Node::getOppurtunisticTask(Task *t){
+Task* Node::getOppurtunisticTask(){
+    Task *t = NULL;
     if(OppurtunisticQueue.empty())
     {
-        t=NULL;
         return NULL;
     }
     t= &(OppurtunisticQueue.front());
@@ -192,14 +193,12 @@ Task* Node::getOppurtunisticTask(Task *t){
     return t;
 }
 
-Task* Node::PeekOppurtunisticTask(Task *t){
+Task* Node::PeekOppurtunisticTask(){
     if(OppurtunisticQueue.empty())
     {
-        t = NULL;
-        return NULL;
+       return NULL;
     }
-    t= &(OppurtunisticQueue.front());
-    return t;
+    return &(OppurtunisticQueue.front());    
 }
 
 
@@ -379,21 +378,21 @@ void CPU::Executer(Node *ptr ){
         Task *t = NULL;
             
         
-            t= ptr->PeekRegularTask(t);
+            t= ptr->PeekRegularTask();
             while(!(ptr->regularQueue.empty()) && IsScheduled(*t,ptr,ptr->CORESNUM,ptr->MAINMEMORY,1))
             {                        
-                   ptr->getRegularTask(t);
-                   t = ptr->PeekRegularTask(t);
+                   ptr->getRegularTask();
+                   t = ptr->PeekRegularTask();
             }
 
             std::sort(Cores.begin(),Cores.end(),Xgreater());
             std::sort(Memory.begin(),Memory.end(),Xgreater());
             //Oppurtunistic Scheduling
-              t = ptr->PeekOppurtunisticTask(t);
+              t = ptr->PeekOppurtunisticTask();
              while(!(ptr->OppurtunisticQueue.empty()) && IsScheduled(*t,ptr,ptr->CORESNUM,ptr->MAINMEMORY,0))
              {
-                      ptr->getOppurtunisticTask(t);
-                  t = ptr->PeekOppurtunisticTask(t);
+                      ptr->getOppurtunisticTask();
+                  t = ptr->PeekOppurtunisticTask();
              }
 
             validate(ptr->CORESNUM,ptr->MAINMEMORY);

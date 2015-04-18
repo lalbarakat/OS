@@ -33,12 +33,12 @@ public:
     void Execute();
     void CreateExecuters(); 
     void addRegularTask(Task t);
-    Task* getRegularTask(Task *t);
-    Task* PeekRegularTask(Task *t);
+    Task* getRegularTask();
+    Task* PeekRegularTask();
     void addOppurtunisticTask(Task t);
     void addOppurtunisticTasktofront(Task t);
-    Task* getOppurtunisticTask(Task *t);
-    Task* PeekOppurtunisticTask(Task *t);
+    Task* getOppurtunisticTask();
+    Task* PeekOppurtunisticTask();
     int FindMinVal(int Cores[4],int Memory[4],int numofcores, int mainmemory,
         int task_cores,int task_mem);
     float Estimatewaittime(int cores, int Memory);
