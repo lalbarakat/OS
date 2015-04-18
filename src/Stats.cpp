@@ -60,7 +60,7 @@ void Stats::recordCpuUtilization()
 void Stats::recordMemoryUtilization()
 {
     std::ofstream out(filename, std::ofstream::app);
-    out<< "Memory Utilization :  Memory used " << GBUsed <<" out of "<<totalGB<<" at " <<clock<< std::endl;
+    out<< "Memory Utilization :  Memory used " << GBUsed <<" out of "<<totalGB<<" at " <<clock<< std::endl<<std::endl;
     out.close();
     taskCounter++;
 }

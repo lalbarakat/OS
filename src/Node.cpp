@@ -142,13 +142,14 @@ void Node::Create_Waittime_matrix(){
         for (size_t j=0; j<local_wait_time_matrix.size(); j++) 
         {
             Task *t = new Task(0,5,0,Mem_array[j],cores_array[i],1);
-            addRegularTask(*t);
+            //addRegularTask(*t);
             if(cores_array[i] > CORESNUM || Mem_array[j] > MAINMEMORY)
                 local_wait_time_matrix[i][j] = -1;
             else
                 local_wait_time_matrix[i][j] = Estimatewaittime(cores_array[i],Mem_array[j]);
             Task *t1 = NULL;
-            getRegularTask(t1);
+            //Ask sri later
+            //getRegularTask(t1);
             delete t;
         }
     }
@@ -294,7 +295,9 @@ void CPU::validate(int coresnum,int mainmemory)
     {
         if(Cores[i].second>0){
             Cores[i].second--;
-            if(Cores[i].second==0)
+            if(Cores[i].second==0 && !(i>0&&
+                    (Cores[i-1].first.getJob_id()==Cores[i].first.getJob_id())&&
+                    (Cores[i-1].first.getTaskId()==Cores[i].first.getTaskId())))
             {         
                 NodePJS_queue.push(Cores[i].first);
                 stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId());
