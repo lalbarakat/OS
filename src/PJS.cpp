@@ -98,6 +98,15 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
      matpair =  CCUPJS.getMatrix();
     }
       
+    //Randomly allocate tasks oppurtunistically.
+    for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
+    {
+          srand (time(NULL));
+          int r = rand()%10;
+          if(r>7)//2 in 10 are oppurtinsitic tasks. choosing them with 20% probability
+            (*iter).SetTaskMode(1);
+                
+    }
     std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,curBatch,matpair);
     std::cout<<"unmatched task list "<<std::endl;
     curBatch.clear();
