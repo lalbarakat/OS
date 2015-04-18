@@ -1,15 +1,1 @@
 Stats file
-Memory Utilization :  Memory used 4 out of 20 at 4
-CPU Utilization :  cores used 1 out of 10 at 4
-
-Memory Utilization :  Memory used 8 out of 20 at 6
-CPU Utilization :  cores used 2 out of 10 at 6
-
-Task(0) of Job(2) completed at103.
-Task(0) of Job(3) completed at103.
-Memory Utilization :  Memory used 4 out of 20 at 105
-Task(0) of Job(1) completed at201.
-Task(0) of Job(3) completed at202.
-Memory Utilization :  Memory used 0 out of 20 at 203
-CPU Utilization :  cores used 0 out of 10 at 203
-

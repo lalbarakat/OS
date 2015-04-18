@@ -41,7 +41,7 @@ std::vector<Node *> Nodes_list;
  */ 
 int main(int argc, char** argv) {
     int num_nodes = 5;
-    int randomcores[]={2,4,6,8};
+    /*int randomcores[]={2,4,6,8};
     int randommemory[]={4,8,12,16};
     for (int i = 0; i < num_nodes; ++i) {
           srand (time(NULL));
@@ -50,7 +50,13 @@ int main(int argc, char** argv) {
           int s = rand()%4;
         create_node(i,randomcores[r],randommemory[s]);
     }
-    
+    */
+     Nodes_list.push_back(new Node(0,2,12));
+     Nodes_list.push_back(new Node(1,8,8));
+     Nodes_list.push_back(new Node(2,8,16));
+     Nodes_list.push_back(new Node(3,4,8));
+     Nodes_list.push_back(new Node(4,6,12));
+     
     PJS PJS_obj(Nodes_list);
     CCU ccu_obj(Nodes_list,&PJS_obj);
     
