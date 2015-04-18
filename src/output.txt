@@ -1,26 +1,35 @@
 Stats file
-Memory Utilization :  Memory used 4 out of 56 at 5
-CPU Utilization :  cores used 2 out of 28 at 5
+Memory Utilization :  Memory used 4 out of 56 at 3
+CPU Utilization :  cores used 2 out of 28 at 3
 
-Task(0) of Job(1) completed at101.
-Memory Utilization :  Memory used 8 out of 56 at 103
-CPU Utilization :  cores used 4 out of 28 at 103
+Memory Utilization :  Memory used 8 out of 56 at 5
+CPU Utilization :  cores used 4 out of 28 at 5
+
+Memory Utilization :  Memory used 4 out of 56 at 6
+CPU Utilization :  cores used 2 out of 28 at 6
+
+Task(0) of Job(1) completed at99.
+Task(0) of Job(2) completed at99.
+Task(0) of Job(3) completed at99.
+Memory Utilization :  Memory used 8 out of 56 at 101
+CPU Utilization :  cores used 4 out of 28 at 101
 
 Task(0) of Job(3) completed at103.
-Memory Utilization :  Memory used 12 out of 56 at 105
-CPU Utilization :  cores used 6 out of 28 at 105
+Memory Utilization :  Memory used 4 out of 56 at 105
+CPU Utilization :  cores used 2 out of 28 at 105
 
-Task(0) of Job(2) completed at201.
-Memory Utilization :  Memory used 10 out of 56 at 203
-Task(1) of Job(1) completed at251.
-Task(1) of Job(3) completed at301.
-Task(4) of Job(1) completed at301.
+Task(1) of Job(2) completed at149.
+Task(1) of Job(3) completed at149.
+Task(0) of Job(1) completed at199.
+Task(0) of Job(2) completed at299.
+Task(2) of Job(2) completed at299.
+Memory Utilization :  Memory used 2 out of 56 at 301
 Task(2) of Job(1) completed at303.
-Task(1) of Job(2) completed at351.
-Memory Utilization :  Memory used 8 out of 56 at 353
-CPU Utilization :  cores used 4 out of 28 at 353
+Task(1) of Job(1) completed at349.
+Memory Utilization :  Memory used 6 out of 56 at 351
+CPU Utilization :  cores used 8 out of 28 at 351
 
-Task(2) of Job(3) completed at503.
-Memory Utilization :  Memory used 0 out of 56 at 505
-CPU Utilization :  cores used 0 out of 28 at 505
+Task(3) of Job(3) completed at399.
+Memory Utilization :  Memory used 0 out of 56 at 401
+CPU Utilization :  cores used 0 out of 28 at 401
 

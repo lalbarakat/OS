@@ -6,8 +6,9 @@ Node_CCU Node::NodeCCU;
 
 Node::Node(int _id,int num_cores,int memory): id(_id), CORESNUM(num_cores),MAINMEMORY(memory)
 {
-    std::cout<<"Node constructor id = "<<_id<<std::endl;   
-    CreateExecuters();          
+   std::cout<<"Node constructor id = "<<_id<<std::endl;   
+   resize(local_wait_time_matrix,4,4,-1);//Initialize wait time matrix
+   CreateExecuters();          
 }
 
 Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum()), MAINMEMORY(orig.getMemory())
@@ -285,11 +286,11 @@ int CPU::numberoffreememory(int mainmemory,bool isRegular)
     return freememory;
 }
 
-void CPU::printtologfile(Task t,time_t now)
+void CPU::printtologfile(Node *ptr,Task t,time_t now)
 {
     char* dt = ctime(&now);
-    std::cout<<"Task "<<t.getTaskId()<<"started executing "<<" consuming "<<t.getCores_required()<<" Cores "
-            "and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
+    std::cout<<"Task id "<<t.getTaskId()<<" of Job id "<<t.getJob_id()<<" started executing at node "<<ptr->getId()<<" consuming "<<t.getCores_required()<<" Cores "
+            " and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
 }
 
 void CPU::Zerointhearrays(Task t,Task preempted_task)
@@ -386,7 +387,7 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
             }
        }
      
-       printtologfile(t,now);
+       printtologfile(ptr,t,now);
        return true;
    }
    else

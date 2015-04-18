@@ -96,7 +96,7 @@ public:
     	return lx.second < rx.second;
         }
     };
-    void printtologfile(Task t,time_t now);
+    void printtologfile(Node *ptr,Task t,time_t now);
 
 private:
     int id;
