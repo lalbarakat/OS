@@ -33,13 +33,14 @@ public:
     void stable_matcher(std::vector<Node *> Nodes_list,std::vector<Task>Task_list,std::vector<intMatPair> matpair); //matpair is the list of aggregated wait time matrices.
     bool IsAlreadymatched(std::vector<int> matched_Nodes_list,int node_id);
     std::vector<Task> Greedy_matcher(std::vector<Node *> Nodes_list,std::vector<Task>Task_list,std::vector<intMatPair> matpair); //matpair is the list of aggregated wait time matrices.
-    
+    bool outOfJobs(){return out_of_jobs;};
 private:
     matrix_t wait_time_matrix;    
     std::vector <int> list_of_nodes;
     std::vector <Job> job_list;
     std::vector <Task> curBatch;
     JobGenerator jobGen;
+    bool out_of_jobs=false;
     };
 
 #endif	/* PJS_H */

@@ -67,15 +67,16 @@ int main(int argc, char** argv) {
     std::cout<<"Going to run for "<<num_loops<<" loops."<<std::endl;
 
     unsigned long long counter=0;
-    while(counter<num_loops){
+    while(counter<num_loops && !(PJS_obj.outOfJobs() && stats.getCoresUSed()==0)){
         //Do things here
        //Reset the statistics
         stats.setCoresUSed(0);
         stats.settotalCores(0);
         stats.setGBUSed(0);
         stats.settotalGB(0);
-        if(counter%JOB_GENERATOR_TIME==0){
-            
+        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0){
+            //Read in jobs from a file and obtain the tasks into the current batch
+            PJS_obj.RecieveJobs();
         }
         if(counter%PJS_SCHEDULING_TIME==0){
             //Have PJS send jobs to Nodes.

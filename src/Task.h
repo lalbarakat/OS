@@ -1,5 +1,8 @@
 #ifndef TASK_H
 #define	TASK_H
+
+#include "Stats.h"
+
 //#include "Globals.h"
 
 class Task {
@@ -55,7 +58,12 @@ public:
     void setCores_required(int cores_required) {
         this->cores_required = cores_required;
     }
-
+    void setStartTime(unsigned long long clock){
+        start_time = clock;
+    }
+    unsigned long long getStartTime(){
+        return start_time;
+    }
     
 private:
     // member variables
@@ -64,6 +72,7 @@ private:
     int CPU_time; // Amount of time CPU takes to execute the task.
     int memory_required; // Amount of Main Memory required to execute the task.
     int cores_required;
+    unsigned long long start_time;
     bool no_op;
     bool isOppurtunistic = false;
     

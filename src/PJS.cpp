@@ -72,7 +72,7 @@ std::vector<Task> PJS::Greedy_matcher(std::vector<Node *> Nodes_list,std::vector
         Node *matched_node = lookupnode(Nodes_list,min_node);
         if(matched_node)
         {
-//            matched_node->PJSNode.addTask(task);
+            matched_node->PJSNode.addTask(task);
             cout<<" node matched "<<matched_node->getId()<<" with task "<<task.getTaskId()<<endl;
             matched_Nodes_list.push_back(min_node);
             //remove the matched task from unmatched_Task_list
@@ -121,23 +121,24 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
     Task_list.push_back(t10);
     //send 10 tasks to 5 nodes.
     std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,curBatch,matpair);
-    curBatch.clear();
     std::cout<<"unmatched task list "<<std::endl;
+    curBatch.clear();
     for( std::vector<Task>::iterator iter = unmatched_task_list.begin(); iter != unmatched_task_list.end(); ++iter )
     {
         curBatch.push_back(*iter);
         std::cout<<(*iter).getTaskId()<<std::endl;
     }
     
-
-int i=0;
-for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.end(); ++it)
-{
-    (*it)->PJSNode.addTask(Task_list[i]);
-    i++;
-    (*it)->PJSNode.addTask(Task_list[i]);
-    i++;
-}
+    /*
+    int i=0;
+    for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.end(); ++it)
+    {
+        (*it)->PJSNode.addTask(Task_list[i]);
+        i++;
+        (*it)->PJSNode.addTask(Task_list[i]);
+        i++;
+    }
+     */
 }
 
 PJS::~PJS() {
@@ -152,7 +153,14 @@ void PJS::CheckForTasks(){
         for(i=0; i<job_list.size(); i++){
             if(job_list[i].getJobId()==t.getJob_id()){
                 std::vector<Task> retTasks = job_list[i].notifyFinishedTask(t.getTaskId());
+                if(job_list[i].isFinished()){
+                    stats.recordCompletedJob(job_list[i].getJobId(),job_list[i].getStartTime());
+                }
+                
                 for(size_t i=0; i<retTasks.size(); i++){
+                    
+                    retTasks[i].setStartTime(stats.getClock());
+                    
                     curBatch.push_back(retTasks[i]);
                 }
                 NodePJS_queue.pop();
@@ -165,11 +173,16 @@ void PJS::CheckForTasks(){
 void PJS::RecieveJobs(){
     std::vector<Job> newJobs = jobGen.GenerateJobs();
     for(size_t i=0; i<newJobs.size(); i++){
-        Job j= newJobs[i];
-        std::vector<Task> initialTasks= j.getFirstTasks();
+        Job job= newJobs[i];
+        std::vector<Task> initialTasks = job.getFirstTasks();
         for(size_t j=0; j<initialTasks.size(); j++){
+            
+            initialTasks[j].setStartTime(stats.getClock());
             curBatch.push_back(initialTasks[j]);
         }
-        job_list.push_back(j);
+        job_list.push_back(job);
+    }
+    if(newJobs.size()==0){
+        out_of_jobs=true;
     }
 }
