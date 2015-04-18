@@ -243,9 +243,10 @@ int CPU::numberoffreecores(int coresnum,bool isRegular)
             freecores++;
         else
         {
-      //      stats.incCoresUSed();
+            stats.incCoresUSed();
             //increasing the cores used to track CPU Utilization
         }
+        stats.inctotalCores();
     }
     //stats.inctotalCores();
     return freecores;
@@ -260,10 +261,10 @@ int CPU::numberoffreememory(int mainmemory,bool isRegular)
             freememory++;
         else
         {
-//            stats.incGBUSed();
+            stats.incGBUSed();
         }
+        stats.inctotalGB();
     }
-  //  stats.inctotalGB();
     return freememory;
 }
 
@@ -292,12 +293,13 @@ void CPU::validate(int coresnum,int mainmemory)
 {
     for(int i=0;i<coresnum;i++)
     {
-        if(Cores[i].second>0)
+        if(Cores[i].second>0){
             Cores[i].second--;
-        if(Cores[i].second==0)
-        {         
-            NodePJS_queue.push(Cores[i].first);
-            stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId());
+            if(Cores[i].second==0 && !Cores[i].first.getNo_op())
+            {         
+                NodePJS_queue.push(Cores[i].first);
+                stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId());
+            }
         }
     }
     
@@ -315,8 +317,9 @@ void CPU::validate(int coresnum,int mainmemory)
 bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegular)
 {
     time_t now = time(0);
-    
-   if( numberoffreecores(coresnum,isRegular) >= t.getCores_required() && numberoffreememory(mainmemory,isRegular) >= t.getMemory_required())
+    int num_core=numberoffreecores(coresnum,isRegular);
+    int num_memory=numberoffreememory(mainmemory, isRegular);
+   if( num_core >= t.getCores_required() && num_memory >= t.getMemory_required())
    {
        
        int reqdcores = 0;
@@ -356,7 +359,7 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
             {
                     Memory[i].first.setCPU_time(Memory[i].second);
                     ptr->addOppurtunisticTasktofront(Memory[i].first);
-                    //preempt the oppurtunistic task and put it back in the oppurtinistic queue.
+                    //preempt the opportunistic task and put it back in the opportunistic queue.
                     Zerointhearrays(t,Memory[i].first);
                     Memory[i].second = t.getCPU_time();
                     Memory[i].first = t;
