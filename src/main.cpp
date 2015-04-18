@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
     
     unsigned long long num_loops;
     if(argc < 2){
-        num_loops= 1000;
+        num_loops= 10000;
     }
     else{
         std::istringstream ss(argv[1]);
@@ -80,6 +80,8 @@ int main(int argc, char** argv) {
         }
         if(counter%PJS_SCHEDULING_TIME==0){
             //Have PJS send jobs to Nodes.
+            
+            PJS_obj.CheckForTasks();
                PJS_obj.Start_PJS(Nodes_list);
         }
         
