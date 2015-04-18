@@ -142,14 +142,12 @@ void Node::Create_Waittime_matrix(){
         for (size_t j=0; j<local_wait_time_matrix.size(); j++) 
         {
             Task *t = new Task(0,5,0,Mem_array[j],cores_array[i],1);
-            //addRegularTask(*t);
+            addRegularTask(*t);
             if(cores_array[i] > CORESNUM || Mem_array[j] > MAINMEMORY)
                 local_wait_time_matrix[i][j] = -1;
             else
-                local_wait_time_matrix[i][j] = Estimatewaittime(cores_array[i],Mem_array[j]);
-            Task *t1 = NULL;
-            //Ask sri later
-            //getRegularTask(t1);
+                local_wait_time_matrix[i][j] = Estimatewaittime(cores_array[i],Mem_array[j]);           
+            getRegularTaskfromback();
             delete t;
         }
     }
@@ -165,6 +163,19 @@ Task* Node::getRegularTask(){
     }
     t= &(regularQueue.front());
     regularQueue.pop_front();
+    return t;
+}
+
+Task* Node::getRegularTaskfromback()
+{
+    Task *t = NULL;
+    if(regularQueue.empty())
+    {
+        t=NULL;
+        return NULL;
+    }
+    t= &(regularQueue.back());
+    regularQueue.pop_back();
     return t;
 }
 

@@ -34,6 +34,7 @@ public:
     void CreateExecuters(); 
     void addRegularTask(Task t);
     Task* getRegularTask();
+    Task* getRegularTaskfromback();
     Task* PeekRegularTask();
     void addOppurtunisticTask(Task t);
     void addOppurtunisticTasktofront(Task t);
