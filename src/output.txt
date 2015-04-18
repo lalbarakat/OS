@@ -29,18 +29,8 @@ Task(0) of Job(0) completed at0.
 Task(0) of Job(0) completed at0.
 Task(0) of Job(0) completed at0.
 Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Memory Utilization :  Memory used 0 out of 80 at 1
-CPU Utilization :  cores used 0 out of 40 at 1
+Memory Utilization :  Memory used 0 out of 60 at 1
+CPU Utilization :  cores used 0 out of 30 at 1
 Task(0) of Job(0) completed at1.
 Task(0) of Job(0) completed at1.
 Task(0) of Job(0) completed at1.
@@ -71,18 +61,8 @@ Task(0) of Job(0) completed at1.
 Task(0) of Job(0) completed at1.
 Task(0) of Job(0) completed at1.
 Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Memory Utilization :  Memory used 0 out of 80 at 2
-CPU Utilization :  cores used 0 out of 40 at 2
+Memory Utilization :  Memory used 0 out of 60 at 2
+CPU Utilization :  cores used 0 out of 30 at 2
 Task(0) of Job(0) completed at2.
 Task(0) of Job(0) completed at2.
 Task(0) of Job(0) completed at2.
@@ -113,10 +93,8 @@ Task(0) of Job(0) completed at2.
 Task(0) of Job(0) completed at2.
 Task(0) of Job(0) completed at2.
 Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Memory Utilization :  Memory used 0 out of 80 at 3
-CPU Utilization :  cores used 0 out of 40 at 3
+Memory Utilization :  Memory used 0 out of 60 at 3
+CPU Utilization :  cores used 0 out of 30 at 3
 Task(0) of Job(0) completed at3.
 Task(0) of Job(0) completed at3.
 Task(0) of Job(0) completed at3.
@@ -147,10 +125,8 @@ Task(0) of Job(0) completed at3.
 Task(0) of Job(0) completed at3.
 Task(0) of Job(0) completed at3.
 Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Memory Utilization :  Memory used 0 out of 80 at 4
-CPU Utilization :  cores used 0 out of 40 at 4
+Memory Utilization :  Memory used 0 out of 60 at 4
+CPU Utilization :  cores used 0 out of 30 at 4
 Task(0) of Job(0) completed at4.
 Task(0) of Job(0) completed at4.
 Task(0) of Job(0) completed at4.
@@ -177,10 +153,8 @@ Task(0) of Job(0) completed at4.
 Task(0) of Job(0) completed at4.
 Task(0) of Job(0) completed at4.
 Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Memory Utilization :  Memory used 0 out of 80 at 5
-CPU Utilization :  cores used 0 out of 40 at 5
+Memory Utilization :  Memory used 0 out of 60 at 5
+CPU Utilization :  cores used 0 out of 30 at 5
 Task(0) of Job(0) completed at5.
 Task(0) of Job(0) completed at5.
 Task(0) of Job(0) completed at5.
@@ -207,10 +181,8 @@ Task(0) of Job(0) completed at5.
 Task(0) of Job(0) completed at5.
 Task(0) of Job(0) completed at5.
 Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Memory Utilization :  Memory used 0 out of 80 at 6
-CPU Utilization :  cores used 0 out of 40 at 6
+Memory Utilization :  Memory used 0 out of 60 at 6
+CPU Utilization :  cores used 0 out of 30 at 6
 Task(0) of Job(0) completed at6.
 Task(0) of Job(0) completed at6.
 Task(0) of Job(0) completed at6.
@@ -229,8 +201,14 @@ Task(0) of Job(0) completed at6.
 Task(0) of Job(0) completed at6.
 Task(0) of Job(0) completed at6.
 Task(0) of Job(0) completed at6.
-Memory Utilization :  Memory used 0 out of 80 at 7
-CPU Utilization :  cores used 0 out of 40 at 7
+Task(0) of Job(0) completed at6.
+Task(0) of Job(0) completed at6.
+Task(0) of Job(0) completed at6.
+Task(0) of Job(0) completed at6.
+Task(0) of Job(0) completed at6.
+Task(0) of Job(0) completed at6.
+Memory Utilization :  Memory used 0 out of 60 at 7
+CPU Utilization :  cores used 0 out of 30 at 7
 Task(0) of Job(0) completed at7.
 Task(0) of Job(0) completed at7.
 Task(0) of Job(0) completed at7.
@@ -249,8 +227,14 @@ Task(0) of Job(0) completed at7.
 Task(0) of Job(0) completed at7.
 Task(0) of Job(0) completed at7.
 Task(0) of Job(0) completed at7.
-Memory Utilization :  Memory used 0 out of 80 at 8
-CPU Utilization :  cores used 0 out of 40 at 8
+Task(0) of Job(0) completed at7.
+Task(0) of Job(0) completed at7.
+Task(0) of Job(0) completed at7.
+Task(0) of Job(0) completed at7.
+Task(0) of Job(0) completed at7.
+Task(0) of Job(0) completed at7.
+Memory Utilization :  Memory used 0 out of 60 at 8
+CPU Utilization :  cores used 0 out of 30 at 8
 Task(0) of Job(0) completed at8.
 Task(0) of Job(0) completed at8.
 Task(0) of Job(0) completed at8.
@@ -269,8 +253,14 @@ Task(0) of Job(0) completed at8.
 Task(0) of Job(0) completed at8.
 Task(0) of Job(0) completed at8.
 Task(0) of Job(0) completed at8.
-Memory Utilization :  Memory used 0 out of 80 at 9
-CPU Utilization :  cores used 0 out of 40 at 9
+Task(0) of Job(0) completed at8.
+Task(0) of Job(0) completed at8.
+Task(0) of Job(0) completed at8.
+Task(0) of Job(0) completed at8.
+Task(0) of Job(0) completed at8.
+Task(0) of Job(0) completed at8.
+Memory Utilization :  Memory used 0 out of 60 at 9
+CPU Utilization :  cores used 0 out of 30 at 9
 Task(0) of Job(0) completed at9.
 Task(0) of Job(0) completed at9.
 Task(0) of Job(0) completed at9.
@@ -289,8 +279,14 @@ Task(0) of Job(0) completed at9.
 Task(0) of Job(0) completed at9.
 Task(0) of Job(0) completed at9.
 Task(0) of Job(0) completed at9.
-Memory Utilization :  Memory used 0 out of 80 at 10
-CPU Utilization :  cores used 0 out of 40 at 10
+Task(0) of Job(0) completed at9.
+Task(0) of Job(0) completed at9.
+Task(0) of Job(0) completed at9.
+Task(0) of Job(0) completed at9.
+Task(0) of Job(0) completed at9.
+Task(0) of Job(0) completed at9.
+Memory Utilization :  Memory used 0 out of 60 at 10
+CPU Utilization :  cores used 0 out of 30 at 10
 Task(0) of Job(0) completed at10.
 Task(0) of Job(0) completed at10.
 Task(0) of Job(0) completed at10.
@@ -309,8 +305,14 @@ Task(0) of Job(0) completed at10.
 Task(0) of Job(0) completed at10.
 Task(0) of Job(0) completed at10.
 Task(0) of Job(0) completed at10.
-Memory Utilization :  Memory used 0 out of 80 at 11
-CPU Utilization :  cores used 0 out of 40 at 11
+Task(0) of Job(0) completed at10.
+Task(0) of Job(0) completed at10.
+Task(0) of Job(0) completed at10.
+Task(0) of Job(0) completed at10.
+Task(0) of Job(0) completed at10.
+Task(0) of Job(0) completed at10.
+Memory Utilization :  Memory used 0 out of 60 at 11
+CPU Utilization :  cores used 0 out of 30 at 11
 Task(0) of Job(0) completed at11.
 Task(0) of Job(0) completed at11.
 Task(0) of Job(0) completed at11.
@@ -329,8 +331,14 @@ Task(0) of Job(0) completed at11.
 Task(0) of Job(0) completed at11.
 Task(0) of Job(0) completed at11.
 Task(0) of Job(0) completed at11.
-Memory Utilization :  Memory used 0 out of 80 at 12
-CPU Utilization :  cores used 0 out of 40 at 12
+Task(0) of Job(0) completed at11.
+Task(0) of Job(0) completed at11.
+Task(0) of Job(0) completed at11.
+Task(0) of Job(0) completed at11.
+Task(0) of Job(0) completed at11.
+Task(0) of Job(0) completed at11.
+Memory Utilization :  Memory used 0 out of 60 at 12
+CPU Utilization :  cores used 0 out of 30 at 12
 Task(0) of Job(0) completed at12.
 Task(0) of Job(0) completed at12.
 Task(0) of Job(0) completed at12.
@@ -349,8 +357,14 @@ Task(0) of Job(0) completed at12.
 Task(0) of Job(0) completed at12.
 Task(0) of Job(0) completed at12.
 Task(0) of Job(0) completed at12.
-Memory Utilization :  Memory used 0 out of 80 at 13
-CPU Utilization :  cores used 0 out of 40 at 13
+Task(0) of Job(0) completed at12.
+Task(0) of Job(0) completed at12.
+Task(0) of Job(0) completed at12.
+Task(0) of Job(0) completed at12.
+Task(0) of Job(0) completed at12.
+Task(0) of Job(0) completed at12.
+Memory Utilization :  Memory used 0 out of 60 at 13
+CPU Utilization :  cores used 0 out of 30 at 13
 Task(0) of Job(0) completed at13.
 Task(0) of Job(0) completed at13.
 Task(0) of Job(0) completed at13.
@@ -369,8 +383,14 @@ Task(0) of Job(0) completed at13.
 Task(0) of Job(0) completed at13.
 Task(0) of Job(0) completed at13.
 Task(0) of Job(0) completed at13.
-Memory Utilization :  Memory used 0 out of 80 at 14
-CPU Utilization :  cores used 0 out of 40 at 14
+Task(0) of Job(0) completed at13.
+Task(0) of Job(0) completed at13.
+Task(0) of Job(0) completed at13.
+Task(0) of Job(0) completed at13.
+Task(0) of Job(0) completed at13.
+Task(0) of Job(0) completed at13.
+Memory Utilization :  Memory used 0 out of 60 at 14
+CPU Utilization :  cores used 0 out of 30 at 14
 Task(0) of Job(0) completed at14.
 Task(0) of Job(0) completed at14.
 Task(0) of Job(0) completed at14.
@@ -389,8 +409,14 @@ Task(0) of Job(0) completed at14.
 Task(0) of Job(0) completed at14.
 Task(0) of Job(0) completed at14.
 Task(0) of Job(0) completed at14.
-Memory Utilization :  Memory used 0 out of 80 at 15
-CPU Utilization :  cores used 0 out of 40 at 15
+Task(0) of Job(0) completed at14.
+Task(0) of Job(0) completed at14.
+Task(0) of Job(0) completed at14.
+Task(0) of Job(0) completed at14.
+Task(0) of Job(0) completed at14.
+Task(0) of Job(0) completed at14.
+Memory Utilization :  Memory used 0 out of 60 at 15
+CPU Utilization :  cores used 0 out of 30 at 15
 Task(0) of Job(0) completed at15.
 Task(0) of Job(0) completed at15.
 Task(0) of Job(0) completed at15.
@@ -409,8 +435,14 @@ Task(0) of Job(0) completed at15.
 Task(0) of Job(0) completed at15.
 Task(0) of Job(0) completed at15.
 Task(0) of Job(0) completed at15.
-Memory Utilization :  Memory used 0 out of 80 at 16
-CPU Utilization :  cores used 0 out of 40 at 16
+Task(0) of Job(0) completed at15.
+Task(0) of Job(0) completed at15.
+Task(0) of Job(0) completed at15.
+Task(0) of Job(0) completed at15.
+Task(0) of Job(0) completed at15.
+Task(0) of Job(0) completed at15.
+Memory Utilization :  Memory used 0 out of 60 at 16
+CPU Utilization :  cores used 0 out of 30 at 16
 Task(0) of Job(0) completed at16.
 Task(0) of Job(0) completed at16.
 Task(0) of Job(0) completed at16.
@@ -429,8 +461,14 @@ Task(0) of Job(0) completed at16.
 Task(0) of Job(0) completed at16.
 Task(0) of Job(0) completed at16.
 Task(0) of Job(0) completed at16.
-Memory Utilization :  Memory used 0 out of 80 at 17
-CPU Utilization :  cores used 0 out of 40 at 17
+Task(0) of Job(0) completed at16.
+Task(0) of Job(0) completed at16.
+Task(0) of Job(0) completed at16.
+Task(0) of Job(0) completed at16.
+Task(0) of Job(0) completed at16.
+Task(0) of Job(0) completed at16.
+Memory Utilization :  Memory used 0 out of 60 at 17
+CPU Utilization :  cores used 0 out of 30 at 17
 Task(0) of Job(0) completed at17.
 Task(0) of Job(0) completed at17.
 Task(0) of Job(0) completed at17.
@@ -449,8 +487,14 @@ Task(0) of Job(0) completed at17.
 Task(0) of Job(0) completed at17.
 Task(0) of Job(0) completed at17.
 Task(0) of Job(0) completed at17.
-Memory Utilization :  Memory used 0 out of 80 at 18
-CPU Utilization :  cores used 0 out of 40 at 18
+Task(0) of Job(0) completed at17.
+Task(0) of Job(0) completed at17.
+Task(0) of Job(0) completed at17.
+Task(0) of Job(0) completed at17.
+Task(0) of Job(0) completed at17.
+Task(0) of Job(0) completed at17.
+Memory Utilization :  Memory used 0 out of 60 at 18
+CPU Utilization :  cores used 0 out of 30 at 18
 Task(0) of Job(0) completed at18.
 Task(0) of Job(0) completed at18.
 Task(0) of Job(0) completed at18.
@@ -469,8 +513,14 @@ Task(0) of Job(0) completed at18.
 Task(0) of Job(0) completed at18.
 Task(0) of Job(0) completed at18.
 Task(0) of Job(0) completed at18.
-Memory Utilization :  Memory used 0 out of 80 at 19
-CPU Utilization :  cores used 0 out of 40 at 19
+Task(0) of Job(0) completed at18.
+Task(0) of Job(0) completed at18.
+Task(0) of Job(0) completed at18.
+Task(0) of Job(0) completed at18.
+Task(0) of Job(0) completed at18.
+Task(0) of Job(0) completed at18.
+Memory Utilization :  Memory used 0 out of 60 at 19
+CPU Utilization :  cores used 0 out of 30 at 19
 Task(0) of Job(0) completed at19.
 Task(0) of Job(0) completed at19.
 Task(0) of Job(0) completed at19.
@@ -489,8 +539,14 @@ Task(0) of Job(0) completed at19.
 Task(0) of Job(0) completed at19.
 Task(0) of Job(0) completed at19.
 Task(0) of Job(0) completed at19.
-Memory Utilization :  Memory used 0 out of 80 at 20
-CPU Utilization :  cores used 0 out of 40 at 20
+Task(0) of Job(0) completed at19.
+Task(0) of Job(0) completed at19.
+Task(0) of Job(0) completed at19.
+Task(0) of Job(0) completed at19.
+Task(0) of Job(0) completed at19.
+Task(0) of Job(0) completed at19.
+Memory Utilization :  Memory used 0 out of 60 at 20
+CPU Utilization :  cores used 0 out of 30 at 20
 Task(0) of Job(0) completed at20.
 Task(0) of Job(0) completed at20.
 Task(0) of Job(0) completed at20.
@@ -509,8 +565,14 @@ Task(0) of Job(0) completed at20.
 Task(0) of Job(0) completed at20.
 Task(0) of Job(0) completed at20.
 Task(0) of Job(0) completed at20.
-Memory Utilization :  Memory used 0 out of 80 at 21
-CPU Utilization :  cores used 0 out of 40 at 21
+Task(0) of Job(0) completed at20.
+Task(0) of Job(0) completed at20.
+Task(0) of Job(0) completed at20.
+Task(0) of Job(0) completed at20.
+Task(0) of Job(0) completed at20.
+Task(0) of Job(0) completed at20.
+Memory Utilization :  Memory used 0 out of 60 at 21
+CPU Utilization :  cores used 0 out of 30 at 21
 Task(0) of Job(0) completed at21.
 Task(0) of Job(0) completed at21.
 Task(0) of Job(0) completed at21.
@@ -529,8 +591,14 @@ Task(0) of Job(0) completed at21.
 Task(0) of Job(0) completed at21.
 Task(0) of Job(0) completed at21.
 Task(0) of Job(0) completed at21.
-Memory Utilization :  Memory used 0 out of 80 at 22
-CPU Utilization :  cores used 0 out of 40 at 22
+Task(0) of Job(0) completed at21.
+Task(0) of Job(0) completed at21.
+Task(0) of Job(0) completed at21.
+Task(0) of Job(0) completed at21.
+Task(0) of Job(0) completed at21.
+Task(0) of Job(0) completed at21.
+Memory Utilization :  Memory used 0 out of 60 at 22
+CPU Utilization :  cores used 0 out of 30 at 22
 Task(0) of Job(0) completed at22.
 Task(0) of Job(0) completed at22.
 Task(0) of Job(0) completed at22.
@@ -549,8 +617,14 @@ Task(0) of Job(0) completed at22.
 Task(0) of Job(0) completed at22.
 Task(0) of Job(0) completed at22.
 Task(0) of Job(0) completed at22.
-Memory Utilization :  Memory used 0 out of 80 at 23
-CPU Utilization :  cores used 0 out of 40 at 23
+Task(0) of Job(0) completed at22.
+Task(0) of Job(0) completed at22.
+Task(0) of Job(0) completed at22.
+Task(0) of Job(0) completed at22.
+Task(0) of Job(0) completed at22.
+Task(0) of Job(0) completed at22.
+Memory Utilization :  Memory used 0 out of 60 at 23
+CPU Utilization :  cores used 0 out of 30 at 23
 Task(0) of Job(0) completed at23.
 Task(0) of Job(0) completed at23.
 Task(0) of Job(0) completed at23.
@@ -569,8 +643,14 @@ Task(0) of Job(0) completed at23.
 Task(0) of Job(0) completed at23.
 Task(0) of Job(0) completed at23.
 Task(0) of Job(0) completed at23.
-Memory Utilization :  Memory used 0 out of 80 at 24
-CPU Utilization :  cores used 0 out of 40 at 24
+Task(0) of Job(0) completed at23.
+Task(0) of Job(0) completed at23.
+Task(0) of Job(0) completed at23.
+Task(0) of Job(0) completed at23.
+Task(0) of Job(0) completed at23.
+Task(0) of Job(0) completed at23.
+Memory Utilization :  Memory used 0 out of 60 at 24
+CPU Utilization :  cores used 0 out of 30 at 24
 Task(0) of Job(0) completed at24.
 Task(0) of Job(0) completed at24.
 Task(0) of Job(0) completed at24.
@@ -589,8 +669,14 @@ Task(0) of Job(0) completed at24.
 Task(0) of Job(0) completed at24.
 Task(0) of Job(0) completed at24.
 Task(0) of Job(0) completed at24.
-Memory Utilization :  Memory used 0 out of 80 at 25
-CPU Utilization :  cores used 0 out of 40 at 25
+Task(0) of Job(0) completed at24.
+Task(0) of Job(0) completed at24.
+Task(0) of Job(0) completed at24.
+Task(0) of Job(0) completed at24.
+Task(0) of Job(0) completed at24.
+Task(0) of Job(0) completed at24.
+Memory Utilization :  Memory used 0 out of 60 at 25
+CPU Utilization :  cores used 0 out of 30 at 25
 Task(0) of Job(0) completed at25.
 Task(0) of Job(0) completed at25.
 Task(0) of Job(0) completed at25.
@@ -609,8 +695,14 @@ Task(0) of Job(0) completed at25.
 Task(0) of Job(0) completed at25.
 Task(0) of Job(0) completed at25.
 Task(0) of Job(0) completed at25.
-Memory Utilization :  Memory used 0 out of 80 at 26
-CPU Utilization :  cores used 0 out of 40 at 26
+Task(0) of Job(0) completed at25.
+Task(0) of Job(0) completed at25.
+Task(0) of Job(0) completed at25.
+Task(0) of Job(0) completed at25.
+Task(0) of Job(0) completed at25.
+Task(0) of Job(0) completed at25.
+Memory Utilization :  Memory used 0 out of 60 at 26
+CPU Utilization :  cores used 0 out of 30 at 26
 Task(0) of Job(0) completed at26.
 Task(0) of Job(0) completed at26.
 Task(0) of Job(0) completed at26.
@@ -629,8 +721,14 @@ Task(0) of Job(0) completed at26.
 Task(0) of Job(0) completed at26.
 Task(0) of Job(0) completed at26.
 Task(0) of Job(0) completed at26.
-Memory Utilization :  Memory used 0 out of 80 at 27
-CPU Utilization :  cores used 0 out of 40 at 27
+Task(0) of Job(0) completed at26.
+Task(0) of Job(0) completed at26.
+Task(0) of Job(0) completed at26.
+Task(0) of Job(0) completed at26.
+Task(0) of Job(0) completed at26.
+Task(0) of Job(0) completed at26.
+Memory Utilization :  Memory used 0 out of 60 at 27
+CPU Utilization :  cores used 0 out of 30 at 27
 Task(0) of Job(0) completed at27.
 Task(0) of Job(0) completed at27.
 Task(0) of Job(0) completed at27.
@@ -649,8 +747,14 @@ Task(0) of Job(0) completed at27.
 Task(0) of Job(0) completed at27.
 Task(0) of Job(0) completed at27.
 Task(0) of Job(0) completed at27.
-Memory Utilization :  Memory used 0 out of 80 at 28
-CPU Utilization :  cores used 0 out of 40 at 28
+Task(0) of Job(0) completed at27.
+Task(0) of Job(0) completed at27.
+Task(0) of Job(0) completed at27.
+Task(0) of Job(0) completed at27.
+Task(0) of Job(0) completed at27.
+Task(0) of Job(0) completed at27.
+Memory Utilization :  Memory used 0 out of 60 at 28
+CPU Utilization :  cores used 0 out of 30 at 28
 Task(0) of Job(0) completed at28.
 Task(0) of Job(0) completed at28.
 Task(0) of Job(0) completed at28.
@@ -669,8 +773,14 @@ Task(0) of Job(0) completed at28.
 Task(0) of Job(0) completed at28.
 Task(0) of Job(0) completed at28.
 Task(0) of Job(0) completed at28.
-Memory Utilization :  Memory used 0 out of 80 at 29
-CPU Utilization :  cores used 0 out of 40 at 29
+Task(0) of Job(0) completed at28.
+Task(0) of Job(0) completed at28.
+Task(0) of Job(0) completed at28.
+Task(0) of Job(0) completed at28.
+Task(0) of Job(0) completed at28.
+Task(0) of Job(0) completed at28.
+Memory Utilization :  Memory used 0 out of 60 at 29
+CPU Utilization :  cores used 0 out of 30 at 29
 Task(0) of Job(0) completed at29.
 Task(0) of Job(0) completed at29.
 Task(0) of Job(0) completed at29.
@@ -689,8 +799,14 @@ Task(0) of Job(0) completed at29.
 Task(0) of Job(0) completed at29.
 Task(0) of Job(0) completed at29.
 Task(0) of Job(0) completed at29.
-Memory Utilization :  Memory used 0 out of 80 at 30
-CPU Utilization :  cores used 0 out of 40 at 30
+Task(0) of Job(0) completed at29.
+Task(0) of Job(0) completed at29.
+Task(0) of Job(0) completed at29.
+Task(0) of Job(0) completed at29.
+Task(0) of Job(0) completed at29.
+Task(0) of Job(0) completed at29.
+Memory Utilization :  Memory used 0 out of 60 at 30
+CPU Utilization :  cores used 0 out of 30 at 30
 Task(0) of Job(0) completed at30.
 Task(0) of Job(0) completed at30.
 Task(0) of Job(0) completed at30.
@@ -709,5 +825,11 @@ Task(0) of Job(0) completed at30.
 Task(0) of Job(0) completed at30.
 Task(0) of Job(0) completed at30.
 Task(0) of Job(0) completed at30.
-Memory Utilization :  Memory used 0 out of 80 at 31
-CPU Utilization :  cores used 0 out of 40 at 31
+Task(0) of Job(0) completed at30.
+Task(0) of Job(0) completed at30.
+Task(0) of Job(0) completed at30.
+Task(0) of Job(0) completed at30.
+Task(0) of Job(0) completed at30.
+Task(0) of Job(0) completed at30.
+Memory Utilization :  Memory used 0 out of 60 at 31
+CPU Utilization :  cores used 0 out of 30 at 31
