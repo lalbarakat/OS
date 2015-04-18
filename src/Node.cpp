@@ -123,7 +123,8 @@ void Node::CreateExecuters(){
 }
 
 void Node::Create_Waittime_matrix(){
-    Task *t1= new Task(0,1,40,4,2);
+    
+/*    Task *t1= new Task(0,1,40,4,2);
     
     regularQueue.push_back(*t1);
     Task *t2= new Task(0,1,10,2,2);
@@ -132,7 +133,7 @@ void Node::Create_Waittime_matrix(){
     Task *t3= new Task(0,1,30,4,2);
     
     regularQueue.push_back(*t3);
-    Task *t4= new Task(0,1,20,2,4);
+    Task *t4= new Task(0,1,20,2,4);*/
     //queue.push_back(*t4);    
     resize(local_wait_time_matrix,4,4,-1);
     
@@ -140,7 +141,7 @@ void Node::Create_Waittime_matrix(){
     {
         for (size_t j=0; j<local_wait_time_matrix.size(); j++) 
         {
-            Task *t = new Task(0,5,0,Mem_array[j],cores_array[i]);
+            Task *t = new Task(0,5,0,Mem_array[j],cores_array[i],1);
             addRegularTask(*t);
             if(cores_array[i] > CORESNUM || Mem_array[j] > MAINMEMORY)
                 local_wait_time_matrix[i][j] = -1;
@@ -395,5 +396,7 @@ void CPU::Executer(Node *ptr ){
 
             validate(ptr->CORESNUM,ptr->MAINMEMORY);
 //            std::cout<<"This is executer"<<std::endl;    
+            stats.inctotalCores(ptr->CORESNUM);
+            stats.inctotalGB(ptr->MAINMEMORY);
               
 }

@@ -40,9 +40,9 @@ public:
     unsigned long long getClock(){return clock;}
     void incClock(){clock++;}
     void incCoresUSed(){coresUsed++;}
-    void inctotalCores(){totalCores++;}
+    void inctotalCores(int cores){totalCores+=cores;}
     void incGBUSed(){GBUsed++;}
-    void inctotalGB(){totalGB++;}
+    void inctotalGB(int GB){totalGB+=GB;}
     
     unsigned long getCoresUSed(){return coresUsed;}
     void setCoresUSed(int coresused){coresUsed =coresused;}
