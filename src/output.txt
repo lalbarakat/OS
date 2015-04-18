@@ -1,1 +1,26 @@
 Stats file
+Memory Utilization :  Memory used 4 out of 56 at 5
+CPU Utilization :  cores used 2 out of 28 at 5
+
+Task(0) of Job(1) completed at101.
+Memory Utilization :  Memory used 8 out of 56 at 103
+CPU Utilization :  cores used 4 out of 28 at 103
+
+Task(0) of Job(3) completed at103.
+Memory Utilization :  Memory used 12 out of 56 at 105
+CPU Utilization :  cores used 6 out of 28 at 105
+
+Task(0) of Job(2) completed at201.
+Memory Utilization :  Memory used 10 out of 56 at 203
+Task(1) of Job(1) completed at251.
+Task(1) of Job(3) completed at301.
+Task(4) of Job(1) completed at301.
+Task(2) of Job(1) completed at303.
+Task(1) of Job(2) completed at351.
+Memory Utilization :  Memory used 8 out of 56 at 353
+CPU Utilization :  cores used 4 out of 28 at 353
+
+Task(2) of Job(3) completed at503.
+Memory Utilization :  Memory used 0 out of 56 at 505
+CPU Utilization :  cores used 0 out of 28 at 505
+
