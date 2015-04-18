@@ -102,14 +102,14 @@ float Node::Estimatewaittime(int cores, int memory)
  }
 
 void Node::Scheduler(){
-    std::cout<<"This is scheduler"<<std::endl;
+    //std::cout<<"This is scheduler"<<std::endl;
     Task t=PJSNode.PeekTask();
-    std::cout<<"Task from PJS_Node"<<t.getTaskId()<<std::endl;
-    std::cout<<"Task from PJS_Node"<<t.getCores_required()<<std::endl;
+    //std::cout<<"Task from PJS_Node"<<t.getTaskId()<<std::endl;
+    //std::cout<<"Task from PJS_Node"<<t.getCores_required()<<std::endl;
     addRegularTask(PJSNode.getTask());
-    std::cout<<"Task id"<<id<<t.getTaskId()<<std::endl;
-    std::cout<<"Task exec time"<<id<<t.getCPU_time()<<std::endl;
-    std::cout<<"Task memory"<<id<<t.getMemory_required()<<std::endl;
+    //std::cout<<"Task id"<<id<<t.getTaskId()<<std::endl;
+    //std::cout<<"Task exec time"<<id<<t.getCPU_time()<<std::endl;
+    //std::cout<<"Task memory"<<id<<t.getMemory_required()<<std::endl;
 }
 
 void Node::Execute(){

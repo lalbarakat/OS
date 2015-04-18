@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
     
     unsigned long long num_loops;
     if(argc < 2){
-        num_loops= 1000;
+        num_loops= 10000;
     }
     else{
         std::istringstream ss(argv[1]);
