@@ -116,8 +116,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
         curBatch.push_back(*iter);
         std::cout<<(*iter).getTaskId()<<std::endl;
     }
-    
-    
+        
 }
 
 PJS::~PJS() {
