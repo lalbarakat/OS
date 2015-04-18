@@ -1,713 +1,2016 @@
 Stats file
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Task(0) of Job(0) completed at0.
-Memory Utilization :  Memory used 0 out of 80 at 1
-CPU Utilization :  cores used 0 out of 40 at 1
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Task(0) of Job(0) completed at1.
-Memory Utilization :  Memory used 0 out of 80 at 2
-CPU Utilization :  cores used 0 out of 40 at 2
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Task(0) of Job(0) completed at2.
-Memory Utilization :  Memory used 0 out of 80 at 3
-CPU Utilization :  cores used 0 out of 40 at 3
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Task(0) of Job(0) completed at3.
-Memory Utilization :  Memory used 0 out of 80 at 4
-CPU Utilization :  cores used 0 out of 40 at 4
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Task(0) of Job(0) completed at4.
-Memory Utilization :  Memory used 0 out of 80 at 5
-CPU Utilization :  cores used 0 out of 40 at 5
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Task(0) of Job(0) completed at5.
-Memory Utilization :  Memory used 0 out of 80 at 6
-CPU Utilization :  cores used 0 out of 40 at 6
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Task(0) of Job(0) completed at6.
-Memory Utilization :  Memory used 0 out of 80 at 7
-CPU Utilization :  cores used 0 out of 40 at 7
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Task(0) of Job(0) completed at7.
-Memory Utilization :  Memory used 0 out of 80 at 8
-CPU Utilization :  cores used 0 out of 40 at 8
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Task(0) of Job(0) completed at8.
-Memory Utilization :  Memory used 0 out of 80 at 9
-CPU Utilization :  cores used 0 out of 40 at 9
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Task(0) of Job(0) completed at9.
-Memory Utilization :  Memory used 0 out of 80 at 10
-CPU Utilization :  cores used 0 out of 40 at 10
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Task(0) of Job(0) completed at10.
-Memory Utilization :  Memory used 0 out of 80 at 11
-CPU Utilization :  cores used 0 out of 40 at 11
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Task(0) of Job(0) completed at11.
-Memory Utilization :  Memory used 0 out of 80 at 12
-CPU Utilization :  cores used 0 out of 40 at 12
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Task(0) of Job(0) completed at12.
-Memory Utilization :  Memory used 0 out of 80 at 13
-CPU Utilization :  cores used 0 out of 40 at 13
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Task(0) of Job(0) completed at13.
-Memory Utilization :  Memory used 0 out of 80 at 14
-CPU Utilization :  cores used 0 out of 40 at 14
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Task(0) of Job(0) completed at14.
-Memory Utilization :  Memory used 0 out of 80 at 15
-CPU Utilization :  cores used 0 out of 40 at 15
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Task(0) of Job(0) completed at15.
-Memory Utilization :  Memory used 0 out of 80 at 16
-CPU Utilization :  cores used 0 out of 40 at 16
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Task(0) of Job(0) completed at16.
-Memory Utilization :  Memory used 0 out of 80 at 17
-CPU Utilization :  cores used 0 out of 40 at 17
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Task(0) of Job(0) completed at17.
-Memory Utilization :  Memory used 0 out of 80 at 18
-CPU Utilization :  cores used 0 out of 40 at 18
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Task(0) of Job(0) completed at18.
-Memory Utilization :  Memory used 0 out of 80 at 19
-CPU Utilization :  cores used 0 out of 40 at 19
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Task(0) of Job(0) completed at19.
-Memory Utilization :  Memory used 0 out of 80 at 20
-CPU Utilization :  cores used 0 out of 40 at 20
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Task(0) of Job(0) completed at20.
-Memory Utilization :  Memory used 0 out of 80 at 21
-CPU Utilization :  cores used 0 out of 40 at 21
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Task(0) of Job(0) completed at21.
-Memory Utilization :  Memory used 0 out of 80 at 22
-CPU Utilization :  cores used 0 out of 40 at 22
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Task(0) of Job(0) completed at22.
-Memory Utilization :  Memory used 0 out of 80 at 23
-CPU Utilization :  cores used 0 out of 40 at 23
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Task(0) of Job(0) completed at23.
-Memory Utilization :  Memory used 0 out of 80 at 24
-CPU Utilization :  cores used 0 out of 40 at 24
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Task(0) of Job(0) completed at24.
-Memory Utilization :  Memory used 0 out of 80 at 25
-CPU Utilization :  cores used 0 out of 40 at 25
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Task(0) of Job(0) completed at25.
-Memory Utilization :  Memory used 0 out of 80 at 26
-CPU Utilization :  cores used 0 out of 40 at 26
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Task(0) of Job(0) completed at26.
-Memory Utilization :  Memory used 0 out of 80 at 27
-CPU Utilization :  cores used 0 out of 40 at 27
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Task(0) of Job(0) completed at27.
-Memory Utilization :  Memory used 0 out of 80 at 28
-CPU Utilization :  cores used 0 out of 40 at 28
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Task(0) of Job(0) completed at28.
-Memory Utilization :  Memory used 0 out of 80 at 29
-CPU Utilization :  cores used 0 out of 40 at 29
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Task(0) of Job(0) completed at29.
-Memory Utilization :  Memory used 0 out of 80 at 30
-CPU Utilization :  cores used 0 out of 40 at 30
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Task(0) of Job(0) completed at30.
-Memory Utilization :  Memory used 0 out of 80 at 31
-CPU Utilization :  cores used 0 out of 40 at 31
+Memory Utilization :  Memory used 0 out of 40 at 1
+CPU Utilization :  cores used 0 out of 20 at 1
+Memory Utilization :  Memory used 0 out of 40 at 2
+CPU Utilization :  cores used 0 out of 20 at 2
+Memory Utilization :  Memory used 0 out of 40 at 3
+CPU Utilization :  cores used 0 out of 20 at 3
+Memory Utilization :  Memory used 8 out of 40 at 4
+CPU Utilization :  cores used 3 out of 20 at 4
+Memory Utilization :  Memory used 8 out of 40 at 5
+CPU Utilization :  cores used 3 out of 20 at 5
+Memory Utilization :  Memory used 8 out of 40 at 6
+CPU Utilization :  cores used 3 out of 20 at 6
+Memory Utilization :  Memory used 8 out of 40 at 7
+CPU Utilization :  cores used 3 out of 20 at 7
+Memory Utilization :  Memory used 8 out of 40 at 8
+CPU Utilization :  cores used 3 out of 20 at 8
+Memory Utilization :  Memory used 8 out of 40 at 9
+CPU Utilization :  cores used 3 out of 20 at 9
+Memory Utilization :  Memory used 8 out of 40 at 10
+CPU Utilization :  cores used 3 out of 20 at 10
+Memory Utilization :  Memory used 8 out of 40 at 11
+CPU Utilization :  cores used 3 out of 20 at 11
+Memory Utilization :  Memory used 8 out of 40 at 12
+CPU Utilization :  cores used 3 out of 20 at 12
+Memory Utilization :  Memory used 8 out of 40 at 13
+CPU Utilization :  cores used 3 out of 20 at 13
+Memory Utilization :  Memory used 8 out of 40 at 14
+CPU Utilization :  cores used 3 out of 20 at 14
+Memory Utilization :  Memory used 8 out of 40 at 15
+CPU Utilization :  cores used 3 out of 20 at 15
+Memory Utilization :  Memory used 8 out of 40 at 16
+CPU Utilization :  cores used 3 out of 20 at 16
+Memory Utilization :  Memory used 8 out of 40 at 17
+CPU Utilization :  cores used 3 out of 20 at 17
+Memory Utilization :  Memory used 8 out of 40 at 18
+CPU Utilization :  cores used 3 out of 20 at 18
+Memory Utilization :  Memory used 8 out of 40 at 19
+CPU Utilization :  cores used 3 out of 20 at 19
+Memory Utilization :  Memory used 8 out of 40 at 20
+CPU Utilization :  cores used 3 out of 20 at 20
+Memory Utilization :  Memory used 8 out of 40 at 21
+CPU Utilization :  cores used 3 out of 20 at 21
+Memory Utilization :  Memory used 8 out of 40 at 22
+CPU Utilization :  cores used 3 out of 20 at 22
+Memory Utilization :  Memory used 8 out of 40 at 23
+CPU Utilization :  cores used 3 out of 20 at 23
+Memory Utilization :  Memory used 8 out of 40 at 24
+CPU Utilization :  cores used 3 out of 20 at 24
+Memory Utilization :  Memory used 8 out of 40 at 25
+CPU Utilization :  cores used 3 out of 20 at 25
+Memory Utilization :  Memory used 8 out of 40 at 26
+CPU Utilization :  cores used 3 out of 20 at 26
+Memory Utilization :  Memory used 8 out of 40 at 27
+CPU Utilization :  cores used 3 out of 20 at 27
+Memory Utilization :  Memory used 8 out of 40 at 28
+CPU Utilization :  cores used 3 out of 20 at 28
+Memory Utilization :  Memory used 8 out of 40 at 29
+CPU Utilization :  cores used 3 out of 20 at 29
+Memory Utilization :  Memory used 8 out of 40 at 30
+CPU Utilization :  cores used 3 out of 20 at 30
+Memory Utilization :  Memory used 8 out of 40 at 31
+CPU Utilization :  cores used 3 out of 20 at 31
+Memory Utilization :  Memory used 8 out of 40 at 32
+CPU Utilization :  cores used 3 out of 20 at 32
+Memory Utilization :  Memory used 8 out of 40 at 33
+CPU Utilization :  cores used 3 out of 20 at 33
+Memory Utilization :  Memory used 8 out of 40 at 34
+CPU Utilization :  cores used 3 out of 20 at 34
+Memory Utilization :  Memory used 8 out of 40 at 35
+CPU Utilization :  cores used 3 out of 20 at 35
+Memory Utilization :  Memory used 8 out of 40 at 36
+CPU Utilization :  cores used 3 out of 20 at 36
+Memory Utilization :  Memory used 8 out of 40 at 37
+CPU Utilization :  cores used 3 out of 20 at 37
+Memory Utilization :  Memory used 8 out of 40 at 38
+CPU Utilization :  cores used 3 out of 20 at 38
+Memory Utilization :  Memory used 8 out of 40 at 39
+CPU Utilization :  cores used 3 out of 20 at 39
+Memory Utilization :  Memory used 8 out of 40 at 40
+CPU Utilization :  cores used 3 out of 20 at 40
+Memory Utilization :  Memory used 8 out of 40 at 41
+CPU Utilization :  cores used 3 out of 20 at 41
+Memory Utilization :  Memory used 8 out of 40 at 42
+CPU Utilization :  cores used 3 out of 20 at 42
+Memory Utilization :  Memory used 8 out of 40 at 43
+CPU Utilization :  cores used 3 out of 20 at 43
+Memory Utilization :  Memory used 8 out of 40 at 44
+CPU Utilization :  cores used 3 out of 20 at 44
+Memory Utilization :  Memory used 8 out of 40 at 45
+CPU Utilization :  cores used 3 out of 20 at 45
+Memory Utilization :  Memory used 8 out of 40 at 46
+CPU Utilization :  cores used 3 out of 20 at 46
+Memory Utilization :  Memory used 8 out of 40 at 47
+CPU Utilization :  cores used 3 out of 20 at 47
+Memory Utilization :  Memory used 8 out of 40 at 48
+CPU Utilization :  cores used 3 out of 20 at 48
+Memory Utilization :  Memory used 8 out of 40 at 49
+CPU Utilization :  cores used 3 out of 20 at 49
+Memory Utilization :  Memory used 8 out of 40 at 50
+CPU Utilization :  cores used 3 out of 20 at 50
+Memory Utilization :  Memory used 8 out of 40 at 51
+CPU Utilization :  cores used 3 out of 20 at 51
+Memory Utilization :  Memory used 8 out of 40 at 52
+CPU Utilization :  cores used 3 out of 20 at 52
+Memory Utilization :  Memory used 8 out of 40 at 53
+CPU Utilization :  cores used 3 out of 20 at 53
+Memory Utilization :  Memory used 8 out of 40 at 54
+CPU Utilization :  cores used 3 out of 20 at 54
+Memory Utilization :  Memory used 8 out of 40 at 55
+CPU Utilization :  cores used 3 out of 20 at 55
+Memory Utilization :  Memory used 8 out of 40 at 56
+CPU Utilization :  cores used 3 out of 20 at 56
+Memory Utilization :  Memory used 8 out of 40 at 57
+CPU Utilization :  cores used 3 out of 20 at 57
+Memory Utilization :  Memory used 8 out of 40 at 58
+CPU Utilization :  cores used 3 out of 20 at 58
+Memory Utilization :  Memory used 8 out of 40 at 59
+CPU Utilization :  cores used 3 out of 20 at 59
+Memory Utilization :  Memory used 8 out of 40 at 60
+CPU Utilization :  cores used 3 out of 20 at 60
+Memory Utilization :  Memory used 8 out of 40 at 61
+CPU Utilization :  cores used 3 out of 20 at 61
+Memory Utilization :  Memory used 8 out of 40 at 62
+CPU Utilization :  cores used 3 out of 20 at 62
+Memory Utilization :  Memory used 8 out of 40 at 63
+CPU Utilization :  cores used 3 out of 20 at 63
+Memory Utilization :  Memory used 8 out of 40 at 64
+CPU Utilization :  cores used 3 out of 20 at 64
+Memory Utilization :  Memory used 8 out of 40 at 65
+CPU Utilization :  cores used 3 out of 20 at 65
+Memory Utilization :  Memory used 8 out of 40 at 66
+CPU Utilization :  cores used 3 out of 20 at 66
+Memory Utilization :  Memory used 8 out of 40 at 67
+CPU Utilization :  cores used 3 out of 20 at 67
+Memory Utilization :  Memory used 8 out of 40 at 68
+CPU Utilization :  cores used 3 out of 20 at 68
+Memory Utilization :  Memory used 8 out of 40 at 69
+CPU Utilization :  cores used 3 out of 20 at 69
+Memory Utilization :  Memory used 8 out of 40 at 70
+CPU Utilization :  cores used 3 out of 20 at 70
+Memory Utilization :  Memory used 8 out of 40 at 71
+CPU Utilization :  cores used 3 out of 20 at 71
+Memory Utilization :  Memory used 8 out of 40 at 72
+CPU Utilization :  cores used 3 out of 20 at 72
+Memory Utilization :  Memory used 8 out of 40 at 73
+CPU Utilization :  cores used 3 out of 20 at 73
+Memory Utilization :  Memory used 8 out of 40 at 74
+CPU Utilization :  cores used 3 out of 20 at 74
+Memory Utilization :  Memory used 8 out of 40 at 75
+CPU Utilization :  cores used 3 out of 20 at 75
+Memory Utilization :  Memory used 8 out of 40 at 76
+CPU Utilization :  cores used 3 out of 20 at 76
+Memory Utilization :  Memory used 8 out of 40 at 77
+CPU Utilization :  cores used 3 out of 20 at 77
+Memory Utilization :  Memory used 8 out of 40 at 78
+CPU Utilization :  cores used 3 out of 20 at 78
+Memory Utilization :  Memory used 8 out of 40 at 79
+CPU Utilization :  cores used 3 out of 20 at 79
+Memory Utilization :  Memory used 8 out of 40 at 80
+CPU Utilization :  cores used 3 out of 20 at 80
+Memory Utilization :  Memory used 8 out of 40 at 81
+CPU Utilization :  cores used 3 out of 20 at 81
+Memory Utilization :  Memory used 8 out of 40 at 82
+CPU Utilization :  cores used 3 out of 20 at 82
+Memory Utilization :  Memory used 8 out of 40 at 83
+CPU Utilization :  cores used 3 out of 20 at 83
+Memory Utilization :  Memory used 8 out of 40 at 84
+CPU Utilization :  cores used 3 out of 20 at 84
+Memory Utilization :  Memory used 8 out of 40 at 85
+CPU Utilization :  cores used 3 out of 20 at 85
+Memory Utilization :  Memory used 8 out of 40 at 86
+CPU Utilization :  cores used 3 out of 20 at 86
+Memory Utilization :  Memory used 8 out of 40 at 87
+CPU Utilization :  cores used 3 out of 20 at 87
+Memory Utilization :  Memory used 8 out of 40 at 88
+CPU Utilization :  cores used 3 out of 20 at 88
+Memory Utilization :  Memory used 8 out of 40 at 89
+CPU Utilization :  cores used 3 out of 20 at 89
+Memory Utilization :  Memory used 8 out of 40 at 90
+CPU Utilization :  cores used 3 out of 20 at 90
+Memory Utilization :  Memory used 8 out of 40 at 91
+CPU Utilization :  cores used 3 out of 20 at 91
+Memory Utilization :  Memory used 8 out of 40 at 92
+CPU Utilization :  cores used 3 out of 20 at 92
+Memory Utilization :  Memory used 8 out of 40 at 93
+CPU Utilization :  cores used 3 out of 20 at 93
+Memory Utilization :  Memory used 8 out of 40 at 94
+CPU Utilization :  cores used 3 out of 20 at 94
+Memory Utilization :  Memory used 8 out of 40 at 95
+CPU Utilization :  cores used 3 out of 20 at 95
+Memory Utilization :  Memory used 8 out of 40 at 96
+CPU Utilization :  cores used 3 out of 20 at 96
+Memory Utilization :  Memory used 8 out of 40 at 97
+CPU Utilization :  cores used 3 out of 20 at 97
+Memory Utilization :  Memory used 8 out of 40 at 98
+CPU Utilization :  cores used 3 out of 20 at 98
+Memory Utilization :  Memory used 8 out of 40 at 99
+CPU Utilization :  cores used 3 out of 20 at 99
+Memory Utilization :  Memory used 8 out of 40 at 100
+CPU Utilization :  cores used 3 out of 20 at 100
+Memory Utilization :  Memory used 8 out of 40 at 101
+CPU Utilization :  cores used 3 out of 20 at 101
+Memory Utilization :  Memory used 8 out of 40 at 102
+CPU Utilization :  cores used 3 out of 20 at 102
+Memory Utilization :  Memory used 8 out of 40 at 103
+CPU Utilization :  cores used 3 out of 20 at 103
+Memory Utilization :  Memory used 8 out of 40 at 104
+CPU Utilization :  cores used 3 out of 20 at 104
+Memory Utilization :  Memory used 8 out of 40 at 105
+CPU Utilization :  cores used 3 out of 20 at 105
+Memory Utilization :  Memory used 8 out of 40 at 106
+CPU Utilization :  cores used 3 out of 20 at 106
+Memory Utilization :  Memory used 8 out of 40 at 107
+CPU Utilization :  cores used 3 out of 20 at 107
+Memory Utilization :  Memory used 8 out of 40 at 108
+CPU Utilization :  cores used 3 out of 20 at 108
+Memory Utilization :  Memory used 8 out of 40 at 109
+CPU Utilization :  cores used 3 out of 20 at 109
+Memory Utilization :  Memory used 8 out of 40 at 110
+CPU Utilization :  cores used 3 out of 20 at 110
+Memory Utilization :  Memory used 8 out of 40 at 111
+CPU Utilization :  cores used 3 out of 20 at 111
+Memory Utilization :  Memory used 8 out of 40 at 112
+CPU Utilization :  cores used 3 out of 20 at 112
+Memory Utilization :  Memory used 8 out of 40 at 113
+CPU Utilization :  cores used 3 out of 20 at 113
+Memory Utilization :  Memory used 8 out of 40 at 114
+CPU Utilization :  cores used 3 out of 20 at 114
+Memory Utilization :  Memory used 8 out of 40 at 115
+CPU Utilization :  cores used 3 out of 20 at 115
+Memory Utilization :  Memory used 8 out of 40 at 116
+CPU Utilization :  cores used 3 out of 20 at 116
+Memory Utilization :  Memory used 8 out of 40 at 117
+CPU Utilization :  cores used 3 out of 20 at 117
+Memory Utilization :  Memory used 8 out of 40 at 118
+CPU Utilization :  cores used 3 out of 20 at 118
+Memory Utilization :  Memory used 8 out of 40 at 119
+CPU Utilization :  cores used 3 out of 20 at 119
+Memory Utilization :  Memory used 8 out of 40 at 120
+CPU Utilization :  cores used 3 out of 20 at 120
+Memory Utilization :  Memory used 8 out of 40 at 121
+CPU Utilization :  cores used 3 out of 20 at 121
+Memory Utilization :  Memory used 8 out of 40 at 122
+CPU Utilization :  cores used 3 out of 20 at 122
+Memory Utilization :  Memory used 8 out of 40 at 123
+CPU Utilization :  cores used 3 out of 20 at 123
+Memory Utilization :  Memory used 8 out of 40 at 124
+CPU Utilization :  cores used 3 out of 20 at 124
+Memory Utilization :  Memory used 8 out of 40 at 125
+CPU Utilization :  cores used 3 out of 20 at 125
+Memory Utilization :  Memory used 8 out of 40 at 126
+CPU Utilization :  cores used 3 out of 20 at 126
+Memory Utilization :  Memory used 8 out of 40 at 127
+CPU Utilization :  cores used 3 out of 20 at 127
+Memory Utilization :  Memory used 8 out of 40 at 128
+CPU Utilization :  cores used 3 out of 20 at 128
+Memory Utilization :  Memory used 8 out of 40 at 129
+CPU Utilization :  cores used 3 out of 20 at 129
+Memory Utilization :  Memory used 8 out of 40 at 130
+CPU Utilization :  cores used 3 out of 20 at 130
+Memory Utilization :  Memory used 8 out of 40 at 131
+CPU Utilization :  cores used 3 out of 20 at 131
+Memory Utilization :  Memory used 8 out of 40 at 132
+CPU Utilization :  cores used 3 out of 20 at 132
+Memory Utilization :  Memory used 8 out of 40 at 133
+CPU Utilization :  cores used 3 out of 20 at 133
+Memory Utilization :  Memory used 8 out of 40 at 134
+CPU Utilization :  cores used 3 out of 20 at 134
+Memory Utilization :  Memory used 8 out of 40 at 135
+CPU Utilization :  cores used 3 out of 20 at 135
+Memory Utilization :  Memory used 8 out of 40 at 136
+CPU Utilization :  cores used 3 out of 20 at 136
+Memory Utilization :  Memory used 8 out of 40 at 137
+CPU Utilization :  cores used 3 out of 20 at 137
+Memory Utilization :  Memory used 8 out of 40 at 138
+CPU Utilization :  cores used 3 out of 20 at 138
+Memory Utilization :  Memory used 8 out of 40 at 139
+CPU Utilization :  cores used 3 out of 20 at 139
+Memory Utilization :  Memory used 8 out of 40 at 140
+CPU Utilization :  cores used 3 out of 20 at 140
+Memory Utilization :  Memory used 8 out of 40 at 141
+CPU Utilization :  cores used 3 out of 20 at 141
+Memory Utilization :  Memory used 8 out of 40 at 142
+CPU Utilization :  cores used 3 out of 20 at 142
+Memory Utilization :  Memory used 8 out of 40 at 143
+CPU Utilization :  cores used 3 out of 20 at 143
+Memory Utilization :  Memory used 8 out of 40 at 144
+CPU Utilization :  cores used 3 out of 20 at 144
+Memory Utilization :  Memory used 8 out of 40 at 145
+CPU Utilization :  cores used 3 out of 20 at 145
+Memory Utilization :  Memory used 8 out of 40 at 146
+CPU Utilization :  cores used 3 out of 20 at 146
+Memory Utilization :  Memory used 8 out of 40 at 147
+CPU Utilization :  cores used 3 out of 20 at 147
+Memory Utilization :  Memory used 8 out of 40 at 148
+CPU Utilization :  cores used 3 out of 20 at 148
+Memory Utilization :  Memory used 8 out of 40 at 149
+CPU Utilization :  cores used 3 out of 20 at 149
+Memory Utilization :  Memory used 8 out of 40 at 150
+CPU Utilization :  cores used 3 out of 20 at 150
+Memory Utilization :  Memory used 8 out of 40 at 151
+CPU Utilization :  cores used 3 out of 20 at 151
+Memory Utilization :  Memory used 8 out of 40 at 152
+CPU Utilization :  cores used 3 out of 20 at 152
+Memory Utilization :  Memory used 8 out of 40 at 153
+CPU Utilization :  cores used 3 out of 20 at 153
+Memory Utilization :  Memory used 8 out of 40 at 154
+CPU Utilization :  cores used 3 out of 20 at 154
+Memory Utilization :  Memory used 8 out of 40 at 155
+CPU Utilization :  cores used 3 out of 20 at 155
+Memory Utilization :  Memory used 8 out of 40 at 156
+CPU Utilization :  cores used 3 out of 20 at 156
+Memory Utilization :  Memory used 8 out of 40 at 157
+CPU Utilization :  cores used 3 out of 20 at 157
+Memory Utilization :  Memory used 8 out of 40 at 158
+CPU Utilization :  cores used 3 out of 20 at 158
+Memory Utilization :  Memory used 8 out of 40 at 159
+CPU Utilization :  cores used 3 out of 20 at 159
+Memory Utilization :  Memory used 8 out of 40 at 160
+CPU Utilization :  cores used 3 out of 20 at 160
+Memory Utilization :  Memory used 8 out of 40 at 161
+CPU Utilization :  cores used 3 out of 20 at 161
+Memory Utilization :  Memory used 8 out of 40 at 162
+CPU Utilization :  cores used 3 out of 20 at 162
+Memory Utilization :  Memory used 8 out of 40 at 163
+CPU Utilization :  cores used 3 out of 20 at 163
+Memory Utilization :  Memory used 8 out of 40 at 164
+CPU Utilization :  cores used 3 out of 20 at 164
+Memory Utilization :  Memory used 8 out of 40 at 165
+CPU Utilization :  cores used 3 out of 20 at 165
+Memory Utilization :  Memory used 8 out of 40 at 166
+CPU Utilization :  cores used 3 out of 20 at 166
+Memory Utilization :  Memory used 8 out of 40 at 167
+CPU Utilization :  cores used 3 out of 20 at 167
+Memory Utilization :  Memory used 8 out of 40 at 168
+CPU Utilization :  cores used 3 out of 20 at 168
+Memory Utilization :  Memory used 8 out of 40 at 169
+CPU Utilization :  cores used 3 out of 20 at 169
+Memory Utilization :  Memory used 8 out of 40 at 170
+CPU Utilization :  cores used 3 out of 20 at 170
+Memory Utilization :  Memory used 8 out of 40 at 171
+CPU Utilization :  cores used 3 out of 20 at 171
+Memory Utilization :  Memory used 8 out of 40 at 172
+CPU Utilization :  cores used 3 out of 20 at 172
+Memory Utilization :  Memory used 8 out of 40 at 173
+CPU Utilization :  cores used 3 out of 20 at 173
+Memory Utilization :  Memory used 8 out of 40 at 174
+CPU Utilization :  cores used 3 out of 20 at 174
+Memory Utilization :  Memory used 8 out of 40 at 175
+CPU Utilization :  cores used 3 out of 20 at 175
+Memory Utilization :  Memory used 8 out of 40 at 176
+CPU Utilization :  cores used 3 out of 20 at 176
+Memory Utilization :  Memory used 8 out of 40 at 177
+CPU Utilization :  cores used 3 out of 20 at 177
+Memory Utilization :  Memory used 8 out of 40 at 178
+CPU Utilization :  cores used 3 out of 20 at 178
+Memory Utilization :  Memory used 8 out of 40 at 179
+CPU Utilization :  cores used 3 out of 20 at 179
+Memory Utilization :  Memory used 8 out of 40 at 180
+CPU Utilization :  cores used 3 out of 20 at 180
+Memory Utilization :  Memory used 8 out of 40 at 181
+CPU Utilization :  cores used 3 out of 20 at 181
+Memory Utilization :  Memory used 8 out of 40 at 182
+CPU Utilization :  cores used 3 out of 20 at 182
+Memory Utilization :  Memory used 8 out of 40 at 183
+CPU Utilization :  cores used 3 out of 20 at 183
+Memory Utilization :  Memory used 8 out of 40 at 184
+CPU Utilization :  cores used 3 out of 20 at 184
+Memory Utilization :  Memory used 8 out of 40 at 185
+CPU Utilization :  cores used 3 out of 20 at 185
+Memory Utilization :  Memory used 8 out of 40 at 186
+CPU Utilization :  cores used 3 out of 20 at 186
+Memory Utilization :  Memory used 8 out of 40 at 187
+CPU Utilization :  cores used 3 out of 20 at 187
+Memory Utilization :  Memory used 8 out of 40 at 188
+CPU Utilization :  cores used 3 out of 20 at 188
+Memory Utilization :  Memory used 8 out of 40 at 189
+CPU Utilization :  cores used 3 out of 20 at 189
+Memory Utilization :  Memory used 8 out of 40 at 190
+CPU Utilization :  cores used 3 out of 20 at 190
+Memory Utilization :  Memory used 8 out of 40 at 191
+CPU Utilization :  cores used 3 out of 20 at 191
+Memory Utilization :  Memory used 8 out of 40 at 192
+CPU Utilization :  cores used 3 out of 20 at 192
+Memory Utilization :  Memory used 8 out of 40 at 193
+CPU Utilization :  cores used 3 out of 20 at 193
+Memory Utilization :  Memory used 8 out of 40 at 194
+CPU Utilization :  cores used 3 out of 20 at 194
+Memory Utilization :  Memory used 8 out of 40 at 195
+CPU Utilization :  cores used 3 out of 20 at 195
+Memory Utilization :  Memory used 8 out of 40 at 196
+CPU Utilization :  cores used 3 out of 20 at 196
+Memory Utilization :  Memory used 8 out of 40 at 197
+CPU Utilization :  cores used 3 out of 20 at 197
+Memory Utilization :  Memory used 8 out of 40 at 198
+CPU Utilization :  cores used 3 out of 20 at 198
+Memory Utilization :  Memory used 8 out of 40 at 199
+CPU Utilization :  cores used 3 out of 20 at 199
+Memory Utilization :  Memory used 8 out of 40 at 200
+CPU Utilization :  cores used 3 out of 20 at 200
+Memory Utilization :  Memory used 8 out of 40 at 201
+CPU Utilization :  cores used 3 out of 20 at 201
+Task(5) of Job(1) completed at201.
+Task(5) of Job(1) completed at201.
+Task(5) of Job(1) completed at201.
+Memory Utilization :  Memory used 8 out of 40 at 202
+CPU Utilization :  cores used 3 out of 20 at 202
+Memory Utilization :  Memory used 8 out of 40 at 203
+CPU Utilization :  cores used 4 out of 20 at 203
+Memory Utilization :  Memory used 8 out of 40 at 204
+CPU Utilization :  cores used 3 out of 20 at 204
+Memory Utilization :  Memory used 8 out of 40 at 205
+CPU Utilization :  cores used 3 out of 20 at 205
+Memory Utilization :  Memory used 8 out of 40 at 206
+CPU Utilization :  cores used 3 out of 20 at 206
+Memory Utilization :  Memory used 8 out of 40 at 207
+CPU Utilization :  cores used 3 out of 20 at 207
+Memory Utilization :  Memory used 8 out of 40 at 208
+CPU Utilization :  cores used 3 out of 20 at 208
+Memory Utilization :  Memory used 8 out of 40 at 209
+CPU Utilization :  cores used 3 out of 20 at 209
+Memory Utilization :  Memory used 8 out of 40 at 210
+CPU Utilization :  cores used 3 out of 20 at 210
+Memory Utilization :  Memory used 8 out of 40 at 211
+CPU Utilization :  cores used 3 out of 20 at 211
+Memory Utilization :  Memory used 8 out of 40 at 212
+CPU Utilization :  cores used 3 out of 20 at 212
+Memory Utilization :  Memory used 8 out of 40 at 213
+CPU Utilization :  cores used 3 out of 20 at 213
+Memory Utilization :  Memory used 8 out of 40 at 214
+CPU Utilization :  cores used 3 out of 20 at 214
+Memory Utilization :  Memory used 8 out of 40 at 215
+CPU Utilization :  cores used 3 out of 20 at 215
+Memory Utilization :  Memory used 8 out of 40 at 216
+CPU Utilization :  cores used 3 out of 20 at 216
+Memory Utilization :  Memory used 8 out of 40 at 217
+CPU Utilization :  cores used 3 out of 20 at 217
+Memory Utilization :  Memory used 8 out of 40 at 218
+CPU Utilization :  cores used 3 out of 20 at 218
+Memory Utilization :  Memory used 8 out of 40 at 219
+CPU Utilization :  cores used 3 out of 20 at 219
+Memory Utilization :  Memory used 8 out of 40 at 220
+CPU Utilization :  cores used 3 out of 20 at 220
+Memory Utilization :  Memory used 8 out of 40 at 221
+CPU Utilization :  cores used 3 out of 20 at 221
+Memory Utilization :  Memory used 8 out of 40 at 222
+CPU Utilization :  cores used 3 out of 20 at 222
+Memory Utilization :  Memory used 8 out of 40 at 223
+CPU Utilization :  cores used 3 out of 20 at 223
+Memory Utilization :  Memory used 8 out of 40 at 224
+CPU Utilization :  cores used 3 out of 20 at 224
+Memory Utilization :  Memory used 8 out of 40 at 225
+CPU Utilization :  cores used 3 out of 20 at 225
+Memory Utilization :  Memory used 8 out of 40 at 226
+CPU Utilization :  cores used 3 out of 20 at 226
+Memory Utilization :  Memory used 8 out of 40 at 227
+CPU Utilization :  cores used 3 out of 20 at 227
+Memory Utilization :  Memory used 8 out of 40 at 228
+CPU Utilization :  cores used 3 out of 20 at 228
+Memory Utilization :  Memory used 8 out of 40 at 229
+CPU Utilization :  cores used 3 out of 20 at 229
+Memory Utilization :  Memory used 8 out of 40 at 230
+CPU Utilization :  cores used 3 out of 20 at 230
+Memory Utilization :  Memory used 8 out of 40 at 231
+CPU Utilization :  cores used 3 out of 20 at 231
+Memory Utilization :  Memory used 8 out of 40 at 232
+CPU Utilization :  cores used 3 out of 20 at 232
+Memory Utilization :  Memory used 8 out of 40 at 233
+CPU Utilization :  cores used 3 out of 20 at 233
+Memory Utilization :  Memory used 8 out of 40 at 234
+CPU Utilization :  cores used 3 out of 20 at 234
+Memory Utilization :  Memory used 8 out of 40 at 235
+CPU Utilization :  cores used 3 out of 20 at 235
+Memory Utilization :  Memory used 8 out of 40 at 236
+CPU Utilization :  cores used 3 out of 20 at 236
+Memory Utilization :  Memory used 8 out of 40 at 237
+CPU Utilization :  cores used 3 out of 20 at 237
+Memory Utilization :  Memory used 8 out of 40 at 238
+CPU Utilization :  cores used 3 out of 20 at 238
+Memory Utilization :  Memory used 8 out of 40 at 239
+CPU Utilization :  cores used 3 out of 20 at 239
+Memory Utilization :  Memory used 8 out of 40 at 240
+CPU Utilization :  cores used 3 out of 20 at 240
+Memory Utilization :  Memory used 8 out of 40 at 241
+CPU Utilization :  cores used 3 out of 20 at 241
+Memory Utilization :  Memory used 8 out of 40 at 242
+CPU Utilization :  cores used 3 out of 20 at 242
+Memory Utilization :  Memory used 8 out of 40 at 243
+CPU Utilization :  cores used 3 out of 20 at 243
+Memory Utilization :  Memory used 8 out of 40 at 244
+CPU Utilization :  cores used 3 out of 20 at 244
+Memory Utilization :  Memory used 8 out of 40 at 245
+CPU Utilization :  cores used 3 out of 20 at 245
+Memory Utilization :  Memory used 8 out of 40 at 246
+CPU Utilization :  cores used 3 out of 20 at 246
+Memory Utilization :  Memory used 8 out of 40 at 247
+CPU Utilization :  cores used 3 out of 20 at 247
+Memory Utilization :  Memory used 8 out of 40 at 248
+CPU Utilization :  cores used 3 out of 20 at 248
+Memory Utilization :  Memory used 8 out of 40 at 249
+CPU Utilization :  cores used 3 out of 20 at 249
+Memory Utilization :  Memory used 8 out of 40 at 250
+CPU Utilization :  cores used 3 out of 20 at 250
+Memory Utilization :  Memory used 8 out of 40 at 251
+CPU Utilization :  cores used 3 out of 20 at 251
+Memory Utilization :  Memory used 8 out of 40 at 252
+CPU Utilization :  cores used 3 out of 20 at 252
+Memory Utilization :  Memory used 8 out of 40 at 253
+CPU Utilization :  cores used 3 out of 20 at 253
+Memory Utilization :  Memory used 8 out of 40 at 254
+CPU Utilization :  cores used 3 out of 20 at 254
+Memory Utilization :  Memory used 8 out of 40 at 255
+CPU Utilization :  cores used 3 out of 20 at 255
+Memory Utilization :  Memory used 8 out of 40 at 256
+CPU Utilization :  cores used 3 out of 20 at 256
+Memory Utilization :  Memory used 8 out of 40 at 257
+CPU Utilization :  cores used 3 out of 20 at 257
+Memory Utilization :  Memory used 8 out of 40 at 258
+CPU Utilization :  cores used 3 out of 20 at 258
+Memory Utilization :  Memory used 8 out of 40 at 259
+CPU Utilization :  cores used 3 out of 20 at 259
+Memory Utilization :  Memory used 8 out of 40 at 260
+CPU Utilization :  cores used 3 out of 20 at 260
+Memory Utilization :  Memory used 8 out of 40 at 261
+CPU Utilization :  cores used 3 out of 20 at 261
+Memory Utilization :  Memory used 8 out of 40 at 262
+CPU Utilization :  cores used 3 out of 20 at 262
+Memory Utilization :  Memory used 8 out of 40 at 263
+CPU Utilization :  cores used 3 out of 20 at 263
+Memory Utilization :  Memory used 8 out of 40 at 264
+CPU Utilization :  cores used 3 out of 20 at 264
+Memory Utilization :  Memory used 8 out of 40 at 265
+CPU Utilization :  cores used 3 out of 20 at 265
+Memory Utilization :  Memory used 8 out of 40 at 266
+CPU Utilization :  cores used 3 out of 20 at 266
+Memory Utilization :  Memory used 8 out of 40 at 267
+CPU Utilization :  cores used 3 out of 20 at 267
+Memory Utilization :  Memory used 8 out of 40 at 268
+CPU Utilization :  cores used 3 out of 20 at 268
+Memory Utilization :  Memory used 8 out of 40 at 269
+CPU Utilization :  cores used 3 out of 20 at 269
+Memory Utilization :  Memory used 8 out of 40 at 270
+CPU Utilization :  cores used 3 out of 20 at 270
+Memory Utilization :  Memory used 8 out of 40 at 271
+CPU Utilization :  cores used 3 out of 20 at 271
+Memory Utilization :  Memory used 8 out of 40 at 272
+CPU Utilization :  cores used 3 out of 20 at 272
+Memory Utilization :  Memory used 8 out of 40 at 273
+CPU Utilization :  cores used 3 out of 20 at 273
+Memory Utilization :  Memory used 8 out of 40 at 274
+CPU Utilization :  cores used 3 out of 20 at 274
+Memory Utilization :  Memory used 8 out of 40 at 275
+CPU Utilization :  cores used 3 out of 20 at 275
+Memory Utilization :  Memory used 8 out of 40 at 276
+CPU Utilization :  cores used 3 out of 20 at 276
+Memory Utilization :  Memory used 8 out of 40 at 277
+CPU Utilization :  cores used 3 out of 20 at 277
+Memory Utilization :  Memory used 8 out of 40 at 278
+CPU Utilization :  cores used 3 out of 20 at 278
+Memory Utilization :  Memory used 8 out of 40 at 279
+CPU Utilization :  cores used 3 out of 20 at 279
+Memory Utilization :  Memory used 8 out of 40 at 280
+CPU Utilization :  cores used 3 out of 20 at 280
+Memory Utilization :  Memory used 8 out of 40 at 281
+CPU Utilization :  cores used 3 out of 20 at 281
+Memory Utilization :  Memory used 8 out of 40 at 282
+CPU Utilization :  cores used 3 out of 20 at 282
+Memory Utilization :  Memory used 8 out of 40 at 283
+CPU Utilization :  cores used 3 out of 20 at 283
+Memory Utilization :  Memory used 8 out of 40 at 284
+CPU Utilization :  cores used 3 out of 20 at 284
+Memory Utilization :  Memory used 8 out of 40 at 285
+CPU Utilization :  cores used 3 out of 20 at 285
+Memory Utilization :  Memory used 8 out of 40 at 286
+CPU Utilization :  cores used 3 out of 20 at 286
+Memory Utilization :  Memory used 8 out of 40 at 287
+CPU Utilization :  cores used 3 out of 20 at 287
+Memory Utilization :  Memory used 8 out of 40 at 288
+CPU Utilization :  cores used 3 out of 20 at 288
+Memory Utilization :  Memory used 8 out of 40 at 289
+CPU Utilization :  cores used 3 out of 20 at 289
+Memory Utilization :  Memory used 8 out of 40 at 290
+CPU Utilization :  cores used 3 out of 20 at 290
+Memory Utilization :  Memory used 8 out of 40 at 291
+CPU Utilization :  cores used 3 out of 20 at 291
+Memory Utilization :  Memory used 8 out of 40 at 292
+CPU Utilization :  cores used 3 out of 20 at 292
+Memory Utilization :  Memory used 8 out of 40 at 293
+CPU Utilization :  cores used 3 out of 20 at 293
+Memory Utilization :  Memory used 8 out of 40 at 294
+CPU Utilization :  cores used 3 out of 20 at 294
+Memory Utilization :  Memory used 8 out of 40 at 295
+CPU Utilization :  cores used 3 out of 20 at 295
+Memory Utilization :  Memory used 8 out of 40 at 296
+CPU Utilization :  cores used 3 out of 20 at 296
+Memory Utilization :  Memory used 8 out of 40 at 297
+CPU Utilization :  cores used 3 out of 20 at 297
+Memory Utilization :  Memory used 8 out of 40 at 298
+CPU Utilization :  cores used 3 out of 20 at 298
+Memory Utilization :  Memory used 8 out of 40 at 299
+CPU Utilization :  cores used 3 out of 20 at 299
+Memory Utilization :  Memory used 8 out of 40 at 300
+CPU Utilization :  cores used 3 out of 20 at 300
+Memory Utilization :  Memory used 8 out of 40 at 301
+CPU Utilization :  cores used 3 out of 20 at 301
+Memory Utilization :  Memory used 8 out of 40 at 302
+CPU Utilization :  cores used 3 out of 20 at 302
+Memory Utilization :  Memory used 8 out of 40 at 303
+CPU Utilization :  cores used 3 out of 20 at 303
+Memory Utilization :  Memory used 8 out of 40 at 304
+CPU Utilization :  cores used 3 out of 20 at 304
+Memory Utilization :  Memory used 8 out of 40 at 305
+CPU Utilization :  cores used 3 out of 20 at 305
+Memory Utilization :  Memory used 8 out of 40 at 306
+CPU Utilization :  cores used 3 out of 20 at 306
+Memory Utilization :  Memory used 8 out of 40 at 307
+CPU Utilization :  cores used 3 out of 20 at 307
+Memory Utilization :  Memory used 8 out of 40 at 308
+CPU Utilization :  cores used 3 out of 20 at 308
+Memory Utilization :  Memory used 8 out of 40 at 309
+CPU Utilization :  cores used 3 out of 20 at 309
+Memory Utilization :  Memory used 8 out of 40 at 310
+CPU Utilization :  cores used 3 out of 20 at 310
+Memory Utilization :  Memory used 8 out of 40 at 311
+CPU Utilization :  cores used 3 out of 20 at 311
+Memory Utilization :  Memory used 8 out of 40 at 312
+CPU Utilization :  cores used 3 out of 20 at 312
+Memory Utilization :  Memory used 8 out of 40 at 313
+CPU Utilization :  cores used 3 out of 20 at 313
+Memory Utilization :  Memory used 8 out of 40 at 314
+CPU Utilization :  cores used 3 out of 20 at 314
+Memory Utilization :  Memory used 8 out of 40 at 315
+CPU Utilization :  cores used 3 out of 20 at 315
+Memory Utilization :  Memory used 8 out of 40 at 316
+CPU Utilization :  cores used 3 out of 20 at 316
+Memory Utilization :  Memory used 8 out of 40 at 317
+CPU Utilization :  cores used 3 out of 20 at 317
+Memory Utilization :  Memory used 8 out of 40 at 318
+CPU Utilization :  cores used 3 out of 20 at 318
+Memory Utilization :  Memory used 8 out of 40 at 319
+CPU Utilization :  cores used 3 out of 20 at 319
+Memory Utilization :  Memory used 8 out of 40 at 320
+CPU Utilization :  cores used 3 out of 20 at 320
+Memory Utilization :  Memory used 8 out of 40 at 321
+CPU Utilization :  cores used 3 out of 20 at 321
+Memory Utilization :  Memory used 8 out of 40 at 322
+CPU Utilization :  cores used 3 out of 20 at 322
+Memory Utilization :  Memory used 8 out of 40 at 323
+CPU Utilization :  cores used 3 out of 20 at 323
+Memory Utilization :  Memory used 8 out of 40 at 324
+CPU Utilization :  cores used 3 out of 20 at 324
+Memory Utilization :  Memory used 8 out of 40 at 325
+CPU Utilization :  cores used 3 out of 20 at 325
+Memory Utilization :  Memory used 8 out of 40 at 326
+CPU Utilization :  cores used 3 out of 20 at 326
+Memory Utilization :  Memory used 8 out of 40 at 327
+CPU Utilization :  cores used 3 out of 20 at 327
+Memory Utilization :  Memory used 8 out of 40 at 328
+CPU Utilization :  cores used 3 out of 20 at 328
+Memory Utilization :  Memory used 8 out of 40 at 329
+CPU Utilization :  cores used 3 out of 20 at 329
+Memory Utilization :  Memory used 8 out of 40 at 330
+CPU Utilization :  cores used 3 out of 20 at 330
+Memory Utilization :  Memory used 8 out of 40 at 331
+CPU Utilization :  cores used 3 out of 20 at 331
+Memory Utilization :  Memory used 8 out of 40 at 332
+CPU Utilization :  cores used 3 out of 20 at 332
+Memory Utilization :  Memory used 8 out of 40 at 333
+CPU Utilization :  cores used 3 out of 20 at 333
+Memory Utilization :  Memory used 8 out of 40 at 334
+CPU Utilization :  cores used 3 out of 20 at 334
+Memory Utilization :  Memory used 8 out of 40 at 335
+CPU Utilization :  cores used 3 out of 20 at 335
+Memory Utilization :  Memory used 8 out of 40 at 336
+CPU Utilization :  cores used 3 out of 20 at 336
+Memory Utilization :  Memory used 8 out of 40 at 337
+CPU Utilization :  cores used 3 out of 20 at 337
+Memory Utilization :  Memory used 8 out of 40 at 338
+CPU Utilization :  cores used 3 out of 20 at 338
+Memory Utilization :  Memory used 8 out of 40 at 339
+CPU Utilization :  cores used 3 out of 20 at 339
+Memory Utilization :  Memory used 8 out of 40 at 340
+CPU Utilization :  cores used 3 out of 20 at 340
+Memory Utilization :  Memory used 8 out of 40 at 341
+CPU Utilization :  cores used 3 out of 20 at 341
+Memory Utilization :  Memory used 8 out of 40 at 342
+CPU Utilization :  cores used 3 out of 20 at 342
+Memory Utilization :  Memory used 8 out of 40 at 343
+CPU Utilization :  cores used 3 out of 20 at 343
+Memory Utilization :  Memory used 8 out of 40 at 344
+CPU Utilization :  cores used 3 out of 20 at 344
+Memory Utilization :  Memory used 8 out of 40 at 345
+CPU Utilization :  cores used 3 out of 20 at 345
+Memory Utilization :  Memory used 8 out of 40 at 346
+CPU Utilization :  cores used 3 out of 20 at 346
+Memory Utilization :  Memory used 8 out of 40 at 347
+CPU Utilization :  cores used 3 out of 20 at 347
+Memory Utilization :  Memory used 8 out of 40 at 348
+CPU Utilization :  cores used 3 out of 20 at 348
+Memory Utilization :  Memory used 8 out of 40 at 349
+CPU Utilization :  cores used 3 out of 20 at 349
+Memory Utilization :  Memory used 8 out of 40 at 350
+CPU Utilization :  cores used 3 out of 20 at 350
+Memory Utilization :  Memory used 8 out of 40 at 351
+CPU Utilization :  cores used 3 out of 20 at 351
+Memory Utilization :  Memory used 8 out of 40 at 352
+CPU Utilization :  cores used 3 out of 20 at 352
+Memory Utilization :  Memory used 8 out of 40 at 353
+CPU Utilization :  cores used 3 out of 20 at 353
+Memory Utilization :  Memory used 8 out of 40 at 354
+CPU Utilization :  cores used 3 out of 20 at 354
+Memory Utilization :  Memory used 8 out of 40 at 355
+CPU Utilization :  cores used 3 out of 20 at 355
+Memory Utilization :  Memory used 8 out of 40 at 356
+CPU Utilization :  cores used 3 out of 20 at 356
+Memory Utilization :  Memory used 8 out of 40 at 357
+CPU Utilization :  cores used 3 out of 20 at 357
+Memory Utilization :  Memory used 8 out of 40 at 358
+CPU Utilization :  cores used 3 out of 20 at 358
+Memory Utilization :  Memory used 8 out of 40 at 359
+CPU Utilization :  cores used 3 out of 20 at 359
+Memory Utilization :  Memory used 8 out of 40 at 360
+CPU Utilization :  cores used 3 out of 20 at 360
+Memory Utilization :  Memory used 8 out of 40 at 361
+CPU Utilization :  cores used 3 out of 20 at 361
+Memory Utilization :  Memory used 8 out of 40 at 362
+CPU Utilization :  cores used 3 out of 20 at 362
+Memory Utilization :  Memory used 8 out of 40 at 363
+CPU Utilization :  cores used 3 out of 20 at 363
+Memory Utilization :  Memory used 8 out of 40 at 364
+CPU Utilization :  cores used 3 out of 20 at 364
+Memory Utilization :  Memory used 8 out of 40 at 365
+CPU Utilization :  cores used 3 out of 20 at 365
+Memory Utilization :  Memory used 8 out of 40 at 366
+CPU Utilization :  cores used 3 out of 20 at 366
+Memory Utilization :  Memory used 8 out of 40 at 367
+CPU Utilization :  cores used 3 out of 20 at 367
+Memory Utilization :  Memory used 8 out of 40 at 368
+CPU Utilization :  cores used 3 out of 20 at 368
+Memory Utilization :  Memory used 8 out of 40 at 369
+CPU Utilization :  cores used 3 out of 20 at 369
+Memory Utilization :  Memory used 8 out of 40 at 370
+CPU Utilization :  cores used 3 out of 20 at 370
+Memory Utilization :  Memory used 8 out of 40 at 371
+CPU Utilization :  cores used 3 out of 20 at 371
+Memory Utilization :  Memory used 8 out of 40 at 372
+CPU Utilization :  cores used 3 out of 20 at 372
+Memory Utilization :  Memory used 8 out of 40 at 373
+CPU Utilization :  cores used 3 out of 20 at 373
+Memory Utilization :  Memory used 8 out of 40 at 374
+CPU Utilization :  cores used 3 out of 20 at 374
+Memory Utilization :  Memory used 8 out of 40 at 375
+CPU Utilization :  cores used 3 out of 20 at 375
+Memory Utilization :  Memory used 8 out of 40 at 376
+CPU Utilization :  cores used 3 out of 20 at 376
+Memory Utilization :  Memory used 8 out of 40 at 377
+CPU Utilization :  cores used 3 out of 20 at 377
+Memory Utilization :  Memory used 8 out of 40 at 378
+CPU Utilization :  cores used 3 out of 20 at 378
+Memory Utilization :  Memory used 8 out of 40 at 379
+CPU Utilization :  cores used 3 out of 20 at 379
+Memory Utilization :  Memory used 8 out of 40 at 380
+CPU Utilization :  cores used 3 out of 20 at 380
+Memory Utilization :  Memory used 8 out of 40 at 381
+CPU Utilization :  cores used 3 out of 20 at 381
+Memory Utilization :  Memory used 8 out of 40 at 382
+CPU Utilization :  cores used 3 out of 20 at 382
+Memory Utilization :  Memory used 8 out of 40 at 383
+CPU Utilization :  cores used 3 out of 20 at 383
+Memory Utilization :  Memory used 8 out of 40 at 384
+CPU Utilization :  cores used 3 out of 20 at 384
+Memory Utilization :  Memory used 8 out of 40 at 385
+CPU Utilization :  cores used 3 out of 20 at 385
+Memory Utilization :  Memory used 8 out of 40 at 386
+CPU Utilization :  cores used 3 out of 20 at 386
+Memory Utilization :  Memory used 8 out of 40 at 387
+CPU Utilization :  cores used 3 out of 20 at 387
+Memory Utilization :  Memory used 8 out of 40 at 388
+CPU Utilization :  cores used 3 out of 20 at 388
+Memory Utilization :  Memory used 8 out of 40 at 389
+CPU Utilization :  cores used 3 out of 20 at 389
+Memory Utilization :  Memory used 8 out of 40 at 390
+CPU Utilization :  cores used 3 out of 20 at 390
+Memory Utilization :  Memory used 8 out of 40 at 391
+CPU Utilization :  cores used 3 out of 20 at 391
+Memory Utilization :  Memory used 8 out of 40 at 392
+CPU Utilization :  cores used 3 out of 20 at 392
+Memory Utilization :  Memory used 8 out of 40 at 393
+CPU Utilization :  cores used 3 out of 20 at 393
+Memory Utilization :  Memory used 8 out of 40 at 394
+CPU Utilization :  cores used 3 out of 20 at 394
+Memory Utilization :  Memory used 8 out of 40 at 395
+CPU Utilization :  cores used 3 out of 20 at 395
+Memory Utilization :  Memory used 8 out of 40 at 396
+CPU Utilization :  cores used 3 out of 20 at 396
+Memory Utilization :  Memory used 8 out of 40 at 397
+CPU Utilization :  cores used 3 out of 20 at 397
+Memory Utilization :  Memory used 8 out of 40 at 398
+CPU Utilization :  cores used 3 out of 20 at 398
+Memory Utilization :  Memory used 8 out of 40 at 399
+CPU Utilization :  cores used 3 out of 20 at 399
+Memory Utilization :  Memory used 8 out of 40 at 400
+CPU Utilization :  cores used 3 out of 20 at 400
+Memory Utilization :  Memory used 8 out of 40 at 401
+CPU Utilization :  cores used 3 out of 20 at 401
+Task(2) of Job(1) completed at401.
+Task(2) of Job(1) completed at401.
+Task(2) of Job(1) completed at401.
+Memory Utilization :  Memory used 8 out of 40 at 402
+CPU Utilization :  cores used 3 out of 20 at 402
+Memory Utilization :  Memory used 8 out of 40 at 403
+CPU Utilization :  cores used 4 out of 20 at 403
+Memory Utilization :  Memory used 8 out of 40 at 404
+CPU Utilization :  cores used 3 out of 20 at 404
+Memory Utilization :  Memory used 8 out of 40 at 405
+CPU Utilization :  cores used 3 out of 20 at 405
+Memory Utilization :  Memory used 8 out of 40 at 406
+CPU Utilization :  cores used 3 out of 20 at 406
+Memory Utilization :  Memory used 8 out of 40 at 407
+CPU Utilization :  cores used 3 out of 20 at 407
+Memory Utilization :  Memory used 8 out of 40 at 408
+CPU Utilization :  cores used 3 out of 20 at 408
+Memory Utilization :  Memory used 8 out of 40 at 409
+CPU Utilization :  cores used 3 out of 20 at 409
+Memory Utilization :  Memory used 8 out of 40 at 410
+CPU Utilization :  cores used 3 out of 20 at 410
+Memory Utilization :  Memory used 8 out of 40 at 411
+CPU Utilization :  cores used 3 out of 20 at 411
+Memory Utilization :  Memory used 8 out of 40 at 412
+CPU Utilization :  cores used 3 out of 20 at 412
+Memory Utilization :  Memory used 8 out of 40 at 413
+CPU Utilization :  cores used 3 out of 20 at 413
+Memory Utilization :  Memory used 8 out of 40 at 414
+CPU Utilization :  cores used 3 out of 20 at 414
+Memory Utilization :  Memory used 8 out of 40 at 415
+CPU Utilization :  cores used 3 out of 20 at 415
+Memory Utilization :  Memory used 8 out of 40 at 416
+CPU Utilization :  cores used 3 out of 20 at 416
+Memory Utilization :  Memory used 8 out of 40 at 417
+CPU Utilization :  cores used 3 out of 20 at 417
+Memory Utilization :  Memory used 8 out of 40 at 418
+CPU Utilization :  cores used 3 out of 20 at 418
+Memory Utilization :  Memory used 8 out of 40 at 419
+CPU Utilization :  cores used 3 out of 20 at 419
+Memory Utilization :  Memory used 8 out of 40 at 420
+CPU Utilization :  cores used 3 out of 20 at 420
+Memory Utilization :  Memory used 8 out of 40 at 421
+CPU Utilization :  cores used 3 out of 20 at 421
+Memory Utilization :  Memory used 8 out of 40 at 422
+CPU Utilization :  cores used 3 out of 20 at 422
+Memory Utilization :  Memory used 8 out of 40 at 423
+CPU Utilization :  cores used 3 out of 20 at 423
+Memory Utilization :  Memory used 8 out of 40 at 424
+CPU Utilization :  cores used 3 out of 20 at 424
+Memory Utilization :  Memory used 8 out of 40 at 425
+CPU Utilization :  cores used 3 out of 20 at 425
+Memory Utilization :  Memory used 8 out of 40 at 426
+CPU Utilization :  cores used 3 out of 20 at 426
+Memory Utilization :  Memory used 8 out of 40 at 427
+CPU Utilization :  cores used 3 out of 20 at 427
+Memory Utilization :  Memory used 8 out of 40 at 428
+CPU Utilization :  cores used 3 out of 20 at 428
+Memory Utilization :  Memory used 8 out of 40 at 429
+CPU Utilization :  cores used 3 out of 20 at 429
+Memory Utilization :  Memory used 8 out of 40 at 430
+CPU Utilization :  cores used 3 out of 20 at 430
+Memory Utilization :  Memory used 8 out of 40 at 431
+CPU Utilization :  cores used 3 out of 20 at 431
+Memory Utilization :  Memory used 8 out of 40 at 432
+CPU Utilization :  cores used 3 out of 20 at 432
+Memory Utilization :  Memory used 8 out of 40 at 433
+CPU Utilization :  cores used 3 out of 20 at 433
+Memory Utilization :  Memory used 8 out of 40 at 434
+CPU Utilization :  cores used 3 out of 20 at 434
+Memory Utilization :  Memory used 8 out of 40 at 435
+CPU Utilization :  cores used 3 out of 20 at 435
+Memory Utilization :  Memory used 8 out of 40 at 436
+CPU Utilization :  cores used 3 out of 20 at 436
+Memory Utilization :  Memory used 8 out of 40 at 437
+CPU Utilization :  cores used 3 out of 20 at 437
+Memory Utilization :  Memory used 8 out of 40 at 438
+CPU Utilization :  cores used 3 out of 20 at 438
+Memory Utilization :  Memory used 8 out of 40 at 439
+CPU Utilization :  cores used 3 out of 20 at 439
+Memory Utilization :  Memory used 8 out of 40 at 440
+CPU Utilization :  cores used 3 out of 20 at 440
+Memory Utilization :  Memory used 8 out of 40 at 441
+CPU Utilization :  cores used 3 out of 20 at 441
+Memory Utilization :  Memory used 8 out of 40 at 442
+CPU Utilization :  cores used 3 out of 20 at 442
+Memory Utilization :  Memory used 8 out of 40 at 443
+CPU Utilization :  cores used 3 out of 20 at 443
+Memory Utilization :  Memory used 8 out of 40 at 444
+CPU Utilization :  cores used 3 out of 20 at 444
+Memory Utilization :  Memory used 8 out of 40 at 445
+CPU Utilization :  cores used 3 out of 20 at 445
+Memory Utilization :  Memory used 8 out of 40 at 446
+CPU Utilization :  cores used 3 out of 20 at 446
+Memory Utilization :  Memory used 8 out of 40 at 447
+CPU Utilization :  cores used 3 out of 20 at 447
+Memory Utilization :  Memory used 8 out of 40 at 448
+CPU Utilization :  cores used 3 out of 20 at 448
+Memory Utilization :  Memory used 8 out of 40 at 449
+CPU Utilization :  cores used 3 out of 20 at 449
+Memory Utilization :  Memory used 8 out of 40 at 450
+CPU Utilization :  cores used 3 out of 20 at 450
+Memory Utilization :  Memory used 8 out of 40 at 451
+CPU Utilization :  cores used 3 out of 20 at 451
+Memory Utilization :  Memory used 8 out of 40 at 452
+CPU Utilization :  cores used 3 out of 20 at 452
+Memory Utilization :  Memory used 8 out of 40 at 453
+CPU Utilization :  cores used 3 out of 20 at 453
+Memory Utilization :  Memory used 8 out of 40 at 454
+CPU Utilization :  cores used 3 out of 20 at 454
+Memory Utilization :  Memory used 8 out of 40 at 455
+CPU Utilization :  cores used 3 out of 20 at 455
+Memory Utilization :  Memory used 8 out of 40 at 456
+CPU Utilization :  cores used 3 out of 20 at 456
+Memory Utilization :  Memory used 8 out of 40 at 457
+CPU Utilization :  cores used 3 out of 20 at 457
+Memory Utilization :  Memory used 8 out of 40 at 458
+CPU Utilization :  cores used 3 out of 20 at 458
+Memory Utilization :  Memory used 8 out of 40 at 459
+CPU Utilization :  cores used 3 out of 20 at 459
+Memory Utilization :  Memory used 8 out of 40 at 460
+CPU Utilization :  cores used 3 out of 20 at 460
+Memory Utilization :  Memory used 8 out of 40 at 461
+CPU Utilization :  cores used 3 out of 20 at 461
+Memory Utilization :  Memory used 8 out of 40 at 462
+CPU Utilization :  cores used 3 out of 20 at 462
+Memory Utilization :  Memory used 8 out of 40 at 463
+CPU Utilization :  cores used 3 out of 20 at 463
+Memory Utilization :  Memory used 8 out of 40 at 464
+CPU Utilization :  cores used 3 out of 20 at 464
+Memory Utilization :  Memory used 8 out of 40 at 465
+CPU Utilization :  cores used 3 out of 20 at 465
+Memory Utilization :  Memory used 8 out of 40 at 466
+CPU Utilization :  cores used 3 out of 20 at 466
+Memory Utilization :  Memory used 8 out of 40 at 467
+CPU Utilization :  cores used 3 out of 20 at 467
+Memory Utilization :  Memory used 8 out of 40 at 468
+CPU Utilization :  cores used 3 out of 20 at 468
+Memory Utilization :  Memory used 8 out of 40 at 469
+CPU Utilization :  cores used 3 out of 20 at 469
+Memory Utilization :  Memory used 8 out of 40 at 470
+CPU Utilization :  cores used 3 out of 20 at 470
+Memory Utilization :  Memory used 8 out of 40 at 471
+CPU Utilization :  cores used 3 out of 20 at 471
+Memory Utilization :  Memory used 8 out of 40 at 472
+CPU Utilization :  cores used 3 out of 20 at 472
+Memory Utilization :  Memory used 8 out of 40 at 473
+CPU Utilization :  cores used 3 out of 20 at 473
+Memory Utilization :  Memory used 8 out of 40 at 474
+CPU Utilization :  cores used 3 out of 20 at 474
+Memory Utilization :  Memory used 8 out of 40 at 475
+CPU Utilization :  cores used 3 out of 20 at 475
+Memory Utilization :  Memory used 8 out of 40 at 476
+CPU Utilization :  cores used 3 out of 20 at 476
+Memory Utilization :  Memory used 8 out of 40 at 477
+CPU Utilization :  cores used 3 out of 20 at 477
+Memory Utilization :  Memory used 8 out of 40 at 478
+CPU Utilization :  cores used 3 out of 20 at 478
+Memory Utilization :  Memory used 8 out of 40 at 479
+CPU Utilization :  cores used 3 out of 20 at 479
+Memory Utilization :  Memory used 8 out of 40 at 480
+CPU Utilization :  cores used 3 out of 20 at 480
+Memory Utilization :  Memory used 8 out of 40 at 481
+CPU Utilization :  cores used 3 out of 20 at 481
+Memory Utilization :  Memory used 8 out of 40 at 482
+CPU Utilization :  cores used 3 out of 20 at 482
+Memory Utilization :  Memory used 8 out of 40 at 483
+CPU Utilization :  cores used 3 out of 20 at 483
+Memory Utilization :  Memory used 8 out of 40 at 484
+CPU Utilization :  cores used 3 out of 20 at 484
+Memory Utilization :  Memory used 8 out of 40 at 485
+CPU Utilization :  cores used 3 out of 20 at 485
+Memory Utilization :  Memory used 8 out of 40 at 486
+CPU Utilization :  cores used 3 out of 20 at 486
+Memory Utilization :  Memory used 8 out of 40 at 487
+CPU Utilization :  cores used 3 out of 20 at 487
+Memory Utilization :  Memory used 8 out of 40 at 488
+CPU Utilization :  cores used 3 out of 20 at 488
+Memory Utilization :  Memory used 8 out of 40 at 489
+CPU Utilization :  cores used 3 out of 20 at 489
+Memory Utilization :  Memory used 8 out of 40 at 490
+CPU Utilization :  cores used 3 out of 20 at 490
+Memory Utilization :  Memory used 8 out of 40 at 491
+CPU Utilization :  cores used 3 out of 20 at 491
+Memory Utilization :  Memory used 8 out of 40 at 492
+CPU Utilization :  cores used 3 out of 20 at 492
+Memory Utilization :  Memory used 8 out of 40 at 493
+CPU Utilization :  cores used 3 out of 20 at 493
+Memory Utilization :  Memory used 8 out of 40 at 494
+CPU Utilization :  cores used 3 out of 20 at 494
+Memory Utilization :  Memory used 8 out of 40 at 495
+CPU Utilization :  cores used 3 out of 20 at 495
+Memory Utilization :  Memory used 8 out of 40 at 496
+CPU Utilization :  cores used 3 out of 20 at 496
+Memory Utilization :  Memory used 8 out of 40 at 497
+CPU Utilization :  cores used 3 out of 20 at 497
+Memory Utilization :  Memory used 8 out of 40 at 498
+CPU Utilization :  cores used 3 out of 20 at 498
+Memory Utilization :  Memory used 8 out of 40 at 499
+CPU Utilization :  cores used 3 out of 20 at 499
+Memory Utilization :  Memory used 8 out of 40 at 500
+CPU Utilization :  cores used 3 out of 20 at 500
+Memory Utilization :  Memory used 8 out of 40 at 501
+CPU Utilization :  cores used 3 out of 20 at 501
+Memory Utilization :  Memory used 8 out of 40 at 502
+CPU Utilization :  cores used 3 out of 20 at 502
+Memory Utilization :  Memory used 8 out of 40 at 503
+CPU Utilization :  cores used 3 out of 20 at 503
+Memory Utilization :  Memory used 8 out of 40 at 504
+CPU Utilization :  cores used 3 out of 20 at 504
+Memory Utilization :  Memory used 8 out of 40 at 505
+CPU Utilization :  cores used 3 out of 20 at 505
+Memory Utilization :  Memory used 8 out of 40 at 506
+CPU Utilization :  cores used 3 out of 20 at 506
+Memory Utilization :  Memory used 8 out of 40 at 507
+CPU Utilization :  cores used 3 out of 20 at 507
+Memory Utilization :  Memory used 8 out of 40 at 508
+CPU Utilization :  cores used 3 out of 20 at 508
+Memory Utilization :  Memory used 8 out of 40 at 509
+CPU Utilization :  cores used 3 out of 20 at 509
+Memory Utilization :  Memory used 8 out of 40 at 510
+CPU Utilization :  cores used 3 out of 20 at 510
+Memory Utilization :  Memory used 8 out of 40 at 511
+CPU Utilization :  cores used 3 out of 20 at 511
+Memory Utilization :  Memory used 8 out of 40 at 512
+CPU Utilization :  cores used 3 out of 20 at 512
+Memory Utilization :  Memory used 8 out of 40 at 513
+CPU Utilization :  cores used 3 out of 20 at 513
+Memory Utilization :  Memory used 8 out of 40 at 514
+CPU Utilization :  cores used 3 out of 20 at 514
+Memory Utilization :  Memory used 8 out of 40 at 515
+CPU Utilization :  cores used 3 out of 20 at 515
+Memory Utilization :  Memory used 8 out of 40 at 516
+CPU Utilization :  cores used 3 out of 20 at 516
+Memory Utilization :  Memory used 8 out of 40 at 517
+CPU Utilization :  cores used 3 out of 20 at 517
+Memory Utilization :  Memory used 8 out of 40 at 518
+CPU Utilization :  cores used 3 out of 20 at 518
+Memory Utilization :  Memory used 8 out of 40 at 519
+CPU Utilization :  cores used 3 out of 20 at 519
+Memory Utilization :  Memory used 8 out of 40 at 520
+CPU Utilization :  cores used 3 out of 20 at 520
+Memory Utilization :  Memory used 8 out of 40 at 521
+CPU Utilization :  cores used 3 out of 20 at 521
+Memory Utilization :  Memory used 8 out of 40 at 522
+CPU Utilization :  cores used 3 out of 20 at 522
+Memory Utilization :  Memory used 8 out of 40 at 523
+CPU Utilization :  cores used 3 out of 20 at 523
+Memory Utilization :  Memory used 8 out of 40 at 524
+CPU Utilization :  cores used 3 out of 20 at 524
+Memory Utilization :  Memory used 8 out of 40 at 525
+CPU Utilization :  cores used 3 out of 20 at 525
+Memory Utilization :  Memory used 8 out of 40 at 526
+CPU Utilization :  cores used 3 out of 20 at 526
+Memory Utilization :  Memory used 8 out of 40 at 527
+CPU Utilization :  cores used 3 out of 20 at 527
+Memory Utilization :  Memory used 8 out of 40 at 528
+CPU Utilization :  cores used 3 out of 20 at 528
+Memory Utilization :  Memory used 8 out of 40 at 529
+CPU Utilization :  cores used 3 out of 20 at 529
+Memory Utilization :  Memory used 8 out of 40 at 530
+CPU Utilization :  cores used 3 out of 20 at 530
+Memory Utilization :  Memory used 8 out of 40 at 531
+CPU Utilization :  cores used 3 out of 20 at 531
+Memory Utilization :  Memory used 8 out of 40 at 532
+CPU Utilization :  cores used 3 out of 20 at 532
+Memory Utilization :  Memory used 8 out of 40 at 533
+CPU Utilization :  cores used 3 out of 20 at 533
+Memory Utilization :  Memory used 8 out of 40 at 534
+CPU Utilization :  cores used 3 out of 20 at 534
+Memory Utilization :  Memory used 8 out of 40 at 535
+CPU Utilization :  cores used 3 out of 20 at 535
+Memory Utilization :  Memory used 8 out of 40 at 536
+CPU Utilization :  cores used 3 out of 20 at 536
+Memory Utilization :  Memory used 8 out of 40 at 537
+CPU Utilization :  cores used 3 out of 20 at 537
+Memory Utilization :  Memory used 8 out of 40 at 538
+CPU Utilization :  cores used 3 out of 20 at 538
+Memory Utilization :  Memory used 8 out of 40 at 539
+CPU Utilization :  cores used 3 out of 20 at 539
+Memory Utilization :  Memory used 8 out of 40 at 540
+CPU Utilization :  cores used 3 out of 20 at 540
+Memory Utilization :  Memory used 8 out of 40 at 541
+CPU Utilization :  cores used 3 out of 20 at 541
+Memory Utilization :  Memory used 8 out of 40 at 542
+CPU Utilization :  cores used 3 out of 20 at 542
+Memory Utilization :  Memory used 8 out of 40 at 543
+CPU Utilization :  cores used 3 out of 20 at 543
+Memory Utilization :  Memory used 8 out of 40 at 544
+CPU Utilization :  cores used 3 out of 20 at 544
+Memory Utilization :  Memory used 8 out of 40 at 545
+CPU Utilization :  cores used 3 out of 20 at 545
+Memory Utilization :  Memory used 8 out of 40 at 546
+CPU Utilization :  cores used 3 out of 20 at 546
+Memory Utilization :  Memory used 8 out of 40 at 547
+CPU Utilization :  cores used 3 out of 20 at 547
+Memory Utilization :  Memory used 8 out of 40 at 548
+CPU Utilization :  cores used 3 out of 20 at 548
+Memory Utilization :  Memory used 8 out of 40 at 549
+CPU Utilization :  cores used 3 out of 20 at 549
+Memory Utilization :  Memory used 8 out of 40 at 550
+CPU Utilization :  cores used 3 out of 20 at 550
+Memory Utilization :  Memory used 8 out of 40 at 551
+CPU Utilization :  cores used 3 out of 20 at 551
+Memory Utilization :  Memory used 8 out of 40 at 552
+CPU Utilization :  cores used 3 out of 20 at 552
+Memory Utilization :  Memory used 8 out of 40 at 553
+CPU Utilization :  cores used 3 out of 20 at 553
+Memory Utilization :  Memory used 8 out of 40 at 554
+CPU Utilization :  cores used 3 out of 20 at 554
+Memory Utilization :  Memory used 8 out of 40 at 555
+CPU Utilization :  cores used 3 out of 20 at 555
+Memory Utilization :  Memory used 8 out of 40 at 556
+CPU Utilization :  cores used 3 out of 20 at 556
+Memory Utilization :  Memory used 8 out of 40 at 557
+CPU Utilization :  cores used 3 out of 20 at 557
+Memory Utilization :  Memory used 8 out of 40 at 558
+CPU Utilization :  cores used 3 out of 20 at 558
+Memory Utilization :  Memory used 8 out of 40 at 559
+CPU Utilization :  cores used 3 out of 20 at 559
+Memory Utilization :  Memory used 8 out of 40 at 560
+CPU Utilization :  cores used 3 out of 20 at 560
+Memory Utilization :  Memory used 8 out of 40 at 561
+CPU Utilization :  cores used 3 out of 20 at 561
+Memory Utilization :  Memory used 8 out of 40 at 562
+CPU Utilization :  cores used 3 out of 20 at 562
+Memory Utilization :  Memory used 8 out of 40 at 563
+CPU Utilization :  cores used 3 out of 20 at 563
+Memory Utilization :  Memory used 8 out of 40 at 564
+CPU Utilization :  cores used 3 out of 20 at 564
+Memory Utilization :  Memory used 8 out of 40 at 565
+CPU Utilization :  cores used 3 out of 20 at 565
+Memory Utilization :  Memory used 8 out of 40 at 566
+CPU Utilization :  cores used 3 out of 20 at 566
+Memory Utilization :  Memory used 8 out of 40 at 567
+CPU Utilization :  cores used 3 out of 20 at 567
+Memory Utilization :  Memory used 8 out of 40 at 568
+CPU Utilization :  cores used 3 out of 20 at 568
+Memory Utilization :  Memory used 8 out of 40 at 569
+CPU Utilization :  cores used 3 out of 20 at 569
+Memory Utilization :  Memory used 8 out of 40 at 570
+CPU Utilization :  cores used 3 out of 20 at 570
+Memory Utilization :  Memory used 8 out of 40 at 571
+CPU Utilization :  cores used 3 out of 20 at 571
+Memory Utilization :  Memory used 8 out of 40 at 572
+CPU Utilization :  cores used 3 out of 20 at 572
+Memory Utilization :  Memory used 8 out of 40 at 573
+CPU Utilization :  cores used 3 out of 20 at 573
+Memory Utilization :  Memory used 8 out of 40 at 574
+CPU Utilization :  cores used 3 out of 20 at 574
+Memory Utilization :  Memory used 8 out of 40 at 575
+CPU Utilization :  cores used 3 out of 20 at 575
+Memory Utilization :  Memory used 8 out of 40 at 576
+CPU Utilization :  cores used 3 out of 20 at 576
+Memory Utilization :  Memory used 8 out of 40 at 577
+CPU Utilization :  cores used 3 out of 20 at 577
+Memory Utilization :  Memory used 8 out of 40 at 578
+CPU Utilization :  cores used 3 out of 20 at 578
+Memory Utilization :  Memory used 8 out of 40 at 579
+CPU Utilization :  cores used 3 out of 20 at 579
+Memory Utilization :  Memory used 8 out of 40 at 580
+CPU Utilization :  cores used 3 out of 20 at 580
+Memory Utilization :  Memory used 8 out of 40 at 581
+CPU Utilization :  cores used 3 out of 20 at 581
+Memory Utilization :  Memory used 8 out of 40 at 582
+CPU Utilization :  cores used 3 out of 20 at 582
+Memory Utilization :  Memory used 8 out of 40 at 583
+CPU Utilization :  cores used 3 out of 20 at 583
+Memory Utilization :  Memory used 8 out of 40 at 584
+CPU Utilization :  cores used 3 out of 20 at 584
+Memory Utilization :  Memory used 8 out of 40 at 585
+CPU Utilization :  cores used 3 out of 20 at 585
+Memory Utilization :  Memory used 8 out of 40 at 586
+CPU Utilization :  cores used 3 out of 20 at 586
+Memory Utilization :  Memory used 8 out of 40 at 587
+CPU Utilization :  cores used 3 out of 20 at 587
+Memory Utilization :  Memory used 8 out of 40 at 588
+CPU Utilization :  cores used 3 out of 20 at 588
+Memory Utilization :  Memory used 8 out of 40 at 589
+CPU Utilization :  cores used 3 out of 20 at 589
+Memory Utilization :  Memory used 8 out of 40 at 590
+CPU Utilization :  cores used 3 out of 20 at 590
+Memory Utilization :  Memory used 8 out of 40 at 591
+CPU Utilization :  cores used 3 out of 20 at 591
+Memory Utilization :  Memory used 8 out of 40 at 592
+CPU Utilization :  cores used 3 out of 20 at 592
+Memory Utilization :  Memory used 8 out of 40 at 593
+CPU Utilization :  cores used 3 out of 20 at 593
+Memory Utilization :  Memory used 8 out of 40 at 594
+CPU Utilization :  cores used 3 out of 20 at 594
+Memory Utilization :  Memory used 8 out of 40 at 595
+CPU Utilization :  cores used 3 out of 20 at 595
+Memory Utilization :  Memory used 8 out of 40 at 596
+CPU Utilization :  cores used 3 out of 20 at 596
+Memory Utilization :  Memory used 8 out of 40 at 597
+CPU Utilization :  cores used 3 out of 20 at 597
+Memory Utilization :  Memory used 8 out of 40 at 598
+CPU Utilization :  cores used 3 out of 20 at 598
+Memory Utilization :  Memory used 8 out of 40 at 599
+CPU Utilization :  cores used 3 out of 20 at 599
+Memory Utilization :  Memory used 8 out of 40 at 600
+CPU Utilization :  cores used 3 out of 20 at 600
+Task(2) of Job(1) completed at600.
+Task(2) of Job(1) completed at600.
+Task(2) of Job(1) completed at600.
+Memory Utilization :  Memory used 8 out of 40 at 601
+CPU Utilization :  cores used 3 out of 20 at 601
+Memory Utilization :  Memory used 8 out of 40 at 602
+CPU Utilization :  cores used 4 out of 20 at 602
+Memory Utilization :  Memory used 8 out of 40 at 603
+CPU Utilization :  cores used 3 out of 20 at 603
+Memory Utilization :  Memory used 8 out of 40 at 604
+CPU Utilization :  cores used 3 out of 20 at 604
+Memory Utilization :  Memory used 8 out of 40 at 605
+CPU Utilization :  cores used 3 out of 20 at 605
+Memory Utilization :  Memory used 8 out of 40 at 606
+CPU Utilization :  cores used 3 out of 20 at 606
+Memory Utilization :  Memory used 8 out of 40 at 607
+CPU Utilization :  cores used 3 out of 20 at 607
+Memory Utilization :  Memory used 8 out of 40 at 608
+CPU Utilization :  cores used 3 out of 20 at 608
+Memory Utilization :  Memory used 8 out of 40 at 609
+CPU Utilization :  cores used 3 out of 20 at 609
+Memory Utilization :  Memory used 8 out of 40 at 610
+CPU Utilization :  cores used 3 out of 20 at 610
+Memory Utilization :  Memory used 8 out of 40 at 611
+CPU Utilization :  cores used 3 out of 20 at 611
+Memory Utilization :  Memory used 8 out of 40 at 612
+CPU Utilization :  cores used 3 out of 20 at 612
+Memory Utilization :  Memory used 8 out of 40 at 613
+CPU Utilization :  cores used 3 out of 20 at 613
+Memory Utilization :  Memory used 8 out of 40 at 614
+CPU Utilization :  cores used 3 out of 20 at 614
+Memory Utilization :  Memory used 8 out of 40 at 615
+CPU Utilization :  cores used 3 out of 20 at 615
+Memory Utilization :  Memory used 8 out of 40 at 616
+CPU Utilization :  cores used 3 out of 20 at 616
+Memory Utilization :  Memory used 8 out of 40 at 617
+CPU Utilization :  cores used 3 out of 20 at 617
+Memory Utilization :  Memory used 8 out of 40 at 618
+CPU Utilization :  cores used 3 out of 20 at 618
+Memory Utilization :  Memory used 8 out of 40 at 619
+CPU Utilization :  cores used 3 out of 20 at 619
+Memory Utilization :  Memory used 8 out of 40 at 620
+CPU Utilization :  cores used 3 out of 20 at 620
+Memory Utilization :  Memory used 8 out of 40 at 621
+CPU Utilization :  cores used 3 out of 20 at 621
+Memory Utilization :  Memory used 8 out of 40 at 622
+CPU Utilization :  cores used 3 out of 20 at 622
+Memory Utilization :  Memory used 8 out of 40 at 623
+CPU Utilization :  cores used 3 out of 20 at 623
+Memory Utilization :  Memory used 8 out of 40 at 624
+CPU Utilization :  cores used 3 out of 20 at 624
+Memory Utilization :  Memory used 8 out of 40 at 625
+CPU Utilization :  cores used 3 out of 20 at 625
+Memory Utilization :  Memory used 8 out of 40 at 626
+CPU Utilization :  cores used 3 out of 20 at 626
+Memory Utilization :  Memory used 8 out of 40 at 627
+CPU Utilization :  cores used 3 out of 20 at 627
+Memory Utilization :  Memory used 8 out of 40 at 628
+CPU Utilization :  cores used 3 out of 20 at 628
+Memory Utilization :  Memory used 8 out of 40 at 629
+CPU Utilization :  cores used 3 out of 20 at 629
+Memory Utilization :  Memory used 8 out of 40 at 630
+CPU Utilization :  cores used 3 out of 20 at 630
+Memory Utilization :  Memory used 8 out of 40 at 631
+CPU Utilization :  cores used 3 out of 20 at 631
+Memory Utilization :  Memory used 8 out of 40 at 632
+CPU Utilization :  cores used 3 out of 20 at 632
+Memory Utilization :  Memory used 8 out of 40 at 633
+CPU Utilization :  cores used 3 out of 20 at 633
+Memory Utilization :  Memory used 8 out of 40 at 634
+CPU Utilization :  cores used 3 out of 20 at 634
+Memory Utilization :  Memory used 8 out of 40 at 635
+CPU Utilization :  cores used 3 out of 20 at 635
+Memory Utilization :  Memory used 8 out of 40 at 636
+CPU Utilization :  cores used 3 out of 20 at 636
+Memory Utilization :  Memory used 8 out of 40 at 637
+CPU Utilization :  cores used 3 out of 20 at 637
+Memory Utilization :  Memory used 8 out of 40 at 638
+CPU Utilization :  cores used 3 out of 20 at 638
+Memory Utilization :  Memory used 8 out of 40 at 639
+CPU Utilization :  cores used 3 out of 20 at 639
+Memory Utilization :  Memory used 8 out of 40 at 640
+CPU Utilization :  cores used 3 out of 20 at 640
+Memory Utilization :  Memory used 8 out of 40 at 641
+CPU Utilization :  cores used 3 out of 20 at 641
+Memory Utilization :  Memory used 8 out of 40 at 642
+CPU Utilization :  cores used 3 out of 20 at 642
+Memory Utilization :  Memory used 8 out of 40 at 643
+CPU Utilization :  cores used 3 out of 20 at 643
+Memory Utilization :  Memory used 8 out of 40 at 644
+CPU Utilization :  cores used 3 out of 20 at 644
+Memory Utilization :  Memory used 8 out of 40 at 645
+CPU Utilization :  cores used 3 out of 20 at 645
+Memory Utilization :  Memory used 8 out of 40 at 646
+CPU Utilization :  cores used 3 out of 20 at 646
+Memory Utilization :  Memory used 8 out of 40 at 647
+CPU Utilization :  cores used 3 out of 20 at 647
+Memory Utilization :  Memory used 8 out of 40 at 648
+CPU Utilization :  cores used 3 out of 20 at 648
+Memory Utilization :  Memory used 8 out of 40 at 649
+CPU Utilization :  cores used 3 out of 20 at 649
+Memory Utilization :  Memory used 8 out of 40 at 650
+CPU Utilization :  cores used 3 out of 20 at 650
+Memory Utilization :  Memory used 8 out of 40 at 651
+CPU Utilization :  cores used 3 out of 20 at 651
+Memory Utilization :  Memory used 8 out of 40 at 652
+CPU Utilization :  cores used 3 out of 20 at 652
+Memory Utilization :  Memory used 8 out of 40 at 653
+CPU Utilization :  cores used 3 out of 20 at 653
+Memory Utilization :  Memory used 8 out of 40 at 654
+CPU Utilization :  cores used 3 out of 20 at 654
+Memory Utilization :  Memory used 8 out of 40 at 655
+CPU Utilization :  cores used 3 out of 20 at 655
+Memory Utilization :  Memory used 8 out of 40 at 656
+CPU Utilization :  cores used 3 out of 20 at 656
+Memory Utilization :  Memory used 8 out of 40 at 657
+CPU Utilization :  cores used 3 out of 20 at 657
+Memory Utilization :  Memory used 8 out of 40 at 658
+CPU Utilization :  cores used 3 out of 20 at 658
+Memory Utilization :  Memory used 8 out of 40 at 659
+CPU Utilization :  cores used 3 out of 20 at 659
+Memory Utilization :  Memory used 8 out of 40 at 660
+CPU Utilization :  cores used 3 out of 20 at 660
+Memory Utilization :  Memory used 8 out of 40 at 661
+CPU Utilization :  cores used 3 out of 20 at 661
+Memory Utilization :  Memory used 8 out of 40 at 662
+CPU Utilization :  cores used 3 out of 20 at 662
+Memory Utilization :  Memory used 8 out of 40 at 663
+CPU Utilization :  cores used 3 out of 20 at 663
+Memory Utilization :  Memory used 8 out of 40 at 664
+CPU Utilization :  cores used 3 out of 20 at 664
+Memory Utilization :  Memory used 8 out of 40 at 665
+CPU Utilization :  cores used 3 out of 20 at 665
+Memory Utilization :  Memory used 8 out of 40 at 666
+CPU Utilization :  cores used 3 out of 20 at 666
+Memory Utilization :  Memory used 8 out of 40 at 667
+CPU Utilization :  cores used 3 out of 20 at 667
+Memory Utilization :  Memory used 8 out of 40 at 668
+CPU Utilization :  cores used 3 out of 20 at 668
+Memory Utilization :  Memory used 8 out of 40 at 669
+CPU Utilization :  cores used 3 out of 20 at 669
+Memory Utilization :  Memory used 8 out of 40 at 670
+CPU Utilization :  cores used 3 out of 20 at 670
+Memory Utilization :  Memory used 8 out of 40 at 671
+CPU Utilization :  cores used 3 out of 20 at 671
+Memory Utilization :  Memory used 8 out of 40 at 672
+CPU Utilization :  cores used 3 out of 20 at 672
+Memory Utilization :  Memory used 8 out of 40 at 673
+CPU Utilization :  cores used 3 out of 20 at 673
+Memory Utilization :  Memory used 8 out of 40 at 674
+CPU Utilization :  cores used 3 out of 20 at 674
+Memory Utilization :  Memory used 8 out of 40 at 675
+CPU Utilization :  cores used 3 out of 20 at 675
+Memory Utilization :  Memory used 8 out of 40 at 676
+CPU Utilization :  cores used 3 out of 20 at 676
+Memory Utilization :  Memory used 8 out of 40 at 677
+CPU Utilization :  cores used 3 out of 20 at 677
+Memory Utilization :  Memory used 8 out of 40 at 678
+CPU Utilization :  cores used 3 out of 20 at 678
+Memory Utilization :  Memory used 8 out of 40 at 679
+CPU Utilization :  cores used 3 out of 20 at 679
+Memory Utilization :  Memory used 8 out of 40 at 680
+CPU Utilization :  cores used 3 out of 20 at 680
+Memory Utilization :  Memory used 8 out of 40 at 681
+CPU Utilization :  cores used 3 out of 20 at 681
+Memory Utilization :  Memory used 8 out of 40 at 682
+CPU Utilization :  cores used 3 out of 20 at 682
+Memory Utilization :  Memory used 8 out of 40 at 683
+CPU Utilization :  cores used 3 out of 20 at 683
+Memory Utilization :  Memory used 8 out of 40 at 684
+CPU Utilization :  cores used 3 out of 20 at 684
+Memory Utilization :  Memory used 8 out of 40 at 685
+CPU Utilization :  cores used 3 out of 20 at 685
+Memory Utilization :  Memory used 8 out of 40 at 686
+CPU Utilization :  cores used 3 out of 20 at 686
+Memory Utilization :  Memory used 8 out of 40 at 687
+CPU Utilization :  cores used 3 out of 20 at 687
+Memory Utilization :  Memory used 8 out of 40 at 688
+CPU Utilization :  cores used 3 out of 20 at 688
+Memory Utilization :  Memory used 8 out of 40 at 689
+CPU Utilization :  cores used 3 out of 20 at 689
+Memory Utilization :  Memory used 8 out of 40 at 690
+CPU Utilization :  cores used 3 out of 20 at 690
+Memory Utilization :  Memory used 8 out of 40 at 691
+CPU Utilization :  cores used 3 out of 20 at 691
+Memory Utilization :  Memory used 8 out of 40 at 692
+CPU Utilization :  cores used 3 out of 20 at 692
+Memory Utilization :  Memory used 8 out of 40 at 693
+CPU Utilization :  cores used 3 out of 20 at 693
+Memory Utilization :  Memory used 8 out of 40 at 694
+CPU Utilization :  cores used 3 out of 20 at 694
+Memory Utilization :  Memory used 8 out of 40 at 695
+CPU Utilization :  cores used 3 out of 20 at 695
+Memory Utilization :  Memory used 8 out of 40 at 696
+CPU Utilization :  cores used 3 out of 20 at 696
+Memory Utilization :  Memory used 8 out of 40 at 697
+CPU Utilization :  cores used 3 out of 20 at 697
+Memory Utilization :  Memory used 8 out of 40 at 698
+CPU Utilization :  cores used 3 out of 20 at 698
+Memory Utilization :  Memory used 8 out of 40 at 699
+CPU Utilization :  cores used 3 out of 20 at 699
+Memory Utilization :  Memory used 8 out of 40 at 700
+CPU Utilization :  cores used 3 out of 20 at 700
+Memory Utilization :  Memory used 8 out of 40 at 701
+CPU Utilization :  cores used 3 out of 20 at 701
+Memory Utilization :  Memory used 8 out of 40 at 702
+CPU Utilization :  cores used 3 out of 20 at 702
+Memory Utilization :  Memory used 8 out of 40 at 703
+CPU Utilization :  cores used 3 out of 20 at 703
+Memory Utilization :  Memory used 8 out of 40 at 704
+CPU Utilization :  cores used 3 out of 20 at 704
+Memory Utilization :  Memory used 8 out of 40 at 705
+CPU Utilization :  cores used 3 out of 20 at 705
+Memory Utilization :  Memory used 8 out of 40 at 706
+CPU Utilization :  cores used 3 out of 20 at 706
+Memory Utilization :  Memory used 8 out of 40 at 707
+CPU Utilization :  cores used 3 out of 20 at 707
+Memory Utilization :  Memory used 8 out of 40 at 708
+CPU Utilization :  cores used 3 out of 20 at 708
+Memory Utilization :  Memory used 8 out of 40 at 709
+CPU Utilization :  cores used 3 out of 20 at 709
+Memory Utilization :  Memory used 8 out of 40 at 710
+CPU Utilization :  cores used 3 out of 20 at 710
+Memory Utilization :  Memory used 8 out of 40 at 711
+CPU Utilization :  cores used 3 out of 20 at 711
+Memory Utilization :  Memory used 8 out of 40 at 712
+CPU Utilization :  cores used 3 out of 20 at 712
+Memory Utilization :  Memory used 8 out of 40 at 713
+CPU Utilization :  cores used 3 out of 20 at 713
+Memory Utilization :  Memory used 8 out of 40 at 714
+CPU Utilization :  cores used 3 out of 20 at 714
+Memory Utilization :  Memory used 8 out of 40 at 715
+CPU Utilization :  cores used 3 out of 20 at 715
+Memory Utilization :  Memory used 8 out of 40 at 716
+CPU Utilization :  cores used 3 out of 20 at 716
+Memory Utilization :  Memory used 8 out of 40 at 717
+CPU Utilization :  cores used 3 out of 20 at 717
+Memory Utilization :  Memory used 8 out of 40 at 718
+CPU Utilization :  cores used 3 out of 20 at 718
+Memory Utilization :  Memory used 8 out of 40 at 719
+CPU Utilization :  cores used 3 out of 20 at 719
+Memory Utilization :  Memory used 8 out of 40 at 720
+CPU Utilization :  cores used 3 out of 20 at 720
+Memory Utilization :  Memory used 8 out of 40 at 721
+CPU Utilization :  cores used 3 out of 20 at 721
+Memory Utilization :  Memory used 8 out of 40 at 722
+CPU Utilization :  cores used 3 out of 20 at 722
+Memory Utilization :  Memory used 8 out of 40 at 723
+CPU Utilization :  cores used 3 out of 20 at 723
+Memory Utilization :  Memory used 8 out of 40 at 724
+CPU Utilization :  cores used 3 out of 20 at 724
+Memory Utilization :  Memory used 8 out of 40 at 725
+CPU Utilization :  cores used 3 out of 20 at 725
+Memory Utilization :  Memory used 8 out of 40 at 726
+CPU Utilization :  cores used 3 out of 20 at 726
+Memory Utilization :  Memory used 8 out of 40 at 727
+CPU Utilization :  cores used 3 out of 20 at 727
+Memory Utilization :  Memory used 8 out of 40 at 728
+CPU Utilization :  cores used 3 out of 20 at 728
+Memory Utilization :  Memory used 8 out of 40 at 729
+CPU Utilization :  cores used 3 out of 20 at 729
+Memory Utilization :  Memory used 8 out of 40 at 730
+CPU Utilization :  cores used 3 out of 20 at 730
+Memory Utilization :  Memory used 8 out of 40 at 731
+CPU Utilization :  cores used 3 out of 20 at 731
+Memory Utilization :  Memory used 8 out of 40 at 732
+CPU Utilization :  cores used 3 out of 20 at 732
+Memory Utilization :  Memory used 8 out of 40 at 733
+CPU Utilization :  cores used 3 out of 20 at 733
+Memory Utilization :  Memory used 8 out of 40 at 734
+CPU Utilization :  cores used 3 out of 20 at 734
+Memory Utilization :  Memory used 8 out of 40 at 735
+CPU Utilization :  cores used 3 out of 20 at 735
+Memory Utilization :  Memory used 8 out of 40 at 736
+CPU Utilization :  cores used 3 out of 20 at 736
+Memory Utilization :  Memory used 8 out of 40 at 737
+CPU Utilization :  cores used 3 out of 20 at 737
+Memory Utilization :  Memory used 8 out of 40 at 738
+CPU Utilization :  cores used 3 out of 20 at 738
+Memory Utilization :  Memory used 8 out of 40 at 739
+CPU Utilization :  cores used 3 out of 20 at 739
+Memory Utilization :  Memory used 8 out of 40 at 740
+CPU Utilization :  cores used 3 out of 20 at 740
+Memory Utilization :  Memory used 8 out of 40 at 741
+CPU Utilization :  cores used 3 out of 20 at 741
+Memory Utilization :  Memory used 8 out of 40 at 742
+CPU Utilization :  cores used 3 out of 20 at 742
+Memory Utilization :  Memory used 8 out of 40 at 743
+CPU Utilization :  cores used 3 out of 20 at 743
+Memory Utilization :  Memory used 8 out of 40 at 744
+CPU Utilization :  cores used 3 out of 20 at 744
+Memory Utilization :  Memory used 8 out of 40 at 745
+CPU Utilization :  cores used 3 out of 20 at 745
+Memory Utilization :  Memory used 8 out of 40 at 746
+CPU Utilization :  cores used 3 out of 20 at 746
+Memory Utilization :  Memory used 8 out of 40 at 747
+CPU Utilization :  cores used 3 out of 20 at 747
+Memory Utilization :  Memory used 8 out of 40 at 748
+CPU Utilization :  cores used 3 out of 20 at 748
+Memory Utilization :  Memory used 8 out of 40 at 749
+CPU Utilization :  cores used 3 out of 20 at 749
+Memory Utilization :  Memory used 8 out of 40 at 750
+CPU Utilization :  cores used 3 out of 20 at 750
+Memory Utilization :  Memory used 8 out of 40 at 751
+CPU Utilization :  cores used 3 out of 20 at 751
+Memory Utilization :  Memory used 8 out of 40 at 752
+CPU Utilization :  cores used 3 out of 20 at 752
+Memory Utilization :  Memory used 8 out of 40 at 753
+CPU Utilization :  cores used 3 out of 20 at 753
+Memory Utilization :  Memory used 8 out of 40 at 754
+CPU Utilization :  cores used 3 out of 20 at 754
+Memory Utilization :  Memory used 8 out of 40 at 755
+CPU Utilization :  cores used 3 out of 20 at 755
+Memory Utilization :  Memory used 8 out of 40 at 756
+CPU Utilization :  cores used 3 out of 20 at 756
+Memory Utilization :  Memory used 8 out of 40 at 757
+CPU Utilization :  cores used 3 out of 20 at 757
+Memory Utilization :  Memory used 8 out of 40 at 758
+CPU Utilization :  cores used 3 out of 20 at 758
+Memory Utilization :  Memory used 8 out of 40 at 759
+CPU Utilization :  cores used 3 out of 20 at 759
+Memory Utilization :  Memory used 8 out of 40 at 760
+CPU Utilization :  cores used 3 out of 20 at 760
+Memory Utilization :  Memory used 8 out of 40 at 761
+CPU Utilization :  cores used 3 out of 20 at 761
+Memory Utilization :  Memory used 8 out of 40 at 762
+CPU Utilization :  cores used 3 out of 20 at 762
+Memory Utilization :  Memory used 8 out of 40 at 763
+CPU Utilization :  cores used 3 out of 20 at 763
+Memory Utilization :  Memory used 8 out of 40 at 764
+CPU Utilization :  cores used 3 out of 20 at 764
+Memory Utilization :  Memory used 8 out of 40 at 765
+CPU Utilization :  cores used 3 out of 20 at 765
+Memory Utilization :  Memory used 8 out of 40 at 766
+CPU Utilization :  cores used 3 out of 20 at 766
+Memory Utilization :  Memory used 8 out of 40 at 767
+CPU Utilization :  cores used 3 out of 20 at 767
+Memory Utilization :  Memory used 8 out of 40 at 768
+CPU Utilization :  cores used 3 out of 20 at 768
+Memory Utilization :  Memory used 8 out of 40 at 769
+CPU Utilization :  cores used 3 out of 20 at 769
+Memory Utilization :  Memory used 8 out of 40 at 770
+CPU Utilization :  cores used 3 out of 20 at 770
+Memory Utilization :  Memory used 8 out of 40 at 771
+CPU Utilization :  cores used 3 out of 20 at 771
+Memory Utilization :  Memory used 8 out of 40 at 772
+CPU Utilization :  cores used 3 out of 20 at 772
+Memory Utilization :  Memory used 8 out of 40 at 773
+CPU Utilization :  cores used 3 out of 20 at 773
+Memory Utilization :  Memory used 8 out of 40 at 774
+CPU Utilization :  cores used 3 out of 20 at 774
+Memory Utilization :  Memory used 8 out of 40 at 775
+CPU Utilization :  cores used 3 out of 20 at 775
+Memory Utilization :  Memory used 8 out of 40 at 776
+CPU Utilization :  cores used 3 out of 20 at 776
+Memory Utilization :  Memory used 8 out of 40 at 777
+CPU Utilization :  cores used 3 out of 20 at 777
+Memory Utilization :  Memory used 8 out of 40 at 778
+CPU Utilization :  cores used 3 out of 20 at 778
+Memory Utilization :  Memory used 8 out of 40 at 779
+CPU Utilization :  cores used 3 out of 20 at 779
+Memory Utilization :  Memory used 8 out of 40 at 780
+CPU Utilization :  cores used 3 out of 20 at 780
+Memory Utilization :  Memory used 8 out of 40 at 781
+CPU Utilization :  cores used 3 out of 20 at 781
+Memory Utilization :  Memory used 8 out of 40 at 782
+CPU Utilization :  cores used 3 out of 20 at 782
+Memory Utilization :  Memory used 8 out of 40 at 783
+CPU Utilization :  cores used 3 out of 20 at 783
+Memory Utilization :  Memory used 8 out of 40 at 784
+CPU Utilization :  cores used 3 out of 20 at 784
+Memory Utilization :  Memory used 8 out of 40 at 785
+CPU Utilization :  cores used 3 out of 20 at 785
+Memory Utilization :  Memory used 8 out of 40 at 786
+CPU Utilization :  cores used 3 out of 20 at 786
+Memory Utilization :  Memory used 8 out of 40 at 787
+CPU Utilization :  cores used 3 out of 20 at 787
+Memory Utilization :  Memory used 8 out of 40 at 788
+CPU Utilization :  cores used 3 out of 20 at 788
+Memory Utilization :  Memory used 8 out of 40 at 789
+CPU Utilization :  cores used 3 out of 20 at 789
+Memory Utilization :  Memory used 8 out of 40 at 790
+CPU Utilization :  cores used 3 out of 20 at 790
+Memory Utilization :  Memory used 8 out of 40 at 791
+CPU Utilization :  cores used 3 out of 20 at 791
+Memory Utilization :  Memory used 8 out of 40 at 792
+CPU Utilization :  cores used 3 out of 20 at 792
+Memory Utilization :  Memory used 8 out of 40 at 793
+CPU Utilization :  cores used 3 out of 20 at 793
+Memory Utilization :  Memory used 8 out of 40 at 794
+CPU Utilization :  cores used 3 out of 20 at 794
+Memory Utilization :  Memory used 8 out of 40 at 795
+CPU Utilization :  cores used 3 out of 20 at 795
+Memory Utilization :  Memory used 8 out of 40 at 796
+CPU Utilization :  cores used 3 out of 20 at 796
+Memory Utilization :  Memory used 8 out of 40 at 797
+CPU Utilization :  cores used 3 out of 20 at 797
+Memory Utilization :  Memory used 8 out of 40 at 798
+CPU Utilization :  cores used 3 out of 20 at 798
+Task(2) of Job(1) completed at798.
+Task(2) of Job(1) completed at798.
+Task(2) of Job(1) completed at798.
+Memory Utilization :  Memory used 8 out of 40 at 799
+CPU Utilization :  cores used 3 out of 20 at 799
+Memory Utilization :  Memory used 8 out of 40 at 800
+CPU Utilization :  cores used 4 out of 20 at 800
+Memory Utilization :  Memory used 8 out of 40 at 801
+CPU Utilization :  cores used 3 out of 20 at 801
+Memory Utilization :  Memory used 8 out of 40 at 802
+CPU Utilization :  cores used 3 out of 20 at 802
+Memory Utilization :  Memory used 8 out of 40 at 803
+CPU Utilization :  cores used 3 out of 20 at 803
+Memory Utilization :  Memory used 8 out of 40 at 804
+CPU Utilization :  cores used 3 out of 20 at 804
+Memory Utilization :  Memory used 8 out of 40 at 805
+CPU Utilization :  cores used 3 out of 20 at 805
+Memory Utilization :  Memory used 8 out of 40 at 806
+CPU Utilization :  cores used 3 out of 20 at 806
+Memory Utilization :  Memory used 8 out of 40 at 807
+CPU Utilization :  cores used 3 out of 20 at 807
+Memory Utilization :  Memory used 8 out of 40 at 808
+CPU Utilization :  cores used 3 out of 20 at 808
+Memory Utilization :  Memory used 8 out of 40 at 809
+CPU Utilization :  cores used 3 out of 20 at 809
+Memory Utilization :  Memory used 8 out of 40 at 810
+CPU Utilization :  cores used 3 out of 20 at 810
+Memory Utilization :  Memory used 8 out of 40 at 811
+CPU Utilization :  cores used 3 out of 20 at 811
+Memory Utilization :  Memory used 8 out of 40 at 812
+CPU Utilization :  cores used 3 out of 20 at 812
+Memory Utilization :  Memory used 8 out of 40 at 813
+CPU Utilization :  cores used 3 out of 20 at 813
+Memory Utilization :  Memory used 8 out of 40 at 814
+CPU Utilization :  cores used 3 out of 20 at 814
+Memory Utilization :  Memory used 8 out of 40 at 815
+CPU Utilization :  cores used 3 out of 20 at 815
+Memory Utilization :  Memory used 8 out of 40 at 816
+CPU Utilization :  cores used 3 out of 20 at 816
+Memory Utilization :  Memory used 8 out of 40 at 817
+CPU Utilization :  cores used 3 out of 20 at 817
+Memory Utilization :  Memory used 8 out of 40 at 818
+CPU Utilization :  cores used 3 out of 20 at 818
+Memory Utilization :  Memory used 8 out of 40 at 819
+CPU Utilization :  cores used 3 out of 20 at 819
+Memory Utilization :  Memory used 8 out of 40 at 820
+CPU Utilization :  cores used 3 out of 20 at 820
+Memory Utilization :  Memory used 8 out of 40 at 821
+CPU Utilization :  cores used 3 out of 20 at 821
+Memory Utilization :  Memory used 8 out of 40 at 822
+CPU Utilization :  cores used 3 out of 20 at 822
+Memory Utilization :  Memory used 8 out of 40 at 823
+CPU Utilization :  cores used 3 out of 20 at 823
+Memory Utilization :  Memory used 8 out of 40 at 824
+CPU Utilization :  cores used 3 out of 20 at 824
+Memory Utilization :  Memory used 8 out of 40 at 825
+CPU Utilization :  cores used 3 out of 20 at 825
+Memory Utilization :  Memory used 8 out of 40 at 826
+CPU Utilization :  cores used 3 out of 20 at 826
+Memory Utilization :  Memory used 8 out of 40 at 827
+CPU Utilization :  cores used 3 out of 20 at 827
+Memory Utilization :  Memory used 8 out of 40 at 828
+CPU Utilization :  cores used 3 out of 20 at 828
+Memory Utilization :  Memory used 8 out of 40 at 829
+CPU Utilization :  cores used 3 out of 20 at 829
+Memory Utilization :  Memory used 8 out of 40 at 830
+CPU Utilization :  cores used 3 out of 20 at 830
+Memory Utilization :  Memory used 8 out of 40 at 831
+CPU Utilization :  cores used 3 out of 20 at 831
+Memory Utilization :  Memory used 8 out of 40 at 832
+CPU Utilization :  cores used 3 out of 20 at 832
+Memory Utilization :  Memory used 8 out of 40 at 833
+CPU Utilization :  cores used 3 out of 20 at 833
+Memory Utilization :  Memory used 8 out of 40 at 834
+CPU Utilization :  cores used 3 out of 20 at 834
+Memory Utilization :  Memory used 8 out of 40 at 835
+CPU Utilization :  cores used 3 out of 20 at 835
+Memory Utilization :  Memory used 8 out of 40 at 836
+CPU Utilization :  cores used 3 out of 20 at 836
+Memory Utilization :  Memory used 8 out of 40 at 837
+CPU Utilization :  cores used 3 out of 20 at 837
+Memory Utilization :  Memory used 8 out of 40 at 838
+CPU Utilization :  cores used 3 out of 20 at 838
+Memory Utilization :  Memory used 8 out of 40 at 839
+CPU Utilization :  cores used 3 out of 20 at 839
+Memory Utilization :  Memory used 8 out of 40 at 840
+CPU Utilization :  cores used 3 out of 20 at 840
+Memory Utilization :  Memory used 8 out of 40 at 841
+CPU Utilization :  cores used 3 out of 20 at 841
+Memory Utilization :  Memory used 8 out of 40 at 842
+CPU Utilization :  cores used 3 out of 20 at 842
+Memory Utilization :  Memory used 8 out of 40 at 843
+CPU Utilization :  cores used 3 out of 20 at 843
+Memory Utilization :  Memory used 8 out of 40 at 844
+CPU Utilization :  cores used 3 out of 20 at 844
+Memory Utilization :  Memory used 8 out of 40 at 845
+CPU Utilization :  cores used 3 out of 20 at 845
+Memory Utilization :  Memory used 8 out of 40 at 846
+CPU Utilization :  cores used 3 out of 20 at 846
+Memory Utilization :  Memory used 8 out of 40 at 847
+CPU Utilization :  cores used 3 out of 20 at 847
+Memory Utilization :  Memory used 8 out of 40 at 848
+CPU Utilization :  cores used 3 out of 20 at 848
+Memory Utilization :  Memory used 8 out of 40 at 849
+CPU Utilization :  cores used 3 out of 20 at 849
+Memory Utilization :  Memory used 8 out of 40 at 850
+CPU Utilization :  cores used 3 out of 20 at 850
+Memory Utilization :  Memory used 8 out of 40 at 851
+CPU Utilization :  cores used 3 out of 20 at 851
+Memory Utilization :  Memory used 8 out of 40 at 852
+CPU Utilization :  cores used 3 out of 20 at 852
+Memory Utilization :  Memory used 8 out of 40 at 853
+CPU Utilization :  cores used 3 out of 20 at 853
+Memory Utilization :  Memory used 8 out of 40 at 854
+CPU Utilization :  cores used 3 out of 20 at 854
+Memory Utilization :  Memory used 8 out of 40 at 855
+CPU Utilization :  cores used 3 out of 20 at 855
+Memory Utilization :  Memory used 8 out of 40 at 856
+CPU Utilization :  cores used 3 out of 20 at 856
+Memory Utilization :  Memory used 8 out of 40 at 857
+CPU Utilization :  cores used 3 out of 20 at 857
+Memory Utilization :  Memory used 8 out of 40 at 858
+CPU Utilization :  cores used 3 out of 20 at 858
+Memory Utilization :  Memory used 8 out of 40 at 859
+CPU Utilization :  cores used 3 out of 20 at 859
+Memory Utilization :  Memory used 8 out of 40 at 860
+CPU Utilization :  cores used 3 out of 20 at 860
+Memory Utilization :  Memory used 8 out of 40 at 861
+CPU Utilization :  cores used 3 out of 20 at 861
+Memory Utilization :  Memory used 8 out of 40 at 862
+CPU Utilization :  cores used 3 out of 20 at 862
+Memory Utilization :  Memory used 8 out of 40 at 863
+CPU Utilization :  cores used 3 out of 20 at 863
+Memory Utilization :  Memory used 8 out of 40 at 864
+CPU Utilization :  cores used 3 out of 20 at 864
+Memory Utilization :  Memory used 8 out of 40 at 865
+CPU Utilization :  cores used 3 out of 20 at 865
+Memory Utilization :  Memory used 8 out of 40 at 866
+CPU Utilization :  cores used 3 out of 20 at 866
+Memory Utilization :  Memory used 8 out of 40 at 867
+CPU Utilization :  cores used 3 out of 20 at 867
+Memory Utilization :  Memory used 8 out of 40 at 868
+CPU Utilization :  cores used 3 out of 20 at 868
+Memory Utilization :  Memory used 8 out of 40 at 869
+CPU Utilization :  cores used 3 out of 20 at 869
+Memory Utilization :  Memory used 8 out of 40 at 870
+CPU Utilization :  cores used 3 out of 20 at 870
+Memory Utilization :  Memory used 8 out of 40 at 871
+CPU Utilization :  cores used 3 out of 20 at 871
+Memory Utilization :  Memory used 8 out of 40 at 872
+CPU Utilization :  cores used 3 out of 20 at 872
+Memory Utilization :  Memory used 8 out of 40 at 873
+CPU Utilization :  cores used 3 out of 20 at 873
+Memory Utilization :  Memory used 8 out of 40 at 874
+CPU Utilization :  cores used 3 out of 20 at 874
+Memory Utilization :  Memory used 8 out of 40 at 875
+CPU Utilization :  cores used 3 out of 20 at 875
+Memory Utilization :  Memory used 8 out of 40 at 876
+CPU Utilization :  cores used 3 out of 20 at 876
+Memory Utilization :  Memory used 8 out of 40 at 877
+CPU Utilization :  cores used 3 out of 20 at 877
+Memory Utilization :  Memory used 8 out of 40 at 878
+CPU Utilization :  cores used 3 out of 20 at 878
+Memory Utilization :  Memory used 8 out of 40 at 879
+CPU Utilization :  cores used 3 out of 20 at 879
+Memory Utilization :  Memory used 8 out of 40 at 880
+CPU Utilization :  cores used 3 out of 20 at 880
+Memory Utilization :  Memory used 8 out of 40 at 881
+CPU Utilization :  cores used 3 out of 20 at 881
+Memory Utilization :  Memory used 8 out of 40 at 882
+CPU Utilization :  cores used 3 out of 20 at 882
+Memory Utilization :  Memory used 8 out of 40 at 883
+CPU Utilization :  cores used 3 out of 20 at 883
+Memory Utilization :  Memory used 8 out of 40 at 884
+CPU Utilization :  cores used 3 out of 20 at 884
+Memory Utilization :  Memory used 8 out of 40 at 885
+CPU Utilization :  cores used 3 out of 20 at 885
+Memory Utilization :  Memory used 8 out of 40 at 886
+CPU Utilization :  cores used 3 out of 20 at 886
+Memory Utilization :  Memory used 8 out of 40 at 887
+CPU Utilization :  cores used 3 out of 20 at 887
+Memory Utilization :  Memory used 8 out of 40 at 888
+CPU Utilization :  cores used 3 out of 20 at 888
+Memory Utilization :  Memory used 8 out of 40 at 889
+CPU Utilization :  cores used 3 out of 20 at 889
+Memory Utilization :  Memory used 8 out of 40 at 890
+CPU Utilization :  cores used 3 out of 20 at 890
+Memory Utilization :  Memory used 8 out of 40 at 891
+CPU Utilization :  cores used 3 out of 20 at 891
+Memory Utilization :  Memory used 8 out of 40 at 892
+CPU Utilization :  cores used 3 out of 20 at 892
+Memory Utilization :  Memory used 8 out of 40 at 893
+CPU Utilization :  cores used 3 out of 20 at 893
+Memory Utilization :  Memory used 8 out of 40 at 894
+CPU Utilization :  cores used 3 out of 20 at 894
+Memory Utilization :  Memory used 8 out of 40 at 895
+CPU Utilization :  cores used 3 out of 20 at 895
+Memory Utilization :  Memory used 8 out of 40 at 896
+CPU Utilization :  cores used 3 out of 20 at 896
+Memory Utilization :  Memory used 8 out of 40 at 897
+CPU Utilization :  cores used 3 out of 20 at 897
+Memory Utilization :  Memory used 8 out of 40 at 898
+CPU Utilization :  cores used 3 out of 20 at 898
+Memory Utilization :  Memory used 8 out of 40 at 899
+CPU Utilization :  cores used 3 out of 20 at 899
+Memory Utilization :  Memory used 8 out of 40 at 900
+CPU Utilization :  cores used 3 out of 20 at 900
+Memory Utilization :  Memory used 8 out of 40 at 901
+CPU Utilization :  cores used 3 out of 20 at 901
+Memory Utilization :  Memory used 8 out of 40 at 902
+CPU Utilization :  cores used 3 out of 20 at 902
+Memory Utilization :  Memory used 8 out of 40 at 903
+CPU Utilization :  cores used 3 out of 20 at 903
+Memory Utilization :  Memory used 8 out of 40 at 904
+CPU Utilization :  cores used 3 out of 20 at 904
+Memory Utilization :  Memory used 8 out of 40 at 905
+CPU Utilization :  cores used 3 out of 20 at 905
+Memory Utilization :  Memory used 8 out of 40 at 906
+CPU Utilization :  cores used 3 out of 20 at 906
+Memory Utilization :  Memory used 8 out of 40 at 907
+CPU Utilization :  cores used 3 out of 20 at 907
+Memory Utilization :  Memory used 8 out of 40 at 908
+CPU Utilization :  cores used 3 out of 20 at 908
+Memory Utilization :  Memory used 8 out of 40 at 909
+CPU Utilization :  cores used 3 out of 20 at 909
+Memory Utilization :  Memory used 8 out of 40 at 910
+CPU Utilization :  cores used 3 out of 20 at 910
+Memory Utilization :  Memory used 8 out of 40 at 911
+CPU Utilization :  cores used 3 out of 20 at 911
+Memory Utilization :  Memory used 8 out of 40 at 912
+CPU Utilization :  cores used 3 out of 20 at 912
+Memory Utilization :  Memory used 8 out of 40 at 913
+CPU Utilization :  cores used 3 out of 20 at 913
+Memory Utilization :  Memory used 8 out of 40 at 914
+CPU Utilization :  cores used 3 out of 20 at 914
+Memory Utilization :  Memory used 8 out of 40 at 915
+CPU Utilization :  cores used 3 out of 20 at 915
+Memory Utilization :  Memory used 8 out of 40 at 916
+CPU Utilization :  cores used 3 out of 20 at 916
+Memory Utilization :  Memory used 8 out of 40 at 917
+CPU Utilization :  cores used 3 out of 20 at 917
+Memory Utilization :  Memory used 8 out of 40 at 918
+CPU Utilization :  cores used 3 out of 20 at 918
+Memory Utilization :  Memory used 8 out of 40 at 919
+CPU Utilization :  cores used 3 out of 20 at 919
+Memory Utilization :  Memory used 8 out of 40 at 920
+CPU Utilization :  cores used 3 out of 20 at 920
+Memory Utilization :  Memory used 8 out of 40 at 921
+CPU Utilization :  cores used 3 out of 20 at 921
+Memory Utilization :  Memory used 8 out of 40 at 922
+CPU Utilization :  cores used 3 out of 20 at 922
+Memory Utilization :  Memory used 8 out of 40 at 923
+CPU Utilization :  cores used 3 out of 20 at 923
+Memory Utilization :  Memory used 8 out of 40 at 924
+CPU Utilization :  cores used 3 out of 20 at 924
+Memory Utilization :  Memory used 8 out of 40 at 925
+CPU Utilization :  cores used 3 out of 20 at 925
+Memory Utilization :  Memory used 8 out of 40 at 926
+CPU Utilization :  cores used 3 out of 20 at 926
+Memory Utilization :  Memory used 8 out of 40 at 927
+CPU Utilization :  cores used 3 out of 20 at 927
+Memory Utilization :  Memory used 8 out of 40 at 928
+CPU Utilization :  cores used 3 out of 20 at 928
+Memory Utilization :  Memory used 8 out of 40 at 929
+CPU Utilization :  cores used 3 out of 20 at 929
+Memory Utilization :  Memory used 8 out of 40 at 930
+CPU Utilization :  cores used 3 out of 20 at 930
+Memory Utilization :  Memory used 8 out of 40 at 931
+CPU Utilization :  cores used 3 out of 20 at 931
+Memory Utilization :  Memory used 8 out of 40 at 932
+CPU Utilization :  cores used 3 out of 20 at 932
+Memory Utilization :  Memory used 8 out of 40 at 933
+CPU Utilization :  cores used 3 out of 20 at 933
+Memory Utilization :  Memory used 8 out of 40 at 934
+CPU Utilization :  cores used 3 out of 20 at 934
+Memory Utilization :  Memory used 8 out of 40 at 935
+CPU Utilization :  cores used 3 out of 20 at 935
+Memory Utilization :  Memory used 8 out of 40 at 936
+CPU Utilization :  cores used 3 out of 20 at 936
+Memory Utilization :  Memory used 8 out of 40 at 937
+CPU Utilization :  cores used 3 out of 20 at 937
+Memory Utilization :  Memory used 8 out of 40 at 938
+CPU Utilization :  cores used 3 out of 20 at 938
+Memory Utilization :  Memory used 8 out of 40 at 939
+CPU Utilization :  cores used 3 out of 20 at 939
+Memory Utilization :  Memory used 8 out of 40 at 940
+CPU Utilization :  cores used 3 out of 20 at 940
+Memory Utilization :  Memory used 8 out of 40 at 941
+CPU Utilization :  cores used 3 out of 20 at 941
+Memory Utilization :  Memory used 8 out of 40 at 942
+CPU Utilization :  cores used 3 out of 20 at 942
+Memory Utilization :  Memory used 8 out of 40 at 943
+CPU Utilization :  cores used 3 out of 20 at 943
+Memory Utilization :  Memory used 8 out of 40 at 944
+CPU Utilization :  cores used 3 out of 20 at 944
+Memory Utilization :  Memory used 8 out of 40 at 945
+CPU Utilization :  cores used 3 out of 20 at 945
+Memory Utilization :  Memory used 8 out of 40 at 946
+CPU Utilization :  cores used 3 out of 20 at 946
+Memory Utilization :  Memory used 8 out of 40 at 947
+CPU Utilization :  cores used 3 out of 20 at 947
+Memory Utilization :  Memory used 8 out of 40 at 948
+CPU Utilization :  cores used 3 out of 20 at 948
+Memory Utilization :  Memory used 8 out of 40 at 949
+CPU Utilization :  cores used 3 out of 20 at 949
+Memory Utilization :  Memory used 8 out of 40 at 950
+CPU Utilization :  cores used 3 out of 20 at 950
+Memory Utilization :  Memory used 8 out of 40 at 951
+CPU Utilization :  cores used 3 out of 20 at 951
+Memory Utilization :  Memory used 8 out of 40 at 952
+CPU Utilization :  cores used 3 out of 20 at 952
+Memory Utilization :  Memory used 8 out of 40 at 953
+CPU Utilization :  cores used 3 out of 20 at 953
+Memory Utilization :  Memory used 8 out of 40 at 954
+CPU Utilization :  cores used 3 out of 20 at 954
+Memory Utilization :  Memory used 8 out of 40 at 955
+CPU Utilization :  cores used 3 out of 20 at 955
+Memory Utilization :  Memory used 8 out of 40 at 956
+CPU Utilization :  cores used 3 out of 20 at 956
+Memory Utilization :  Memory used 8 out of 40 at 957
+CPU Utilization :  cores used 3 out of 20 at 957
+Memory Utilization :  Memory used 8 out of 40 at 958
+CPU Utilization :  cores used 3 out of 20 at 958
+Memory Utilization :  Memory used 8 out of 40 at 959
+CPU Utilization :  cores used 3 out of 20 at 959
+Memory Utilization :  Memory used 8 out of 40 at 960
+CPU Utilization :  cores used 3 out of 20 at 960
+Memory Utilization :  Memory used 8 out of 40 at 961
+CPU Utilization :  cores used 3 out of 20 at 961
+Memory Utilization :  Memory used 8 out of 40 at 962
+CPU Utilization :  cores used 3 out of 20 at 962
+Memory Utilization :  Memory used 8 out of 40 at 963
+CPU Utilization :  cores used 3 out of 20 at 963
+Memory Utilization :  Memory used 8 out of 40 at 964
+CPU Utilization :  cores used 3 out of 20 at 964
+Memory Utilization :  Memory used 8 out of 40 at 965
+CPU Utilization :  cores used 3 out of 20 at 965
+Memory Utilization :  Memory used 8 out of 40 at 966
+CPU Utilization :  cores used 3 out of 20 at 966
+Memory Utilization :  Memory used 8 out of 40 at 967
+CPU Utilization :  cores used 3 out of 20 at 967
+Memory Utilization :  Memory used 8 out of 40 at 968
+CPU Utilization :  cores used 3 out of 20 at 968
+Memory Utilization :  Memory used 8 out of 40 at 969
+CPU Utilization :  cores used 3 out of 20 at 969
+Memory Utilization :  Memory used 8 out of 40 at 970
+CPU Utilization :  cores used 3 out of 20 at 970
+Memory Utilization :  Memory used 8 out of 40 at 971
+CPU Utilization :  cores used 3 out of 20 at 971
+Memory Utilization :  Memory used 8 out of 40 at 972
+CPU Utilization :  cores used 3 out of 20 at 972
+Memory Utilization :  Memory used 8 out of 40 at 973
+CPU Utilization :  cores used 3 out of 20 at 973
+Memory Utilization :  Memory used 8 out of 40 at 974
+CPU Utilization :  cores used 3 out of 20 at 974
+Memory Utilization :  Memory used 8 out of 40 at 975
+CPU Utilization :  cores used 3 out of 20 at 975
+Memory Utilization :  Memory used 8 out of 40 at 976
+CPU Utilization :  cores used 3 out of 20 at 976
+Memory Utilization :  Memory used 8 out of 40 at 977
+CPU Utilization :  cores used 3 out of 20 at 977
+Memory Utilization :  Memory used 8 out of 40 at 978
+CPU Utilization :  cores used 3 out of 20 at 978
+Memory Utilization :  Memory used 8 out of 40 at 979
+CPU Utilization :  cores used 3 out of 20 at 979
+Memory Utilization :  Memory used 8 out of 40 at 980
+CPU Utilization :  cores used 3 out of 20 at 980
+Memory Utilization :  Memory used 8 out of 40 at 981
+CPU Utilization :  cores used 3 out of 20 at 981
+Memory Utilization :  Memory used 8 out of 40 at 982
+CPU Utilization :  cores used 3 out of 20 at 982
+Memory Utilization :  Memory used 8 out of 40 at 983
+CPU Utilization :  cores used 3 out of 20 at 983
+Memory Utilization :  Memory used 8 out of 40 at 984
+CPU Utilization :  cores used 3 out of 20 at 984
+Memory Utilization :  Memory used 8 out of 40 at 985
+CPU Utilization :  cores used 3 out of 20 at 985
+Memory Utilization :  Memory used 8 out of 40 at 986
+CPU Utilization :  cores used 3 out of 20 at 986
+Memory Utilization :  Memory used 8 out of 40 at 987
+CPU Utilization :  cores used 3 out of 20 at 987
+Memory Utilization :  Memory used 8 out of 40 at 988
+CPU Utilization :  cores used 3 out of 20 at 988
+Memory Utilization :  Memory used 8 out of 40 at 989
+CPU Utilization :  cores used 3 out of 20 at 989
+Memory Utilization :  Memory used 8 out of 40 at 990
+CPU Utilization :  cores used 3 out of 20 at 990
+Memory Utilization :  Memory used 8 out of 40 at 991
+CPU Utilization :  cores used 3 out of 20 at 991
+Memory Utilization :  Memory used 8 out of 40 at 992
+CPU Utilization :  cores used 3 out of 20 at 992
+Memory Utilization :  Memory used 8 out of 40 at 993
+CPU Utilization :  cores used 3 out of 20 at 993
+Memory Utilization :  Memory used 8 out of 40 at 994
+CPU Utilization :  cores used 3 out of 20 at 994
+Memory Utilization :  Memory used 8 out of 40 at 995
+CPU Utilization :  cores used 3 out of 20 at 995
+Task(2) of Job(1) completed at995.
+Task(2) of Job(1) completed at995.
+Task(2) of Job(1) completed at995.
+Memory Utilization :  Memory used 8 out of 40 at 996
+CPU Utilization :  cores used 3 out of 20 at 996
+Memory Utilization :  Memory used 8 out of 40 at 997
+CPU Utilization :  cores used 4 out of 20 at 997
+Memory Utilization :  Memory used 8 out of 40 at 998
+CPU Utilization :  cores used 3 out of 20 at 998
+Memory Utilization :  Memory used 8 out of 40 at 999
+CPU Utilization :  cores used 3 out of 20 at 999
+Memory Utilization :  Memory used 8 out of 40 at 1000
+CPU Utilization :  cores used 3 out of 20 at 1000
