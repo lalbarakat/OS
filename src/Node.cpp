@@ -71,7 +71,7 @@ float Node::Estimatewaittime(int cores, int memory)
  int Cores[CORESNUM]={0};
  int Memory[MAINMEMORY]={0};
  int min_val=0;
-    for (std::deque<Task>::iterator it = queue.begin(); it!=queue.end(); ++it)
+    for (std::deque<Task>::iterator it = regularQueue.begin(); it!=regularQueue.end(); ++it)
     {
         Task task = *it;
         min_val = FindMinVal(Cores,Memory,CORESNUM,MAINMEMORY,task.getCores_required(),task.getMemory_required());
@@ -106,7 +106,7 @@ void Node::Scheduler(){
     Task t=PJSNode.PeekTask();
     std::cout<<"Task from PJS_Node"<<t.getTaskId()<<std::endl;
     std::cout<<"Task from PJS_Node"<<t.getCores_required()<<std::endl;
-    addTask(PJSNode.getTask());
+    addRegularTask(PJSNode.getTask());
     std::cout<<"Task id"<<id<<t.getTaskId()<<std::endl;
     std::cout<<"Task exec time"<<id<<t.getCPU_time()<<std::endl;
     std::cout<<"Task memory"<<id<<t.getMemory_required()<<std::endl;
@@ -122,20 +122,16 @@ void Node::CreateExecuters(){
     CPU_ptr_list.push_back(new CPU(this));
 }
 
-void Node::addTask(Task t){
-    queue.push_back(t);
-}
-
 void Node::Create_Waittime_matrix(){
     Task *t1= new Task(0,1,40,4,2);
     
-    queue.push_back(*t1);
+    regularQueue.push_back(*t1);
     Task *t2= new Task(0,1,10,2,2);
     
-    queue.push_back(*t2);
+    regularQueue.push_back(*t2);
     Task *t3= new Task(0,1,30,4,2);
     
-    queue.push_back(*t3);
+    regularQueue.push_back(*t3);
     Task *t4= new Task(0,1,20,2,4);
     //queue.push_back(*t4);    
     resize(local_wait_time_matrix,4,4,-1);
@@ -145,25 +141,74 @@ void Node::Create_Waittime_matrix(){
         for (size_t j=0; j<local_wait_time_matrix.size(); j++) 
         {
             Task *t = new Task(0,5,0,Mem_array[j],cores_array[i]);
-            addTask(*t);
+            addRegularTask(*t);
             if(cores_array[i] > CORESNUM || Mem_array[j] > MAINMEMORY)
                 local_wait_time_matrix[i][j] = -1;
             else
                 local_wait_time_matrix[i][j] = Estimatewaittime(cores_array[i],Mem_array[j]);
-            getTask();
+            Task *t1 = NULL;
+            getRegularTask(t1);
             delete t;
         }
     }
 }
 
-Task Node::getTask(){
-    Task t= queue.front();
-    queue.pop_front();
+
+Task* Node::getRegularTask(Task *t){
+    if(regularQueue.empty())
+    {
+        t=NULL;
+        return NULL;
+    }
+    t= &(regularQueue.front());
+    regularQueue.pop_front();
     return t;
 }
 
-Task Node::PeekTask(){
-    return queue.front();
+Task* Node::PeekRegularTask(Task *t){
+    if(regularQueue.empty())
+    {
+        t=NULL;
+        return NULL;
+    }
+    t= &(regularQueue.front());
+    return t;
+}
+
+
+void Node::addRegularTask(Task t){
+    regularQueue.push_back(t);
+}
+
+Task* Node::getOppurtunisticTask(Task *t){
+    if(OppurtunisticQueue.empty())
+    {
+        t=NULL;
+        return NULL;
+    }
+    t= &(OppurtunisticQueue.front());
+    OppurtunisticQueue.pop_front();
+    return t;
+}
+
+Task* Node::PeekOppurtunisticTask(Task *t){
+    if(OppurtunisticQueue.empty())
+    {
+        t = NULL;
+        return NULL;
+    }
+    t= &(OppurtunisticQueue.front());
+    return t;
+}
+
+
+void Node::addOppurtunisticTask(Task t){
+    OppurtunisticQueue.push_back(t);
+}
+
+
+void Node::addOppurtunisticTasktofront(Task t){
+    OppurtunisticQueue.push_front(t);
 }
 
 /*******************************************************************************
@@ -176,6 +221,10 @@ CPU::CPU(Node* ptr){
     std::cout<<"CPU constructor"<<std::endl; 
     Cores.reserve(ptr->CORESNUM);
     Memory.reserve(ptr->MAINMEMORY);
+    for(int i =0;i<ptr->CORESNUM;i++)
+        Cores[i].second = 0;
+    for(int i=0;i<ptr->MAINMEMORY;i++)
+        Memory[i].second = 0;
     }
 
 CPU::CPU(const CPU& orig){
@@ -185,6 +234,60 @@ CPU::~CPU(){
 }
 
 
+int CPU::numberoffreecores(int coresnum,bool isRegular)
+{
+    int freecores = 0;
+    for(int i = 0;i<coresnum;i++)
+    {
+        if((Cores[i].second<=0 || (isRegular && Cores[i].first.getTaskMode())))
+            freecores++;
+        else
+        {
+      //      stats.incCoresUSed();
+            //increasing the cores used to track CPU Utilization
+        }
+    }
+    //stats.inctotalCores();
+    return freecores;
+}
+
+int CPU::numberoffreememory(int mainmemory,bool isRegular)
+{
+    int freememory = 0;
+    for(int i = 0;i<mainmemory;i++)
+    {
+        if((Memory[i].second<=0 || (isRegular && Memory[i].first.getTaskMode())))
+            freememory++;
+        else
+        {
+//            stats.incGBUSed();
+        }
+    }
+  //  stats.inctotalGB();
+    return freememory;
+}
+
+void CPU::printtologfile(Task t,time_t now)
+{
+    char* dt = ctime(&now);
+    std::cout<<"Task "<<t.getTaskId()<<"started executing "<<" consuming "<<t.getCores_required()<<" Cores "
+            "and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
+}
+
+void CPU::Zerointhearrays(Task t,Task preempted_task)
+{
+    for(int j=0;j<t.getMemory_required();j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
+    {
+        if(Memory[j].first.getTaskId() == preempted_task.getTaskId())
+        Memory[j].second = 0;
+    }
+    for(int j=0;j<t.getCores_required();j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
+    {
+        if(Cores[j].first.getTaskId() == preempted_task.getTaskId())
+        Cores[j].second = 0;
+    }
+}
+
 void CPU::validate(int coresnum,int mainmemory)
 {
     for(int i=0;i<coresnum;i++)
@@ -192,10 +295,10 @@ void CPU::validate(int coresnum,int mainmemory)
         if(Cores[i].second>0)
             Cores[i].second--;
         if(Cores[i].second==0)
-        {         
-            NodePJS_queue.push(Cores[i].first);           
+        {  
+            //NodePJS_queue.push(Cores[i].first);           
             time_t now = time(0);
-            stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId(),now);
+            //stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId(),now);
         }
     }
     
@@ -210,97 +313,88 @@ void CPU::validate(int coresnum,int mainmemory)
 }
 
 
-int CPU::numberoffreecores(int coresnum)
-{
-    int freecores = 0;
-    for(int i = 0;i<coresnum;i++)
-    {
-        if(Cores[i].second==0)
-            freecores++;
-        else
-        {
-            stats.incCoresUSed();
-            //increasing the cores used to track CPU Utilization
-        }
-    }
-    stats.inctotalCores();
-    return freecores;
-}
-
-int CPU::numberoffreememory(int mainmemory)
-{
-    int freememory = 0;
-    for(int i = 0;i<mainmemory;i++)
-    {
-        if(Memory[i].second==0)
-            freememory++;
-        else
-        {
-            stats.incGBUSed();
-        }
-    }
-    stats.inctotalGB();
-    return freememory;
-}
-
-void CPU::printtologfile(Task t,time_t now)
-{
-    char* dt = ctime(&now);
-    std::cout<<"Task "<<t.getTaskId()<<"started executing at Node "<<node_ptr->getId()<<" consuming "<<t.getCores_required()<<" Cores "
-            "and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
-}
-
-bool CPU::IsScheduled(Task t,int coresnum,int mainmemory)
+bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegular)
 {
     time_t now = time(0);
     
-   if( numberoffreecores(coresnum) >= t.getCores_required() && numberoffreememory(mainmemory) >= t.getMemory_required())
+   if( numberoffreecores(coresnum,isRegular) >= t.getCores_required() && numberoffreememory(mainmemory,isRegular) >= t.getMemory_required())
    {
-       for(int i=0;i<t.getCores_required();i++)
+       
+       int reqdcores = 0;
+       for(int i =0;i<ptr->CORESNUM;i++)
        {
-           Cores[i].second = t.getCPU_time();
-           Cores[i].first = t;
+           if(Cores[i].second ==0 && reqdcores < t.getCores_required())
+           {
+               
+               Cores[i].second = t.getCPU_time();
+               Cores[i].first = t;
+               reqdcores++;
+           }
+           else if(Cores[i].second!=0 && isRegular && Cores[i].first.getTaskMode() && (reqdcores < t.getCores_required()))
+            {
+                    Cores[i].first.setCPU_time(Cores[i].second);
+                    ptr->addOppurtunisticTasktofront(Cores[i].first);
+                    //preempt the oppurtunistic task and put it back in the oppurtinistic queue.
+                    Zerointhearrays(t,Cores[i].first);
+                    Cores[i].second = t.getCPU_time();
+                    Cores[i].first = t;
+                    reqdcores++;
+            }
        }
-       for(int i=0;i<t.getMemory_required();i++)
+       
+
+       int reqdMemory = 0;
+       for(int i =0;i<ptr->MAINMEMORY;i++)
        {
-           Memory[i].second = t.getCPU_time();
-           Memory[i].first = t;
+           if(Memory[i].second ==0 && reqdMemory < t.getMemory_required())
+           {
+               
+               Memory[i].second = t.getCPU_time();
+               Memory[i].first = t;
+               reqdMemory++;
+           }
+           else if(Memory[i].second!=0 && isRegular && Memory[i].first.getTaskMode() && (reqdMemory < t.getMemory_required()))
+            {
+                    Memory[i].first.setCPU_time(Memory[i].second);
+                    ptr->addOppurtunisticTasktofront(Memory[i].first);
+                    //preempt the oppurtunistic task and put it back in the oppurtinistic queue.
+                    Zerointhearrays(t,Memory[i].first);
+                    Memory[i].second = t.getCPU_time();
+                    Memory[i].first = t;
+                    reqdMemory++;
+            }
        }
+     
        printtologfile(t,now);
        return true;
    }
    else
-   {
-       return false;
+      return false;
    }
-}
-
 
 void CPU::Executer(Node *ptr ){
-   // Task t = getTask();
     
-    
-    /*while(!(ptr->queue.empty()))
-    {
-        Task t = ptr->PeekTask();
+        Task *t = NULL;
+            
         
-        if(IsScheduled(t,ptr->CORESNUM,ptr->MAINMEMORY))
-        {
-            ptr->getTask();
-        }
-    }
-    
-    validate(ptr->CORESNUM,ptr->MAINMEMORY);
-    */
-     Task t = ptr->PeekTask();
-    while(!(ptr->queue.empty()) && IsScheduled(t,ptr->CORESNUM,ptr->MAINMEMORY))
-    {                        
-            ptr->getTask();
-            t = ptr->PeekTask();
-    }
-    
-    validate(ptr->CORESNUM,ptr->MAINMEMORY);
-    
-    std::cout<<"This is executer"<<std::endl;    
-    
+            t= ptr->PeekRegularTask(t);
+            while(!(ptr->regularQueue.empty()) && IsScheduled(*t,ptr,ptr->CORESNUM,ptr->MAINMEMORY,1))
+            {                        
+                   ptr->getRegularTask(t);
+                   t = ptr->PeekRegularTask(t);
+            }
+
+            std::sort(Cores.begin(),Cores.end(),Xgreater());
+            std::sort(Memory.begin(),Memory.end(),Xgreater());
+            //Oppurtunistic Scheduling
+              t = ptr->PeekOppurtunisticTask(t);
+             while(!(ptr->OppurtunisticQueue.empty()) && IsScheduled(*t,ptr,ptr->CORESNUM,ptr->MAINMEMORY,0))
+             {
+                      ptr->getOppurtunisticTask(t);
+                  t = ptr->PeekOppurtunisticTask(t);
+             }
+
+            validate(ptr->CORESNUM,ptr->MAINMEMORY);
+//            std::cout<<"This is executer"<<std::endl;    
+              
 }

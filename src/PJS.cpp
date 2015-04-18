@@ -141,6 +141,7 @@ for (std::vector<Node *>::iterator it = Nodes_list.begin() ; it != Nodes_list.en
 }
 
 PJS::~PJS() {
+    
 }
 
 void PJS::CheckForTasks(){

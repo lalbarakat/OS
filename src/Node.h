@@ -32,9 +32,13 @@ public:
     void Scheduler();
     void Execute();
     void CreateExecuters(); 
-    void addTask(Task t);
-    Task getTask();
-    Task PeekTask();
+    void addRegularTask(Task t);
+    Task* getRegularTask(Task *t);
+    Task* PeekRegularTask(Task *t);
+    void addOppurtunisticTask(Task t);
+    void addOppurtunisticTasktofront(Task t);
+    Task* getOppurtunisticTask(Task *t);
+    Task* PeekOppurtunisticTask(Task *t);
     int FindMinVal(int Cores[4],int Memory[4],int numofcores, int mainmemory,
         int task_cores,int task_mem);
     float Estimatewaittime(int cores, int Memory);
@@ -61,7 +65,8 @@ private:
     int id;
     int CORESNUM = 1;
     int MAINMEMORY = 8192; //8GB
-    std::deque<Task> queue;
+    std::deque<Task> regularQueue;
+    std::deque<Task> OppurtunisticQueue;
     matrix_t local_wait_time_matrix;
     //queue of task
     std::vector<CPU *> CPU_ptr_list;
@@ -80,9 +85,10 @@ public:
     void setId(int id) {this->id = id;}
     void Executer(Node *ptr);
     void validate(int coresnum,int mainmemory);
-    bool IsScheduled(Task t,int coresnum,int mainmemory);
-    int numberoffreememory(int mainmemory);
-    int numberoffreecores(int coresnum);
+    bool IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool IsRegular);
+    int numberoffreememory(int mainmemory,bool isRegular);
+    int numberoffreecores(int coresnum,bool isRegular);
+    void Zerointhearrays(Task t,Task preempted_task);
     struct Xgreater
     {
         bool operator()( const std::pair<Task,int>& lx, const std::pair<Task,int>& rx ) const {

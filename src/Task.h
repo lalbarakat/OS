@@ -30,6 +30,10 @@ public:
         return memory_required;
     }
 
+    int getTaskMode() const {
+        return isOppurtunistic;
+    }
+
     int getTaskId() const {
         return task_id;
     }
