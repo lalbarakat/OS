@@ -94,7 +94,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
 {
     //Reading the aggregated wait time matrices from CCU_PJS
     AggregatedMatPair matpair;
-    if(!(PJS::CCUPJS.isEmpty()))
+    if(!(PJS::CCUPJS.isEmpty()) && curBatch.size()>0)
     {
         matpair =  CCUPJS.getMatrix();
        //Randomly allocate tasks oppurtunistically.
@@ -107,6 +107,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
              else
                (*iter).SetTaskMode(0);//0 for regular
        }
+        
        std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,curBatch,matpair);
        std::cout<<"unmatched task list "<<std::endl;
        curBatch.clear();
@@ -126,6 +127,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
             Nodes_list[i%NumberOfNodes]->PJSNode.addTask(*iter);
             i++;
        }
+        curBatch.clear();
   }
         
 }
