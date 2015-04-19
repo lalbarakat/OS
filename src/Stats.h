@@ -44,12 +44,15 @@ public:
     void incGBUSed(){GBUsed++;}
     void inctotalGB(int GB){totalGB+=GB;}
     
+    void incQueueSize(int size){queueSize += size;}
+    
     unsigned long getCoresUSed(){return coresUsed;}
     void setCoresUSed(int coresused){coresUsed =coresused;}
     void settotalCores(int totalcores){totalCores = totalcores;}
     void setGBUSed(int gbused ){GBUsed = gbused;}
     void settotalGB(int totalgb){totalGB = totalgb;}
-        
+    void setQueueSize(int size){queueSize = size;}
+    int getQueueSize(){ return queueSize;}
     
 private:
     std::string filename;
@@ -57,11 +60,13 @@ private:
     unsigned int taskCounter;
     unsigned long long clock;
     
-    unsigned long prevCores;
+    unsigned long prevCores=1;
     unsigned long coresUsed;
     unsigned long totalCores;
     
-    unsigned long prevGB;
+    unsigned long queueSize;
+    
+    unsigned long prevGB=1;
     unsigned long GBUsed;
     unsigned long totalGB;
 };
