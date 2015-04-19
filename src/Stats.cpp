@@ -8,8 +8,8 @@
 #include "Stats.h"
 #include <fstream>
 #include<ctime>
-Stats::Stats():filename("output.txt"),filename_CPUUtil("output_cpuutil.txt"),filename_MemoryUtil("output_memoryutil.txt"),
-        filename_NumberofTasks("output_numberoftasks.txt"),filename_JobCompletion("output_jobcompletion.txt"),jobCounter(0),taskCounter(0),clock(0) {
+Stats::Stats():filename("output.txt"),filename_CPUUtil("output_cpuutil.csv"),filename_MemoryUtil("output_memoryutil.csv"),
+        filename_NumberofTasks("output_numberoftasks.csv"),filename_JobCompletion("output_jobcompletion.txt"),jobCounter(0),taskCounter(0),clock(0) {
     std::ofstream out(filename, std::ofstream::trunc);
     //Need to do this to overwrite contents of previous run.
     out<<"Stats file"<<std::endl;
@@ -88,7 +88,7 @@ void Stats::recordCpuUtilization()
     
        float utilization = ((float)coresUsed) / totalCores;
        std::ofstream out(filename_CPUUtil, std::ofstream::app);
-       out<<clock<<" "<<utilization<<std::endl;
+       out<<clock<<","<<utilization<<std::endl;
        out.close();
     taskCounter++;
 }
@@ -103,7 +103,7 @@ void Stats::recordMemoryUtilization()
     }
        float utilization = ((float)GBUsed) / totalGB;
        std::ofstream out(filename_MemoryUtil, std::ofstream::app);
-       out<<clock<<" "<<utilization<<std::endl;
+       out<<clock<<","<<utilization<<std::endl;
        out.close();
     
     taskCounter++;
@@ -111,7 +111,7 @@ void Stats::recordMemoryUtilization()
 void Stats::recordNumTasksRead(int num_tasks){
     
     std::ofstream out(filename_NumberofTasks, std::ofstream::app);
-    out<<clock<<" "<<num_tasks<<std::endl;
+    out<<clock<<","<<num_tasks<<std::endl;
     out.close();
 }
 void Stats::finalPrint(){
