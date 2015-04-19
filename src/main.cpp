@@ -17,7 +17,7 @@ enum time_enums{
     NODE_SCHEDULER_TIME=1,
     NODE_MATRIX_SEND_TIME=30,
     NODE_EXECUTOR_TIME=1,
-    PJS_SCHEDULING_TIME=2,
+    PJS_SCHEDULING_TIME=1,
     JOB_GENERATOR_TIME=30
 };
 bool running=true;
@@ -71,9 +71,9 @@ int main(int argc, char** argv) {
         }
     }
     std::cout<<"Going to run for "<<num_loops<<" loops."<<std::endl;
-
+    int idle_counter=0;
     unsigned long long counter=0;
-    while(counter<num_loops && !(PJS_obj.outOfJobs() && stats.getCoresUSed()==0)){
+    while(counter<num_loops && !(PJS_obj.outOfJobs() && idle_counter>30)){
         //Do things here
        //Reset the statistics
         stats.setCoresUSed(0);
@@ -121,6 +121,12 @@ int main(int argc, char** argv) {
         //Record the statistics;
         stats.recordMemoryUtilization();
         stats.recordCpuUtilization();
+        if(stats.getCoresUSed()==0){
+            idle_counter++;
+        }
+        else{
+            idle_counter=0;
+        }
     }
     return 0;
 }
