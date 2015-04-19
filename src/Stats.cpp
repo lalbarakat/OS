@@ -42,8 +42,8 @@ void Stats::recordCompletedJob(int jobId){
     out<<"+Job(" << jobId << ") completed at" << clock << "." << std::endl;
     out.close();
     
-    //out(filename_JobCompletion, std::ofstream::app);
-    out.open(filename_JobCompletion);
+    out.open(filename_JobCompletion, std::ofstream::app);
+    //out.open(filename_JobCompletion);
     out<<clock<<" "<<jobId<<std::endl;
     out.close();
     
@@ -54,8 +54,8 @@ void Stats::recordCompletedJob(int jobId, unsigned long long startTime){
     out<<"+Job(" << jobId << ") completed in" << (clock-startTime) << "." << std::endl;
     out.close();
     
-    //out(filename_JobCompletion, std::ofstream::app);
-    out.open(filename_JobCompletion);
+    out.open(filename_JobCompletion, std::ofstream::app);
+    //out.open(filename_JobCompletion);
     out<<clock-startTime<<" "<<jobId<<std::endl;
     out.close();
     jobCounter++;
