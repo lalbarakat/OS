@@ -9,7 +9,7 @@
 #include <fstream>
 #include<ctime>
 Stats::Stats():filename("output.txt"),filename_CPUUtil("output_cpuutil.txt"),filename_MemoryUtil("output_memoryutil.txt"),
-        filename_NumberofTasks("output_memoryutil.txt"),filename_JobCompletion("output_jobcompletion.txt"),jobCounter(0),taskCounter(0),clock(0) {
+        filename_NumberofTasks("output_numberoftasks.txt"),filename_JobCompletion("output_jobcompletion.txt"),jobCounter(0),taskCounter(0),clock(0) {
     std::ofstream out(filename, std::ofstream::trunc);
     //Need to do this to overwrite contents of previous run.
     out<<"Stats file"<<std::endl;
