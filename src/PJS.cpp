@@ -102,7 +102,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
        {
              srand (time(NULL));
              int r = rand()%100;
-             if(r>95)//2 in 10 are oppurtinsitic tasks. choosing them with 20% probability
+             if(r>80)//2 in 10 are oppurtinsitic tasks. choosing them with 20% probability
                (*iter).SetTaskMode(1);//1 for oppurtunistic
              else
                (*iter).SetTaskMode(0);//0 for regular
