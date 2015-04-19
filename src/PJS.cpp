@@ -117,7 +117,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
            std::cout<<(*iter).getTaskId()<<std::endl;
        }
   }
-    else//No Aggregated matrices pair from CCU. Nodes_list,curBatch. Schedule in Baseline manner.
+    else //No Aggregated matrices pair from CCU. Nodes_list,curBatch. Schedule in Baseline manner.
   {
         int i =0;
         int NumberOfNodes = Nodes_list.size();

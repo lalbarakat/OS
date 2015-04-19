@@ -51,11 +51,11 @@ int main(int argc, char** argv) {
         create_node(i,randomcores[r],randommemory[s]);
     }
     */
-     Nodes_list.push_back(new Node(0,2,12));
-     Nodes_list.push_back(new Node(1,8,8));
+     Nodes_list.push_back(new Node(0,8,16));
+     Nodes_list.push_back(new Node(1,8,16));
      Nodes_list.push_back(new Node(2,8,16));
-     Nodes_list.push_back(new Node(3,4,8));
-     Nodes_list.push_back(new Node(4,6,12));
+     Nodes_list.push_back(new Node(3,8,16));
+     Nodes_list.push_back(new Node(4,8,16));
      
     PJS PJS_obj(Nodes_list);
     CCU ccu_obj(Nodes_list,&PJS_obj);

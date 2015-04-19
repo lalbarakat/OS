@@ -286,6 +286,35 @@ int CPU::numberoffreememory(int mainmemory,bool isRegular)
     return freememory;
 }
 
+void CPU::RecordNumberOfUsedCores(int coresnum)
+{
+    
+    for(int i = 0;i<coresnum;i++)
+    {
+        if(!(Cores[i].second<=0))           
+        {
+            stats.incCoresUSed();
+            //increasing the cores used to track CPU Utilization
+        }
+    }   
+    
+}
+
+void CPU::RecordNumberOfUsedGB(int mainmemory)
+{
+    
+    for(int i = 0;i<mainmemory;i++)
+    {
+        if(!(Memory[i].second<=0))           
+        {
+            stats.incGBUSed();
+            //increasing the cores used to track CPU Utilization
+        }
+    }   
+    
+}
+
+
 void CPU::printtologfile(Node *ptr,Task t,time_t now)
 {
     char* dt = ctime(&now);
@@ -420,5 +449,6 @@ void CPU::Executer(Node *ptr ){
 //            std::cout<<"This is executer"<<std::endl;    
             stats.inctotalCores(ptr->CORESNUM);
             stats.inctotalGB(ptr->MAINMEMORY);
-              
+            RecordNumberOfUsedCores(ptr->CORESNUM);
+            RecordNumberOfUsedGB(ptr->MAINMEMORY);              
 }

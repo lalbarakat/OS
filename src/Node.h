@@ -62,6 +62,7 @@ public:
     int getId() const { return id;}
     int getCoreNum() const {return CORESNUM;}
     int getMemory() const {return MAINMEMORY;}
+    
 private:
     int id;
     int CORESNUM = 1;
@@ -90,6 +91,8 @@ public:
     int numberoffreememory(int mainmemory,bool isRegular);
     int numberoffreecores(int coresnum,bool isRegular);
     void Zerointhearrays(Task t,Task preempted_task);
+    void RecordNumberOfUsedGB(int memory);
+    void RecordNumberOfUsedCores(int cores);
     struct Xgreater
     {
         bool operator()( const std::pair<Task,int>& lx, const std::pair<Task,int>& rx ) const {
