@@ -8,7 +8,8 @@
 #include "Stats.h"
 #include <fstream>
 #include<ctime>
-Stats::Stats():filename("output.txt"),jobCounter(0),taskCounter(0),clock(0) {
+Stats::Stats():filename("output.txt"),filename_CPUUtil("output_cpuutil.txt"),filename_MemoryUtil("output_memoryutil.txt"),
+        filename_NumberofTasks("output_memoryutil.txt"),filename_JobCompletion("output_jobcompletion.txt"),jobCounter(0),taskCounter(0),clock(0) {
     std::ofstream out(filename, std::ofstream::trunc);
     //Need to do this to overwrite contents of previous run.
     out<<"Stats file"<<std::endl;
@@ -57,6 +58,11 @@ void Stats::recordCpuUtilization()
         out.close();
         prevCores=coresUsed;
     }
+    
+       float utilization = coresUsed / totalCores;
+       std::ofstream out(filename_CPUUtil, std::ofstream::app);
+       out<<clock<<" "<<utilization<<std::endl;
+       out.close();
     taskCounter++;
 }
 
@@ -68,6 +74,11 @@ void Stats::recordMemoryUtilization()
         out.close();
         prevGB=GBUsed;
     }
+       float utilization = GBUsed / totalGB;
+       std::ofstream out(filename_MemoryUtil, std::ofstream::app);
+       out<<clock<<" "<<utilization<<std::endl;
+       out.close();
+    
     taskCounter++;
 }
 

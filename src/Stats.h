@@ -52,10 +52,14 @@ public:
     void setGBUSed(int gbused ){GBUsed = gbused;}
     void settotalGB(int totalgb){totalGB = totalgb;}
     void setQueueSize(int size){queueSize = size;}
-    int getQueueSize(){ return queueSize;}
+    int getQueueSize(){ return queueSize;}    
     
 private:
     std::string filename;
+    std::string filename_CPUUtil;
+    std::string filename_MemoryUtil;
+    std::string filename_NumberofTasks;
+    std::string filename_JobCompletion;
     unsigned int jobCounter;
     unsigned int taskCounter;
     unsigned long long clock;
