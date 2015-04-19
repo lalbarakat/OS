@@ -18,7 +18,7 @@ enum time_enums{
     NODE_MATRIX_SEND_TIME=30,
     NODE_EXECUTOR_TIME=1,
     PJS_SCHEDULING_TIME=1,
-    JOB_GENERATOR_TIME=30
+    JOB_GENERATOR_TIME=300
 };
 bool running=true;
 
@@ -40,7 +40,7 @@ std::vector<Node *> Nodes_list;
  * 
  */ 
 int main(int argc, char** argv) {
-    int num_nodes = 5;
+    int num_nodes = 20;
     /*int randomcores[]={2,4,6,8};
     int randommemory[]={4,8,12,16};
     for (int i = 0; i < num_nodes; ++i) {
@@ -51,12 +51,9 @@ int main(int argc, char** argv) {
         create_node(i,randomcores[r],randommemory[s]);
     }
     */
-     Nodes_list.push_back(new Node(0,8,16));
-     Nodes_list.push_back(new Node(1,8,16));
-     Nodes_list.push_back(new Node(2,8,16));
-     Nodes_list.push_back(new Node(3,8,16));
-     Nodes_list.push_back(new Node(4,8,16));
-     
+    for(int i=0; i< num_nodes; ++i){
+     Nodes_list.push_back(new Node(i,8,16));
+    }
     PJS PJS_obj(Nodes_list);
     CCU ccu_obj(Nodes_list,&PJS_obj);
     
@@ -71,6 +68,7 @@ int main(int argc, char** argv) {
         }
     }
     std::cout<<"Going to run for "<<num_loops<<" loops."<<std::endl;
+    
     int idle_counter=0;
     unsigned long long counter=0;
     while(counter<num_loops && !(PJS_obj.outOfJobs() && idle_counter>30)){
@@ -111,7 +109,6 @@ int main(int argc, char** argv) {
         if(counter%CCU_UPDATE_TIME==0){
             //Check for matricies to update CCU
             ccu_obj.update_matrix();
-            ;
         }
         
         //increment clock
