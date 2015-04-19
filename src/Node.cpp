@@ -260,11 +260,6 @@ int CPU::numberoffreecores(int coresnum,bool isRegular)
     {
         if((Cores[i].second<=0 || (isRegular && Cores[i].first.getTaskMode())))
             freecores++;
-        else
-        {
-            stats.incCoresUSed();
-            //increasing the cores used to track CPU Utilization
-        }
     }
     //stats.inctotalCores();
     return freecores;
@@ -277,10 +272,6 @@ int CPU::numberoffreememory(int mainmemory,bool isRegular)
     {
         if((Memory[i].second<=0 || (isRegular && Memory[i].first.getTaskMode())))
             freememory++;
-        else
-        {
-            stats.incGBUSed();
-        }
     }
   //  stats.inctotalGB();
     return freememory;
