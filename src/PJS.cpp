@@ -96,7 +96,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
     AggregatedMatPair matpair;
     if(!(PJS::CCUPJS.isEmpty()) && curBatch.size()>0)
     {
-        matpair =  CCUPJS.getMatrix();
+        matpair =  CCUPJS.PeekMatrix();
        //Randomly allocate tasks oppurtunistically.
        for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
        {

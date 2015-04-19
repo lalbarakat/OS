@@ -11,6 +11,10 @@ void CCU::update_matrix(){
         VectorofMatrices.push_back(p);
         //Aggregation goes here.
     }
+     if(!(PJS_ptr->CCUPJS.isEmpty()))
+     {
+         PJS_ptr->CCUPJS.getMatrix();
+     }
    PJS_ptr->CCUPJS.addMatrix(VectorofMatrices);
 }
 
