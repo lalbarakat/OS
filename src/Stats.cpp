@@ -14,6 +14,22 @@ Stats::Stats():filename("output.txt"),filename_CPUUtil("output_cpuutil.txt"),fil
     //Need to do this to overwrite contents of previous run.
     out<<"Stats file"<<std::endl;
     out.close();
+    
+    out.open(filename_CPUUtil, std::ofstream::trunc);
+    out<<""<<std::endl;
+    out.close();
+    
+    out.open(filename_MemoryUtil, std::ofstream::trunc);
+    out<<""<<std::endl;
+    out.close();
+    
+    out.open(filename_NumberofTasks, std::ofstream::trunc);
+    out<<""<<std::endl;
+    out.close();
+    
+    out.open(filename_JobCompletion, std::ofstream::trunc);
+    out<<""<<std::endl;
+    out.close();
 }
 
 Stats::Stats(const Stats& orig) {
@@ -70,7 +86,7 @@ void Stats::recordCpuUtilization()
         prevCores=coresUsed;
     }
     
-       float utilization = coresUsed / totalCores;
+       float utilization = ((float)coresUsed) / totalCores;
        std::ofstream out(filename_CPUUtil, std::ofstream::app);
        out<<clock<<" "<<utilization<<std::endl;
        out.close();
@@ -85,14 +101,19 @@ void Stats::recordMemoryUtilization()
         out.close();
         prevGB=GBUsed;
     }
-       float utilization = GBUsed / totalGB;
+       float utilization = ((float)GBUsed) / totalGB;
        std::ofstream out(filename_MemoryUtil, std::ofstream::app);
        out<<clock<<" "<<utilization<<std::endl;
        out.close();
     
     taskCounter++;
 }
-
+void Stats::recordNumTasksRead(int num_tasks){
+    
+    std::ofstream out(filename_NumberofTasks, std::ofstream::app);
+    out<<clock<<" "<<num_tasks<<std::endl;
+    out.close();
+}
 void Stats::finalPrint(){
     std::ofstream out(filename, std::ofstream::app);
     out<<"Completed "<<jobCounter<<" jobs and "<<taskCounter<<" tasks in"

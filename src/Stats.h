@@ -37,6 +37,8 @@ public:
     //Potentailly record Memory Utilization at various times.
     void recordMemoryUtilization();
     void recordMemoryUtilization(int GBUsed, int totalGB);
+    
+    void recordNumTasksRead(int num_tasks);
     unsigned long long getClock(){return clock;}
     void incClock(){clock++;}
     void incCoresUSed(){coresUsed++;}
