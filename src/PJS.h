@@ -27,7 +27,7 @@ public:
         m.resize( rows, row_t( cols, value ) );
     }
     void Start_PJS(std::vector<Node *> Nodes_list);
-    void RecieveJobs();
+    void RecieveJobs(int num_jobs);
     void CheckForTasks();
     Node* lookupnode(std::vector<Node *> Nodes_list,int min_node);
     void stable_matcher(std::vector<Node *> Nodes_list,std::vector<Task>Task_list,std::vector<intMatPair> matpair); //matpair is the list of aggregated wait time matrices.

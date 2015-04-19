@@ -15,10 +15,10 @@
 enum time_enums{
     CCU_UPDATE_TIME=1,
     NODE_SCHEDULER_TIME=1,
-    NODE_MATRIX_SEND_TIME=5,
+    NODE_MATRIX_SEND_TIME=1,
     NODE_EXECUTOR_TIME=1,
     PJS_SCHEDULING_TIME=1,
-    JOB_GENERATOR_TIME=30
+    JOB_GENERATOR_TIME=50
 };
 bool running=true;
 
@@ -69,6 +69,8 @@ int main(int argc, char** argv) {
     }
     std::cout<<"Going to run for "<<num_loops<<" loops."<<std::endl;
     
+    
+    int num_jobs=3;
     int idle_counter=0;
     unsigned long long counter=0;
     while(counter<num_loops && !(PJS_obj.outOfJobs() && idle_counter>30)){
@@ -79,9 +81,9 @@ int main(int argc, char** argv) {
         stats.setGBUSed(0);
         stats.settotalGB(0);
         stats.setQueueSize(0);
-        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0 && stats.getQueueSize() < 50*Nodes_list.size()){
+        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0){
             //Read in jobs from a file and obtain the tasks into the current batch
-            PJS_obj.RecieveJobs();
+            PJS_obj.RecieveJobs(num_jobs);
         }
         if(counter%PJS_SCHEDULING_TIME==0){
             //Have PJS send jobs to Nodes.
@@ -111,7 +113,12 @@ int main(int argc, char** argv) {
             //Check for matricies to update CCU
             ccu_obj.update_matrix();
         }
-        
+        if(counter%100==0){
+            if(num_jobs==15)
+                num_jobs=3;
+            else
+                num_jobs+=3;
+        }
         //increment clock
         counter++;
         //collect stats

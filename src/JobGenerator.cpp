@@ -20,9 +20,9 @@ Task getTask(std::ifstream& f_in, int job_id){
    Task t(job_id, task_id, cpu_time, memory, cores_used);
    return t;
 }
-std::vector<Job> JobGenerator::GenerateJobs() {
+std::vector<Job> JobGenerator::GenerateJobs(int num_jobs) {
     std::vector<Job> ret;
-    for(int i=0;i<3;i++){
+    for(int i=0;i<num_jobs;i++){
         int job_id, num_tasks;
         f_in>>job_id;
         f_in>>num_tasks;

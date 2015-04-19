@@ -17,7 +17,7 @@ public:
     JobGenerator(std::string filename);
    // JobGenerator(const JobGenerator& orig);
     virtual ~JobGenerator();
-    std::vector<Job> GenerateJobs();
+    std::vector<Job> GenerateJobs(int num_jobs);
 private:
      std::vector<Job> list_jobs;
      std::ifstream f_in;
