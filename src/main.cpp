@@ -51,6 +51,7 @@ int main(int argc, char** argv) {
         create_node(i,randomcores[r],randommemory[s]);
     }
     */
+    
      Nodes_list.push_back(new Node(0,8,16));
      Nodes_list.push_back(new Node(1,8,16));
      Nodes_list.push_back(new Node(2,8,16));
@@ -80,7 +81,8 @@ int main(int argc, char** argv) {
         stats.settotalCores(0);
         stats.setGBUSed(0);
         stats.settotalGB(0);
-        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0){
+        stats.setQueueSize(0);
+        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0 && stats.getQueueSize() < 50*Nodes_list.size()){
             //Read in jobs from a file and obtain the tasks into the current batch
             PJS_obj.RecieveJobs();
         }
