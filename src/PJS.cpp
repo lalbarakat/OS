@@ -73,7 +73,7 @@ std::vector<Task> PJS::Greedy_matcher(std::vector<Node *> Nodes_list,std::vector
         if(matched_node)
         {
             matched_node->PJSNode.addTask(task);
-            cout<<" node matched "<<matched_node->getId()<<" with task "<<task.getTaskId()<<endl;
+        //    cout<<" node matched "<<matched_node->getId()<<" with task "<<task.getTaskId()<<endl;
             matched_Nodes_list.push_back(min_node);
             //remove the matched task from unmatched_Task_list
             for( std::vector<Task>::iterator iter = unmatched_task_list.begin(); iter != unmatched_task_list.end(); ++iter )
@@ -109,12 +109,12 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
        }
         
        std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,curBatch,matpair);
-       std::cout<<"unmatched task list "<<std::endl;
+    //   std::cout<<"unmatched task list "<<std::endl;
        curBatch.clear();
        for( std::vector<Task>::iterator iter = unmatched_task_list.begin(); iter != unmatched_task_list.end(); ++iter )
        {
            curBatch.push_back(*iter);
-           std::cout<<(*iter).getTaskId()<<std::endl;
+      //     std::cout<<(*iter).getTaskId()<<std::endl;
        }
   }
     else //No Aggregated matrices pair from CCU. Nodes_list,curBatch. Schedule in Baseline manner.

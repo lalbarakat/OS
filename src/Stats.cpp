@@ -22,13 +22,13 @@ Stats::~Stats() {
 }
 void Stats::recordCompletedJob(int jobId){
     std::ofstream out(filename, std::ofstream::app);
-    out<<"Job(" << jobId << ") completed at" << clock << "." << std::endl;
+    out<<"+Job(" << jobId << ") completed at" << clock << "." << std::endl;
     out.close();
     jobCounter++;
 }
 void Stats::recordCompletedJob(int jobId, unsigned long long startTime){
     std::ofstream out(filename, std::ofstream::app);
-    out<<"Job(" << jobId << ") completed in" << (clock-startTime) << "." << std::endl;
+    out<<"+Job(" << jobId << ") completed in" << (clock-startTime) << "." << std::endl;
     out.close();
     jobCounter++;
 }

@@ -318,8 +318,8 @@ void CPU::RecordNumberOfUsedGB(int mainmemory)
 void CPU::printtologfile(Node *ptr,Task t,time_t now)
 {
     char* dt = ctime(&now);
-    std::cout<<"Task id "<<t.getTaskId()<<" of Job id "<<t.getJob_id()<<" started executing at node "<<ptr->getId()<<" consuming "<<t.getCores_required()<<" Cores "
-            " and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
+   // std::cout<<"Task id "<<t.getTaskId()<<" of Job id "<<t.getJob_id()<<" started executing at node "<<ptr->getId()<<" consuming "<<t.getCores_required()<<" Cores "
+     //       " and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
 }
 
 void CPU::Zerointhearrays(Task t,Task preempted_task)

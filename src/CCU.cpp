@@ -6,7 +6,7 @@ void CCU::update_matrix(){
     
     if(!Node::NodeCCU.isEmpty()){
         nodeMatPair p=Node::NodeCCU.getWaitTimeMatrix();
-        std::cout<<"Got matrix from"<<p.first<<std::endl;
+       // std::cout<<"Got matrix from"<<p.first<<std::endl;
         //Aggregating by adding the pair(Node  and it's wait time matrix) to the list.
         VectorofMatrices.push_back(p);
         //Aggregation goes here.
