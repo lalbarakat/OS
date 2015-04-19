@@ -449,6 +449,7 @@ void CPU::Executer(Node *ptr ){
 //            std::cout<<"This is executer"<<std::endl;    
             stats.inctotalCores(ptr->CORESNUM);
             stats.inctotalGB(ptr->MAINMEMORY);
+            stats.incQueueSize(ptr->regularQueue.size());
             RecordNumberOfUsedCores(ptr->CORESNUM);
             RecordNumberOfUsedGB(ptr->MAINMEMORY);              
 }

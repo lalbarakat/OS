@@ -78,7 +78,8 @@ int main(int argc, char** argv) {
         stats.settotalCores(0);
         stats.setGBUSed(0);
         stats.settotalGB(0);
-        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0){
+        stats.setQueueSize(0);
+        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0 && stats.getQueueSize() < 50*Nodes_list.size()){
             //Read in jobs from a file and obtain the tasks into the current batch
             PJS_obj.RecieveJobs();
         }
