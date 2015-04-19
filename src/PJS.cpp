@@ -161,8 +161,8 @@ void PJS::CheckForTasks(){
     } 
 }
 
-void PJS::RecieveJobs(){
-    std::vector<Job> newJobs = jobGen.GenerateJobs();
+void PJS::RecieveJobs(int num_jobs){
+    std::vector<Job> newJobs = jobGen.GenerateJobs(num_jobs);
     for(size_t i=0; i<newJobs.size(); i++){
         Job job= newJobs[i];
         std::vector<Task> initialTasks = job.getFirstTasks();
