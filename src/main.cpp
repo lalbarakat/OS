@@ -107,7 +107,7 @@ int main(int argc, char** argv) {
                 (*it)->SendMatrix();
             }
         }
-        if(counter%CCU_UPDATE_TIME==0){
+        if(counter%NODE_MATRIX_SEND_TIME==0){
             //Check for matricies to update CCU
             ccu_obj.update_matrix();
         }
@@ -128,4 +128,5 @@ int main(int argc, char** argv) {
     }
     return 0;
 }
+
 
