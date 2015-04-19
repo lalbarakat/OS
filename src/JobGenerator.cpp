@@ -22,6 +22,8 @@ Task getTask(std::ifstream& f_in, int job_id){
 }
 std::vector<Job> JobGenerator::GenerateJobs(int num_jobs) {
     std::vector<Job> ret;
+    //for recording total tasks read
+    int total_tasks=0;
     for(int i=0;i<num_jobs;i++){
         int job_id, num_tasks;
         f_in>>job_id;
@@ -29,6 +31,7 @@ std::vector<Job> JobGenerator::GenerateJobs(int num_jobs) {
         if(!f_in.good()){
             break;
         }
+        total_tasks+=num_tasks;
         Job job(job_id, num_tasks);
         
         for(int j=0; j<num_tasks; j++){
@@ -51,6 +54,7 @@ std::vector<Job> JobGenerator::GenerateJobs(int num_jobs) {
         }
         ret.push_back(job);
     }
+    stats.recordNumTasksRead(total_tasks);
     return ret;
 }
 
