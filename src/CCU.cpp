@@ -4,6 +4,7 @@
 typedef std::pair<int,matrix_t> nodeMatPair;
 void CCU::update_matrix(){
     
+    VectorofMatrices.clear();
     while(!Node::NodeCCU.isEmpty()){
         nodeMatPair p=Node::NodeCCU.getWaitTimeMatrix();
        // std::cout<<"Got matrix from"<<p.first<<std::endl;
