@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
     
     unsigned long long num_loops;
     if(argc < 2){
-        num_loops= 10000;
+        num_loops= ULLONG_MAX;
     }
     else{
         std::istringstream ss(argv[1]);
