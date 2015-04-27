@@ -25,8 +25,13 @@ void Node_CCU::addWaitTimeMatrix(int _id, matrix_t _mat){
     this->addWaitTimeMatrix(p);
 }
 
-bool Node_CCU::isEmpty(){
+bool Node_CCU::isMatrixEmpty(){
     return matrix_queue.empty();
+}
+
+bool Node_CCU::isCacheEmpty()
+{
+    return global_cache_queue.empty();
 }
 
 intMatPair Node_CCU::getWaitTimeMatrix(){
@@ -48,4 +53,31 @@ intMatPair Node_CCU::peekWaitTimeMatrix(){
         a.second=matrix_queue.front().second;
     }
     return a;
+}
+
+localCachePair Node_CCU::getCache()
+{
+    localCache empty;
+    localCachePair a(-1,empty);
+    if(!global_cache_queue.empty()){
+        a=global_cache_queue.front();        
+        global_cache_queue.pop();
+    }
+    return a;
+}
+
+localCachePair Node_CCU::PeekCache()
+{
+    
+    localCache empty;
+    localCachePair a(-1,empty);
+    if(!global_cache_queue.empty()){
+        a=global_cache_queue.front();        
+    }
+    return a;
+}
+
+void Node_CCU::addToCache(localCachePair c)
+{
+    global_cache_queue.push(c);
 }

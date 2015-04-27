@@ -13,6 +13,9 @@
 #include <queue>
 
 typedef std::pair<int, matrix_t> intMatPair;
+typedef std::vector<std::pair<Block,int>> localCache;
+typedef std::pair<int,localCache> localCachePair;
+
 class CCU;
 class Node_CCU {
 public:
@@ -24,10 +27,15 @@ public:
     intMatPair peekWaitTimeMatrix();
     void addWaitTimeMatrix(int _id, matrix_t _mat);
     void addWaitTimeMatrix(intMatPair _pair);
-    bool isEmpty();
+    bool isMatrixEmpty();
+    bool isCacheEmpty();
+    localCachePair getCache();
+    localCachePair PeekCache();
+    void addToCache(localCachePair c);
     CCU* ccu;
 private:
     std::queue <intMatPair> matrix_queue;
+    std::queue<localCachePair> global_cache_queue;
 };
 
 #endif	/* NODE_CCU_H */

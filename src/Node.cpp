@@ -1,7 +1,7 @@
 #include "Node.h"
 #include <chrono>
 #include <ctime>
-
+using namespace std;
 Node_CCU Node::NodeCCU;
 
 Node::Node(int _id,int num_cores,int memory): id(_id), CORESNUM(num_cores),MAINMEMORY(memory)
@@ -28,6 +28,7 @@ Node::~Node() {
 void Node::SendMatrix(){
     NodeCCU.addWaitTimeMatrix(id, local_wait_time_matrix);
 }
+
 int Node::FindMinVal(int Cores[],int Memory[],int numofcores, int mainmemory,
         int task_cores,int task_mem)
  {
@@ -104,16 +105,17 @@ float Node::Estimatewaittime(int cores, int memory)
 
 void Node::Scheduler(){
     //std::cout<<"This is scheduler"<<std::endl;
-    if(PJSNode.isEmpty())
-        return;
-    Task t=PJSNode.PeekTask();
-    //std::cout<<"Task from PJS_Node"<<t.getTaskId()<<std::endl;
-    //std::cout<<"Task from PJS_Node"<<t.getCores_required()<<std::endl;
-    if(!(t.getTaskMode()))//0 for regular mode task
-        addRegularTask(PJSNode.getTask());
-    else// //1 for oppurtunistic
-        addOppurtunisticTask(PJSNode.getTask());
     
+    while(!PJSNode.isEmpty())
+    {
+        Task t=PJSNode.getTask();
+        //std::cout<<"Task from PJS_Node"<<t.getTaskId()<<std::endl;
+        //std::cout<<"Task from PJS_Node"<<t.getCores_required()<<std::endl;
+        if(!(t.getTaskMode()))//0 for regular mode task
+            addRegularTask(t);
+        else// //1 for oppurtunistic
+            addOppurtunisticTask(t);
+    }
     //std::cout<<"Task id"<<id<<t.getTaskId()<<std::endl;
     //std::cout<<"Task exec time"<<id<<t.getCPU_time()<<std::endl;
     //std::cout<<"Task memory"<<id<<t.getMemory_required()<<std::endl;
@@ -230,6 +232,11 @@ void Node::addOppurtunisticTasktofront(Task t){
     OppurtunisticQueue.push_front(t);
 }
 
+void Node::sendCache()
+{
+    CPU_ptr_list[0]->sendCache(this);
+}
+
 /*******************************************************************************
  ************************CPU FUNCTIONS******************************************
  ******************************************************************************/
@@ -309,8 +316,9 @@ void CPU::RecordNumberOfUsedGB(int mainmemory)
 void CPU::printtologfile(Node *ptr,Task t,time_t now)
 {
     char* dt = ctime(&now);
-   // std::cout<<"Task id "<<t.getTaskId()<<" of Job id "<<t.getJob_id()<<" started executing at node "<<ptr->getId()<<" consuming "<<t.getCores_required()<<" Cores "
-     //       " and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
+    
+    std::cout<<"Task id "<<t.getTaskId()<<" of Job id "<<t.getJob_id()<<" started executing at node "<<ptr->getId()<<" consuming "<<t.getCores_required()<<" Cores "
+            " and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds and size = "<<local_cache.size()<<std::endl;
 }
 
 void CPU::Zerointhearrays(Task t,Task preempted_task)
@@ -361,6 +369,26 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
     int num_mem = numberoffreememory(mainmemory, isRegular);
    if( num_cores  >= t.getCores_required() && num_mem >= t.getMemory_required())
    {
+       //Task is scheduled
+       Block b = t.get_block();
+       
+       //Use Global Cache from CCU to write cache eviction policy
+        GlobalCache global_cache;
+        if(!ptr->CCUNode.isCacheEmpty())
+        {
+            global_cache = ptr->CCUNode.getGlobalCache();
+        }
+       //check if block of that task is in cache?
+       if(!IsPresentInCache(b))
+       {
+           //wait for 20 seconds before start executing the task
+           addToCache(b,ptr,global_cache);
+           t.setCPU_time(t.getCPU_time()+20);
+       }
+       else//If block is present in cache. Then Update the time stamp for LRU
+       {
+           UpdateCache(b,global_cache);
+       }
        
        int reqdcores = 0;
        for(int i =0;i<ptr->CORESNUM;i++)
@@ -384,7 +412,6 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
             }
        }
        
-
        int reqdMemory = 0;
        for(int i =0;i<ptr->MAINMEMORY;i++)
        {
@@ -408,6 +435,7 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
        }
      
        printtologfile(ptr,t,now);
+       
        return true;
    }
    else
@@ -443,4 +471,83 @@ void CPU::Executer(Node *ptr ){
             stats.incQueueSize(ptr->regularQueue.size());
             RecordNumberOfUsedCores(ptr->CORESNUM);
             RecordNumberOfUsedGB(ptr->MAINMEMORY);              
+            //print the local_cache
+            
 }
+
+
+
+bool CPU::IsPresentInCache(Block b)
+{
+    for(int i =0;i< local_cache.size();i++)
+    {
+      if(local_cache[i].first.get_block_id() == b.get_block_id() && local_cache[i].first.get_file_id() == b.get_file_id())   
+          return true;
+    }
+    return false;
+}
+
+void CPU::addToCache(Block b,Node *ptr,GlobalCache global_cache)
+{
+    int clk;
+    clk = stats.getClock();
+    
+    
+    //check if the cache is full.
+    if(local_cache.size()<5)//If not full
+    {
+        
+        local_cache.push_back(std::make_pair(b,clk));
+        
+        cout<<"Node id "<<ptr->getId()<<endl;
+            for(int i =0; i<local_cache.size();i++)
+            {
+                cout<<local_cache[i].first.get_block_id()<<"  "<<local_cache[i].first.get_file_id()<<" "<<local_cache[i].second<<endl;
+            }
+        
+    }
+    else //Cache is full. Find a block to Replace - Implement LRU
+    {
+        int min_clock = stats.getClock()+1;
+        int min_cache = local_cache.size();
+        for(int i =0;i<local_cache.size();i++)
+        {
+            if(local_cache[i].second < min_clock)
+            {
+                min_clock = local_cache[i].second;
+                min_cache = i;
+            }            
+        }
+        if(min_cache<local_cache.size())
+        {
+            local_cache[min_cache].first = b;
+            local_cache[min_cache].second = stats.getClock();
+        }
+        
+      cout<<"Node id "<<ptr->getId()<<endl;
+            for(int i =0; i<local_cache.size();i++)
+            {
+                cout<<local_cache[i].first.get_block_id()<<"  "<<local_cache[i].first.get_file_id()<<" "<<local_cache[i].second<<endl;
+            }
+    }
+        
+}
+
+    void deleteFromCache(Block b){}
+    
+    void CPU::UpdateCache(Block b,GlobalCache global_cache)
+    {
+        for(int i =0;i<local_cache.size();i++)
+        {
+            if(local_cache[i].first.get_block_id() == b.get_block_id() && local_cache[i].first.get_file_id() == b.get_file_id())
+            {
+                local_cache[i].second = stats.getClock();
+                return;
+            }
+        }
+    }
+
+    void CPU::sendCache(Node *ptr)
+    {
+        ptr->NodeCCU.addToCache(std::make_pair(ptr->getId(),local_cache));
+    }

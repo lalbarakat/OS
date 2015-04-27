@@ -17,7 +17,7 @@ Task getTask(std::ifstream& f_in, int job_id){
    f_in>>cpu_time;
    f_in>>memory;
    f_in>>cores_used;
-   Task t(job_id, task_id, cpu_time, memory, cores_used);
+   Task t(job_id, task_id, cpu_time, memory, cores_used,0);
    return t;
 }
 std::vector<Job> JobGenerator::GenerateJobs(int num_jobs) {

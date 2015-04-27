@@ -5,7 +5,7 @@
 #include "CCU_Node.h"
 #include "Node_CCU.h"
 #include "Task.h"
-
+#include "Block.h"
 #include <algorithm>
 #include<stdio.h>
 #include<iostream>
@@ -25,6 +25,7 @@ public:
     
     PJS_Node PJSNode;
     static Node_CCU NodeCCU;
+    static CCU_Node CCUNode;
     Node(int _id,int numofcores,int mainmemory);
     Node(const Node& orig);
     virtual ~Node();
@@ -62,7 +63,7 @@ public:
     int getId() const { return id;}
     int getCoreNum() const {return CORESNUM;}
     int getMemory() const {return MAINMEMORY;}
-    
+    void sendCache();
 private:
     int id;
     int CORESNUM = 1;
@@ -100,13 +101,19 @@ public:
         }
     };
     void printtologfile(Node *ptr,Task t,time_t now);
-
+    void addToCache(Block b,Node *ptr,GlobalCache global_cache);
+    void deleteFromCache(Block b);
+    void UpdateCache(Block b,GlobalCache global_cache);
+    bool IsPresentInCache(Block b);
+    void sendCache(Node *ptr);
+    
 private:
     int id;
     bool status = false;
     Node *node_ptr;
     std::vector<std::pair<Task,int> > Cores;
     std::vector<std::pair<Task,int> > Memory;
+    std::vector<std::pair<Block,int>> local_cache;
     
 };
 

@@ -40,7 +40,7 @@ std::vector<Node *> Nodes_list;
  * 
  */ 
 int main(int argc, char** argv) {
-    int num_nodes = 20;
+    int num_nodes = 2;
     /*int randomcores[]={2,4,6,8};
     int randommemory[]={4,8,12,16};
     for (int i = 0; i < num_nodes; ++i) {
@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
     }
     */
     for(int i=0; i< num_nodes; ++i){
-     Nodes_list.push_back(new Node(i,8,16));
+     Nodes_list.push_back(new Node(i,4,16));
     }
     PJS PJS_obj(Nodes_list);
     CCU ccu_obj(Nodes_list,&PJS_obj);
@@ -83,12 +83,12 @@ int main(int argc, char** argv) {
         stats.setQueueSize(0);
         if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0){
             //Read in jobs from a file and obtain the tasks into the current batch
-            PJS_obj.RecieveJobs(num_jobs);
+//            PJS_obj.RecieveJobs(num_jobs);
         }
         if(counter%PJS_SCHEDULING_TIME==0){
             //Have PJS send jobs to Nodes.
             
-               PJS_obj.CheckForTasks();
+  //             PJS_obj.CheckForTasks();
                PJS_obj.Start_PJS(Nodes_list);
         }
         
@@ -107,11 +107,13 @@ int main(int argc, char** argv) {
             for(std::vector<Node*>::iterator it= Nodes_list.begin(); it!=Nodes_list.end(); it++){
                 (*it)->Create_Waittime_matrix();
                 (*it)->SendMatrix();
+                (*it)->sendCache();
             }
         }
         if(counter%NODE_MATRIX_SEND_TIME==0){
             //Check for matricies to update CCU
             ccu_obj.update_matrix();
+            ccu_obj.update_Global_cache();
         }
         if(counter%100==0){
             if(num_jobs==15)

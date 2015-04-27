@@ -37,10 +37,12 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Apollo.o \
 	${OBJECTDIR}/Baseline.o \
+	${OBJECTDIR}/Block.o \
 	${OBJECTDIR}/CCU.o \
 	${OBJECTDIR}/CCU_Node.o \
 	${OBJECTDIR}/CCU_PJS.o \
 	${OBJECTDIR}/Clock.o \
+	${OBJECTDIR}/File.o \
 	${OBJECTDIR}/Globals.o \
 	${OBJECTDIR}/Job.o \
 	${OBJECTDIR}/JobGen_PJS.o \
@@ -89,6 +91,11 @@ ${OBJECTDIR}/Baseline.o: Baseline.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Baseline.o Baseline.cpp
 
+${OBJECTDIR}/Block.o: Block.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Block.o Block.cpp
+
 ${OBJECTDIR}/CCU.o: CCU.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -108,6 +115,11 @@ ${OBJECTDIR}/Clock.o: Clock.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Clock.o Clock.cpp
+
+${OBJECTDIR}/File.o: File.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/File.o File.cpp
 
 ${OBJECTDIR}/Globals.o: Globals.cpp 
 	${MKDIR} -p ${OBJECTDIR}

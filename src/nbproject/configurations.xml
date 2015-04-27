@@ -6,10 +6,12 @@
                    projectFiles="true">
       <itemPath>Apollo.h</itemPath>
       <itemPath>Baseline.h</itemPath>
+      <itemPath>Block.h</itemPath>
       <itemPath>CCU.h</itemPath>
       <itemPath>CCU_Node.h</itemPath>
       <itemPath>CCU_PJS.h</itemPath>
       <itemPath>Clock.h</itemPath>
+      <itemPath>File.h</itemPath>
       <itemPath>Globals.h</itemPath>
       <itemPath>Job.h</itemPath>
       <itemPath>JobGen_PJS.h</itemPath>
@@ -31,10 +33,12 @@
                    projectFiles="true">
       <itemPath>Apollo.cpp</itemPath>
       <itemPath>Baseline.cpp</itemPath>
+      <itemPath>Block.cpp</itemPath>
       <itemPath>CCU.cpp</itemPath>
       <itemPath>CCU_Node.cpp</itemPath>
       <itemPath>CCU_PJS.cpp</itemPath>
       <itemPath>Clock.cpp</itemPath>
+      <itemPath>File.cpp</itemPath>
       <itemPath>Globals.cpp</itemPath>
       <itemPath>Job.cpp</itemPath>
       <itemPath>JobGen_PJS.cpp</itemPath>
@@ -92,6 +96,10 @@
       </item>
       <item path="Baseline.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Block.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="CCU.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="CCU.h" ex="false" tool="3" flavor2="0">
@@ -107,6 +115,10 @@
       <item path="Clock.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="File.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Globals.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -184,6 +196,10 @@
       </item>
       <item path="Baseline.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Block.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Block.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="CCU.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="CCU.h" ex="false" tool="3" flavor2="0">
@@ -199,6 +215,10 @@
       <item path="Clock.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Clock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="File.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="File.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Globals.cpp" ex="false" tool="1" flavor2="0">
       </item>

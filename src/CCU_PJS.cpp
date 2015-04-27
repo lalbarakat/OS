@@ -21,7 +21,37 @@ AggregatedMatPair CCU_PJS::getMatrix() {
     return m;
 }
 
-bool CCU_PJS::isEmpty(){
+GlobalCache CCU_PJS::getGlobalCache()
+{
+    GlobalCache c;
+    if(!global_cache_queue.empty())
+    {
+        c = global_cache_queue.front();
+        global_cache_queue.pop();
+    }
+    return c; 
+}
+
+
+GlobalCache CCU_PJS::PeekGlobalCache()
+{
+    GlobalCache c;
+    if(!global_cache_queue.empty())
+    {
+        c = global_cache_queue.front();        
+    }
+    return c;
+ }
+void CCU_PJS::addToGlobalCache(GlobalCache c)
+{
+    global_cache_queue.push(c);
+}
+
+bool CCU_PJS::isCacheEmpty(){
+    return global_cache_queue.empty();
+}
+
+bool CCU_PJS::isMatrixEmpty(){
     return AggregatedMatrices_queue.empty();
 }
 

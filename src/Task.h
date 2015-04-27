@@ -2,15 +2,16 @@
 #define	TASK_H
 
 #include "Stats.h"
+#include "Block.h"
 
 //#include "Globals.h"
 
 class Task {
 public:
     Task();
-    //virtual ~Task();
-    Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired,bool isOppurtunistic = false);
-    
+    virtual ~Task();
+    Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired,bool isOppurtunistic,Block b);
+    Task(int jobId, int taskid, int cputime, int memoryrequired,int coresrequired,bool isOppurtunistic);
     
     
     void setCPU_time(int CPU_time) {
@@ -31,6 +32,11 @@ public:
 
     int getMemory_required() const {
         return memory_required;
+    }
+    
+    Block get_block() const
+    {
+        return block;
     }
 
     int getTaskMode() const {
@@ -80,6 +86,7 @@ private:
     unsigned long long start_time;
     bool no_op;
     bool isOppurtunistic = false;
+    Block block;
     
 };
 
