@@ -341,12 +341,21 @@ void CPU::validate(int coresnum,int mainmemory)
     {
         if(Cores[i].second>0){
             Cores[i].second--;
-            if(Cores[i].second==0 && !(i>0&&
-                    (Cores[i-1].first.getJob_id()==Cores[i].first.getJob_id())&&
-                    (Cores[i-1].first.getTaskId()==Cores[i].first.getTaskId())))
-            {         
-                NodePJS_queue.push(Cores[i].first);
-                stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId());
+            if(Cores[i].second==0){
+                bool isFirst=true;
+                for(int j=i-1; j>=0;j--){
+                    if(Cores[j].first.getJob_id()==Cores[i].first.getJob_id() &&
+                            Cores[j].first.getTaskId()==Cores[i].first.getTaskId()){
+                        
+                        isFirst=false;
+                        break;
+                    }
+                }
+                if(isFirst)
+                {         
+                    NodePJS_queue.push(Cores[i].first);
+                    stats.recordCompletedTask(Cores[i].first.getJob_id(),Cores[i].first.getTaskId());
+                }
             }
         }
     }
