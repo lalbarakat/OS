@@ -305,7 +305,6 @@ void CPU::RecordNumberOfUsedGB(int mainmemory)
     
 }
 
-
 void CPU::printtologfile(Node *ptr,Task t,time_t now)
 {
     char* dt = ctime(&now);
