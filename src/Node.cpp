@@ -3,6 +3,7 @@
 #include <ctime>
 using namespace std;
 Node_CCU Node::NodeCCU;
+CCU_Node Node::CCUNode;
 
 Node::Node(int _id,int num_cores,int memory): id(_id), CORESNUM(num_cores),MAINMEMORY(memory)
 {
