@@ -357,7 +357,7 @@ void CPU::validate(int coresnum,int mainmemory)
 bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegular)
 {
     time_t now = time(0);
-    int num_cores=numberoffreecores(coresnum,isRegular);
+    int num_cores = numberoffreecores(coresnum,isRegular);
     int num_mem = numberoffreememory(mainmemory, isRegular);
    if( num_cores  >= t.getCores_required() && num_mem >= t.getMemory_required())
    {
@@ -366,8 +366,7 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
        for(int i =0;i<ptr->CORESNUM;i++)
        {
            if(Cores[i].second ==0 && reqdcores < t.getCores_required())
-           {
-               
+           {               
                Cores[i].second = t.getCPU_time();
                Cores[i].first = t;
                reqdcores++;

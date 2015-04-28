@@ -51,6 +51,7 @@ int main(int argc, char** argv) {
         create_node(i,randomcores[r],randommemory[s]);
     }
     */
+    srand (time(NULL));
     for(int i=0; i< num_nodes; ++i){
      Nodes_list.push_back(new Node(i,8,16));
     }

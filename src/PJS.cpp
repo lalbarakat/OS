@@ -100,7 +100,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
        //Randomly allocate tasks oppurtunistically.
        for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
        {
-             srand (time(NULL));
+             
              int r = rand()%100;
              if(r>80)//2 in 10 are oppurtinsitic tasks. choosing them with 20% probability
                (*iter).SetTaskMode(1);//1 for oppurtunistic
