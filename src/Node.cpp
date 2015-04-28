@@ -99,8 +99,7 @@ float Node::Estimatewaittime(int cores, int memory)
     }
 // cout<<"\n\n\n;";
  
- return Node::FindMinVal(Cores,Memory,CORESNUM,MAINMEMORY,cores,memory);
-        
+ return Node::FindMinVal(Cores,Memory,CORESNUM,MAINMEMORY,cores,memory);        
  }
 
 void Node::Scheduler(){
