@@ -104,16 +104,16 @@ float Node::Estimatewaittime(int cores, int memory)
 
 void Node::Scheduler(){
     //std::cout<<"This is scheduler"<<std::endl;
-    if(PJSNode.isEmpty())
-        return;
-    Task t=PJSNode.PeekTask();
+    while(!PJSNode.isEmpty())
+    {
+       Task t=PJSNode.getTask();
     //std::cout<<"Task from PJS_Node"<<t.getTaskId()<<std::endl;
     //std::cout<<"Task from PJS_Node"<<t.getCores_required()<<std::endl;
-    if(!(t.getTaskMode()))//0 for regular mode task
-        addRegularTask(PJSNode.getTask());
-    else// //1 for oppurtunistic
-        addOppurtunisticTask(PJSNode.getTask());
-    
+        if(!(t.getTaskMode()))//0 for regular mode task
+            addRegularTask(t);
+        else// //1 for oppurtunistic
+            addOppurtunisticTask(t);
+    }
     //std::cout<<"Task id"<<id<<t.getTaskId()<<std::endl;
     //std::cout<<"Task exec time"<<id<<t.getCPU_time()<<std::endl;
     //std::cout<<"Task memory"<<id<<t.getMemory_required()<<std::endl;
