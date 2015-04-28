@@ -3,6 +3,7 @@
 #include <ctime>
 using namespace std;
 Node_CCU Node::NodeCCU;
+CCU_Node Node::CCUNode;
 
 Node::Node(int _id,int num_cores,int memory): id(_id), CORESNUM(num_cores),MAINMEMORY(memory)
 {
@@ -99,8 +100,7 @@ float Node::Estimatewaittime(int cores, int memory)
     }
 // cout<<"\n\n\n;";
  
- return Node::FindMinVal(Cores,Memory,CORESNUM,MAINMEMORY,cores,memory);
-        
+ return Node::FindMinVal(Cores,Memory,CORESNUM,MAINMEMORY,cores,memory);        
  }
 
 void Node::Scheduler(){
