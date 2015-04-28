@@ -90,7 +90,7 @@ public:
     bool IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool IsRegular);
     int numberoffreememory(int mainmemory,bool isRegular);
     int numberoffreecores(int coresnum,bool isRegular);
-    void Zerointhearrays(Task t,Task preempted_task);
+    void Zerointhearrays(Task preempted_task,Node *ptr);
     void RecordNumberOfUsedGB(int memory);
     void RecordNumberOfUsedCores(int cores);
     struct Xgreater

@@ -313,14 +313,14 @@ void CPU::printtologfile(Node *ptr,Task t,time_t now)
      //       " and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds"<<std::endl;
 }
 
-void CPU::Zerointhearrays(Task t,Task preempted_task)
+void CPU::Zerointhearrays(Task preempted_task,Node *ptr)
 {
-    for(int j=0;j<t.getMemory_required();j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
+    for(int j=0;j<ptr->MAINMEMORY;j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
     {
         if(Memory[j].first.getTaskId() == preempted_task.getTaskId())
         Memory[j].second = 0;
     }
-    for(int j=0;j<t.getCores_required();j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
+    for(int j=0;j<ptr->CORESNUM;j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
     {
         if(Cores[j].first.getTaskId() == preempted_task.getTaskId())
         Cores[j].second = 0;
@@ -376,7 +376,7 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
                     Cores[i].first.setCPU_time(Cores[i].second);
                     ptr->addOppurtunisticTasktofront(Cores[i].first);
                     //preempt the oppurtunistic task and put it back in the oppurtinistic queue.
-                    Zerointhearrays(t,Cores[i].first);
+                    Zerointhearrays(Cores[i].first,ptr);
                     Cores[i].second = t.getCPU_time();
                     Cores[i].first = t;
                     reqdcores++;
@@ -399,7 +399,7 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
                     Memory[i].first.setCPU_time(Memory[i].second);
                     ptr->addOppurtunisticTasktofront(Memory[i].first);
                     //preempt the oppurtunistic task and put it back in the oppurtinistic queue.
-                    Zerointhearrays(t,Memory[i].first);
+                    Zerointhearrays(Memory[i].first,ptr);
                     Memory[i].second = t.getCPU_time();
                     Memory[i].first = t;
                     reqdMemory++;

@@ -101,10 +101,10 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
        for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
        {
              
-             int r = rand()%100;
-             if(r>80)//2 in 10 are oppurtinsitic tasks. choosing them with 20% probability
+             /*int r = rand()%100;
+             if(r>80//2 in 10 are oppurtinsitic tasks. choosing them with 20% probability
                (*iter).SetTaskMode(1);//1 for oppurtunistic
-             else
+             else*/
                (*iter).SetTaskMode(0);//0 for regular
        }
         
