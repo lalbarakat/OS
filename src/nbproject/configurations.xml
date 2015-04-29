@@ -96,7 +96,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>oppurtunistic_jobs.txt</itemPath>
+    <itemPath>opportunistic_jobs.txt</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -181,7 +181,7 @@
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="oppurtunistic_jobs.txt" ex="false" tool="3" flavor2="0">
+      <item path="opportunistic_jobs.txt" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -275,7 +275,7 @@
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="oppurtunistic_jobs.txt" ex="false" tool="3" flavor2="0">
+      <item path="opportunistic_jobs.txt" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
