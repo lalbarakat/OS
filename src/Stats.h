@@ -45,12 +45,15 @@ public:
     void inctotalCores(int cores){totalCores+=cores;}
     void incGBUSed(){GBUsed++;}
     void inctotalGB(int GB){totalGB+=GB;}
-    
+    void incCoresOppurtunistic(){OppurtunisticCores++;}
+    void incCoresRegular(){regularCores++;}
     void incQueueSize(int size){queueSize += size;}
     
     unsigned long getCoresUSed(){return coresUsed;}
     void setCoresUSed(int coresused){coresUsed =coresused;}
     void settotalCores(int totalcores){totalCores = totalcores;}
+    void setOppurtunisticCores(int oppcores){OppurtunisticCores = oppcores;}
+    void setRegularCores(int regcores){regularCores = regcores;}
     void setGBUSed(int gbused ){GBUsed = gbused;}
     void settotalGB(int totalgb){totalGB = totalgb;}
     void setQueueSize(int size){queueSize = size;}
@@ -62,6 +65,7 @@ private:
     std::string filename_MemoryUtil;
     std::string filename_NumberofTasks;
     std::string filename_JobCompletion;
+    std::string filename_Oppurtunistic;
     unsigned int jobCounter;
     unsigned int taskCounter;
     unsigned long long clock;
@@ -69,6 +73,8 @@ private:
     unsigned long prevCores=1;
     unsigned long coresUsed;
     unsigned long totalCores;
+    unsigned long regularCores;
+    unsigned long OppurtunisticCores;
     
     unsigned long queueSize;
     

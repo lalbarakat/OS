@@ -212,6 +212,11 @@ Task* Node::getOppurtunisticTask(){
     return t;
 }
 
+std::deque<Task> Node::getOppurtunisticQueue()
+{
+    return OppurtunisticQueue;
+}
+
 Task* Node::PeekOppurtunisticTask(){
     if(OppurtunisticQueue.empty())
     {
@@ -286,10 +291,15 @@ void CPU::RecordNumberOfUsedCores(int coresnum)
         {
             stats.incCoresUSed();
             //increasing the cores used to track CPU Utilization
+            if(Cores[i].first.getTaskMode() == 1)//oppurtunistic
+                stats.incCoresOppurtunistic();
+            else
+                stats.incCoresRegular();
         }
     }   
     
 }
+
 
 void CPU::RecordNumberOfUsedGB(int mainmemory)
 {
@@ -437,11 +447,30 @@ void CPU::Executer(Node *ptr ){
             std::sort(Memory.begin(),Memory.end(),Xgreater());
             //Oppurtunistic Scheduling
               t = ptr->PeekOppurtunisticTask();
+              
              while(!(ptr->OppurtunisticQueue.empty()) && IsScheduled(*t,ptr,ptr->CORESNUM,ptr->MAINMEMORY,0))
              {
                       ptr->getOppurtunisticTask();
                   t = ptr->PeekOppurtunisticTask();
              }
+              //Find oppurtunistic task in the queue that can fit
+             /* if(!ptr->OppurtunisticQueue.empty())
+              {
+                std::deque<Task> taskqueue =  ptr->OppurtunisticQueue;
+                
+                for (std::deque<Task>::iterator it = taskqueue.begin(); it!=taskqueue.end();)
+                {
+                    if(IsScheduled(*it,ptr,ptr->CORESNUM,ptr->MAINMEMORY,0))
+                    {
+                       //Remove from the oppurtunistic queue.
+                       it = taskqueue.erase(it);
+                        
+                    }
+                    else
+                        it++;
+                   
+                } 
+              }*/
 
             validate(ptr->CORESNUM,ptr->MAINMEMORY);
 //            std::cout<<"This is executer"<<std::endl;    

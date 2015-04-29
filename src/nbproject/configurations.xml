@@ -6,10 +6,12 @@
                    projectFiles="true">
       <itemPath>Apollo.h</itemPath>
       <itemPath>Baseline.h</itemPath>
+      <itemPath>Block.h</itemPath>
       <itemPath>CCU.h</itemPath>
       <itemPath>CCU_Node.h</itemPath>
       <itemPath>CCU_PJS.h</itemPath>
       <itemPath>Clock.h</itemPath>
+      <itemPath>File.h</itemPath>
       <itemPath>Globals.h</itemPath>
       <itemPath>Job.h</itemPath>
       <itemPath>JobGen_PJS.h</itemPath>
@@ -31,10 +33,12 @@
                    projectFiles="true">
       <itemPath>Apollo.cpp</itemPath>
       <itemPath>Baseline.cpp</itemPath>
+      <itemPath>Block.cpp</itemPath>
       <itemPath>CCU.cpp</itemPath>
       <itemPath>CCU_Node.cpp</itemPath>
       <itemPath>CCU_PJS.cpp</itemPath>
       <itemPath>Clock.cpp</itemPath>
+      <itemPath>File.cpp</itemPath>
       <itemPath>Globals.cpp</itemPath>
       <itemPath>Job.cpp</itemPath>
       <itemPath>JobGen_PJS.cpp</itemPath>
@@ -70,6 +74,29 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>oppurtunistic_jobs.txt</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -153,6 +180,8 @@
       <item path="Task.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oppurtunistic_jobs.txt" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -245,6 +274,8 @@
       <item path="Task.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oppurtunistic_jobs.txt" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

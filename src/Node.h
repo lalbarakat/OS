@@ -40,6 +40,7 @@ public:
     void addOppurtunisticTasktofront(Task t);
     Task* getOppurtunisticTask();
     Task* PeekOppurtunisticTask();
+    std::deque<Task> getOppurtunisticQueue();
     int FindMinVal(int Cores[4],int Memory[4],int numofcores, int mainmemory,
         int task_cores,int task_mem);
     float Estimatewaittime(int cores, int Memory);

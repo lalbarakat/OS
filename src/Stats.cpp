@@ -9,7 +9,8 @@
 #include <fstream>
 #include<ctime>
 Stats::Stats():filename("output.txt"),filename_CPUUtil("output_cpuutil.csv"),filename_MemoryUtil("output_memoryutil.csv"),
-        filename_NumberofTasks("output_numberoftasks.csv"),filename_JobCompletion("output_jobcompletion.csv"),jobCounter(0),taskCounter(0),clock(0) {
+        filename_NumberofTasks("output_numberoftasks.csv"),filename_JobCompletion("output_jobcompletion.csv"),
+        filename_Oppurtunistic("output_Oppurtunisticcores.csv"),jobCounter(0),taskCounter(0),clock(0) {
     std::ofstream out(filename, std::ofstream::trunc);
     //Need to do this to overwrite contents of previous run.
     out<<"Stats file"<<std::endl;
@@ -90,8 +91,14 @@ void Stats::recordCpuUtilization()
        std::ofstream out(filename_CPUUtil, std::ofstream::app);
        out<<clock<<","<<utilization<<std::endl;
        out.close();
+       
+    out.open(filename_Oppurtunistic, std::ofstream::app);
+    //out.open(filename_JobCompletion);
+    out<<clock<<","<<regularCores<<","<<OppurtunisticCores<<std::endl;
+    out.close();
     taskCounter++;
 }
+
 
 void Stats::recordMemoryUtilization()
 {
