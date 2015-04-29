@@ -5,10 +5,10 @@
 
 using namespace std;
 
-PJS::PJS() : jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt"){
+PJS::PJS() : jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt", true){
 }
 
-PJS::PJS(const PJS& orig): jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt") {
+PJS::PJS(const PJS& orig): jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt", true) {
 }
 
 PJS::PJS(std::vector<Node *> Nodes_list): jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt") {
