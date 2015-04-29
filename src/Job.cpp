@@ -4,7 +4,7 @@
 Job::Job() {
     start_time=stats.getClock();
 }
-Job::Job(int id, int num_tasks):job_id(id)
+Job::Job(int id, int num_tasks, bool _isOpportunistic):job_id(id),isOpportunistic(_isOpportunistic)
 {
     parent_list.resize(num_tasks);
     child_list.resize(num_tasks);
@@ -26,6 +26,9 @@ Job::~Job() {
 
 void Job::addTask(Task t){
     isComplete.push_back(false);
+    if(isOpportunistic){
+        t.SetTaskMode(1);
+    }
     task_list.push_back(t);
 }
 void Job::addDependency(int i, int j){
