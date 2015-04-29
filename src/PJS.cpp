@@ -11,7 +11,7 @@ PJS::PJS() : jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt", true){
 PJS::PJS(const PJS& orig): jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt", true) {
 }
 
-PJS::PJS(std::vector<Node *> Nodes_list): jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt") {
+PJS::PJS(std::vector<Node *> Nodes_list): jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt", true) {
     //Start_PJS(Nodes_list);
 }
 
@@ -163,7 +163,7 @@ void PJS::CheckForTasks(){
 }
 
 void PJS::RecieveJobs(int num_jobs, bool recieveOpportunistic){
-    std::vector<Job> newJobs = recieveOpportunistic ? opJobGen.GenerateJobs(num_jobs): jobGen.GenerateJobs(num_jobs);
+    std::vector<Job> newJobs =       recieveOpportunistic ? opJobGen.GenerateJobs(num_jobs): jobGen.GenerateJobs(num_jobs);
     for(size_t i=0; i<newJobs.size(); i++){
         Job job= newJobs[i];
         std::vector<Task> initialTasks = job.getFirstTasks();
