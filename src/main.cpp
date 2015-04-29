@@ -18,7 +18,8 @@ enum time_enums{
     NODE_MATRIX_SEND_TIME=1,
     NODE_EXECUTOR_TIME=1,
     PJS_SCHEDULING_TIME=1,
-    JOB_GENERATOR_TIME=50
+    JOB_GENERATOR_TIME=50,
+    OPPORTUNISTIC_GENERATOR_TIME=500
 };
 bool running=true;
 
@@ -74,7 +75,7 @@ int main(int argc, char** argv) {
     int num_jobs=3;
     int idle_counter=0;
     unsigned long long counter=0;
-    while(counter<num_loops && !(PJS_obj.outOfJobs() && idle_counter>30)){
+    while(counter<num_loops && !(PJS_obj.outOfJobs() && idle_counter>500)){
         //Do things here
        //Reset the statistics
         stats.setCoresUSed(0);
@@ -84,7 +85,10 @@ int main(int argc, char** argv) {
         stats.setQueueSize(0);
         stats.setRegularCores(0);
         stats.setOppurtunisticCores(0);
-        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0){
+        if(counter%OPPORTUNISTIC_GENERATOR_TIME==0){
+            PJS_obj.RecieveJobs(num_jobs,true);
+        }
+        else if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0){
             //Read in jobs from a file and obtain the tasks into the current batch
             PJS_obj.RecieveJobs(num_jobs);
         }
