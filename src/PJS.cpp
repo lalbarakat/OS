@@ -101,16 +101,12 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
        for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
        {
              
-             int r = rand()%100;
-             /*if(r>70 )//2 in 10 are oppurtinsitic tasks. choosing them with 20% probability
-             {
-                 //cout<<"oppurtunistic"<<endl;
-               (*iter).SetTaskMode(1);//1 for oppurtunistic
-               (*iter).setCores_required(1);
+           if((*iter).getTaskMode() == 1)
+           {
+               cout<<"oppurtunitic"<<endl;
                (*iter).setMemory_required(1);
-             }
-             else*/
-               (*iter).SetTaskMode(0); //0 for regular
+               (*iter).setCores_required(1);
+           }
        }
         
        std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,curBatch,matpair);
