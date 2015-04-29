@@ -1,9 +1,8 @@
 #include "JobGenerator.h"
 #include <fstream>
 
-JobGenerator::JobGenerator(std::string filename): f_in(filename){
-    
-}
+JobGenerator::JobGenerator(std::string filename, bool _isOpportunistic): f_in(filename), 
+        isOpportunistic(_isOpportunistic){}
 
 //JobGenerator::JobGenerator(const JobGenerator& orig) {
 //}
@@ -32,7 +31,7 @@ std::vector<Job> JobGenerator::GenerateJobs(int num_jobs) {
             break;
         }
         total_tasks+=num_tasks;
-        Job job(job_id, num_tasks);
+        Job job(job_id, num_tasks, isOpportunistic);
         
         for(int j=0; j<num_tasks; j++){
             int num_dep;

@@ -12,7 +12,7 @@
 class Job {
 public:
     Job();
-    Job(int jobid, int num_tasks);
+    Job(int jobid, int num_tasks, bool _isOppurtunistic=false);
     //Job(int jobid, std::vector <std::list<int> >& adlist, std::vector<Task> _tasks);
     //Job(const Job& orig);
     virtual ~Job();
@@ -29,6 +29,7 @@ public:
     bool isFinished();
 private:
     int job_id;
+    bool isOpportunistic;
     //Used to graph the graph
     std::vector <std::vector<int>> parent_list;
     std::vector <std::vector<int>> child_list;

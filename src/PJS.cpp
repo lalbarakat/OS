@@ -5,13 +5,13 @@
 
 using namespace std;
 
-PJS::PJS() : jobGen("jobs.txt"){
+PJS::PJS() : jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt"){
 }
 
-PJS::PJS(const PJS& orig): jobGen("jobs.txt") {
+PJS::PJS(const PJS& orig): jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt") {
 }
 
-PJS::PJS(std::vector<Node *> Nodes_list): jobGen("jobs.txt") {
+PJS::PJS(std::vector<Node *> Nodes_list): jobGen("jobs.txt"), opJobGen("opportunistic_jobs.txt") {
     //Start_PJS(Nodes_list);
 }
 
@@ -166,8 +166,8 @@ void PJS::CheckForTasks(){
     } 
 }
 
-void PJS::RecieveJobs(int num_jobs){
-    std::vector<Job> newJobs = jobGen.GenerateJobs(num_jobs);
+void PJS::RecieveJobs(int num_jobs, bool recieveOpportunistic){
+    std::vector<Job> newJobs = recieveOpportunistic ? opJobGen.GenerateJobs(num_jobs): jobGen.GenerateJobs(num_jobs);
     for(size_t i=0; i<newJobs.size(); i++){
         Job job= newJobs[i];
         std::vector<Task> initialTasks = job.getFirstTasks();

@@ -14,13 +14,14 @@
 
 class JobGenerator {
 public:
-    JobGenerator(std::string filename);
+    JobGenerator(std::string filename, bool _isOpportunistic=false);
    // JobGenerator(const JobGenerator& orig);
     virtual ~JobGenerator();
     std::vector<Job> GenerateJobs(int num_jobs);
 private:
      std::vector<Job> list_jobs;
      std::ifstream f_in;
+     bool isOpportunistic;
 };
 
 #endif	/* JOBGENERATOR_H */
