@@ -18,7 +18,7 @@ enum time_enums{
     NODE_MATRIX_SEND_TIME=1,
     NODE_EXECUTOR_TIME=1,
     PJS_SCHEDULING_TIME=1,
-    JOB_GENERATOR_TIME=100
+    JOB_GENERATOR_TIME=50
 };
 bool running=true;
 
