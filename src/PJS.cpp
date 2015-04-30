@@ -206,7 +206,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
        std::cout<<std::endl;
    }
     }
-     for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
+/*     for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
        {
              srand (time(NULL));
              int r = rand()%100;
@@ -214,7 +214,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
                (*iter).SetTaskMode(1);//1 for oppurtunistic
              else
                (*iter).SetTaskMode(0);//0 for regular
-       }
+       }*/
     if(!(PJS::CCUPJS.isMatrixEmpty()) && curBatch.size()>0)
     {
         matpair =  CCUPJS.PeekMatrix();
