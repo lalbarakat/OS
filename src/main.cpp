@@ -19,7 +19,7 @@ enum time_enums{
     NODE_EXECUTOR_TIME=1,
     PJS_SCHEDULING_TIME=1,
     JOB_GENERATOR_TIME=50,
-    OPPORTUNISTIC_GENERATOR_TIME=150
+    OPPORTUNISTIC_GENERATOR_TIME=100
 };
 bool running=true;
 
@@ -85,10 +85,11 @@ int main(int argc, char** argv) {
         stats.setQueueSize(0);
         stats.setRegularCores(0);
         stats.setOppurtunisticCores(0);
+        
         if(counter%OPPORTUNISTIC_GENERATOR_TIME==0){
             PJS_obj.RecieveJobs(num_jobs,true);
         }
-        if(!PJS_obj.outOfJobs() && counter%JOB_GENERATOR_TIME==0){
+        if(counter%JOB_GENERATOR_TIME==0){
             //Read in jobs from a file and obtain the tasks into the current batch
             PJS_obj.RecieveJobs(num_jobs);
         }

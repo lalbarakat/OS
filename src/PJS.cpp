@@ -97,17 +97,27 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
     if(!(PJS::CCUPJS.isEmpty()) && curBatch.size()>0)
     {
         matpair =  CCUPJS.PeekMatrix();
-       //Randomly allocate tasks oppurtunistically.
-       for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
+       
+        int NumberOfNodes = Nodes_list.size();
+        int i =0;
+       for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end();  )
        {
              
            if((*iter).getTaskMode() == 1)
            {
-               cout<<"oppurtunitic"<<endl;
                (*iter).setMemory_required(1);
                (*iter).setCores_required(1);
+               
+               Nodes_list[i%NumberOfNodes]->PJSNode.addTask(*iter);
+               i++;
+               curBatch.erase(iter);
+           }
+           else
+           {
+               iter++;
            }
        }
+        
         
        std::vector<Task> unmatched_task_list = Greedy_matcher(Nodes_list,curBatch,matpair);
     //   std::cout<<"unmatched task list "<<std::endl;
