@@ -102,7 +102,8 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
         int i =0;
        for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end();  )
        {
-             
+       
+           (*iter).setCPU_time((*iter).getCPU_time()+20);//add network cost
            if((*iter).getTaskMode() == 1)
            {
                (*iter).setMemory_required(1);
