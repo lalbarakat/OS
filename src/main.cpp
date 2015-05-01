@@ -54,7 +54,7 @@ int main(int argc, char** argv) {
     */
     srand (time(NULL));
     for(int i=0; i< num_nodes; ++i){
-     Nodes_list.push_back(new Node(i,8,26));
+     Nodes_list.push_back(new Node(i,8,16));
     }
     PJS PJS_obj(Nodes_list);
     CCU ccu_obj(Nodes_list,&PJS_obj);
@@ -86,9 +86,9 @@ int main(int argc, char** argv) {
         stats.setRegularCores(0);
         stats.setOppurtunisticCores(0);
         
-        /*if(counter%OPPORTUNISTIC_GENERATOR_TIME==0){
+        if(counter%OPPORTUNISTIC_GENERATOR_TIME==0){
             PJS_obj.RecieveJobs(num_jobs,true);
-        }*/
+        }
         if(counter%JOB_GENERATOR_TIME==0){
             //Read in jobs from a file and obtain the tasks into the current batch
             PJS_obj.RecieveJobs(num_jobs);
