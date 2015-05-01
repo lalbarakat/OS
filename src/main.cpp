@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
     }
     */
     for(int i=0; i< num_nodes; ++i){
-     Nodes_list.push_back(new Node(i,8,16));
+     Nodes_list.push_back(new Node(i,8,26));
     }
     PJS PJS_obj(Nodes_list);
     CCU ccu_obj(Nodes_list,&PJS_obj);
