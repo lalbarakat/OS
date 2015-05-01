@@ -12,12 +12,15 @@ JobGenerator::~JobGenerator() {
     f_in.close();
 }
 Task getTask(std::ifstream& f_in, int job_id){
-   int task_id, cpu_time, memory, cores_used;
+   int task_id, block_id, file_id, cpu_time, memory, cores_used;
    f_in>>task_id;
+   f_in>>file_id;
+   f_in>>block_id;
+   Block b(block_id,file_id);
    f_in>>cpu_time;
    f_in>>memory;
    f_in>>cores_used;
-   Task t(job_id, task_id, cpu_time, memory, cores_used,0);
+   Task t(job_id, task_id, cpu_time, memory, cores_used,0,b);
    return t;
 }
 std::vector<Job> JobGenerator::GenerateJobs(int num_jobs) {
