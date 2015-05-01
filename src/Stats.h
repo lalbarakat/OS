@@ -44,6 +44,7 @@ public:
     void incCoresUSed(){coresUsed++;}
     void inctotalCores(int cores){totalCores+=cores;}
     void incGBUSed(){GBUsed++;}
+    void incGBUSed(int gbused){GBUsed+= gbused; }
     void inctotalGB(int GB){totalGB+=GB;}
     
     void incQueueSize(int size){queueSize += size;}

@@ -9,7 +9,7 @@
 #include <fstream>
 #include<ctime>
 Stats::Stats():filename("output.txt"),filename_CPUUtil("output_cpuutil.csv"),filename_MemoryUtil("output_memoryutil.csv"),
-        filename_NumberofTasks("output_numberoftasks.csv"),filename_JobCompletion("output_jobcompletion.txt"),jobCounter(0),taskCounter(0),clock(0) {
+        filename_NumberofTasks("output_numberoftasks.csv"),filename_JobCompletion("output_jobcompletion.csv"),jobCounter(0),taskCounter(0),clock(0) {
     std::ofstream out(filename, std::ofstream::trunc);
     //Need to do this to overwrite contents of previous run.
     out<<"Stats file"<<std::endl;
@@ -44,7 +44,7 @@ void Stats::recordCompletedJob(int jobId){
     
     out.open(filename_JobCompletion, std::ofstream::app);
     //out.open(filename_JobCompletion);
-    out<<clock<<" "<<jobId<<std::endl;
+    out<<jobId<<","<<clock<<std::endl;
     out.close();
     
     jobCounter++;
@@ -56,7 +56,7 @@ void Stats::recordCompletedJob(int jobId, unsigned long long startTime){
     
     out.open(filename_JobCompletion, std::ofstream::app);
     //out.open(filename_JobCompletion);
-    out<<clock-startTime<<" "<<jobId<<std::endl;
+    out<<jobId<<","<<clock-startTime<<std::endl;
     out.close();
     jobCounter++;
 }

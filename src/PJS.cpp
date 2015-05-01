@@ -125,7 +125,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
     AggregatedMatPair matpair;
     
     //Test code for Pacman. create sample of tasks
-  
+  /*
     if(stats.getClock() == 0)
     {
           curBatch.clear();
@@ -188,14 +188,14 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
     Block b15(1,1);
     Task t15(15,0,30,4,4,1,b15);
     curBatch.push_back(t15);
-    }
+    }*/
     //update
     Global_Cache global_cache;
     if(!(PJS::CCUPJS.isCacheEmpty()))
     {
          global_cache =CCUPJS.getGlobalCache();
         //print global_cache
-   std::cout<<"aggregated cache"<<std::endl;
+   /*std::cout<<"aggregated cache"<<std::endl;
    for(int i = 0;i<global_cache.size();i++)
    {
        std::cout<<"Block block id "<<global_cache[i].first.get_block_id()<<" file id  "<<global_cache[i].first.get_file_id()<<" has Nodes ";
@@ -204,7 +204,7 @@ void PJS::Start_PJS(std::vector<Node *> Nodes_list)
             std::cout << *iterator<<" ";
         }
        std::cout<<std::endl;
-   }
+   }*/
     }
 /*     for( std::vector<Task>::iterator iter = curBatch.begin(); iter != curBatch.end(); ++iter )
        {

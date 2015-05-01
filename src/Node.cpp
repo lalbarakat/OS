@@ -308,7 +308,8 @@ void CPU::RecordNumberOfUsedGB(int mainmemory)
             stats.incGBUSed();
             //increasing the cores used to track CPU Utilization
         }
-    }   
+    }
+    stats.incGBUSed(local_cache.size()*2);
     
 }
 
@@ -321,14 +322,14 @@ void CPU::printtologfile(Node *ptr,Task t,time_t now)
             " and " <<t.getMemory_required()<<"  GB amount of memory at time "<<dt<<" for time "<<t.getCPU_time()<<" seconds and size = "<<local_cache.size()<<std::endl;
 }
 
-void CPU::Zerointhearrays(Task t,Task preempted_task)
+void CPU::Zerointhearrays(Task preempted_task,Node *ptr)
 {
-    for(int j=0;j<t.getMemory_required();j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
+    for(int j=0;j<ptr->MAINMEMORY;j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
     {
         if(Memory[j].first.getTaskId() == preempted_task.getTaskId())
         Memory[j].second = 0;
     }
-    for(int j=0;j<t.getCores_required();j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
+    for(int j=0;j<ptr->CORESNUM;j++)//zero in all the preempted oppurtunistic task's time in both the arrays.
     {
         if(Cores[j].first.getTaskId() == preempted_task.getTaskId())
         Cores[j].second = 0;
@@ -414,7 +415,7 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
                     Cores[i].first.setCPU_time(Cores[i].second);
                     ptr->addOppurtunisticTasktofront(Cores[i].first);
                     //preempt the oppurtunistic task and put it back in the oppurtinistic queue.
-                    Zerointhearrays(t,Cores[i].first);
+                    Zerointhearrays(Cores[i].first,ptr);
                     Cores[i].second = t.getCPU_time();
                     Cores[i].first = t;
                     reqdcores++;
@@ -436,14 +437,14 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
                     Memory[i].first.setCPU_time(Memory[i].second);
                     ptr->addOppurtunisticTasktofront(Memory[i].first);
                     //preempt the oppurtunistic task and put it back in the oppurtinistic queue.
-                    Zerointhearrays(t,Memory[i].first);
+                    Zerointhearrays(Memory[i].first,ptr);
                     Memory[i].second = t.getCPU_time();
                     Memory[i].first = t;
                     reqdMemory++;
             }
        }
      
-       printtologfile(ptr,t,now);
+      // printtologfile(ptr,t,now);
        
        return true;
    }
@@ -501,19 +502,20 @@ void CPU::addToCache(Block b,Node *ptr,GlobalCache global_cache)
     int clk;
     clk = stats.getClock();
     
+    set_cachesize(5);
     
     //check if the cache is full.
-    if(local_cache.size()<5)//If not full
+    if(local_cache.size()< get_cachesize())//If not full
     {
         
         local_cache.push_back(std::make_pair(b,clk));
         
-        cout<<"Node id "<<ptr->getId()<<endl;
+        /*cout<<"Node id "<<ptr->getId()<<endl;
             for(int i =0; i<local_cache.size();i++)
             {
                 cout<<local_cache[i].first.get_block_id()<<"  "<<local_cache[i].first.get_file_id()<<" "<<local_cache[i].second<<endl;
             }
-        
+        */
     }
     else //Cache is full. Find a block to Replace - Implement LRU
     {
@@ -533,11 +535,11 @@ void CPU::addToCache(Block b,Node *ptr,GlobalCache global_cache)
             local_cache[min_cache].second = stats.getClock();
         }
         
-      cout<<"Node id "<<ptr->getId()<<endl;
+      /*cout<<"Node id "<<ptr->getId()<<endl;
             for(int i =0; i<local_cache.size();i++)
             {
                 cout<<local_cache[i].first.get_block_id()<<"  "<<local_cache[i].first.get_file_id()<<" "<<local_cache[i].second<<endl;
-            }
+            }*/
     }
         
 }

@@ -1,1 +1,4573 @@
 Stats file
+Memory Utilization :  Memory used 136 out of 520 at 1
+CPU Utilization :  cores used 62 out of 160 at 1
+
+Task(0) of Job(1) completed at20.
+Task(3) of Job(3) completed at20.
+Memory Utilization :  Memory used 112 out of 520 at 21
+CPU Utilization :  cores used 48 out of 160 at 21
+
+Memory Utilization :  Memory used 118 out of 520 at 22
+CPU Utilization :  cores used 52 out of 160 at 22
+
+Task(1) of Job(1) completed at25.
+Memory Utilization :  Memory used 106 out of 520 at 26
+CPU Utilization :  cores used 46 out of 160 at 26
+
+Memory Utilization :  Memory used 118 out of 520 at 27
+CPU Utilization :  cores used 54 out of 160 at 27
+
+Task(2) of Job(1) completed at27.
+Memory Utilization :  Memory used 114 out of 520 at 28
+CPU Utilization :  cores used 52 out of 160 at 28
+
+Task(3) of Job(1) completed at29.
+Memory Utilization :  Memory used 102 out of 520 at 30
+CPU Utilization :  cores used 44 out of 160 at 30
+
+Memory Utilization :  Memory used 106 out of 520 at 31
+CPU Utilization :  cores used 48 out of 160 at 31
+
+Task(9) of Job(1) completed at34.
+Memory Utilization :  Memory used 102 out of 520 at 35
+CPU Utilization :  cores used 46 out of 160 at 35
+
+Task(0) of Job(3) completed at36.
+Memory Utilization :  Memory used 94 out of 520 at 37
+CPU Utilization :  cores used 40 out of 160 at 37
+
+Task(5) of Job(2) completed at39.
+Memory Utilization :  Memory used 82 out of 520 at 40
+CPU Utilization :  cores used 34 out of 160 at 40
+
+Task(3) of Job(2) completed at48.
+Memory Utilization :  Memory used 78 out of 520 at 49
+CPU Utilization :  cores used 32 out of 160 at 49
+
+Memory Utilization :  Memory used 278 out of 520 at 51
+CPU Utilization :  cores used 110 out of 160 at 51
+
+Task(1) of Job(4) completed at53.
+Task(0) of Job(2) completed at53.
+Memory Utilization :  Memory used 246 out of 520 at 54
+CPU Utilization :  cores used 104 out of 160 at 54
+
+Task(11) of Job(3) completed at54.
+Memory Utilization :  Memory used 234 out of 520 at 55
+CPU Utilization :  cores used 96 out of 160 at 55
+
+Task(0) of Job(5) completed at55.
+Task(8) of Job(1) completed at55.
+CPU Utilization :  cores used 94 out of 160 at 56
+
+Memory Utilization :  Memory used 254 out of 520 at 57
+CPU Utilization :  cores used 106 out of 160 at 57
+
+Task(19) of Job(3) completed at69.
+Memory Utilization :  Memory used 242 out of 520 at 70
+CPU Utilization :  cores used 98 out of 160 at 70
+
+Task(7) of Job(4) completed at70.
+CPU Utilization :  cores used 104 out of 160 at 71
+
+Task(4) of Job(7) completed at71.
+Task(0) of Job(8) completed at71.
+Task(4) of Job(8) completed at71.
+Task(1) of Job(9) completed at71.
+Task(10) of Job(9) completed at71.
+Memory Utilization :  Memory used 182 out of 520 at 72
+CPU Utilization :  cores used 80 out of 160 at 72
+
+Task(14) of Job(7) completed at73.
+Memory Utilization :  Memory used 174 out of 520 at 74
+CPU Utilization :  cores used 72 out of 160 at 74
+
+Task(14) of Job(2) completed at74.
+Memory Utilization :  Memory used 170 out of 520 at 75
+CPU Utilization :  cores used 66 out of 160 at 75
+
+Memory Utilization :  Memory used 174 out of 520 at 76
+CPU Utilization :  cores used 74 out of 160 at 76
+
+Task(7) of Job(3) completed at77.
+Task(13) of Job(3) completed at77.
+Memory Utilization :  Memory used 158 out of 520 at 78
+CPU Utilization :  cores used 60 out of 160 at 78
+
+Task(8) of Job(4) completed at78.
+Memory Utilization :  Memory used 150 out of 520 at 79
+CPU Utilization :  cores used 58 out of 160 at 79
+
+Task(0) of Job(6) completed at79.
+Memory Utilization :  Memory used 142 out of 520 at 80
+CPU Utilization :  cores used 52 out of 160 at 80
+
+Task(7) of Job(1) completed at80.
+Memory Utilization :  Memory used 134 out of 520 at 81
+CPU Utilization :  cores used 48 out of 160 at 81
+
+Task(4) of Job(1) completed at81.
+Memory Utilization :  Memory used 150 out of 520 at 82
+CPU Utilization :  cores used 56 out of 160 at 82
+
+Task(3) of Job(9) completed at84.
+Memory Utilization :  Memory used 138 out of 520 at 85
+CPU Utilization :  cores used 48 out of 160 at 85
+
+Memory Utilization :  Memory used 142 out of 520 at 86
+CPU Utilization :  cores used 56 out of 160 at 86
+
+Task(2) of Job(9) completed at86.
+Task(9) of Job(9) completed at86.
+Memory Utilization :  Memory used 122 out of 520 at 87
+CPU Utilization :  cores used 40 out of 160 at 87
+
+Memory Utilization :  Memory used 138 out of 520 at 88
+CPU Utilization :  cores used 46 out of 160 at 88
+
+Task(10) of Job(1) completed at93.
+Memory Utilization :  Memory used 134 out of 520 at 94
+CPU Utilization :  cores used 42 out of 160 at 94
+
+Memory Utilization :  Memory used 140 out of 520 at 95
+CPU Utilization :  cores used 44 out of 160 at 95
+
+Task(2) of Job(7) completed at100.
+Memory Utilization :  Memory used 288 out of 520 at 101
+CPU Utilization :  cores used 92 out of 160 at 101
+
+Task(6) of Job(10) completed at101.
+Memory Utilization :  Memory used 284 out of 520 at 102
+Task(2) of Job(6) completed at103.
+Memory Utilization :  Memory used 272 out of 520 at 104
+CPU Utilization :  cores used 90 out of 160 at 104
+
+Task(3) of Job(5) completed at104.
+Memory Utilization :  Memory used 280 out of 520 at 106
+CPU Utilization :  cores used 96 out of 160 at 106
+
+Task(5) of Job(1) completed at106.
+Task(0) of Job(9) completed at106.
+Memory Utilization :  Memory used 260 out of 520 at 107
+CPU Utilization :  cores used 84 out of 160 at 107
+
+Task(5) of Job(9) completed at107.
+Memory Utilization :  Memory used 276 out of 520 at 108
+CPU Utilization :  cores used 92 out of 160 at 108
+
+Task(8) of Job(10) completed at110.
+Memory Utilization :  Memory used 260 out of 520 at 111
+CPU Utilization :  cores used 84 out of 160 at 111
+
+Memory Utilization :  Memory used 264 out of 520 at 112
+CPU Utilization :  cores used 88 out of 160 at 112
+
+Task(6) of Job(1) completed at113.
+Memory Utilization :  Memory used 260 out of 520 at 114
+CPU Utilization :  cores used 84 out of 160 at 114
+
+Memory Utilization :  Memory used 274 out of 520 at 115
+CPU Utilization :  cores used 88 out of 160 at 115
+
+Task(7) of Job(10) completed at120.
+Task(9) of Job(14) completed at120.
+Memory Utilization :  Memory used 254 out of 520 at 121
+CPU Utilization :  cores used 78 out of 160 at 121
+
+Task(0) of Job(13) completed at121.
+Memory Utilization :  Memory used 250 out of 520 at 122
+CPU Utilization :  cores used 74 out of 160 at 122
+
+Task(2) of Job(10) completed at122.
+Task(8) of Job(15) completed at122.
+Task(0) of Job(15) completed at122.
+Memory Utilization :  Memory used 226 out of 520 at 123
+CPU Utilization :  cores used 58 out of 160 at 123
+
+Memory Utilization :  Memory used 238 out of 520 at 124
+CPU Utilization :  cores used 64 out of 160 at 124
+
+Task(0) of Job(12) completed at125.
+Memory Utilization :  Memory used 222 out of 520 at 126
+CPU Utilization :  cores used 58 out of 160 at 126
+
+Task(0) of Job(7) completed at126.
+Memory Utilization :  Memory used 218 out of 520 at 127
+CPU Utilization :  cores used 52 out of 160 at 127
+
+Task(5) of Job(12) completed at127.
+Task(4) of Job(12) completed at127.
+Memory Utilization :  Memory used 230 out of 520 at 128
+Memory Utilization :  Memory used 256 out of 520 at 129
+CPU Utilization :  cores used 58 out of 160 at 129
+
+Task(7) of Job(2) completed at136.
+Task(2) of Job(3) completed at136.
+Memory Utilization :  Memory used 232 out of 520 at 137
+CPU Utilization :  cores used 50 out of 160 at 137
+
+Task(10) of Job(8) completed at137.
+Memory Utilization :  Memory used 240 out of 520 at 138
+CPU Utilization :  cores used 58 out of 160 at 138
+
+Task(3) of Job(10) completed at138.
+Memory Utilization :  Memory used 246 out of 520 at 139
+Task(17) of Job(3) completed at140.
+Memory Utilization :  Memory used 242 out of 520 at 141
+CPU Utilization :  cores used 56 out of 160 at 141
+
+Task(5) of Job(8) completed at141.
+Memory Utilization :  Memory used 238 out of 520 at 142
+CPU Utilization :  cores used 54 out of 160 at 142
+
+Task(8) of Job(3) completed at142.
+Memory Utilization :  Memory used 234 out of 520 at 143
+CPU Utilization :  cores used 48 out of 160 at 143
+
+Memory Utilization :  Memory used 242 out of 520 at 144
+CPU Utilization :  cores used 54 out of 160 at 144
+
+Task(3) of Job(6) completed at145.
+Memory Utilization :  Memory used 226 out of 520 at 146
+CPU Utilization :  cores used 48 out of 160 at 146
+
+Task(2) of Job(14) completed at146.
+Memory Utilization :  Memory used 224 out of 520 at 147
+CPU Utilization :  cores used 54 out of 160 at 147
+
+Memory Utilization :  Memory used 232 out of 520 at 148
+CPU Utilization :  cores used 62 out of 160 at 148
+
+Task(17) of Job(12) completed at148.
+Task(5) of Job(13) completed at148.
+Task(6) of Job(2) completed at148.
+Memory Utilization :  Memory used 188 out of 520 at 149
+CPU Utilization :  cores used 52 out of 160 at 149
+
+Memory Utilization :  Memory used 200 out of 520 at 150
+CPU Utilization :  cores used 58 out of 160 at 150
+
+Task(1) of Job(7) completed at150.
+Memory Utilization :  Memory used 274 out of 520 at 151
+CPU Utilization :  cores used 92 out of 160 at 151
+
+Task(0) of Job(20) completed at151.
+Memory Utilization :  Memory used 286 out of 520 at 152
+CPU Utilization :  cores used 98 out of 160 at 152
+
+Task(10) of Job(3) completed at152.
+Task(12) of Job(18) completed at152.
+Memory Utilization :  Memory used 266 out of 520 at 153
+CPU Utilization :  cores used 88 out of 160 at 153
+
+Memory Utilization :  Memory used 288 out of 520 at 154
+CPU Utilization :  cores used 104 out of 160 at 154
+
+Task(0) of Job(23) completed at155.
+Memory Utilization :  Memory used 284 out of 520 at 156
+CPU Utilization :  cores used 100 out of 160 at 156
+
+Task(0) of Job(11) completed at158.
+Memory Utilization :  Memory used 280 out of 520 at 159
+CPU Utilization :  cores used 96 out of 160 at 159
+
+Task(2) of Job(15) completed at159.
+Memory Utilization :  Memory used 274 out of 520 at 160
+CPU Utilization :  cores used 98 out of 160 at 160
+
+Task(0) of Job(10) completed at160.
+Task(4) of Job(9) completed at160.
+CPU Utilization :  cores used 96 out of 160 at 161
+
+Task(1) of Job(19) completed at161.
+Memory Utilization :  Memory used 292 out of 520 at 162
+CPU Utilization :  cores used 108 out of 160 at 162
+
+Task(4) of Job(10) completed at162.
+Memory Utilization :  Memory used 284 out of 520 at 163
+CPU Utilization :  cores used 104 out of 160 at 163
+
+Memory Utilization :  Memory used 292 out of 520 at 164
+CPU Utilization :  cores used 110 out of 160 at 164
+
+Task(3) of Job(13) completed at164.
+Memory Utilization :  Memory used 276 out of 520 at 165
+CPU Utilization :  cores used 108 out of 160 at 165
+
+Task(1) of Job(13) completed at165.
+Memory Utilization :  Memory used 282 out of 520 at 166
+CPU Utilization :  cores used 104 out of 160 at 166
+
+Task(9) of Job(16) completed at166.
+Memory Utilization :  Memory used 300 out of 520 at 167
+CPU Utilization :  cores used 110 out of 160 at 167
+
+Task(9) of Job(3) completed at167.
+Memory Utilization :  Memory used 306 out of 520 at 168
+CPU Utilization :  cores used 108 out of 160 at 168
+
+Memory Utilization :  Memory used 318 out of 520 at 169
+CPU Utilization :  cores used 116 out of 160 at 169
+
+Task(1) of Job(2) completed at169.
+Memory Utilization :  Memory used 314 out of 520 at 170
+CPU Utilization :  cores used 114 out of 160 at 170
+
+Task(2) of Job(19) completed at170.
+Memory Utilization :  Memory used 306 out of 520 at 171
+CPU Utilization :  cores used 116 out of 160 at 171
+
+Task(10) of Job(23) completed at171.
+Task(8) of Job(20) completed at171.
+Memory Utilization :  Memory used 316 out of 520 at 172
+CPU Utilization :  cores used 112 out of 160 at 172
+
+Memory Utilization :  Memory used 334 out of 520 at 173
+CPU Utilization :  cores used 118 out of 160 at 173
+
+Task(4) of Job(21) completed at173.
+Memory Utilization :  Memory used 330 out of 520 at 174
+CPU Utilization :  cores used 114 out of 160 at 174
+
+Task(0) of Job(24) completed at174.
+Memory Utilization :  Memory used 338 out of 520 at 175
+CPU Utilization :  cores used 108 out of 160 at 175
+
+Task(3) of Job(11) completed at176.
+Memory Utilization :  Memory used 322 out of 520 at 177
+CPU Utilization :  cores used 106 out of 160 at 177
+
+Task(4) of Job(13) completed at177.
+Memory Utilization :  Memory used 326 out of 520 at 178
+Task(1) of Job(23) completed at178.
+Memory Utilization :  Memory used 314 out of 520 at 179
+CPU Utilization :  cores used 104 out of 160 at 179
+
+Task(7) of Job(18) completed at179.
+Task(1) of Job(5) completed at181.
+Memory Utilization :  Memory used 302 out of 520 at 182
+CPU Utilization :  cores used 96 out of 160 at 182
+
+Task(11) of Job(1) completed at182.
+Memory Utilization :  Memory used 298 out of 520 at 183
+CPU Utilization :  cores used 94 out of 160 at 183
+
+Task(8) of Job(16) completed at183.
+Task(7) of Job(17) completed at184.
+Memory Utilization :  Memory used 306 out of 520 at 185
+Task(10) of Job(20) completed at186.
+Task(12) of Job(10) completed at186.
+Memory Utilization :  Memory used 278 out of 520 at 187
+CPU Utilization :  cores used 84 out of 160 at 187
+
+Task(7) of Job(22) completed at187.
+CPU Utilization :  cores used 100 out of 160 at 188
+
+Memory Utilization :  Memory used 286 out of 520 at 189
+CPU Utilization :  cores used 108 out of 160 at 189
+
+Task(0) of Job(14) completed at193.
+Task(10) of Job(7) completed at193.
+Memory Utilization :  Memory used 258 out of 520 at 194
+CPU Utilization :  cores used 100 out of 160 at 194
+
+Task(10) of Job(12) completed at194.
+Task(0) of Job(19) completed at194.
+Memory Utilization :  Memory used 266 out of 520 at 195
+Task(0) of Job(22) completed at195.
+Task(9) of Job(22) completed at195.
+Task(0) of Job(17) completed at195.
+Memory Utilization :  Memory used 262 out of 520 at 196
+CPU Utilization :  cores used 94 out of 160 at 196
+
+Task(4) of Job(16) completed at196.
+Task(4) of Job(24) completed at196.
+Task(3) of Job(17) completed at196.
+Task(0) of Job(16) completed at197.
+Memory Utilization :  Memory used 254 out of 520 at 198
+Memory Utilization :  Memory used 264 out of 520 at 199
+CPU Utilization :  cores used 102 out of 160 at 199
+
+Task(4) of Job(26) completed at200.
+Memory Utilization :  Memory used 302 out of 520 at 201
+CPU Utilization :  cores used 120 out of 160 at 201
+
+Task(11) of Job(10) completed at201.
+Memory Utilization :  Memory used 298 out of 520 at 202
+CPU Utilization :  cores used 116 out of 160 at 202
+
+Memory Utilization :  Memory used 310 out of 520 at 203
+CPU Utilization :  cores used 122 out of 160 at 203
+
+Task(1) of Job(8) completed at205.
+Memory Utilization :  Memory used 306 out of 520 at 206
+CPU Utilization :  cores used 118 out of 160 at 206
+
+Memory Utilization :  Memory used 322 out of 520 at 207
+CPU Utilization :  cores used 126 out of 160 at 207
+
+Task(2) of Job(11) completed at208.
+Memory Utilization :  Memory used 318 out of 520 at 209
+CPU Utilization :  cores used 122 out of 160 at 209
+
+Task(1) of Job(6) completed at209.
+Memory Utilization :  Memory used 302 out of 520 at 210
+CPU Utilization :  cores used 114 out of 160 at 210
+
+Task(0) of Job(18) completed at210.
+Task(3) of Job(20) completed at211.
+Memory Utilization :  Memory used 294 out of 520 at 212
+CPU Utilization :  cores used 120 out of 160 at 212
+
+Memory Utilization :  Memory used 318 out of 520 at 213
+CPU Utilization :  cores used 128 out of 160 at 213
+
+Task(1) of Job(24) completed at214.
+Memory Utilization :  Memory used 314 out of 520 at 215
+CPU Utilization :  cores used 120 out of 160 at 215
+
+Memory Utilization :  Memory used 332 out of 520 at 216
+CPU Utilization :  cores used 126 out of 160 at 216
+
+Task(9) of Job(27) completed at221.
+Memory Utilization :  Memory used 316 out of 520 at 222
+CPU Utilization :  cores used 124 out of 160 at 222
+
+Task(5) of Job(28) completed at222.
+Memory Utilization :  Memory used 320 out of 520 at 223
+CPU Utilization :  cores used 120 out of 160 at 223
+
+Task(10) of Job(32) completed at223.
+Memory Utilization :  Memory used 328 out of 520 at 224
+CPU Utilization :  cores used 126 out of 160 at 224
+
+Task(15) of Job(22) completed at226.
+Memory Utilization :  Memory used 312 out of 520 at 227
+CPU Utilization :  cores used 124 out of 160 at 227
+
+Task(6) of Job(16) completed at227.
+Memory Utilization :  Memory used 316 out of 520 at 228
+Task(6) of Job(23) completed at228.
+Task(6) of Job(18) completed at228.
+Task(4) of Job(11) completed at228.
+Memory Utilization :  Memory used 286 out of 520 at 229
+CPU Utilization :  cores used 116 out of 160 at 229
+
+Memory Utilization :  Memory used 322 out of 520 at 230
+CPU Utilization :  cores used 122 out of 160 at 230
+
+Task(15) of Job(12) completed at231.
+Memory Utilization :  Memory used 310 out of 520 at 232
+CPU Utilization :  cores used 116 out of 160 at 232
+
+Task(17) of Job(10) completed at232.
+Memory Utilization :  Memory used 306 out of 520 at 233
+CPU Utilization :  cores used 118 out of 160 at 233
+
+Memory Utilization :  Memory used 322 out of 520 at 234
+CPU Utilization :  cores used 126 out of 160 at 234
+
+Task(6) of Job(15) completed at234.
+Memory Utilization :  Memory used 314 out of 520 at 235
+CPU Utilization :  cores used 118 out of 160 at 235
+
+Task(1) of Job(16) completed at235.
+Task(10) of Job(27) completed at235.
+Task(0) of Job(28) completed at235.
+Memory Utilization :  Memory used 306 out of 520 at 236
+CPU Utilization :  cores used 108 out of 160 at 236
+
+Memory Utilization :  Memory used 346 out of 520 at 237
+CPU Utilization :  cores used 126 out of 160 at 237
+
+Task(3) of Job(31) completed at237.
+Memory Utilization :  Memory used 334 out of 520 at 238
+CPU Utilization :  cores used 120 out of 160 at 238
+
+Memory Utilization :  Memory used 348 out of 520 at 239
+CPU Utilization :  cores used 128 out of 160 at 239
+
+Task(6) of Job(17) completed at244.
+Memory Utilization :  Memory used 336 out of 520 at 245
+CPU Utilization :  cores used 124 out of 160 at 245
+
+Memory Utilization :  Memory used 342 out of 520 at 246
+CPU Utilization :  cores used 132 out of 160 at 246
+
+Task(6) of Job(6) completed at246.
+Memory Utilization :  Memory used 326 out of 520 at 247
+CPU Utilization :  cores used 124 out of 160 at 247
+
+Task(6) of Job(12) completed at247.
+Memory Utilization :  Memory used 336 out of 520 at 248
+Task(6) of Job(9) completed at248.
+Memory Utilization :  Memory used 332 out of 520 at 249
+CPU Utilization :  cores used 118 out of 160 at 249
+
+Memory Utilization :  Memory used 356 out of 520 at 250
+CPU Utilization :  cores used 126 out of 160 at 250
+
+Task(12) of Job(26) completed at250.
+Task(3) of Job(30) completed at250.
+Memory Utilization :  Memory used 328 out of 520 at 251
+CPU Utilization :  cores used 120 out of 160 at 251
+
+Memory Utilization :  Memory used 334 out of 520 at 252
+CPU Utilization :  cores used 124 out of 160 at 252
+
+Task(1) of Job(27) completed at253.
+Memory Utilization :  Memory used 330 out of 520 at 254
+CPU Utilization :  cores used 120 out of 160 at 254
+
+Task(0) of Job(4) completed at254.
+Task(11) of Job(2) completed at254.
+CPU Utilization :  cores used 116 out of 160 at 255
+
+Memory Utilization :  Memory used 356 out of 520 at 256
+CPU Utilization :  cores used 120 out of 160 at 256
+
+Task(5) of Job(7) completed at256.
+Task(7) of Job(30) completed at256.
+Memory Utilization :  Memory used 332 out of 520 at 257
+CPU Utilization :  cores used 110 out of 160 at 257
+
+Memory Utilization :  Memory used 352 out of 520 at 258
+CPU Utilization :  cores used 126 out of 160 at 258
+
+Task(2) of Job(5) completed at258.
+Task(0) of Job(21) completed at258.
+Memory Utilization :  Memory used 332 out of 520 at 259
+CPU Utilization :  cores used 116 out of 160 at 259
+
+Memory Utilization :  Memory used 348 out of 520 at 260
+CPU Utilization :  cores used 132 out of 160 at 260
+
+Task(5) of Job(22) completed at261.
+Memory Utilization :  Memory used 344 out of 520 at 262
+CPU Utilization :  cores used 124 out of 160 at 262
+
+Task(11) of Job(12) completed at262.
+Memory Utilization :  Memory used 346 out of 520 at 263
+Memory Utilization :  Memory used 360 out of 520 at 264
+CPU Utilization :  cores used 128 out of 160 at 264
+
+Task(2) of Job(42) completed at264.
+Memory Utilization :  Memory used 356 out of 520 at 265
+CPU Utilization :  cores used 126 out of 160 at 265
+
+Task(6) of Job(13) completed at265.
+Task(15) of Job(20) completed at265.
+Task(14) of Job(16) completed at265.
+Task(5) of Job(27) completed at265.
+Memory Utilization :  Memory used 324 out of 520 at 266
+CPU Utilization :  cores used 106 out of 160 at 266
+
+Task(4) of Job(22) completed at266.
+Memory Utilization :  Memory used 346 out of 520 at 267
+CPU Utilization :  cores used 114 out of 160 at 267
+
+Task(1) of Job(11) completed at267.
+CPU Utilization :  cores used 110 out of 160 at 268
+
+Task(15) of Job(29) completed at268.
+Task(6) of Job(28) completed at268.
+Memory Utilization :  Memory used 342 out of 520 at 269
+CPU Utilization :  cores used 108 out of 160 at 269
+
+Memory Utilization :  Memory used 374 out of 520 at 270
+CPU Utilization :  cores used 122 out of 160 at 270
+
+Task(5) of Job(19) completed at273.
+Memory Utilization :  Memory used 362 out of 520 at 274
+CPU Utilization :  cores used 118 out of 160 at 274
+
+Task(1) of Job(40) completed at274.
+Memory Utilization :  Memory used 368 out of 520 at 275
+CPU Utilization :  cores used 122 out of 160 at 275
+
+Task(1) of Job(15) completed at275.
+Task(6) of Job(8) completed at275.
+Task(13) of Job(10) completed at275.
+Memory Utilization :  Memory used 352 out of 520 at 276
+CPU Utilization :  cores used 116 out of 160 at 276
+
+Task(0) of Job(29) completed at276.
+Memory Utilization :  Memory used 360 out of 520 at 277
+CPU Utilization :  cores used 120 out of 160 at 277
+
+Task(0) of Job(35) completed at277.
+Memory Utilization :  Memory used 368 out of 520 at 278
+Task(0) of Job(31) completed at278.
+Task(5) of Job(35) completed at278.
+Memory Utilization :  Memory used 336 out of 520 at 279
+CPU Utilization :  cores used 108 out of 160 at 279
+
+Memory Utilization :  Memory used 376 out of 520 at 280
+CPU Utilization :  cores used 124 out of 160 at 280
+
+Task(1) of Job(10) completed at281.
+Memory Utilization :  Memory used 368 out of 520 at 282
+CPU Utilization :  cores used 116 out of 160 at 282
+
+Task(1) of Job(21) completed at282.
+Memory Utilization :  Memory used 382 out of 520 at 283
+CPU Utilization :  cores used 118 out of 160 at 283
+
+Task(2) of Job(34) completed at283.
+Task(10) of Job(17) completed at283.
+CPU Utilization :  cores used 112 out of 160 at 284
+
+Task(1) of Job(31) completed at284.
+Memory Utilization :  Memory used 400 out of 520 at 285
+CPU Utilization :  cores used 120 out of 160 at 285
+
+Memory Utilization :  Memory used 416 out of 520 at 286
+CPU Utilization :  cores used 126 out of 160 at 286
+
+Task(10) of Job(29) completed at286.
+Memory Utilization :  Memory used 404 out of 520 at 287
+CPU Utilization :  cores used 120 out of 160 at 287
+
+Memory Utilization :  Memory used 412 out of 520 at 288
+CPU Utilization :  cores used 126 out of 160 at 288
+
+Task(7) of Job(20) completed at288.
+Memory Utilization :  Memory used 404 out of 520 at 289
+CPU Utilization :  cores used 118 out of 160 at 289
+
+Task(12) of Job(32) completed at289.
+Memory Utilization :  Memory used 396 out of 520 at 290
+CPU Utilization :  cores used 122 out of 160 at 290
+
+Memory Utilization :  Memory used 412 out of 520 at 291
+CPU Utilization :  cores used 130 out of 160 at 291
+
+Task(12) of Job(1) completed at291.
+Task(0) of Job(25) completed at291.
+Task(0) of Job(27) completed at291.
+Memory Utilization :  Memory used 388 out of 520 at 292
+CPU Utilization :  cores used 112 out of 160 at 292
+
++Job(1) completed in292.
+Task(5) of Job(23) completed at292.
+Memory Utilization :  Memory used 406 out of 520 at 293
+CPU Utilization :  cores used 126 out of 160 at 293
+
+Task(7) of Job(15) completed at293.
+CPU Utilization :  cores used 124 out of 160 at 294
+
+Task(9) of Job(12) completed at294.
+Task(0) of Job(30) completed at295.
+Task(5) of Job(17) completed at295.
+Task(0) of Job(41) completed at295.
+Task(11) of Job(45) completed at295.
+Memory Utilization :  Memory used 402 out of 520 at 296
+CPU Utilization :  cores used 112 out of 160 at 296
+
+Memory Utilization :  Memory used 420 out of 520 at 297
+CPU Utilization :  cores used 122 out of 160 at 297
+
+Task(6) of Job(42) completed at297.
+Task(8) of Job(22) completed at297.
+Task(2) of Job(4) completed at297.
+Memory Utilization :  Memory used 388 out of 520 at 298
+CPU Utilization :  cores used 112 out of 160 at 298
+
+Task(8) of Job(23) completed at298.
+Memory Utilization :  Memory used 408 out of 520 at 299
+CPU Utilization :  cores used 120 out of 160 at 299
+
+Memory Utilization :  Memory used 432 out of 520 at 300
+CPU Utilization :  cores used 128 out of 160 at 300
+
+Task(13) of Job(20) completed at300.
+Task(5) of Job(40) completed at300.
+Memory Utilization :  Memory used 404 out of 520 at 301
+CPU Utilization :  cores used 118 out of 160 at 301
+
+Memory Utilization :  Memory used 428 out of 520 at 302
+CPU Utilization :  cores used 124 out of 160 at 302
+
+Task(1) of Job(41) completed at302.
+Task(0) of Job(37) completed at302.
+Memory Utilization :  Memory used 404 out of 520 at 303
+CPU Utilization :  cores used 112 out of 160 at 303
+
+Memory Utilization :  Memory used 416 out of 520 at 304
+CPU Utilization :  cores used 118 out of 160 at 304
+
+Task(8) of Job(28) completed at304.
+Memory Utilization :  Memory used 408 out of 520 at 305
+CPU Utilization :  cores used 116 out of 160 at 305
+
+Task(7) of Job(8) completed at305.
+Task(2) of Job(24) completed at305.
+Memory Utilization :  Memory used 380 out of 520 at 306
+CPU Utilization :  cores used 104 out of 160 at 306
+
+Task(0) of Job(48) completed at306.
+Memory Utilization :  Memory used 410 out of 520 at 307
+CPU Utilization :  cores used 114 out of 160 at 307
+
+Task(4) of Job(17) completed at307.
+Memory Utilization :  Memory used 394 out of 520 at 308
+CPU Utilization :  cores used 106 out of 160 at 308
+
+Memory Utilization :  Memory used 410 out of 520 at 309
+CPU Utilization :  cores used 112 out of 160 at 309
+
+Task(2) of Job(35) completed at309.
+Task(8) of Job(19) completed at309.
+Task(6) of Job(30) completed at309.
+Memory Utilization :  Memory used 370 out of 520 at 310
+CPU Utilization :  cores used 96 out of 160 at 310
+
+Task(6) of Job(22) completed at310.
+Memory Utilization :  Memory used 394 out of 520 at 311
+CPU Utilization :  cores used 106 out of 160 at 311
+
+Task(7) of Job(26) completed at311.
+Memory Utilization :  Memory used 408 out of 520 at 312
+Task(0) of Job(33) completed at312.
+Memory Utilization :  Memory used 426 out of 520 at 313
+CPU Utilization :  cores used 104 out of 160 at 313
+
+Task(16) of Job(16) completed at313.
+Task(7) of Job(41) completed at313.
+Memory Utilization :  Memory used 406 out of 520 at 314
+Task(8) of Job(37) completed at314.
+Memory Utilization :  Memory used 424 out of 520 at 315
+Task(0) of Job(34) completed at315.
+Task(0) of Job(38) completed at315.
+Memory Utilization :  Memory used 430 out of 520 at 316
+CPU Utilization :  cores used 98 out of 160 at 316
+
+Memory Utilization :  Memory used 448 out of 520 at 317
+CPU Utilization :  cores used 106 out of 160 at 317
+
+Task(3) of Job(29) completed at318.
+Memory Utilization :  Memory used 432 out of 520 at 319
+CPU Utilization :  cores used 100 out of 160 at 319
+
+Memory Utilization :  Memory used 448 out of 520 at 320
+CPU Utilization :  cores used 106 out of 160 at 320
+
+Task(0) of Job(42) completed at320.
+Memory Utilization :  Memory used 432 out of 520 at 321
+CPU Utilization :  cores used 98 out of 160 at 321
+
+Memory Utilization :  Memory used 448 out of 520 at 322
+CPU Utilization :  cores used 106 out of 160 at 322
+
+Task(1) of Job(14) completed at322.
+Task(0) of Job(26) completed at322.
+Task(3) of Job(32) completed at322.
+Memory Utilization :  Memory used 424 out of 520 at 323
+CPU Utilization :  cores used 96 out of 160 at 323
+
+Task(4) of Job(45) completed at323.
+Memory Utilization :  Memory used 428 out of 520 at 324
+CPU Utilization :  cores used 100 out of 160 at 324
+
+Memory Utilization :  Memory used 442 out of 520 at 325
+CPU Utilization :  cores used 108 out of 160 at 325
+
+Task(6) of Job(19) completed at327.
+Task(5) of Job(21) completed at327.
+Task(12) of Job(3) completed at327.
+Memory Utilization :  Memory used 414 out of 520 at 328
+CPU Utilization :  cores used 102 out of 160 at 328
+
+Task(2) of Job(53) completed at328.
+Memory Utilization :  Memory used 426 out of 520 at 329
+CPU Utilization :  cores used 116 out of 160 at 329
+
+Task(7) of Job(28) completed at331.
+Task(5) of Job(5) completed at331.
+Memory Utilization :  Memory used 398 out of 520 at 332
+CPU Utilization :  cores used 104 out of 160 at 332
+
+Task(1) of Job(33) completed at332.
+Memory Utilization :  Memory used 414 out of 520 at 333
+CPU Utilization :  cores used 112 out of 160 at 333
+
+Task(2) of Job(18) completed at333.
+CPU Utilization :  cores used 114 out of 160 at 334
+
+Memory Utilization :  Memory used 418 out of 520 at 335
+CPU Utilization :  cores used 120 out of 160 at 335
+
+Task(12) of Job(12) completed at335.
+Memory Utilization :  Memory used 402 out of 520 at 336
+CPU Utilization :  cores used 112 out of 160 at 336
+
+Memory Utilization :  Memory used 426 out of 520 at 337
+CPU Utilization :  cores used 116 out of 160 at 337
+
+Task(4) of Job(33) completed at338.
+Task(6) of Job(37) completed at338.
+Memory Utilization :  Memory used 414 out of 520 at 339
+CPU Utilization :  cores used 106 out of 160 at 339
+
+Memory Utilization :  Memory used 428 out of 520 at 340
+CPU Utilization :  cores used 114 out of 160 at 340
+
+Task(4) of Job(43) completed at340.
+Task(5) of Job(15) completed at340.
+Memory Utilization :  Memory used 400 out of 520 at 341
+CPU Utilization :  cores used 102 out of 160 at 341
+
+Task(3) of Job(53) completed at341.
+Memory Utilization :  Memory used 424 out of 520 at 342
+CPU Utilization :  cores used 110 out of 160 at 342
+
+Memory Utilization :  Memory used 440 out of 520 at 343
+CPU Utilization :  cores used 112 out of 160 at 343
+
+Task(2) of Job(13) completed at343.
+Task(11) of Job(9) completed at343.
+Memory Utilization :  Memory used 408 out of 520 at 344
+CPU Utilization :  cores used 100 out of 160 at 344
+
+Task(0) of Job(36) completed at344.
+Task(7) of Job(43) completed at344.
+Task(3) of Job(16) completed at344.
+Memory Utilization :  Memory used 402 out of 520 at 345
+CPU Utilization :  cores used 98 out of 160 at 345
+
+Task(2) of Job(17) completed at345.
+Task(6) of Job(7) completed at345.
+Memory Utilization :  Memory used 418 out of 520 at 346
+CPU Utilization :  cores used 108 out of 160 at 346
+
+Memory Utilization :  Memory used 428 out of 520 at 347
+CPU Utilization :  cores used 116 out of 160 at 347
+
+Task(10) of Job(10) completed at347.
+Memory Utilization :  Memory used 416 out of 520 at 348
+CPU Utilization :  cores used 110 out of 160 at 348
+
+Memory Utilization :  Memory used 432 out of 520 at 349
+CPU Utilization :  cores used 114 out of 160 at 349
+
+Task(3) of Job(26) completed at349.
+Memory Utilization :  Memory used 428 out of 520 at 350
+CPU Utilization :  cores used 112 out of 160 at 350
+
+Task(4) of Job(6) completed at350.
+Task(0) of Job(39) completed at351.
+Memory Utilization :  Memory used 432 out of 520 at 352
+CPU Utilization :  cores used 116 out of 160 at 352
+
+Task(12) of Job(22) completed at352.
+Task(1) of Job(37) completed at353.
+Memory Utilization :  Memory used 428 out of 520 at 354
+CPU Utilization :  cores used 110 out of 160 at 354
+
+Memory Utilization :  Memory used 446 out of 520 at 355
+CPU Utilization :  cores used 118 out of 160 at 355
+
+Task(2) of Job(38) completed at356.
+Task(3) of Job(40) completed at356.
+Memory Utilization :  Memory used 422 out of 520 at 357
+CPU Utilization :  cores used 110 out of 160 at 357
+
+Task(7) of Job(37) completed at357.
+Memory Utilization :  Memory used 414 out of 520 at 358
+Memory Utilization :  Memory used 438 out of 520 at 359
+CPU Utilization :  cores used 116 out of 160 at 359
+
+Task(0) of Job(44) completed at360.
+Memory Utilization :  Memory used 430 out of 520 at 361
+CPU Utilization :  cores used 112 out of 160 at 361
+
+Task(16) of Job(29) completed at361.
+Task(4) of Job(29) completed at361.
+Memory Utilization :  Memory used 406 out of 520 at 362
+CPU Utilization :  cores used 100 out of 160 at 362
+
+Memory Utilization :  Memory used 430 out of 520 at 363
+CPU Utilization :  cores used 114 out of 160 at 363
+
+Task(5) of Job(11) completed at364.
+Memory Utilization :  Memory used 426 out of 520 at 365
+CPU Utilization :  cores used 108 out of 160 at 365
+
++Job(11) completed in265.
+Task(4) of Job(27) completed at365.
+Task(4) of Job(32) completed at365.
+Task(5) of Job(38) completed at365.
+Task(4) of Job(49) completed at365.
+Task(9) of Job(23) completed at365.
+Memory Utilization :  Memory used 390 out of 520 at 366
+CPU Utilization :  cores used 96 out of 160 at 366
+
+Task(2) of Job(43) completed at366.
+Task(13) of Job(54) completed at366.
+Memory Utilization :  Memory used 410 out of 520 at 367
+CPU Utilization :  cores used 110 out of 160 at 367
+
+Task(0) of Job(32) completed at367.
+Task(8) of Job(38) completed at367.
+Task(13) of Job(29) completed at367.
+CPU Utilization :  cores used 102 out of 160 at 368
+
+Task(7) of Job(46) completed at368.
+Memory Utilization :  Memory used 426 out of 520 at 369
+CPU Utilization :  cores used 110 out of 160 at 369
+
+Task(1) of Job(36) completed at369.
+Memory Utilization :  Memory used 430 out of 520 at 370
+CPU Utilization :  cores used 108 out of 160 at 370
+
+Memory Utilization :  Memory used 446 out of 520 at 371
+CPU Utilization :  cores used 110 out of 160 at 371
+
+Task(8) of Job(39) completed at371.
+Memory Utilization :  Memory used 430 out of 520 at 372
+CPU Utilization :  cores used 102 out of 160 at 372
+
+Memory Utilization :  Memory used 450 out of 520 at 373
+CPU Utilization :  cores used 110 out of 160 at 373
+
+Task(8) of Job(2) completed at373.
+Memory Utilization :  Memory used 434 out of 520 at 374
+CPU Utilization :  cores used 108 out of 160 at 374
+
+Memory Utilization :  Memory used 460 out of 520 at 375
+CPU Utilization :  cores used 114 out of 160 at 375
+
+Task(9) of Job(29) completed at379.
+Memory Utilization :  Memory used 444 out of 520 at 380
+CPU Utilization :  cores used 112 out of 160 at 380
+
+Task(10) of Job(39) completed at380.
+Task(7) of Job(34) completed at380.
+Memory Utilization :  Memory used 448 out of 520 at 381
+CPU Utilization :  cores used 106 out of 160 at 381
+
+Task(7) of Job(42) completed at381.
+Memory Utilization :  Memory used 458 out of 520 at 382
+CPU Utilization :  cores used 116 out of 160 at 382
+
+Memory Utilization :  Memory used 474 out of 520 at 383
+CPU Utilization :  cores used 120 out of 160 at 383
+
+Task(1) of Job(50) completed at384.
+Task(10) of Job(44) completed at384.
+Memory Utilization :  Memory used 454 out of 520 at 385
+CPU Utilization :  cores used 110 out of 160 at 385
+
+Task(4) of Job(44) completed at385.
+Task(1) of Job(43) completed at385.
+Task(3) of Job(24) completed at385.
+Memory Utilization :  Memory used 450 out of 520 at 386
+CPU Utilization :  cores used 104 out of 160 at 386
+
++Job(24) completed in236.
+Task(6) of Job(56) completed at386.
+Task(9) of Job(28) completed at386.
+Memory Utilization :  Memory used 462 out of 520 at 387
+CPU Utilization :  cores used 112 out of 160 at 387
+
+Task(6) of Job(41) completed at387.
+Memory Utilization :  Memory used 490 out of 520 at 388
+CPU Utilization :  cores used 120 out of 160 at 388
+
+Memory Utilization :  Memory used 498 out of 520 at 389
+CPU Utilization :  cores used 122 out of 160 at 389
+
+Task(2) of Job(50) completed at392.
+Memory Utilization :  Memory used 490 out of 520 at 393
+CPU Utilization :  cores used 116 out of 160 at 393
+
+Task(1) of Job(48) completed at393.
+Task(5) of Job(54) completed at393.
+Task(6) of Job(27) completed at393.
+Memory Utilization :  Memory used 466 out of 520 at 394
+CPU Utilization :  cores used 110 out of 160 at 394
+
+Task(0) of Job(43) completed at394.
+Task(3) of Job(35) completed at394.
+Memory Utilization :  Memory used 474 out of 520 at 395
+CPU Utilization :  cores used 112 out of 160 at 395
+
+Task(0) of Job(40) completed at395.
+Memory Utilization :  Memory used 470 out of 520 at 396
+CPU Utilization :  cores used 118 out of 160 at 396
+
+Task(10) of Job(22) completed at396.
+Task(0) of Job(52) completed at396.
+Memory Utilization :  Memory used 462 out of 520 at 397
+Task(14) of Job(48) completed at401.
+Task(1) of Job(49) completed at401.
+Memory Utilization :  Memory used 446 out of 520 at 402
+CPU Utilization :  cores used 108 out of 160 at 402
+
+Task(3) of Job(8) completed at402.
+Task(5) of Job(14) completed at402.
+Memory Utilization :  Memory used 450 out of 520 at 403
+CPU Utilization :  cores used 110 out of 160 at 403
+
+Memory Utilization :  Memory used 466 out of 520 at 404
+CPU Utilization :  cores used 122 out of 160 at 404
+
+Task(9) of Job(15) completed at404.
+Memory Utilization :  Memory used 462 out of 520 at 405
+CPU Utilization :  cores used 116 out of 160 at 405
+
+Memory Utilization :  Memory used 470 out of 520 at 406
+CPU Utilization :  cores used 122 out of 160 at 406
+
+Task(0) of Job(45) completed at406.
+Memory Utilization :  Memory used 466 out of 520 at 407
+CPU Utilization :  cores used 118 out of 160 at 407
+
+Task(14) of Job(42) completed at410.
+Task(9) of Job(19) completed at410.
+Memory Utilization :  Memory used 450 out of 520 at 411
+CPU Utilization :  cores used 106 out of 160 at 411
+
+Memory Utilization :  Memory used 468 out of 520 at 412
+CPU Utilization :  cores used 120 out of 160 at 412
+
+Task(2) of Job(33) completed at412.
+Memory Utilization :  Memory used 456 out of 520 at 413
+CPU Utilization :  cores used 118 out of 160 at 413
+
+Task(17) of Job(44) completed at413.
+Memory Utilization :  Memory used 444 out of 520 at 414
+CPU Utilization :  cores used 112 out of 160 at 414
+
+Memory Utilization :  Memory used 456 out of 520 at 415
+CPU Utilization :  cores used 120 out of 160 at 415
+
+Task(19) of Job(44) completed at416.
+Memory Utilization :  Memory used 452 out of 520 at 417
+CPU Utilization :  cores used 118 out of 160 at 417
+
+Memory Utilization :  Memory used 464 out of 520 at 418
+CPU Utilization :  cores used 120 out of 160 at 418
+
+Task(0) of Job(55) completed at418.
+Memory Utilization :  Memory used 452 out of 520 at 419
+CPU Utilization :  cores used 118 out of 160 at 419
+
+Task(0) of Job(51) completed at419.
+Memory Utilization :  Memory used 448 out of 520 at 420
+CPU Utilization :  cores used 110 out of 160 at 420
+
+Task(6) of Job(34) completed at420.
+Memory Utilization :  Memory used 456 out of 520 at 421
+CPU Utilization :  cores used 116 out of 160 at 421
+
+Task(4) of Job(48) completed at421.
+Memory Utilization :  Memory used 448 out of 520 at 422
+CPU Utilization :  cores used 110 out of 160 at 422
+
+Memory Utilization :  Memory used 460 out of 520 at 423
+CPU Utilization :  cores used 118 out of 160 at 423
+
+Task(8) of Job(17) completed at423.
+Task(2) of Job(58) completed at423.
+Memory Utilization :  Memory used 444 out of 520 at 424
+CPU Utilization :  cores used 106 out of 160 at 424
+
+Memory Utilization :  Memory used 452 out of 520 at 425
+CPU Utilization :  cores used 112 out of 160 at 425
+
+Task(3) of Job(44) completed at426.
+Task(5) of Job(53) completed at426.
+Memory Utilization :  Memory used 436 out of 520 at 427
+CPU Utilization :  cores used 102 out of 160 at 427
+
+Task(3) of Job(4) completed at427.
+Memory Utilization :  Memory used 456 out of 520 at 428
+CPU Utilization :  cores used 110 out of 160 at 428
+
+Memory Utilization :  Memory used 460 out of 520 at 429
+CPU Utilization :  cores used 116 out of 160 at 429
+
+Task(12) of Job(8) completed at429.
+Memory Utilization :  Memory used 448 out of 520 at 430
+CPU Utilization :  cores used 112 out of 160 at 430
+
+Memory Utilization :  Memory used 464 out of 520 at 431
+CPU Utilization :  cores used 114 out of 160 at 431
+
+Task(0) of Job(49) completed at431.
+Memory Utilization :  Memory used 460 out of 520 at 432
+CPU Utilization :  cores used 108 out of 160 at 432
+
+Task(4) of Job(55) completed at432.
+Task(5) of Job(46) completed at432.
+Memory Utilization :  Memory used 452 out of 520 at 433
+CPU Utilization :  cores used 100 out of 160 at 433
+
+Memory Utilization :  Memory used 468 out of 520 at 434
+CPU Utilization :  cores used 108 out of 160 at 434
+
+Task(4) of Job(25) completed at435.
+Memory Utilization :  Memory used 452 out of 520 at 436
+CPU Utilization :  cores used 106 out of 160 at 436
+
+Task(12) of Job(17) completed at436.
+Task(4) of Job(54) completed at436.
+Task(8) of Job(56) completed at436.
+Memory Utilization :  Memory used 436 out of 520 at 437
+CPU Utilization :  cores used 100 out of 160 at 437
+
+Memory Utilization :  Memory used 464 out of 520 at 438
+CPU Utilization :  cores used 114 out of 160 at 438
+
+Task(6) of Job(20) completed at438.
+Memory Utilization :  Memory used 452 out of 520 at 439
+CPU Utilization :  cores used 112 out of 160 at 439
+
+Memory Utilization :  Memory used 460 out of 520 at 440
+CPU Utilization :  cores used 120 out of 160 at 440
+
+Task(6) of Job(50) completed at440.
+Memory Utilization :  Memory used 456 out of 520 at 441
+CPU Utilization :  cores used 114 out of 160 at 441
+
+Task(3) of Job(21) completed at441.
+Memory Utilization :  Memory used 464 out of 520 at 443
+CPU Utilization :  cores used 120 out of 160 at 443
+
+Task(9) of Job(48) completed at443.
+Memory Utilization :  Memory used 452 out of 520 at 444
+CPU Utilization :  cores used 116 out of 160 at 444
+
+Task(0) of Job(54) completed at444.
+Task(2) of Job(32) completed at444.
+Memory Utilization :  Memory used 440 out of 520 at 445
+CPU Utilization :  cores used 110 out of 160 at 445
+
+Task(2) of Job(60) completed at445.
+Task(3) of Job(64) completed at445.
+Task(0) of Job(59) completed at445.
+Task(9) of Job(56) completed at445.
+Memory Utilization :  Memory used 432 out of 520 at 446
+CPU Utilization :  cores used 104 out of 160 at 446
+
+Memory Utilization :  Memory used 468 out of 520 at 447
+CPU Utilization :  cores used 120 out of 160 at 447
+
+Task(5) of Job(10) completed at447.
+Task(0) of Job(56) completed at447.
+Memory Utilization :  Memory used 452 out of 520 at 448
+CPU Utilization :  cores used 106 out of 160 at 448
+
+Task(7) of Job(16) completed at448.
+CPU Utilization :  cores used 116 out of 160 at 449
+
+Task(14) of Job(3) completed at449.
+CPU Utilization :  cores used 114 out of 160 at 450
+
+Memory Utilization :  Memory used 460 out of 520 at 451
+CPU Utilization :  cores used 120 out of 160 at 451
+
+Task(4) of Job(30) completed at453.
+Memory Utilization :  Memory used 448 out of 520 at 454
+CPU Utilization :  cores used 118 out of 160 at 454
+
+Task(2) of Job(31) completed at455.
+Memory Utilization :  Memory used 432 out of 520 at 456
+CPU Utilization :  cores used 114 out of 160 at 456
+
+Task(0) of Job(65) completed at456.
+Task(11) of Job(18) completed at456.
+Task(2) of Job(41) completed at456.
+Memory Utilization :  Memory used 412 out of 520 at 457
+CPU Utilization :  cores used 112 out of 160 at 457
+
+Memory Utilization :  Memory used 416 out of 520 at 458
+CPU Utilization :  cores used 118 out of 160 at 458
+
+Task(2) of Job(55) completed at458.
+Task(5) of Job(51) completed at458.
+Memory Utilization :  Memory used 396 out of 520 at 459
+CPU Utilization :  cores used 106 out of 160 at 459
+
+Task(7) of Job(29) completed at459.
+Memory Utilization :  Memory used 412 out of 520 at 460
+CPU Utilization :  cores used 110 out of 160 at 460
+
+Task(10) of Job(46) completed at460.
+Memory Utilization :  Memory used 408 out of 520 at 461
+CPU Utilization :  cores used 112 out of 160 at 461
+
+Memory Utilization :  Memory used 412 out of 520 at 462
+CPU Utilization :  cores used 120 out of 160 at 462
+
+Task(3) of Job(72) completed at466.
+Memory Utilization :  Memory used 408 out of 520 at 467
+CPU Utilization :  cores used 116 out of 160 at 467
+
+Task(11) of Job(22) completed at467.
+Memory Utilization :  Memory used 424 out of 520 at 469
+CPU Utilization :  cores used 120 out of 160 at 469
+
+Task(3) of Job(7) completed at470.
+Task(3) of Job(12) completed at470.
+Memory Utilization :  Memory used 408 out of 520 at 471
+CPU Utilization :  cores used 108 out of 160 at 471
+
+Task(0) of Job(50) completed at471.
+Memory Utilization :  Memory used 420 out of 520 at 472
+CPU Utilization :  cores used 116 out of 160 at 472
+
+Memory Utilization :  Memory used 432 out of 520 at 473
+CPU Utilization :  cores used 122 out of 160 at 473
+
+Task(0) of Job(62) completed at477.
+Memory Utilization :  Memory used 428 out of 520 at 478
+CPU Utilization :  cores used 116 out of 160 at 478
+
+Memory Utilization :  Memory used 440 out of 520 at 479
+CPU Utilization :  cores used 122 out of 160 at 479
+
+Task(0) of Job(72) completed at479.
+Memory Utilization :  Memory used 436 out of 520 at 480
+CPU Utilization :  cores used 120 out of 160 at 480
+
+Task(4) of Job(5) completed at480.
+Task(4) of Job(57) completed at480.
+Memory Utilization :  Memory used 416 out of 520 at 481
+CPU Utilization :  cores used 114 out of 160 at 481
+
+Memory Utilization :  Memory used 424 out of 520 at 482
+CPU Utilization :  cores used 120 out of 160 at 482
+
+Task(0) of Job(47) completed at484.
+Memory Utilization :  Memory used 416 out of 520 at 485
+CPU Utilization :  cores used 112 out of 160 at 485
+
+Task(1) of Job(62) completed at485.
+Memory Utilization :  Memory used 420 out of 520 at 486
+CPU Utilization :  cores used 116 out of 160 at 486
+
+Task(1) of Job(42) completed at486.
+Memory Utilization :  Memory used 412 out of 520 at 487
+CPU Utilization :  cores used 120 out of 160 at 487
+
+Memory Utilization :  Memory used 436 out of 520 at 488
+CPU Utilization :  cores used 128 out of 160 at 488
+
+Task(1) of Job(65) completed at490.
+Memory Utilization :  Memory used 428 out of 520 at 491
+CPU Utilization :  cores used 124 out of 160 at 491
+
+Task(0) of Job(60) completed at491.
+CPU Utilization :  cores used 126 out of 160 at 492
+
+Task(1) of Job(72) completed at492.
+Task(2) of Job(49) completed at492.
+Memory Utilization :  Memory used 412 out of 520 at 493
+CPU Utilization :  cores used 120 out of 160 at 493
+
+Task(6) of Job(51) completed at493.
+Memory Utilization :  Memory used 444 out of 520 at 494
+CPU Utilization :  cores used 124 out of 160 at 494
+
+Task(7) of Job(13) completed at494.
+Task(9) of Job(71) completed at494.
+Memory Utilization :  Memory used 436 out of 520 at 495
+CPU Utilization :  cores used 122 out of 160 at 495
+
++Job(13) completed in395.
+Task(12) of Job(9) completed at495.
+Task(0) of Job(53) completed at495.
+CPU Utilization :  cores used 110 out of 160 at 496
+
+Task(11) of Job(16) completed at496.
+Memory Utilization :  Memory used 448 out of 520 at 497
+CPU Utilization :  cores used 116 out of 160 at 497
+
+Task(16) of Job(58) completed at497.
+CPU Utilization :  cores used 118 out of 160 at 498
+
+Task(4) of Job(36) completed at498.
+Task(0) of Job(61) completed at498.
+Memory Utilization :  Memory used 428 out of 520 at 499
+Task(10) of Job(59) completed at499.
+Memory Utilization :  Memory used 432 out of 520 at 500
+CPU Utilization :  cores used 124 out of 160 at 500
+
+Memory Utilization :  Memory used 436 out of 520 at 501
+CPU Utilization :  cores used 128 out of 160 at 501
+
+Task(16) of Job(20) completed at501.
+Memory Utilization :  Memory used 432 out of 520 at 502
+CPU Utilization :  cores used 122 out of 160 at 502
+
+Memory Utilization :  Memory used 436 out of 520 at 503
+CPU Utilization :  cores used 128 out of 160 at 503
+
+Task(1) of Job(63) completed at503.
+Memory Utilization :  Memory used 428 out of 520 at 504
+CPU Utilization :  cores used 122 out of 160 at 504
+
+Memory Utilization :  Memory used 444 out of 520 at 505
+CPU Utilization :  cores used 130 out of 160 at 505
+
+Task(9) of Job(64) completed at505.
+Task(10) of Job(66) completed at505.
+Memory Utilization :  Memory used 432 out of 520 at 506
+CPU Utilization :  cores used 118 out of 160 at 506
+
+Task(6) of Job(68) completed at506.
+Task(4) of Job(19) completed at506.
+Task(7) of Job(72) completed at506.
+Memory Utilization :  Memory used 436 out of 520 at 507
+CPU Utilization :  cores used 112 out of 160 at 507
+
+Task(0) of Job(68) completed at507.
+Task(6) of Job(32) completed at507.
+Task(8) of Job(59) completed at507.
+Memory Utilization :  Memory used 444 out of 520 at 508
+CPU Utilization :  cores used 116 out of 160 at 508
+
+Memory Utilization :  Memory used 476 out of 520 at 509
+CPU Utilization :  cores used 132 out of 160 at 509
+
+Task(6) of Job(43) completed at510.
+Memory Utilization :  Memory used 468 out of 520 at 511
+CPU Utilization :  cores used 130 out of 160 at 511
+
+Task(7) of Job(58) completed at511.
+Memory Utilization :  Memory used 460 out of 520 at 512
+CPU Utilization :  cores used 122 out of 160 at 512
+
+Memory Utilization :  Memory used 484 out of 520 at 513
+CPU Utilization :  cores used 126 out of 160 at 513
+
+Task(1) of Job(38) completed at513.
+Memory Utilization :  Memory used 472 out of 520 at 514
+CPU Utilization :  cores used 124 out of 160 at 514
+
+Task(6) of Job(36) completed at515.
+Task(7) of Job(9) completed at515.
+Memory Utilization :  Memory used 444 out of 520 at 516
+CPU Utilization :  cores used 110 out of 160 at 516
+
+Memory Utilization :  Memory used 480 out of 520 at 517
+CPU Utilization :  cores used 126 out of 160 at 517
+
+Task(14) of Job(29) completed at522.
+Task(0) of Job(63) completed at522.
+Task(1) of Job(46) completed at522.
+Memory Utilization :  Memory used 448 out of 520 at 523
+CPU Utilization :  cores used 106 out of 160 at 523
+
+Memory Utilization :  Memory used 480 out of 520 at 524
+CPU Utilization :  cores used 122 out of 160 at 524
+
+Task(4) of Job(39) completed at526.
+Memory Utilization :  Memory used 472 out of 520 at 527
+CPU Utilization :  cores used 118 out of 160 at 527
+
+Task(7) of Job(32) completed at527.
+Memory Utilization :  Memory used 460 out of 520 at 528
+CPU Utilization :  cores used 112 out of 160 at 528
+
+Memory Utilization :  Memory used 484 out of 520 at 529
+CPU Utilization :  cores used 120 out of 160 at 529
+
+Task(6) of Job(54) completed at530.
+Task(3) of Job(66) completed at530.
+Memory Utilization :  Memory used 468 out of 520 at 531
+CPU Utilization :  cores used 110 out of 160 at 531
+
+Task(3) of Job(33) completed at531.
+Task(5) of Job(50) completed at531.
+Memory Utilization :  Memory used 460 out of 520 at 532
+Task(6) of Job(61) completed at532.
+Memory Utilization :  Memory used 456 out of 520 at 533
+CPU Utilization :  cores used 106 out of 160 at 533
+
+Memory Utilization :  Memory used 460 out of 520 at 534
+CPU Utilization :  cores used 112 out of 160 at 534
+
+Task(5) of Job(70) completed at534.
+Task(4) of Job(68) completed at534.
+Memory Utilization :  Memory used 444 out of 520 at 535
+CPU Utilization :  cores used 106 out of 160 at 535
+
+Task(1) of Job(52) completed at535.
+Task(8) of Job(14) completed at535.
+Memory Utilization :  Memory used 428 out of 520 at 536
+CPU Utilization :  cores used 98 out of 160 at 536
+
+Memory Utilization :  Memory used 456 out of 520 at 537
+CPU Utilization :  cores used 108 out of 160 at 537
+
+Task(0) of Job(74) completed at537.
+Task(5) of Job(6) completed at537.
+Memory Utilization :  Memory used 440 out of 520 at 538
+CPU Utilization :  cores used 104 out of 160 at 538
+
+Task(2) of Job(64) completed at538.
+Memory Utilization :  Memory used 448 out of 520 at 539
+CPU Utilization :  cores used 110 out of 160 at 539
+
+Memory Utilization :  Memory used 452 out of 520 at 540
+CPU Utilization :  cores used 118 out of 160 at 540
+
+Task(11) of Job(39) completed at545.
+Memory Utilization :  Memory used 440 out of 520 at 546
+CPU Utilization :  cores used 110 out of 160 at 546
+
+Task(10) of Job(61) completed at546.
+Task(3) of Job(58) completed at546.
+Memory Utilization :  Memory used 436 out of 520 at 547
+CPU Utilization :  cores used 106 out of 160 at 547
+
+Memory Utilization :  Memory used 480 out of 520 at 548
+CPU Utilization :  cores used 122 out of 160 at 548
+
+Task(1) of Job(28) completed at548.
+Task(4) of Job(59) completed at548.
+Memory Utilization :  Memory used 464 out of 520 at 549
+CPU Utilization :  cores used 116 out of 160 at 549
+
+Task(7) of Job(23) completed at549.
+Memory Utilization :  Memory used 456 out of 520 at 550
+CPU Utilization :  cores used 122 out of 160 at 550
+
+Memory Utilization :  Memory used 460 out of 520 at 551
+CPU Utilization :  cores used 124 out of 160 at 551
+
+Task(0) of Job(46) completed at554.
+Memory Utilization :  Memory used 456 out of 520 at 555
+CPU Utilization :  cores used 118 out of 160 at 555
+
+Task(4) of Job(61) completed at555.
+Memory Utilization :  Memory used 448 out of 520 at 556
+CPU Utilization :  cores used 122 out of 160 at 556
+
+Memory Utilization :  Memory used 464 out of 520 at 557
+CPU Utilization :  cores used 128 out of 160 at 557
+
+Task(13) of Job(72) completed at557.
+Task(1) of Job(22) completed at557.
+Memory Utilization :  Memory used 444 out of 520 at 558
+CPU Utilization :  cores used 116 out of 160 at 558
+
+Task(0) of Job(67) completed at558.
+Memory Utilization :  Memory used 452 out of 520 at 559
+CPU Utilization :  cores used 122 out of 160 at 559
+
+Task(0) of Job(80) completed at561.
+Task(9) of Job(44) completed at561.
+Memory Utilization :  Memory used 444 out of 520 at 562
+CPU Utilization :  cores used 112 out of 160 at 562
+
+Memory Utilization :  Memory used 456 out of 520 at 563
+CPU Utilization :  cores used 118 out of 160 at 563
+
+Task(3) of Job(43) completed at568.
+Task(9) of Job(81) completed at568.
+Memory Utilization :  Memory used 432 out of 520 at 569
+CPU Utilization :  cores used 114 out of 160 at 569
+
+Task(3) of Job(74) completed at569.
+Task(9) of Job(37) completed at569.
+Memory Utilization :  Memory used 420 out of 520 at 570
+CPU Utilization :  cores used 104 out of 160 at 570
+
+Task(3) of Job(76) completed at570.
+Memory Utilization :  Memory used 432 out of 520 at 571
+CPU Utilization :  cores used 114 out of 160 at 571
+
+Memory Utilization :  Memory used 444 out of 520 at 572
+CPU Utilization :  cores used 116 out of 160 at 572
+
+Task(0) of Job(57) completed at572.
+Memory Utilization :  Memory used 428 out of 520 at 573
+CPU Utilization :  cores used 108 out of 160 at 573
+
+Memory Utilization :  Memory used 432 out of 520 at 574
+CPU Utilization :  cores used 116 out of 160 at 574
+
+Task(3) of Job(79) completed at575.
+Memory Utilization :  Memory used 428 out of 520 at 576
+CPU Utilization :  cores used 108 out of 160 at 576
+
+Memory Utilization :  Memory used 440 out of 520 at 577
+CPU Utilization :  cores used 112 out of 160 at 577
+
+Task(0) of Job(71) completed at577.
+Memory Utilization :  Memory used 436 out of 520 at 578
+CPU Utilization :  cores used 110 out of 160 at 578
+
+Task(13) of Job(2) completed at581.
+Task(2) of Job(68) completed at581.
+Memory Utilization :  Memory used 416 out of 520 at 582
+CPU Utilization :  cores used 98 out of 160 at 582
+
+Task(5) of Job(77) completed at582.
+Task(2) of Job(75) completed at582.
+Memory Utilization :  Memory used 420 out of 520 at 583
+CPU Utilization :  cores used 106 out of 160 at 583
+
+Memory Utilization :  Memory used 452 out of 520 at 584
+CPU Utilization :  cores used 118 out of 160 at 584
+
+Task(5) of Job(26) completed at584.
+Task(3) of Job(57) completed at584.
+Memory Utilization :  Memory used 432 out of 520 at 585
+CPU Utilization :  cores used 106 out of 160 at 585
+
+Memory Utilization :  Memory used 448 out of 520 at 586
+CPU Utilization :  cores used 110 out of 160 at 586
+
+Task(3) of Job(62) completed at586.
+Memory Utilization :  Memory used 436 out of 520 at 587
+CPU Utilization :  cores used 106 out of 160 at 587
+
+Task(2) of Job(27) completed at587.
+CPU Utilization :  cores used 108 out of 160 at 588
+
+Task(2) of Job(2) completed at588.
+CPU Utilization :  cores used 106 out of 160 at 589
+
+Memory Utilization :  Memory used 444 out of 520 at 590
+CPU Utilization :  cores used 114 out of 160 at 590
+
+Task(1) of Job(29) completed at592.
+Task(13) of Job(7) completed at592.
+Memory Utilization :  Memory used 420 out of 520 at 593
+CPU Utilization :  cores used 100 out of 160 at 593
+
+Task(0) of Job(73) completed at593.
+Memory Utilization :  Memory used 452 out of 520 at 594
+CPU Utilization :  cores used 112 out of 160 at 594
+
+Task(2) of Job(74) completed at598.
+Memory Utilization :  Memory used 448 out of 520 at 599
+CPU Utilization :  cores used 106 out of 160 at 599
+
+Memory Utilization :  Memory used 452 out of 520 at 600
+CPU Utilization :  cores used 110 out of 160 at 600
+
+Task(2) of Job(62) completed at602.
+Memory Utilization :  Memory used 448 out of 520 at 603
+CPU Utilization :  cores used 108 out of 160 at 603
+
+Memory Utilization :  Memory used 456 out of 520 at 604
+CPU Utilization :  cores used 116 out of 160 at 604
+
+Task(4) of Job(35) completed at608.
+Task(0) of Job(66) completed at608.
+Memory Utilization :  Memory used 432 out of 520 at 609
+CPU Utilization :  cores used 112 out of 160 at 609
+
+Task(0) of Job(87) completed at609.
+Memory Utilization :  Memory used 444 out of 520 at 610
+CPU Utilization :  cores used 116 out of 160 at 610
+
+Task(5) of Job(84) completed at611.
+Memory Utilization :  Memory used 432 out of 520 at 612
+CPU Utilization :  cores used 112 out of 160 at 612
+
+Task(9) of Job(84) completed at612.
+Memory Utilization :  Memory used 440 out of 520 at 614
+CPU Utilization :  cores used 120 out of 160 at 614
+
+Task(6) of Job(72) completed at614.
+Memory Utilization :  Memory used 424 out of 520 at 615
+CPU Utilization :  cores used 114 out of 160 at 615
+
+Task(0) of Job(78) completed at615.
+Task(4) of Job(86) completed at615.
+Task(16) of Job(44) completed at616.
+Memory Utilization :  Memory used 440 out of 520 at 617
+CPU Utilization :  cores used 120 out of 160 at 617
+
+Memory Utilization :  Memory used 456 out of 520 at 618
+CPU Utilization :  cores used 126 out of 160 at 618
+
+Task(0) of Job(82) completed at618.
+Task(15) of Job(44) completed at618.
+Memory Utilization :  Memory used 436 out of 520 at 619
+CPU Utilization :  cores used 110 out of 160 at 619
+
+Memory Utilization :  Memory used 460 out of 520 at 620
+CPU Utilization :  cores used 124 out of 160 at 620
+
+Task(5) of Job(72) completed at620.
+Memory Utilization :  Memory used 448 out of 520 at 621
+CPU Utilization :  cores used 122 out of 160 at 621
+
+Task(4) of Job(77) completed at621.
+Task(0) of Job(64) completed at621.
+Task(7) of Job(87) completed at621.
+Memory Utilization :  Memory used 428 out of 520 at 622
+CPU Utilization :  cores used 110 out of 160 at 622
+
+Task(12) of Job(81) completed at622.
+Memory Utilization :  Memory used 460 out of 520 at 623
+CPU Utilization :  cores used 124 out of 160 at 623
+
+Task(6) of Job(80) completed at623.
+Memory Utilization :  Memory used 468 out of 520 at 624
+Task(0) of Job(69) completed at624.
+Task(4) of Job(56) completed at624.
+Task(3) of Job(50) completed at624.
+Memory Utilization :  Memory used 452 out of 520 at 625
+CPU Utilization :  cores used 104 out of 160 at 625
+
+Memory Utilization :  Memory used 492 out of 520 at 626
+CPU Utilization :  cores used 122 out of 160 at 626
+
+Task(0) of Job(83) completed at626.
+Task(1) of Job(69) completed at626.
+Memory Utilization :  Memory used 464 out of 520 at 627
+CPU Utilization :  cores used 114 out of 160 at 627
+
+Task(4) of Job(20) completed at627.
+Task(2) of Job(48) completed at627.
+Task(0) of Job(81) completed at627.
+Task(11) of Job(48) completed at627.
+Memory Utilization :  Memory used 456 out of 520 at 628
+CPU Utilization :  cores used 110 out of 160 at 628
+
+Memory Utilization :  Memory used 488 out of 520 at 629
+CPU Utilization :  cores used 120 out of 160 at 629
+
+Task(2) of Job(81) completed at631.
+Memory Utilization :  Memory used 484 out of 520 at 632
+CPU Utilization :  cores used 116 out of 160 at 632
+
+Task(15) of Job(78) completed at632.
+Task(10) of Job(15) completed at632.
+Memory Utilization :  Memory used 460 out of 520 at 633
+CPU Utilization :  cores used 106 out of 160 at 633
+
+Memory Utilization :  Memory used 492 out of 520 at 634
+CPU Utilization :  cores used 116 out of 160 at 634
+
+Task(12) of Job(83) completed at636.
+Memory Utilization :  Memory used 480 out of 520 at 637
+CPU Utilization :  cores used 112 out of 160 at 637
+
+Task(0) of Job(58) completed at637.
+Memory Utilization :  Memory used 464 out of 520 at 638
+CPU Utilization :  cores used 104 out of 160 at 638
+
+Task(0) of Job(75) completed at638.
+CPU Utilization :  cores used 106 out of 160 at 639
+
+Task(1) of Job(60) completed at639.
+CPU Utilization :  cores used 110 out of 160 at 640
+
+Memory Utilization :  Memory used 476 out of 520 at 641
+CPU Utilization :  cores used 112 out of 160 at 641
+
+Task(0) of Job(76) completed at641.
+Memory Utilization :  Memory used 460 out of 520 at 642
+CPU Utilization :  cores used 104 out of 160 at 642
+
+Task(6) of Job(84) completed at642.
+Memory Utilization :  Memory used 476 out of 520 at 643
+CPU Utilization :  cores used 108 out of 160 at 643
+
+Memory Utilization :  Memory used 480 out of 520 at 644
+CPU Utilization :  cores used 116 out of 160 at 644
+
+Task(0) of Job(77) completed at645.
+Memory Utilization :  Memory used 468 out of 520 at 646
+CPU Utilization :  cores used 114 out of 160 at 646
+
+Task(0) of Job(86) completed at646.
+Memory Utilization :  Memory used 456 out of 520 at 647
+CPU Utilization :  cores used 116 out of 160 at 647
+
+Task(8) of Job(81) completed at647.
+Memory Utilization :  Memory used 460 out of 520 at 648
+CPU Utilization :  cores used 122 out of 160 at 648
+
+Task(13) of Job(74) completed at648.
+Memory Utilization :  Memory used 448 out of 520 at 649
+CPU Utilization :  cores used 118 out of 160 at 649
+
+Memory Utilization :  Memory used 460 out of 520 at 650
+CPU Utilization :  cores used 126 out of 160 at 650
+
+Task(4) of Job(4) completed at653.
+Memory Utilization :  Memory used 452 out of 520 at 654
+CPU Utilization :  cores used 118 out of 160 at 654
+
+Task(7) of Job(54) completed at654.
+Memory Utilization :  Memory used 440 out of 520 at 655
+CPU Utilization :  cores used 120 out of 160 at 655
+
+Memory Utilization :  Memory used 448 out of 520 at 656
+CPU Utilization :  cores used 124 out of 160 at 656
+
+Task(6) of Job(40) completed at657.
+Memory Utilization :  Memory used 432 out of 520 at 658
+CPU Utilization :  cores used 116 out of 160 at 658
+
+Task(3) of Job(83) completed at658.
+Task(3) of Job(78) completed at658.
+Memory Utilization :  Memory used 404 out of 520 at 659
+CPU Utilization :  cores used 112 out of 160 at 659
+
+Task(8) of Job(62) completed at659.
+Memory Utilization :  Memory used 424 out of 520 at 660
+CPU Utilization :  cores used 114 out of 160 at 660
+
+Task(2) of Job(79) completed at660.
+Task(0) of Job(88) completed at660.
+Memory Utilization :  Memory used 428 out of 520 at 661
+Task(1) of Job(30) completed at661.
+Task(8) of Job(27) completed at662.
+Task(0) of Job(90) completed at662.
+Task(15) of Job(48) completed at662.
+Memory Utilization :  Memory used 396 out of 520 at 663
+CPU Utilization :  cores used 104 out of 160 at 663
+
+Task(6) of Job(86) completed at663.
+Task(7) of Job(68) completed at663.
+Memory Utilization :  Memory used 408 out of 520 at 664
+CPU Utilization :  cores used 106 out of 160 at 664
+
+Task(14) of Job(83) completed at664.
+Memory Utilization :  Memory used 424 out of 520 at 665
+CPU Utilization :  cores used 112 out of 160 at 665
+
+Task(6) of Job(85) completed at671.
+Task(16) of Job(10) completed at671.
+Memory Utilization :  Memory used 408 out of 520 at 672
+CPU Utilization :  cores used 106 out of 160 at 672
+
+Memory Utilization :  Memory used 432 out of 520 at 673
+CPU Utilization :  cores used 114 out of 160 at 673
+
+Task(2) of Job(21) completed at674.
+Memory Utilization :  Memory used 424 out of 520 at 675
+CPU Utilization :  cores used 108 out of 160 at 675
+
+Task(4) of Job(88) completed at677.
+Memory Utilization :  Memory used 416 out of 520 at 678
+CPU Utilization :  cores used 104 out of 160 at 678
+
+Memory Utilization :  Memory used 420 out of 520 at 679
+CPU Utilization :  cores used 110 out of 160 at 679
+
+Task(5) of Job(61) completed at680.
+Memory Utilization :  Memory used 416 out of 520 at 681
+CPU Utilization :  cores used 104 out of 160 at 681
+
+Task(0) of Job(70) completed at682.
+Memory Utilization :  Memory used 400 out of 520 at 683
+CPU Utilization :  cores used 102 out of 160 at 683
+
+Task(9) of Job(10) completed at683.
+Memory Utilization :  Memory used 412 out of 520 at 684
+Task(4) of Job(31) completed at684.
+Task(3) of Job(82) completed at684.
+Memory Utilization :  Memory used 404 out of 520 at 685
+CPU Utilization :  cores used 98 out of 160 at 685
+
+Task(1) of Job(85) completed at685.
+CPU Utilization :  cores used 102 out of 160 at 686
+
+Task(3) of Job(25) completed at686.
+Memory Utilization :  Memory used 408 out of 520 at 687
+CPU Utilization :  cores used 104 out of 160 at 687
+
+Memory Utilization :  Memory used 412 out of 520 at 688
+CPU Utilization :  cores used 112 out of 160 at 688
+
+Task(0) of Job(79) completed at689.
+Task(6) of Job(33) completed at689.
+Memory Utilization :  Memory used 388 out of 520 at 690
+CPU Utilization :  cores used 102 out of 160 at 690
+
+Memory Utilization :  Memory used 416 out of 520 at 691
+CPU Utilization :  cores used 118 out of 160 at 691
+
+Task(2) of Job(88) completed at692.
+Task(0) of Job(84) completed at692.
+Memory Utilization :  Memory used 396 out of 520 at 693
+CPU Utilization :  cores used 108 out of 160 at 693
+
+Task(2) of Job(80) completed at693.
+Task(10) of Job(93) completed at693.
+Memory Utilization :  Memory used 408 out of 520 at 694
+CPU Utilization :  cores used 110 out of 160 at 694
+
+Memory Utilization :  Memory used 436 out of 520 at 695
+CPU Utilization :  cores used 122 out of 160 at 695
+
+Task(0) of Job(85) completed at696.
+Memory Utilization :  Memory used 432 out of 520 at 697
+CPU Utilization :  cores used 116 out of 160 at 697
+
+Task(0) of Job(89) completed at697.
+Memory Utilization :  Memory used 440 out of 520 at 698
+CPU Utilization :  cores used 118 out of 160 at 698
+
+Task(4) of Job(42) completed at701.
+Memory Utilization :  Memory used 436 out of 520 at 702
+CPU Utilization :  cores used 110 out of 160 at 702
+
+Task(9) of Job(4) completed at702.
+Memory Utilization :  Memory used 440 out of 520 at 703
+CPU Utilization :  cores used 114 out of 160 at 703
+
+Task(4) of Job(87) completed at703.
+Task(4) of Job(62) completed at703.
+Memory Utilization :  Memory used 432 out of 520 at 704
+CPU Utilization :  cores used 108 out of 160 at 704
+
+Memory Utilization :  Memory used 436 out of 520 at 705
+CPU Utilization :  cores used 116 out of 160 at 705
+
+Task(3) of Job(18) completed at705.
+Memory Utilization :  Memory used 424 out of 520 at 706
+CPU Utilization :  cores used 110 out of 160 at 706
+
+Task(3) of Job(93) completed at706.
+Memory Utilization :  Memory used 432 out of 520 at 707
+Task(3) of Job(54) completed at707.
+CPU Utilization :  cores used 108 out of 160 at 708
+
+Task(4) of Job(84) completed at708.
+Task(4) of Job(41) completed at708.
+Memory Utilization :  Memory used 420 out of 520 at 709
+CPU Utilization :  cores used 104 out of 160 at 709
+
+Memory Utilization :  Memory used 440 out of 520 at 710
+CPU Utilization :  cores used 118 out of 160 at 710
+
+Task(4) of Job(34) completed at710.
+Memory Utilization :  Memory used 432 out of 520 at 711
+CPU Utilization :  cores used 112 out of 160 at 711
+
+Task(7) of Job(35) completed at711.
+Memory Utilization :  Memory used 420 out of 520 at 712
+CPU Utilization :  cores used 110 out of 160 at 712
+
+Task(5) of Job(59) completed at712.
+Memory Utilization :  Memory used 432 out of 520 at 713
+CPU Utilization :  cores used 114 out of 160 at 713
+
+Memory Utilization :  Memory used 448 out of 520 at 714
+CPU Utilization :  cores used 122 out of 160 at 714
+
+Task(11) of Job(32) completed at715.
+Task(7) of Job(76) completed at715.
+Task(3) of Job(88) completed at715.
+Memory Utilization :  Memory used 408 out of 520 at 716
+CPU Utilization :  cores used 108 out of 160 at 716
+
+Memory Utilization :  Memory used 420 out of 520 at 717
+CPU Utilization :  cores used 122 out of 160 at 717
+
+Task(1) of Job(55) completed at717.
+Memory Utilization :  Memory used 404 out of 520 at 718
+CPU Utilization :  cores used 118 out of 160 at 718
+
+Memory Utilization :  Memory used 412 out of 520 at 719
+CPU Utilization :  cores used 126 out of 160 at 719
+
+Task(3) of Job(41) completed at719.
+Task(6) of Job(45) completed at719.
+Memory Utilization :  Memory used 380 out of 520 at 720
+CPU Utilization :  cores used 114 out of 160 at 720
+
+Memory Utilization :  Memory used 408 out of 520 at 721
+CPU Utilization :  cores used 128 out of 160 at 721
+
+Task(2) of Job(51) completed at726.
+Memory Utilization :  Memory used 392 out of 520 at 727
+CPU Utilization :  cores used 122 out of 160 at 727
+
+Task(3) of Job(90) completed at727.
+Memory Utilization :  Memory used 400 out of 520 at 728
+Task(8) of Job(58) completed at728.
+Memory Utilization :  Memory used 404 out of 520 at 730
+CPU Utilization :  cores used 130 out of 160 at 730
+
+Task(12) of Job(62) completed at730.
+Memory Utilization :  Memory used 392 out of 520 at 731
+CPU Utilization :  cores used 124 out of 160 at 731
+
+Memory Utilization :  Memory used 396 out of 520 at 732
+CPU Utilization :  cores used 132 out of 160 at 732
+
+Task(2) of Job(87) completed at733.
+Task(3) of Job(19) completed at733.
+Memory Utilization :  Memory used 380 out of 520 at 734
+CPU Utilization :  cores used 122 out of 160 at 734
+
+Task(10) of Job(74) completed at734.
+Memory Utilization :  Memory used 392 out of 520 at 735
+CPU Utilization :  cores used 132 out of 160 at 735
+
+Memory Utilization :  Memory used 400 out of 520 at 736
+CPU Utilization :  cores used 138 out of 160 at 736
+
+Task(1) of Job(3) completed at737.
+Memory Utilization :  Memory used 392 out of 520 at 738
+CPU Utilization :  cores used 130 out of 160 at 738
+
+Task(12) of Job(49) completed at738.
+Memory Utilization :  Memory used 388 out of 520 at 739
+Memory Utilization :  Memory used 400 out of 520 at 740
+CPU Utilization :  cores used 138 out of 160 at 740
+
+Task(2) of Job(71) completed at740.
+Task(10) of Job(58) completed at740.
+Memory Utilization :  Memory used 388 out of 520 at 741
+CPU Utilization :  cores used 128 out of 160 at 741
+
+Memory Utilization :  Memory used 400 out of 520 at 742
+CPU Utilization :  cores used 138 out of 160 at 742
+
+Task(5) of Job(42) completed at744.
+Memory Utilization :  Memory used 384 out of 520 at 745
+CPU Utilization :  cores used 130 out of 160 at 745
+
+Task(3) of Job(65) completed at745.
+Task(0) of Job(92) completed at745.
+Memory Utilization :  Memory used 380 out of 520 at 746
+CPU Utilization :  cores used 124 out of 160 at 746
+
+Memory Utilization :  Memory used 400 out of 520 at 747
+CPU Utilization :  cores used 136 out of 160 at 747
+
+Task(5) of Job(92) completed at750.
+Memory Utilization :  Memory used 396 out of 520 at 751
+CPU Utilization :  cores used 130 out of 160 at 751
+
+Memory Utilization :  Memory used 404 out of 520 at 752
+CPU Utilization :  cores used 136 out of 160 at 752
+
+Task(1) of Job(47) completed at753.
+Memory Utilization :  Memory used 400 out of 520 at 754
+CPU Utilization :  cores used 128 out of 160 at 754
+
+Memory Utilization :  Memory used 412 out of 520 at 755
+CPU Utilization :  cores used 136 out of 160 at 755
+
+Task(8) of Job(9) completed at755.
+Memory Utilization :  Memory used 404 out of 520 at 756
+CPU Utilization :  cores used 128 out of 160 at 756
+
+Task(13) of Job(16) completed at756.
+Task(19) of Job(12) completed at756.
+Memory Utilization :  Memory used 400 out of 520 at 757
+CPU Utilization :  cores used 126 out of 160 at 757
+
+Memory Utilization :  Memory used 412 out of 520 at 758
+CPU Utilization :  cores used 134 out of 160 at 758
+
+Task(7) of Job(36) completed at761.
+Memory Utilization :  Memory used 408 out of 520 at 762
+CPU Utilization :  cores used 130 out of 160 at 762
+
+Memory Utilization :  Memory used 424 out of 520 at 763
+CPU Utilization :  cores used 138 out of 160 at 763
+
+Task(4) of Job(38) completed at763.
+Memory Utilization :  Memory used 420 out of 520 at 764
+CPU Utilization :  cores used 130 out of 160 at 764
+
+Task(6) of Job(92) completed at764.
+Memory Utilization :  Memory used 424 out of 520 at 765
+Task(15) of Job(68) completed at765.
+Task(15) of Job(83) completed at765.
+Memory Utilization :  Memory used 432 out of 520 at 766
+Task(3) of Job(95) completed at766.
+Task(9) of Job(49) completed at766.
+Task(12) of Job(39) completed at766.
+Task(1) of Job(59) completed at766.
+Memory Utilization :  Memory used 400 out of 520 at 767
+CPU Utilization :  cores used 118 out of 160 at 767
+
+Task(7) of Job(55) completed at767.
+Memory Utilization :  Memory used 428 out of 520 at 768
+CPU Utilization :  cores used 138 out of 160 at 768
+
+Memory Utilization :  Memory used 432 out of 520 at 769
+CPU Utilization :  cores used 142 out of 160 at 769
+
+Task(1) of Job(67) completed at769.
+Memory Utilization :  Memory used 424 out of 520 at 770
+CPU Utilization :  cores used 138 out of 160 at 770
+
+Memory Utilization :  Memory used 440 out of 520 at 771
+CPU Utilization :  cores used 144 out of 160 at 771
+
+Task(4) of Job(95) completed at771.
+Memory Utilization :  Memory used 436 out of 520 at 772
+CPU Utilization :  cores used 136 out of 160 at 772
+
+Memory Utilization :  Memory used 440 out of 520 at 773
+CPU Utilization :  cores used 144 out of 160 at 773
+
+Task(12) of Job(68) completed at774.
+Memory Utilization :  Memory used 432 out of 520 at 775
+CPU Utilization :  cores used 138 out of 160 at 775
+
+Memory Utilization :  Memory used 448 out of 520 at 776
+CPU Utilization :  cores used 144 out of 160 at 776
+
+Task(1) of Job(90) completed at778.
+Task(1) of Job(94) completed at778.
+Memory Utilization :  Memory used 432 out of 520 at 779
+CPU Utilization :  cores used 136 out of 160 at 779
+
+Memory Utilization :  Memory used 448 out of 520 at 780
+CPU Utilization :  cores used 144 out of 160 at 780
+
+Task(11) of Job(23) completed at781.
+Memory Utilization :  Memory used 444 out of 520 at 782
+CPU Utilization :  cores used 138 out of 160 at 782
+
+Memory Utilization :  Memory used 456 out of 520 at 783
+CPU Utilization :  cores used 144 out of 160 at 783
+
+Task(2) of Job(63) completed at784.
+Memory Utilization :  Memory used 440 out of 520 at 785
+CPU Utilization :  cores used 136 out of 160 at 785
+
+Task(11) of Job(29) completed at785.
+Memory Utilization :  Memory used 444 out of 520 at 786
+CPU Utilization :  cores used 134 out of 160 at 786
+
+Task(9) of Job(17) completed at786.
+Task(3) of Job(91) completed at786.
+Memory Utilization :  Memory used 436 out of 520 at 787
+CPU Utilization :  cores used 126 out of 160 at 787
+
+Task(12) of Job(20) completed at787.
+Task(2) of Job(39) completed at787.
+Memory Utilization :  Memory used 412 out of 520 at 788
+CPU Utilization :  cores used 118 out of 160 at 788
+
+Memory Utilization :  Memory used 428 out of 520 at 789
+CPU Utilization :  cores used 124 out of 160 at 789
+
+Task(1) of Job(91) completed at789.
+Memory Utilization :  Memory used 420 out of 520 at 790
+CPU Utilization :  cores used 122 out of 160 at 790
+
+Memory Utilization :  Memory used 428 out of 520 at 791
+CPU Utilization :  cores used 130 out of 160 at 791
+
+Task(4) of Job(53) completed at792.
+Memory Utilization :  Memory used 424 out of 520 at 793
+CPU Utilization :  cores used 126 out of 160 at 793
+
+Task(8) of Job(44) completed at793.
+Task(0) of Job(93) completed at793.
+Memory Utilization :  Memory used 408 out of 520 at 794
+CPU Utilization :  cores used 120 out of 160 at 794
+
+Memory Utilization :  Memory used 432 out of 520 at 795
+CPU Utilization :  cores used 132 out of 160 at 795
+
+Task(7) of Job(12) completed at796.
+Memory Utilization :  Memory used 420 out of 520 at 797
+CPU Utilization :  cores used 124 out of 160 at 797
+
+Memory Utilization :  Memory used 436 out of 520 at 798
+CPU Utilization :  cores used 132 out of 160 at 798
+
+Task(14) of Job(8) completed at804.
+Memory Utilization :  Memory used 424 out of 520 at 805
+CPU Utilization :  cores used 126 out of 160 at 805
+
+Memory Utilization :  Memory used 440 out of 520 at 806
+CPU Utilization :  cores used 134 out of 160 at 806
+
+Task(15) of Job(16) completed at808.
+Memory Utilization :  Memory used 436 out of 520 at 809
+CPU Utilization :  cores used 130 out of 160 at 809
+
+Memory Utilization :  Memory used 444 out of 520 at 810
+CPU Utilization :  cores used 138 out of 160 at 810
+
+Task(15) of Job(32) completed at811.
+Memory Utilization :  Memory used 428 out of 520 at 812
+CPU Utilization :  cores used 132 out of 160 at 812
+
+Task(11) of Job(77) completed at812.
+Memory Utilization :  Memory used 436 out of 520 at 814
+CPU Utilization :  cores used 138 out of 160 at 814
+
+Task(13) of Job(103) completed at818.
+Memory Utilization :  Memory used 428 out of 520 at 819
+CPU Utilization :  cores used 136 out of 160 at 819
+
+Task(0) of Job(94) completed at820.
+Memory Utilization :  Memory used 412 out of 520 at 821
+CPU Utilization :  cores used 128 out of 160 at 821
+
+Task(6) of Job(81) completed at821.
+Memory Utilization :  Memory used 420 out of 520 at 822
+Memory Utilization :  Memory used 424 out of 520 at 823
+CPU Utilization :  cores used 136 out of 160 at 823
+
+Task(1) of Job(61) completed at823.
+Memory Utilization :  Memory used 412 out of 520 at 824
+CPU Utilization :  cores used 134 out of 160 at 824
+
+Memory Utilization :  Memory used 424 out of 520 at 825
+CPU Utilization :  cores used 136 out of 160 at 825
+
+Task(9) of Job(72) completed at825.
+Memory Utilization :  Memory used 420 out of 520 at 826
+CPU Utilization :  cores used 128 out of 160 at 826
+
+Task(2) of Job(90) completed at826.
+Memory Utilization :  Memory used 432 out of 520 at 827
+CPU Utilization :  cores used 132 out of 160 at 827
+
+Task(5) of Job(88) completed at827.
+Task(0) of Job(99) completed at827.
+CPU Utilization :  cores used 128 out of 160 at 828
+
+Task(3) of Job(102) completed at828.
+Memory Utilization :  Memory used 428 out of 520 at 829
+CPU Utilization :  cores used 132 out of 160 at 829
+
+Task(1) of Job(39) completed at830.
+Memory Utilization :  Memory used 424 out of 520 at 831
+CPU Utilization :  cores used 124 out of 160 at 831
+
+Memory Utilization :  Memory used 428 out of 520 at 832
+CPU Utilization :  cores used 132 out of 160 at 832
+
+Task(7) of Job(92) completed at832.
+Task(2) of Job(70) completed at832.
+Memory Utilization :  Memory used 408 out of 520 at 833
+CPU Utilization :  cores used 120 out of 160 at 833
+
+Task(0) of Job(97) completed at833.
+Memory Utilization :  Memory used 420 out of 520 at 834
+CPU Utilization :  cores used 118 out of 160 at 834
+
+Memory Utilization :  Memory used 436 out of 520 at 835
+CPU Utilization :  cores used 124 out of 160 at 835
+
+Task(4) of Job(46) completed at836.
+Memory Utilization :  Memory used 432 out of 520 at 837
+CPU Utilization :  cores used 122 out of 160 at 837
+
+Task(6) of Job(74) completed at837.
+Task(9) of Job(93) completed at837.
+Memory Utilization :  Memory used 408 out of 520 at 838
+CPU Utilization :  cores used 110 out of 160 at 838
+
+Task(15) of Job(96) completed at838.
+Task(5) of Job(37) completed at838.
+Memory Utilization :  Memory used 428 out of 520 at 839
+CPU Utilization :  cores used 108 out of 160 at 839
+
+Memory Utilization :  Memory used 452 out of 520 at 840
+CPU Utilization :  cores used 114 out of 160 at 840
+
+Task(2) of Job(76) completed at843.
+Memory Utilization :  Memory used 436 out of 520 at 844
+CPU Utilization :  cores used 108 out of 160 at 844
+
+Memory Utilization :  Memory used 456 out of 520 at 845
+CPU Utilization :  cores used 114 out of 160 at 845
+
+Task(1) of Job(44) completed at846.
+Memory Utilization :  Memory used 444 out of 520 at 847
+CPU Utilization :  cores used 110 out of 160 at 847
+
+Task(11) of Job(81) completed at847.
+Task(3) of Job(52) completed at847.
+Memory Utilization :  Memory used 432 out of 520 at 848
+CPU Utilization :  cores used 108 out of 160 at 848
+
+Task(1) of Job(66) completed at848.
+Task(15) of Job(2) completed at848.
+Task(6) of Job(5) completed at848.
+Memory Utilization :  Memory used 424 out of 520 at 849
+CPU Utilization :  cores used 102 out of 160 at 849
+
++Job(5) completed in799.
+Task(1) of Job(57) completed at849.
+Memory Utilization :  Memory used 432 out of 520 at 850
+CPU Utilization :  cores used 108 out of 160 at 850
+
+Memory Utilization :  Memory used 440 out of 520 at 851
+CPU Utilization :  cores used 116 out of 160 at 851
+
+Task(2) of Job(97) completed at852.
+Memory Utilization :  Memory used 436 out of 520 at 853
+CPU Utilization :  cores used 108 out of 160 at 853
+
+Memory Utilization :  Memory used 444 out of 520 at 854
+CPU Utilization :  cores used 116 out of 160 at 854
+
+Task(7) of Job(77) completed at854.
+Memory Utilization :  Memory used 428 out of 520 at 855
+CPU Utilization :  cores used 110 out of 160 at 855
+
+Memory Utilization :  Memory used 440 out of 520 at 856
+CPU Utilization :  cores used 118 out of 160 at 856
+
+Task(0) of Job(91) completed at856.
+Memory Utilization :  Memory used 424 out of 520 at 857
+CPU Utilization :  cores used 110 out of 160 at 857
+
+Task(4) of Job(23) completed at857.
+Task(6) of Job(59) completed at858.
+Task(5) of Job(96) completed at858.
+Task(10) of Job(101) completed at858.
+Memory Utilization :  Memory used 396 out of 520 at 859
+CPU Utilization :  cores used 108 out of 160 at 859
+
+Memory Utilization :  Memory used 424 out of 520 at 860
+CPU Utilization :  cores used 124 out of 160 at 860
+
+Task(2) of Job(102) completed at860.
+Memory Utilization :  Memory used 408 out of 520 at 861
+CPU Utilization :  cores used 122 out of 160 at 861
+
+Memory Utilization :  Memory used 424 out of 520 at 862
+CPU Utilization :  cores used 128 out of 160 at 862
+
+Task(1) of Job(51) completed at863.
+Task(6) of Job(14) completed at863.
+Memory Utilization :  Memory used 400 out of 520 at 864
+CPU Utilization :  cores used 114 out of 160 at 864
+
+Task(3) of Job(38) completed at864.
+Memory Utilization :  Memory used 408 out of 520 at 865
+CPU Utilization :  cores used 122 out of 160 at 865
+
+Memory Utilization :  Memory used 424 out of 520 at 866
+CPU Utilization :  cores used 128 out of 160 at 866
+
+Task(0) of Job(95) completed at866.
+Task(9) of Job(98) completed at866.
+Memory Utilization :  Memory used 404 out of 520 at 867
+CPU Utilization :  cores used 116 out of 160 at 867
+
+Memory Utilization :  Memory used 432 out of 520 at 868
+CPU Utilization :  cores used 126 out of 160 at 868
+
+Task(3) of Job(98) completed at869.
+Memory Utilization :  Memory used 428 out of 520 at 870
+CPU Utilization :  cores used 124 out of 160 at 870
+
+Memory Utilization :  Memory used 440 out of 520 at 871
+CPU Utilization :  cores used 132 out of 160 at 871
+
+Task(9) of Job(26) completed at871.
+Memory Utilization :  Memory used 432 out of 520 at 872
+CPU Utilization :  cores used 124 out of 160 at 872
+
+Task(0) of Job(100) completed at872.
+Memory Utilization :  Memory used 436 out of 520 at 873
+CPU Utilization :  cores used 122 out of 160 at 873
+
+Task(19) of Job(72) completed at873.
+Task(6) of Job(100) completed at873.
+Task(10) of Job(77) completed at873.
+Memory Utilization :  Memory used 408 out of 520 at 874
+CPU Utilization :  cores used 118 out of 160 at 874
+
+Memory Utilization :  Memory used 436 out of 520 at 875
+CPU Utilization :  cores used 134 out of 160 at 875
+
+Task(5) of Job(107) completed at875.
+Memory Utilization :  Memory used 424 out of 520 at 876
+CPU Utilization :  cores used 126 out of 160 at 876
+
+Memory Utilization :  Memory used 444 out of 520 at 877
+CPU Utilization :  cores used 134 out of 160 at 877
+
+Task(7) of Job(74) completed at878.
+Memory Utilization :  Memory used 440 out of 520 at 879
+CPU Utilization :  cores used 128 out of 160 at 879
+
+Task(7) of Job(6) completed at879.
+Memory Utilization :  Memory used 436 out of 520 at 880
+CPU Utilization :  cores used 122 out of 160 at 880
+
+Memory Utilization :  Memory used 440 out of 520 at 881
+CPU Utilization :  cores used 130 out of 160 at 881
+
+Task(3) of Job(103) completed at881.
+Task(4) of Job(50) completed at881.
+Memory Utilization :  Memory used 424 out of 520 at 882
+CPU Utilization :  cores used 120 out of 160 at 882
+
+Task(10) of Job(110) completed at882.
+Memory Utilization :  Memory used 440 out of 520 at 883
+CPU Utilization :  cores used 128 out of 160 at 883
+
+Memory Utilization :  Memory used 444 out of 520 at 884
+CPU Utilization :  cores used 134 out of 160 at 884
+
+Task(0) of Job(106) completed at884.
+Memory Utilization :  Memory used 428 out of 520 at 885
+CPU Utilization :  cores used 128 out of 160 at 885
+
+Memory Utilization :  Memory used 440 out of 520 at 886
+CPU Utilization :  cores used 134 out of 160 at 886
+
+Task(6) of Job(64) completed at886.
+Memory Utilization :  Memory used 428 out of 520 at 887
+CPU Utilization :  cores used 126 out of 160 at 887
+
+Task(5) of Job(73) completed at887.
+Task(6) of Job(35) completed at887.
+Task(14) of Job(58) completed at887.
+Memory Utilization :  Memory used 412 out of 520 at 888
+CPU Utilization :  cores used 116 out of 160 at 888
+
+Task(12) of Job(7) completed at888.
+Task(0) of Job(101) completed at888.
+Memory Utilization :  Memory used 416 out of 520 at 889
+CPU Utilization :  cores used 128 out of 160 at 889
+
+Task(2) of Job(108) completed at889.
+Memory Utilization :  Memory used 424 out of 520 at 890
+CPU Utilization :  cores used 130 out of 160 at 890
+
+Task(2) of Job(93) completed at890.
+Task(0) of Job(103) completed at890.
+Memory Utilization :  Memory used 412 out of 520 at 891
+CPU Utilization :  cores used 126 out of 160 at 891
+
+Memory Utilization :  Memory used 436 out of 520 at 892
+CPU Utilization :  cores used 134 out of 160 at 892
+
+Task(8) of Job(103) completed at894.
+Memory Utilization :  Memory used 428 out of 520 at 895
+CPU Utilization :  cores used 126 out of 160 at 895
+
+Task(1) of Job(74) completed at895.
+Task(5) of Job(4) completed at896.
+Task(13) of Job(105) completed at896.
+CPU Utilization :  cores used 124 out of 160 at 897
+
+Memory Utilization :  Memory used 440 out of 520 at 898
+CPU Utilization :  cores used 128 out of 160 at 898
+
+Task(10) of Job(105) completed at899.
+Memory Utilization :  Memory used 424 out of 520 at 900
+CPU Utilization :  cores used 120 out of 160 at 900
+
+Memory Utilization :  Memory used 440 out of 520 at 901
+CPU Utilization :  cores used 128 out of 160 at 901
+
+Task(2) of Job(99) completed at901.
+Memory Utilization :  Memory used 432 out of 520 at 902
+CPU Utilization :  cores used 122 out of 160 at 902
+
+Task(11) of Job(113) completed at902.
+Memory Utilization :  Memory used 436 out of 520 at 903
+CPU Utilization :  cores used 124 out of 160 at 903
+
+Task(8) of Job(72) completed at903.
+Memory Utilization :  Memory used 448 out of 520 at 904
+CPU Utilization :  cores used 128 out of 160 at 904
+
+Task(1) of Job(89) completed at904.
+Memory Utilization :  Memory used 444 out of 520 at 905
+CPU Utilization :  cores used 122 out of 160 at 905
+
+Memory Utilization :  Memory used 456 out of 520 at 906
+CPU Utilization :  cores used 128 out of 160 at 906
+
+Task(5) of Job(56) completed at906.
+Memory Utilization :  Memory used 448 out of 520 at 907
+CPU Utilization :  cores used 122 out of 160 at 907
+
+Task(3) of Job(86) completed at907.
+Memory Utilization :  Memory used 440 out of 520 at 908
+CPU Utilization :  cores used 116 out of 160 at 908
+
+Memory Utilization :  Memory used 464 out of 520 at 909
+CPU Utilization :  cores used 122 out of 160 at 909
+
+Task(1) of Job(80) completed at910.
+Task(3) of Job(69) completed at910.
+Task(2) of Job(84) completed at910.
+Task(2) of Job(96) completed at910.
+Memory Utilization :  Memory used 428 out of 520 at 911
+CPU Utilization :  cores used 108 out of 160 at 911
+
+Task(0) of Job(109) completed at911.
+Memory Utilization :  Memory used 460 out of 520 at 912
+CPU Utilization :  cores used 130 out of 160 at 912
+
+Task(1) of Job(96) completed at912.
+Task(2) of Job(30) completed at912.
+Memory Utilization :  Memory used 448 out of 520 at 913
+CPU Utilization :  cores used 124 out of 160 at 913
+
+Task(1) of Job(99) completed at913.
+Task(0) of Job(102) completed at913.
+Task(6) of Job(21) completed at913.
+CPU Utilization :  cores used 116 out of 160 at 914
+
+Memory Utilization :  Memory used 500 out of 520 at 915
+CPU Utilization :  cores used 126 out of 160 at 915
+
+Task(5) of Job(104) completed at916.
+Task(14) of Job(96) completed at916.
+Memory Utilization :  Memory used 476 out of 520 at 917
+CPU Utilization :  cores used 116 out of 160 at 917
+
+Task(11) of Job(68) completed at917.
+Task(11) of Job(28) completed at918.
+Memory Utilization :  Memory used 480 out of 520 at 919
+Memory Utilization :  Memory used 492 out of 520 at 920
+CPU Utilization :  cores used 122 out of 160 at 920
+
+Task(7) of Job(106) completed at924.
+Task(8) of Job(104) completed at924.
+Memory Utilization :  Memory used 480 out of 520 at 925
+CPU Utilization :  cores used 112 out of 160 at 925
+
+Task(5) of Job(115) completed at925.
+Task(0) of Job(107) completed at925.
+Task(3) of Job(113) completed at925.
+Memory Utilization :  Memory used 476 out of 520 at 926
+CPU Utilization :  cores used 110 out of 160 at 926
+
+Memory Utilization :  Memory used 484 out of 520 at 927
+CPU Utilization :  cores used 118 out of 160 at 927
+
+Task(4) of Job(40) completed at927.
+Memory Utilization :  Memory used 468 out of 520 at 928
+CPU Utilization :  cores used 110 out of 160 at 928
+
+Task(5) of Job(85) completed at928.
+Task(0) of Job(110) completed at928.
+CPU Utilization :  cores used 114 out of 160 at 929
+
+Memory Utilization :  Memory used 496 out of 520 at 930
+CPU Utilization :  cores used 126 out of 160 at 930
+
+Task(0) of Job(116) completed at930.
+Memory Utilization :  Memory used 484 out of 520 at 931
+CPU Utilization :  cores used 124 out of 160 at 931
+
+Task(5) of Job(48) completed at931.
+Memory Utilization :  Memory used 472 out of 520 at 932
+CPU Utilization :  cores used 118 out of 160 at 932
+
+Task(0) of Job(98) completed at932.
+Memory Utilization :  Memory used 464 out of 520 at 933
+Task(13) of Job(84) completed at934.
+Task(14) of Job(10) completed at934.
+Memory Utilization :  Memory used 436 out of 520 at 935
+CPU Utilization :  cores used 114 out of 160 at 935
+
+Task(12) of Job(110) completed at935.
+Task(5) of Job(31) completed at935.
+Memory Utilization :  Memory used 440 out of 520 at 936
+CPU Utilization :  cores used 116 out of 160 at 936
+
++Job(31) completed in736.
+Memory Utilization :  Memory used 460 out of 520 at 937
+CPU Utilization :  cores used 120 out of 160 at 937
+
+Task(2) of Job(22) completed at937.
+Memory Utilization :  Memory used 448 out of 520 at 938
+CPU Utilization :  cores used 112 out of 160 at 938
+
+Memory Utilization :  Memory used 456 out of 520 at 939
+CPU Utilization :  cores used 120 out of 160 at 939
+
+Task(2) of Job(105) completed at940.
+Memory Utilization :  Memory used 444 out of 520 at 941
+CPU Utilization :  cores used 118 out of 160 at 941
+
+Memory Utilization :  Memory used 468 out of 520 at 942
+CPU Utilization :  cores used 124 out of 160 at 942
+
+Task(4) of Job(115) completed at943.
+Memory Utilization :  Memory used 456 out of 520 at 944
+CPU Utilization :  cores used 118 out of 160 at 944
+
+Memory Utilization :  Memory used 460 out of 520 at 945
+CPU Utilization :  cores used 126 out of 160 at 945
+
+Task(9) of Job(79) completed at945.
+Task(0) of Job(113) completed at945.
+Task(1) of Job(113) completed at945.
+Memory Utilization :  Memory used 432 out of 520 at 946
+CPU Utilization :  cores used 108 out of 160 at 946
+
+Memory Utilization :  Memory used 464 out of 520 at 947
+CPU Utilization :  cores used 122 out of 160 at 947
+
+Task(3) of Job(27) completed at947.
+Task(2) of Job(82) completed at947.
+Memory Utilization :  Memory used 440 out of 520 at 948
+CPU Utilization :  cores used 112 out of 160 at 948
+
+Task(1) of Job(101) completed at948.
+Memory Utilization :  Memory used 452 out of 520 at 949
+CPU Utilization :  cores used 120 out of 160 at 949
+
+Task(11) of Job(27) completed at949.
+Task(3) of Job(112) completed at949.
+Memory Utilization :  Memory used 444 out of 520 at 950
+CPU Utilization :  cores used 118 out of 160 at 950
+
+Task(3) of Job(42) completed at950.
+Memory Utilization :  Memory used 452 out of 520 at 951
+CPU Utilization :  cores used 124 out of 160 at 951
+
+Task(5) of Job(117) completed at951.
+Memory Utilization :  Memory used 456 out of 520 at 952
+Memory Utilization :  Memory used 464 out of 520 at 953
+CPU Utilization :  cores used 128 out of 160 at 953
+
+Task(3) of Job(15) completed at954.
+Task(5) of Job(122) completed at954.
+Memory Utilization :  Memory used 440 out of 520 at 955
+CPU Utilization :  cores used 116 out of 160 at 955
+
+Task(0) of Job(118) completed at955.
+Memory Utilization :  Memory used 456 out of 520 at 956
+CPU Utilization :  cores used 124 out of 160 at 956
+
+Task(2) of Job(122) completed at956.
+Memory Utilization :  Memory used 444 out of 520 at 957
+CPU Utilization :  cores used 122 out of 160 at 957
+
+Task(4) of Job(108) completed at957.
+Task(4) of Job(93) completed at957.
+Memory Utilization :  Memory used 428 out of 520 at 958
+CPU Utilization :  cores used 114 out of 160 at 958
+
+Task(0) of Job(105) completed at958.
+Memory Utilization :  Memory used 452 out of 520 at 959
+CPU Utilization :  cores used 118 out of 160 at 959
+
+Task(7) of Job(114) completed at959.
+Task(4) of Job(111) completed at959.
+Task(5) of Job(33) completed at959.
+Task(3) of Job(85) completed at959.
+Memory Utilization :  Memory used 432 out of 520 at 960
+CPU Utilization :  cores used 104 out of 160 at 960
+
+Memory Utilization :  Memory used 492 out of 520 at 961
+CPU Utilization :  cores used 132 out of 160 at 961
+
+Task(1) of Job(75) completed at964.
+Task(0) of Job(122) completed at964.
+Memory Utilization :  Memory used 480 out of 520 at 965
+CPU Utilization :  cores used 120 out of 160 at 965
+
+Task(12) of Job(120) completed at965.
+Task(0) of Job(104) completed at965.
+Memory Utilization :  Memory used 476 out of 520 at 966
+CPU Utilization :  cores used 118 out of 160 at 966
+
+Memory Utilization :  Memory used 488 out of 520 at 967
+CPU Utilization :  cores used 120 out of 160 at 967
+
+Task(16) of Job(78) completed at967.
+Memory Utilization :  Memory used 476 out of 520 at 968
+CPU Utilization :  cores used 112 out of 160 at 968
+
+Memory Utilization :  Memory used 488 out of 520 at 969
+CPU Utilization :  cores used 118 out of 160 at 969
+
+Task(1) of Job(78) completed at969.
+Task(0) of Job(108) completed at969.
+Task(2) of Job(100) completed at969.
+Task(2) of Job(121) completed at969.
+Memory Utilization :  Memory used 448 out of 520 at 970
+CPU Utilization :  cores used 96 out of 160 at 970
+
+Memory Utilization :  Memory used 492 out of 520 at 971
+CPU Utilization :  cores used 124 out of 160 at 971
+
+Task(4) of Job(3) completed at971.
+Memory Utilization :  Memory used 484 out of 520 at 972
+CPU Utilization :  cores used 118 out of 160 at 972
+
+Task(5) of Job(41) completed at975.
+Memory Utilization :  Memory used 472 out of 520 at 976
+CPU Utilization :  cores used 116 out of 160 at 976
+
+Memory Utilization :  Memory used 484 out of 520 at 977
+CPU Utilization :  cores used 118 out of 160 at 977
+
+Task(10) of Job(79) completed at978.
+Memory Utilization :  Memory used 468 out of 520 at 979
+CPU Utilization :  cores used 112 out of 160 at 979
+
+Task(2) of Job(72) completed at979.
+Task(0) of Job(96) completed at979.
+Memory Utilization :  Memory used 444 out of 520 at 980
+CPU Utilization :  cores used 102 out of 160 at 980
+
+Task(4) of Job(119) completed at980.
+Memory Utilization :  Memory used 460 out of 520 at 981
+CPU Utilization :  cores used 104 out of 160 at 981
+
+Memory Utilization :  Memory used 468 out of 520 at 982
+CPU Utilization :  cores used 112 out of 160 at 982
+
+Task(3) of Job(48) completed at982.
+Memory Utilization :  Memory used 452 out of 520 at 983
+CPU Utilization :  cores used 104 out of 160 at 983
+
+Memory Utilization :  Memory used 464 out of 520 at 984
+CPU Utilization :  cores used 108 out of 160 at 984
+
+Task(4) of Job(82) completed at988.
+Memory Utilization :  Memory used 452 out of 520 at 989
+CPU Utilization :  cores used 102 out of 160 at 989
+
+Memory Utilization :  Memory used 456 out of 520 at 990
+CPU Utilization :  cores used 110 out of 160 at 990
+
+Task(13) of Job(115) completed at990.
+Memory Utilization :  Memory used 444 out of 520 at 991
+CPU Utilization :  cores used 102 out of 160 at 991
+
+Task(13) of Job(88) completed at991.
+Memory Utilization :  Memory used 436 out of 520 at 992
+CPU Utilization :  cores used 106 out of 160 at 992
+
+Task(1) of Job(109) completed at992.
+Memory Utilization :  Memory used 424 out of 520 at 993
+CPU Utilization :  cores used 104 out of 160 at 993
+
+Memory Utilization :  Memory used 428 out of 520 at 994
+CPU Utilization :  cores used 112 out of 160 at 994
+
+Task(5) of Job(86) completed at995.
+Memory Utilization :  Memory used 416 out of 520 at 996
+CPU Utilization :  cores used 108 out of 160 at 996
+
+Task(10) of Job(120) completed at996.
+Task(7) of Job(116) completed at996.
+Memory Utilization :  Memory used 420 out of 520 at 997
+Task(10) of Job(62) completed at997.
+Memory Utilization :  Memory used 432 out of 520 at 998
+CPU Utilization :  cores used 114 out of 160 at 998
+
+Memory Utilization :  Memory used 440 out of 520 at 999
+CPU Utilization :  cores used 120 out of 160 at 999
+
+Task(5) of Job(43) completed at1000.
+Memory Utilization :  Memory used 432 out of 520 at 1001
+CPU Utilization :  cores used 114 out of 160 at 1001
+
+Task(0) of Job(123) completed at1001.
+Memory Utilization :  Memory used 428 out of 520 at 1002
+Task(8) of Job(125) completed at1002.
+Task(1) of Job(87) completed at1002.
+Task(1) of Job(104) completed at1002.
+Memory Utilization :  Memory used 400 out of 520 at 1003
+CPU Utilization :  cores used 110 out of 160 at 1003
+
+Task(3) of Job(60) completed at1003.
+Memory Utilization :  Memory used 416 out of 520 at 1004
+CPU Utilization :  cores used 108 out of 160 at 1004
+
+Task(5) of Job(3) completed at1004.
+CPU Utilization :  cores used 106 out of 160 at 1005
+
+Task(4) of Job(105) completed at1005.
+Task(7) of Job(19) completed at1005.
+Memory Utilization :  Memory used 408 out of 520 at 1006
+CPU Utilization :  cores used 104 out of 160 at 1006
+
+Task(0) of Job(111) completed at1006.
+CPU Utilization :  cores used 108 out of 160 at 1007
+
+Task(3) of Job(119) completed at1007.
+Task(2) of Job(130) completed at1008.
+Memory Utilization :  Memory used 412 out of 520 at 1009
+CPU Utilization :  cores used 110 out of 160 at 1009
+
+Task(8) of Job(105) completed at1012.
+Memory Utilization :  Memory used 404 out of 520 at 1013
+CPU Utilization :  cores used 102 out of 160 at 1013
+
+Memory Utilization :  Memory used 428 out of 520 at 1014
+CPU Utilization :  cores used 110 out of 160 at 1014
+
+Task(0) of Job(119) completed at1015.
+Task(1) of Job(116) completed at1015.
+Memory Utilization :  Memory used 416 out of 520 at 1016
+CPU Utilization :  cores used 96 out of 160 at 1016
+
+Task(0) of Job(115) completed at1016.
+Memory Utilization :  Memory used 412 out of 520 at 1017
+CPU Utilization :  cores used 100 out of 160 at 1017
+
+Task(9) of Job(42) completed at1017.
+Memory Utilization :  Memory used 424 out of 520 at 1019
+CPU Utilization :  cores used 102 out of 160 at 1019
+
+Task(0) of Job(124) completed at1021.
+Memory Utilization :  Memory used 416 out of 520 at 1022
+CPU Utilization :  cores used 96 out of 160 at 1022
+
+Memory Utilization :  Memory used 424 out of 520 at 1023
+CPU Utilization :  cores used 104 out of 160 at 1023
+
+Task(6) of Job(110) completed at1025.
+Task(9) of Job(126) completed at1025.
+Task(6) of Job(123) completed at1025.
+Task(4) of Job(124) completed at1025.
+Memory Utilization :  Memory used 404 out of 520 at 1026
+CPU Utilization :  cores used 88 out of 160 at 1026
+
+Task(5) of Job(111) completed at1026.
+Memory Utilization :  Memory used 412 out of 520 at 1027
+CPU Utilization :  cores used 94 out of 160 at 1027
+
+Memory Utilization :  Memory used 428 out of 520 at 1028
+CPU Utilization :  cores used 102 out of 160 at 1028
+
+Task(0) of Job(112) completed at1028.
+Memory Utilization :  Memory used 424 out of 520 at 1029
+CPU Utilization :  cores used 96 out of 160 at 1029
+
+Task(7) of Job(128) completed at1029.
+Memory Utilization :  Memory used 432 out of 520 at 1030
+CPU Utilization :  cores used 100 out of 160 at 1030
+
+Task(10) of Job(129) completed at1030.
+Memory Utilization :  Memory used 444 out of 520 at 1031
+CPU Utilization :  cores used 106 out of 160 at 1031
+
+Task(0) of Job(117) completed at1031.
+Memory Utilization :  Memory used 432 out of 520 at 1032
+CPU Utilization :  cores used 104 out of 160 at 1032
+
+Memory Utilization :  Memory used 440 out of 520 at 1033
+CPU Utilization :  cores used 112 out of 160 at 1033
+
+Task(13) of Job(62) completed at1034.
+Memory Utilization :  Memory used 424 out of 520 at 1035
+CPU Utilization :  cores used 110 out of 160 at 1035
+
+Memory Utilization :  Memory used 448 out of 520 at 1036
+CPU Utilization :  cores used 116 out of 160 at 1036
+
+Task(1) of Job(25) completed at1037.
+Memory Utilization :  Memory used 440 out of 520 at 1038
+CPU Utilization :  cores used 114 out of 160 at 1038
+
+Task(6) of Job(125) completed at1038.
+CPU Utilization :  cores used 120 out of 160 at 1039
+
+Task(13) of Job(110) completed at1039.
+Memory Utilization :  Memory used 444 out of 520 at 1041
+CPU Utilization :  cores used 126 out of 160 at 1041
+
+Task(1) of Job(112) completed at1042.
+Memory Utilization :  Memory used 428 out of 520 at 1043
+CPU Utilization :  cores used 122 out of 160 at 1043
+
+Task(1) of Job(71) completed at1043.
+Memory Utilization :  Memory used 436 out of 520 at 1044
+CPU Utilization :  cores used 128 out of 160 at 1044
+
+Memory Utilization :  Memory used 444 out of 520 at 1045
+CPU Utilization :  cores used 130 out of 160 at 1045
+
+Task(0) of Job(114) completed at1046.
+Memory Utilization :  Memory used 440 out of 520 at 1047
+CPU Utilization :  cores used 122 out of 160 at 1047
+
+Task(13) of Job(42) completed at1047.
+Memory Utilization :  Memory used 444 out of 520 at 1048
+CPU Utilization :  cores used 124 out of 160 at 1048
+
+Task(14) of Job(126) completed at1048.
+Task(8) of Job(54) completed at1048.
+Memory Utilization :  Memory used 440 out of 520 at 1049
+CPU Utilization :  cores used 120 out of 160 at 1049
+
+Task(6) of Job(120) completed at1049.
+CPU Utilization :  cores used 130 out of 160 at 1050
+
+Task(2) of Job(115) completed at1050.
+Memory Utilization :  Memory used 444 out of 520 at 1051
+Task(11) of Job(127) completed at1051.
+Memory Utilization :  Memory used 456 out of 520 at 1053
+CPU Utilization :  cores used 138 out of 160 at 1053
+
+Task(16) of Job(18) completed at1055.
+Memory Utilization :  Memory used 440 out of 520 at 1056
+CPU Utilization :  cores used 136 out of 160 at 1056
+
+Memory Utilization :  Memory used 448 out of 520 at 1057
+CPU Utilization :  cores used 138 out of 160 at 1057
+
+Task(1) of Job(129) completed at1059.
+Memory Utilization :  Memory used 432 out of 520 at 1060
+CPU Utilization :  cores used 136 out of 160 at 1060
+
+Task(14) of Job(129) completed at1060.
+Task(0) of Job(135) completed at1060.
+Memory Utilization :  Memory used 416 out of 520 at 1061
+CPU Utilization :  cores used 134 out of 160 at 1061
+
+Memory Utilization :  Memory used 452 out of 520 at 1062
+CPU Utilization :  cores used 150 out of 160 at 1062
+
+Task(8) of Job(94) completed at1062.
+Memory Utilization :  Memory used 448 out of 520 at 1063
+CPU Utilization :  cores used 146 out of 160 at 1063
+
+Memory Utilization :  Memory used 456 out of 520 at 1064
+CPU Utilization :  cores used 152 out of 160 at 1064
+
+Task(6) of Job(55) completed at1065.
+Memory Utilization :  Memory used 444 out of 520 at 1066
+CPU Utilization :  cores used 146 out of 160 at 1066
+
+Task(7) of Job(38) completed at1066.
+Memory Utilization :  Memory used 440 out of 520 at 1067
+Task(14) of Job(49) completed at1067.
+Task(12) of Job(128) completed at1067.
+Memory Utilization :  Memory used 428 out of 520 at 1068
+CPU Utilization :  cores used 136 out of 160 at 1068
+
+Task(1) of Job(34) completed at1068.
+Task(8) of Job(127) completed at1068.
+Task(0) of Job(125) completed at1068.
+Memory Utilization :  Memory used 412 out of 520 at 1069
+CPU Utilization :  cores used 132 out of 160 at 1069
+
+Memory Utilization :  Memory used 444 out of 520 at 1070
+CPU Utilization :  cores used 150 out of 160 at 1070
+
+Task(5) of Job(127) completed at1070.
+Memory Utilization :  Memory used 436 out of 520 at 1071
+CPU Utilization :  cores used 142 out of 160 at 1071
+
+Task(6) of Job(127) completed at1071.
+Memory Utilization :  Memory used 440 out of 520 at 1072
+CPU Utilization :  cores used 140 out of 160 at 1072
+
+Memory Utilization :  Memory used 444 out of 520 at 1073
+CPU Utilization :  cores used 148 out of 160 at 1073
+
+Task(3) of Job(127) completed at1075.
+Memory Utilization :  Memory used 432 out of 520 at 1076
+CPU Utilization :  cores used 142 out of 160 at 1076
+
+Task(0) of Job(126) completed at1076.
+Memory Utilization :  Memory used 436 out of 520 at 1077
+Task(13) of Job(9) completed at1077.
+Task(6) of Job(117) completed at1077.
+Memory Utilization :  Memory used 424 out of 520 at 1078
+CPU Utilization :  cores used 134 out of 160 at 1078
+
++Job(9) completed in1028.
+Memory Utilization :  Memory used 432 out of 520 at 1079
+CPU Utilization :  cores used 142 out of 160 at 1079
+
+Task(10) of Job(131) completed at1079.
+Memory Utilization :  Memory used 420 out of 520 at 1080
+CPU Utilization :  cores used 134 out of 160 at 1080
+
+Memory Utilization :  Memory used 428 out of 520 at 1081
+CPU Utilization :  cores used 140 out of 160 at 1081
+
+Task(0) of Job(120) completed at1081.
+Task(7) of Job(126) completed at1081.
+Memory Utilization :  Memory used 404 out of 520 at 1082
+CPU Utilization :  cores used 124 out of 160 at 1082
+
+Memory Utilization :  Memory used 440 out of 520 at 1083
+CPU Utilization :  cores used 134 out of 160 at 1083
+
+Task(10) of Job(134) completed at1083.
+Task(8) of Job(123) completed at1083.
+Memory Utilization :  Memory used 420 out of 520 at 1084
+CPU Utilization :  cores used 130 out of 160 at 1084
+
+Task(5) of Job(47) completed at1084.
+Memory Utilization :  Memory used 436 out of 520 at 1085
+CPU Utilization :  cores used 132 out of 160 at 1085
+
+Memory Utilization :  Memory used 460 out of 520 at 1086
+CPU Utilization :  cores used 138 out of 160 at 1086
+
+Task(0) of Job(132) completed at1086.
+Memory Utilization :  Memory used 452 out of 520 at 1087
+CPU Utilization :  cores used 132 out of 160 at 1087
+
+Task(0) of Job(121) completed at1087.
+Memory Utilization :  Memory used 440 out of 520 at 1088
+CPU Utilization :  cores used 128 out of 160 at 1088
+
+Memory Utilization :  Memory used 456 out of 520 at 1089
+CPU Utilization :  cores used 130 out of 160 at 1089
+
+Task(0) of Job(129) completed at1089.
+Memory Utilization :  Memory used 440 out of 520 at 1090
+CPU Utilization :  cores used 126 out of 160 at 1090
+
+Task(12) of Job(127) completed at1090.
+Memory Utilization :  Memory used 436 out of 520 at 1091
+CPU Utilization :  cores used 124 out of 160 at 1091
+
+Memory Utilization :  Memory used 440 out of 520 at 1092
+CPU Utilization :  cores used 130 out of 160 at 1092
+
+Task(7) of Job(133) completed at1092.
+Memory Utilization :  Memory used 436 out of 520 at 1093
+CPU Utilization :  cores used 124 out of 160 at 1093
+
+Memory Utilization :  Memory used 452 out of 520 at 1094
+CPU Utilization :  cores used 128 out of 160 at 1094
+
+Task(0) of Job(128) completed at1094.
+Task(6) of Job(132) completed at1094.
+Memory Utilization :  Memory used 432 out of 520 at 1095
+CPU Utilization :  cores used 118 out of 160 at 1095
+
+Memory Utilization :  Memory used 456 out of 520 at 1096
+CPU Utilization :  cores used 130 out of 160 at 1096
+
+Task(6) of Job(131) completed at1098.
+Task(1) of Job(32) completed at1098.
+Memory Utilization :  Memory used 444 out of 520 at 1099
+CPU Utilization :  cores used 124 out of 160 at 1099
+
+Task(1) of Job(17) completed at1100.
+Memory Utilization :  Memory used 436 out of 520 at 1101
+CPU Utilization :  cores used 118 out of 160 at 1101
+
+Task(4) of Job(94) completed at1101.
+Memory Utilization :  Memory used 448 out of 520 at 1102
+CPU Utilization :  cores used 122 out of 160 at 1102
+
+Task(2) of Job(59) completed at1102.
+CPU Utilization :  cores used 124 out of 160 at 1103
+
+Task(0) of Job(127) completed at1103.
+CPU Utilization :  cores used 128 out of 160 at 1104
+
+Memory Utilization :  Memory used 464 out of 520 at 1105
+CPU Utilization :  cores used 132 out of 160 at 1105
+
+Task(4) of Job(92) completed at1105.
+Memory Utilization :  Memory used 452 out of 520 at 1106
+CPU Utilization :  cores used 128 out of 160 at 1106
+
+Task(1) of Job(68) completed at1107.
+Memory Utilization :  Memory used 440 out of 520 at 1108
+CPU Utilization :  cores used 122 out of 160 at 1108
+
+Memory Utilization :  Memory used 464 out of 520 at 1109
+CPU Utilization :  cores used 130 out of 160 at 1109
+
+Task(4) of Job(138) completed at1113.
+Memory Utilization :  Memory used 448 out of 520 at 1114
+CPU Utilization :  cores used 126 out of 160 at 1114
+
+Task(3) of Job(55) completed at1114.
+Task(2) of Job(65) completed at1114.
+CPU Utilization :  cores used 124 out of 160 at 1115
+
+Task(0) of Job(138) completed at1115.
+Memory Utilization :  Memory used 440 out of 520 at 1116
+CPU Utilization :  cores used 120 out of 160 at 1116
+
+Task(2) of Job(67) completed at1116.
+Memory Utilization :  Memory used 452 out of 520 at 1117
+CPU Utilization :  cores used 124 out of 160 at 1117
+
+Task(2) of Job(137) completed at1117.
+Memory Utilization :  Memory used 440 out of 520 at 1118
+CPU Utilization :  cores used 128 out of 160 at 1118
+
+Task(2) of Job(133) completed at1118.
+CPU Utilization :  cores used 122 out of 160 at 1119
+
+Memory Utilization :  Memory used 448 out of 520 at 1120
+CPU Utilization :  cores used 128 out of 160 at 1120
+
+Task(3) of Job(126) completed at1121.
+Memory Utilization :  Memory used 444 out of 520 at 1122
+CPU Utilization :  cores used 126 out of 160 at 1122
+
+Memory Utilization :  Memory used 448 out of 520 at 1123
+CPU Utilization :  cores used 128 out of 160 at 1123
+
+Task(5) of Job(45) completed at1125.
+Memory Utilization :  Memory used 440 out of 520 at 1126
+CPU Utilization :  cores used 122 out of 160 at 1126
+
+Task(2) of Job(12) completed at1126.
+CPU Utilization :  cores used 124 out of 160 at 1127
+
+Task(12) of Job(23) completed at1127.
+Memory Utilization :  Memory used 444 out of 520 at 1128
+CPU Utilization :  cores used 128 out of 160 at 1128
+
+Task(9) of Job(36) completed at1129.
+Task(3) of Job(84) completed at1129.
+Memory Utilization :  Memory used 428 out of 520 at 1130
+CPU Utilization :  cores used 112 out of 160 at 1130
+
+Task(18) of Job(136) completed at1130.
+Memory Utilization :  Memory used 456 out of 520 at 1131
+CPU Utilization :  cores used 120 out of 160 at 1131
+
+Memory Utilization :  Memory used 464 out of 520 at 1132
+CPU Utilization :  cores used 128 out of 160 at 1132
+
+Task(1) of Job(53) completed at1132.
+Memory Utilization :  Memory used 452 out of 520 at 1133
+CPU Utilization :  cores used 126 out of 160 at 1133
+
+Task(8) of Job(141) completed at1133.
+Task(5) of Job(44) completed at1133.
+Memory Utilization :  Memory used 444 out of 520 at 1134
+CPU Utilization :  cores used 118 out of 160 at 1134
+
+Memory Utilization :  Memory used 448 out of 520 at 1135
+CPU Utilization :  cores used 126 out of 160 at 1135
+
+Task(9) of Job(90) completed at1135.
+Memory Utilization :  Memory used 436 out of 520 at 1136
+CPU Utilization :  cores used 122 out of 160 at 1136
+
+Task(4) of Job(146) completed at1138.
+Memory Utilization :  Memory used 428 out of 520 at 1139
+CPU Utilization :  cores used 118 out of 160 at 1139
+
+Task(6) of Job(137) completed at1139.
+Memory Utilization :  Memory used 424 out of 520 at 1140
+CPU Utilization :  cores used 116 out of 160 at 1140
+
+Task(4) of Job(142) completed at1140.
+Memory Utilization :  Memory used 428 out of 520 at 1141
+Memory Utilization :  Memory used 444 out of 520 at 1142
+CPU Utilization :  cores used 118 out of 160 at 1142
+
+Task(3) of Job(68) completed at1142.
+Memory Utilization :  Memory used 440 out of 520 at 1143
+CPU Utilization :  cores used 112 out of 160 at 1143
+
+Task(8) of Job(29) completed at1143.
+Memory Utilization :  Memory used 436 out of 520 at 1144
+CPU Utilization :  cores used 114 out of 160 at 1144
+
+Memory Utilization :  Memory used 448 out of 520 at 1145
+CPU Utilization :  cores used 116 out of 160 at 1145
+
+Task(0) of Job(133) completed at1146.
+Memory Utilization :  Memory used 436 out of 520 at 1147
+CPU Utilization :  cores used 112 out of 160 at 1147
+
+Memory Utilization :  Memory used 452 out of 520 at 1148
+CPU Utilization :  cores used 114 out of 160 at 1148
+
+Task(14) of Job(12) completed at1148.
+Task(6) of Job(134) completed at1148.
+Memory Utilization :  Memory used 428 out of 520 at 1149
+CPU Utilization :  cores used 100 out of 160 at 1149
+
+Memory Utilization :  Memory used 444 out of 520 at 1150
+CPU Utilization :  cores used 110 out of 160 at 1150
+
+Task(2) of Job(61) completed at1150.
+Memory Utilization :  Memory used 440 out of 520 at 1151
+CPU Utilization :  cores used 106 out of 160 at 1151
+
+Task(0) of Job(131) completed at1151.
+Memory Utilization :  Memory used 444 out of 520 at 1152
+Memory Utilization :  Memory used 448 out of 520 at 1153
+CPU Utilization :  cores used 114 out of 160 at 1153
+
+Task(0) of Job(147) completed at1154.
+Memory Utilization :  Memory used 444 out of 520 at 1155
+CPU Utilization :  cores used 106 out of 160 at 1155
+
+Task(15) of Job(39) completed at1155.
+Task(7) of Job(127) completed at1155.
+Memory Utilization :  Memory used 436 out of 520 at 1156
+Memory Utilization :  Memory used 460 out of 520 at 1157
+CPU Utilization :  cores used 118 out of 160 at 1157
+
+Task(1) of Job(70) completed at1161.
+Task(4) of Job(147) completed at1161.
+Memory Utilization :  Memory used 436 out of 520 at 1162
+CPU Utilization :  cores used 112 out of 160 at 1162
+
+Task(1) of Job(20) completed at1162.
+Memory Utilization :  Memory used 448 out of 520 at 1163
+CPU Utilization :  cores used 114 out of 160 at 1163
+
+Memory Utilization :  Memory used 464 out of 520 at 1164
+CPU Utilization :  cores used 122 out of 160 at 1164
+
+Task(13) of Job(136) completed at1165.
+Task(0) of Job(146) completed at1165.
+Memory Utilization :  Memory used 440 out of 520 at 1166
+CPU Utilization :  cores used 118 out of 160 at 1166
+
+Memory Utilization :  Memory used 472 out of 520 at 1167
+CPU Utilization :  cores used 124 out of 160 at 1167
+
+Task(7) of Job(136) completed at1167.
+Memory Utilization :  Memory used 456 out of 520 at 1168
+CPU Utilization :  cores used 116 out of 160 at 1168
+
+Memory Utilization :  Memory used 468 out of 520 at 1169
+CPU Utilization :  cores used 124 out of 160 at 1169
+
+Task(12) of Job(147) completed at1169.
+Task(1) of Job(136) completed at1169.
+Memory Utilization :  Memory used 452 out of 520 at 1170
+CPU Utilization :  cores used 114 out of 160 at 1170
+
+Memory Utilization :  Memory used 480 out of 520 at 1171
+CPU Utilization :  cores used 124 out of 160 at 1171
+
+Task(6) of Job(88) completed at1171.
+Memory Utilization :  Memory used 472 out of 520 at 1172
+CPU Utilization :  cores used 122 out of 160 at 1172
+
+Task(4) of Job(136) completed at1172.
+Memory Utilization :  Memory used 468 out of 520 at 1173
+CPU Utilization :  cores used 114 out of 160 at 1173
+
+Task(7) of Job(141) completed at1173.
+Memory Utilization :  Memory used 480 out of 520 at 1174
+CPU Utilization :  cores used 116 out of 160 at 1174
+
+Task(0) of Job(145) completed at1174.
+Task(0) of Job(134) completed at1174.
+Task(15) of Job(136) completed at1174.
+Task(0) of Job(136) completed at1174.
+Memory Utilization :  Memory used 432 out of 520 at 1175
+CPU Utilization :  cores used 100 out of 160 at 1175
+
+Memory Utilization :  Memory used 468 out of 520 at 1176
+CPU Utilization :  cores used 120 out of 160 at 1176
+
+Task(0) of Job(130) completed at1176.
+Memory Utilization :  Memory used 464 out of 520 at 1177
+CPU Utilization :  cores used 118 out of 160 at 1177
+
+Task(3) of Job(141) completed at1177.
+Memory Utilization :  Memory used 452 out of 520 at 1178
+CPU Utilization :  cores used 116 out of 160 at 1178
+
+Memory Utilization :  Memory used 464 out of 520 at 1179
+CPU Utilization :  cores used 124 out of 160 at 1179
+
+Task(16) of Job(32) completed at1182.
+Memory Utilization :  Memory used 448 out of 520 at 1183
+CPU Utilization :  cores used 116 out of 160 at 1183
+
+Task(12) of Job(136) completed at1183.
+Memory Utilization :  Memory used 456 out of 520 at 1184
+CPU Utilization :  cores used 122 out of 160 at 1184
+
+Task(13) of Job(83) completed at1184.
+Task(5) of Job(52) completed at1184.
+Memory Utilization :  Memory used 432 out of 520 at 1185
+CPU Utilization :  cores used 108 out of 160 at 1185
+
+Task(6) of Job(58) completed at1185.
+Memory Utilization :  Memory used 436 out of 520 at 1186
+CPU Utilization :  cores used 114 out of 160 at 1186
+
+Task(3) of Job(140) completed at1186.
+Memory Utilization :  Memory used 444 out of 520 at 1187
+CPU Utilization :  cores used 116 out of 160 at 1187
+
+Task(1) of Job(92) completed at1187.
+Memory Utilization :  Memory used 428 out of 520 at 1188
+CPU Utilization :  cores used 114 out of 160 at 1188
+
+Task(4) of Job(131) completed at1189.
+Memory Utilization :  Memory used 420 out of 520 at 1190
+CPU Utilization :  cores used 112 out of 160 at 1190
+
+Task(1) of Job(135) completed at1190.
+Memory Utilization :  Memory used 428 out of 520 at 1191
+CPU Utilization :  cores used 114 out of 160 at 1191
+
+Memory Utilization :  Memory used 436 out of 520 at 1192
+CPU Utilization :  cores used 120 out of 160 at 1192
+
+Task(1) of Job(142) completed at1195.
+Memory Utilization :  Memory used 428 out of 520 at 1196
+CPU Utilization :  cores used 116 out of 160 at 1196
+
+Task(0) of Job(149) completed at1196.
+Task(2) of Job(138) completed at1196.
+Task(0) of Job(140) completed at1196.
+Task(1) of Job(140) completed at1196.
+Memory Utilization :  Memory used 404 out of 520 at 1197
+CPU Utilization :  cores used 100 out of 160 at 1197
+
+Task(3) of Job(137) completed at1197.
+Memory Utilization :  Memory used 448 out of 520 at 1198
+CPU Utilization :  cores used 120 out of 160 at 1198
+
+Memory Utilization :  Memory used 452 out of 520 at 1199
+CPU Utilization :  cores used 126 out of 160 at 1199
+
+Task(3) of Job(47) completed at1199.
+Memory Utilization :  Memory used 436 out of 520 at 1200
+CPU Utilization :  cores used 120 out of 160 at 1200
+
+Memory Utilization :  Memory used 452 out of 520 at 1201
+CPU Utilization :  cores used 126 out of 160 at 1201
+
+Task(14) of Job(137) completed at1201.
+Memory Utilization :  Memory used 448 out of 520 at 1202
+CPU Utilization :  cores used 122 out of 160 at 1202
+
+Memory Utilization :  Memory used 456 out of 520 at 1203
+CPU Utilization :  cores used 124 out of 160 at 1203
+
+Task(0) of Job(153) completed at1205.
+Memory Utilization :  Memory used 452 out of 520 at 1206
+CPU Utilization :  cores used 118 out of 160 at 1206
+
+Memory Utilization :  Memory used 468 out of 520 at 1207
+CPU Utilization :  cores used 120 out of 160 at 1207
+
+Task(2) of Job(8) completed at1209.
+Memory Utilization :  Memory used 456 out of 520 at 1210
+CPU Utilization :  cores used 112 out of 160 at 1210
+
+Memory Utilization :  Memory used 460 out of 520 at 1211
+CPU Utilization :  cores used 116 out of 160 at 1211
+
+Task(0) of Job(137) completed at1211.
+Memory Utilization :  Memory used 452 out of 520 at 1212
+CPU Utilization :  cores used 110 out of 160 at 1212
+
+Task(1) of Job(144) completed at1212.
+Task(3) of Job(128) completed at1212.
+Task(5) of Job(140) completed at1212.
+Memory Utilization :  Memory used 444 out of 520 at 1213
+CPU Utilization :  cores used 104 out of 160 at 1213
+
+Task(6) of Job(149) completed at1213.
+Task(16) of Job(138) completed at1213.
+Memory Utilization :  Memory used 432 out of 520 at 1214
+Memory Utilization :  Memory used 464 out of 520 at 1215
+CPU Utilization :  cores used 118 out of 160 at 1215
+
+Task(4) of Job(153) completed at1215.
+Memory Utilization :  Memory used 456 out of 520 at 1216
+CPU Utilization :  cores used 112 out of 160 at 1216
+
+Memory Utilization :  Memory used 472 out of 520 at 1217
+CPU Utilization :  cores used 118 out of 160 at 1217
+
+Task(4) of Job(132) completed at1217.
+Memory Utilization :  Memory used 456 out of 520 at 1218
+CPU Utilization :  cores used 114 out of 160 at 1218
+
+Memory Utilization :  Memory used 472 out of 520 at 1219
+CPU Utilization :  cores used 116 out of 160 at 1219
+
+Task(0) of Job(158) completed at1219.
+Memory Utilization :  Memory used 468 out of 520 at 1220
+CPU Utilization :  cores used 114 out of 160 at 1220
+
+Task(6) of Job(143) completed at1220.
+Task(7) of Job(148) completed at1220.
+Memory Utilization :  Memory used 460 out of 520 at 1221
+CPU Utilization :  cores used 106 out of 160 at 1221
+
+Task(2) of Job(142) completed at1221.
+Memory Utilization :  Memory used 472 out of 520 at 1222
+CPU Utilization :  cores used 108 out of 160 at 1222
+
+Task(0) of Job(143) completed at1222.
+CPU Utilization :  cores used 112 out of 160 at 1223
+
+Task(4) of Job(139) completed at1226.
+Memory Utilization :  Memory used 460 out of 520 at 1227
+CPU Utilization :  cores used 106 out of 160 at 1227
+
+Memory Utilization :  Memory used 468 out of 520 at 1228
+CPU Utilization :  cores used 114 out of 160 at 1228
+
+Task(14) of Job(143) completed at1234.
+Memory Utilization :  Memory used 456 out of 520 at 1235
+CPU Utilization :  cores used 110 out of 160 at 1235
+
+Task(0) of Job(150) completed at1235.
+CPU Utilization :  cores used 114 out of 160 at 1236
+
+Task(3) of Job(59) completed at1236.
+Task(3) of Job(63) completed at1236.
+Task(0) of Job(139) completed at1236.
+Memory Utilization :  Memory used 440 out of 520 at 1237
+CPU Utilization :  cores used 106 out of 160 at 1237
+
+Memory Utilization :  Memory used 464 out of 520 at 1238
+CPU Utilization :  cores used 116 out of 160 at 1238
+
+Task(5) of Job(136) completed at1238.
+Memory Utilization :  Memory used 456 out of 520 at 1239
+CPU Utilization :  cores used 112 out of 160 at 1239
+
+Memory Utilization :  Memory used 468 out of 520 at 1240
+CPU Utilization :  cores used 118 out of 160 at 1240
+
+Task(7) of Job(162) completed at1240.
+Task(1) of Job(102) completed at1240.
+Task(10) of Job(16) completed at1240.
+Memory Utilization :  Memory used 456 out of 520 at 1241
+CPU Utilization :  cores used 110 out of 160 at 1241
+
+Memory Utilization :  Memory used 460 out of 520 at 1242
+CPU Utilization :  cores used 116 out of 160 at 1242
+
+Task(2) of Job(37) completed at1242.
+Memory Utilization :  Memory used 444 out of 520 at 1243
+CPU Utilization :  cores used 112 out of 160 at 1243
+
+Memory Utilization :  Memory used 460 out of 520 at 1244
+CPU Utilization :  cores used 120 out of 160 at 1244
+
+Task(12) of Job(153) completed at1244.
+Memory Utilization :  Memory used 444 out of 520 at 1245
+CPU Utilization :  cores used 114 out of 160 at 1245
+
+Memory Utilization :  Memory used 460 out of 520 at 1246
+CPU Utilization :  cores used 120 out of 160 at 1246
+
+Task(1) of Job(158) completed at1247.
+Memory Utilization :  Memory used 444 out of 520 at 1248
+CPU Utilization :  cores used 114 out of 160 at 1248
+
+Task(4) of Job(145) completed at1248.
+Memory Utilization :  Memory used 436 out of 520 at 1249
+Memory Utilization :  Memory used 448 out of 520 at 1250
+CPU Utilization :  cores used 118 out of 160 at 1250
+
+Task(2) of Job(46) completed at1251.
+Task(11) of Job(151) completed at1251.
+Memory Utilization :  Memory used 428 out of 520 at 1252
+CPU Utilization :  cores used 106 out of 160 at 1252
+
+Memory Utilization :  Memory used 464 out of 520 at 1253
+CPU Utilization :  cores used 114 out of 160 at 1253
+
+Task(0) of Job(154) completed at1255.
+Task(0) of Job(142) completed at1255.
+Task(1) of Job(145) completed at1255.
+Memory Utilization :  Memory used 444 out of 520 at 1256
+CPU Utilization :  cores used 100 out of 160 at 1256
+
+Memory Utilization :  Memory used 468 out of 520 at 1257
+CPU Utilization :  cores used 108 out of 160 at 1257
+
+Task(2) of Job(98) completed at1257.
+Task(6) of Job(102) completed at1257.
+Memory Utilization :  Memory used 448 out of 520 at 1258
+CPU Utilization :  cores used 92 out of 160 at 1258
+
+Task(11) of Job(26) completed at1258.
+Memory Utilization :  Memory used 464 out of 520 at 1259
+CPU Utilization :  cores used 96 out of 160 at 1259
+
+Task(3) of Job(145) completed at1259.
+Memory Utilization :  Memory used 460 out of 520 at 1260
+CPU Utilization :  cores used 98 out of 160 at 1260
+
+Task(4) of Job(14) completed at1260.
+Memory Utilization :  Memory used 456 out of 520 at 1261
+Memory Utilization :  Memory used 464 out of 520 at 1262
+CPU Utilization :  cores used 104 out of 160 at 1262
+
+Task(6) of Job(158) completed at1262.
+Task(0) of Job(141) completed at1262.
+Memory Utilization :  Memory used 448 out of 520 at 1263
+CPU Utilization :  cores used 96 out of 160 at 1263
+
+Memory Utilization :  Memory used 468 out of 520 at 1264
+CPU Utilization :  cores used 104 out of 160 at 1264
+
+Task(1) of Job(95) completed at1264.
+Task(4) of Job(76) completed at1264.
+Task(3) of Job(142) completed at1264.
+Memory Utilization :  Memory used 440 out of 520 at 1265
+CPU Utilization :  cores used 84 out of 160 at 1265
+
+Task(5) of Job(146) completed at1265.
+Memory Utilization :  Memory used 464 out of 520 at 1266
+CPU Utilization :  cores used 100 out of 160 at 1266
+
+Task(1) of Job(134) completed at1266.
+Memory Utilization :  Memory used 472 out of 520 at 1267
+CPU Utilization :  cores used 102 out of 160 at 1267
+
+Memory Utilization :  Memory used 480 out of 520 at 1268
+CPU Utilization :  cores used 108 out of 160 at 1268
+
+Task(14) of Job(148) completed at1269.
+Memory Utilization :  Memory used 476 out of 520 at 1270
+CPU Utilization :  cores used 106 out of 160 at 1270
+
+Task(10) of Job(2) completed at1270.
+Memory Utilization :  Memory used 464 out of 520 at 1271
+CPU Utilization :  cores used 102 out of 160 at 1271
+
+Memory Utilization :  Memory used 472 out of 520 at 1272
+CPU Utilization :  cores used 110 out of 160 at 1272
+
+Task(10) of Job(100) completed at1276.
+Task(13) of Job(137) completed at1276.
+Memory Utilization :  Memory used 452 out of 520 at 1277
+CPU Utilization :  cores used 102 out of 160 at 1277
+
+Task(1) of Job(77) completed at1277.
+Memory Utilization :  Memory used 460 out of 520 at 1278
+CPU Utilization :  cores used 104 out of 160 at 1278
+
+Task(2) of Job(143) completed at1278.
+Memory Utilization :  Memory used 472 out of 520 at 1279
+CPU Utilization :  cores used 110 out of 160 at 1279
+
+Memory Utilization :  Memory used 476 out of 520 at 1280
+CPU Utilization :  cores used 112 out of 160 at 1280
+
+Task(3) of Job(150) completed at1281.
+Memory Utilization :  Memory used 460 out of 520 at 1282
+CPU Utilization :  cores used 108 out of 160 at 1282
+
+Task(3) of Job(81) completed at1282.
+Memory Utilization :  Memory used 464 out of 520 at 1283
+Task(12) of Job(100) completed at1283.
+Memory Utilization :  Memory used 472 out of 520 at 1284
+CPU Utilization :  cores used 106 out of 160 at 1284
+
+Memory Utilization :  Memory used 488 out of 520 at 1285
+CPU Utilization :  cores used 110 out of 160 at 1285
+
+Task(1) of Job(35) completed at1285.
+Memory Utilization :  Memory used 472 out of 520 at 1286
+CPU Utilization :  cores used 106 out of 160 at 1286
+
+Memory Utilization :  Memory used 484 out of 520 at 1287
+CPU Utilization :  cores used 114 out of 160 at 1287
+
+Task(12) of Job(155) completed at1288.
+Memory Utilization :  Memory used 480 out of 520 at 1289
+CPU Utilization :  cores used 110 out of 160 at 1289
+
+Task(18) of Job(147) completed at1290.
+Memory Utilization :  Memory used 476 out of 520 at 1291
+CPU Utilization :  cores used 104 out of 160 at 1291
+
+Memory Utilization :  Memory used 480 out of 520 at 1292
+CPU Utilization :  cores used 110 out of 160 at 1292
+
+Task(7) of Job(50) completed at1294.
+Memory Utilization :  Memory used 464 out of 520 at 1295
+CPU Utilization :  cores used 106 out of 160 at 1295
+
++Job(50) completed in995.
+Task(3) of Job(97) completed at1295.
+Task(13) of Job(147) completed at1295.
+Memory Utilization :  Memory used 448 out of 520 at 1296
+CPU Utilization :  cores used 110 out of 160 at 1296
+
+Task(11) of Job(143) completed at1296.
+Task(10) of Job(153) completed at1296.
+Memory Utilization :  Memory used 440 out of 520 at 1297
+CPU Utilization :  cores used 100 out of 160 at 1297
+
+Memory Utilization :  Memory used 452 out of 520 at 1298
+CPU Utilization :  cores used 114 out of 160 at 1298
+
+Task(1) of Job(81) completed at1298.
+Task(1) of Job(148) completed at1298.
+Task(5) of Job(148) completed at1298.
+Memory Utilization :  Memory used 428 out of 520 at 1299
+CPU Utilization :  cores used 94 out of 160 at 1299
+
+Task(13) of Job(151) completed at1299.
+Memory Utilization :  Memory used 452 out of 520 at 1300
+CPU Utilization :  cores used 106 out of 160 at 1300
+
+Task(3) of Job(143) completed at1300.
+Memory Utilization :  Memory used 444 out of 520 at 1301
+CPU Utilization :  cores used 100 out of 160 at 1301
+
+Memory Utilization :  Memory used 456 out of 520 at 1302
+CPU Utilization :  cores used 104 out of 160 at 1302
+
+Task(4) of Job(157) completed at1302.
+Memory Utilization :  Memory used 440 out of 520 at 1303
+CPU Utilization :  cores used 102 out of 160 at 1303
+
+Task(5) of Job(66) completed at1303.
+Task(9) of Job(152) completed at1303.
+Memory Utilization :  Memory used 432 out of 520 at 1304
+CPU Utilization :  cores used 96 out of 160 at 1304
+
+Memory Utilization :  Memory used 456 out of 520 at 1305
+CPU Utilization :  cores used 112 out of 160 at 1305
+
+Task(1) of Job(151) completed at1305.
+Task(1) of Job(154) completed at1305.
+Memory Utilization :  Memory used 432 out of 520 at 1306
+CPU Utilization :  cores used 106 out of 160 at 1306
+
+Memory Utilization :  Memory used 452 out of 520 at 1307
+CPU Utilization :  cores used 114 out of 160 at 1307
+
+Task(1) of Job(150) completed at1309.
+Memory Utilization :  Memory used 448 out of 520 at 1310
+CPU Utilization :  cores used 112 out of 160 at 1310
+
+Task(14) of Job(159) completed at1310.
+Task(3) of Job(162) completed at1310.
+Memory Utilization :  Memory used 428 out of 520 at 1311
+CPU Utilization :  cores used 108 out of 160 at 1311
+
+Task(8) of Job(7) completed at1311.
+Task(17) of Job(151) completed at1311.
+Memory Utilization :  Memory used 436 out of 520 at 1312
+CPU Utilization :  cores used 106 out of 160 at 1312
+
+Task(6) of Job(166) completed at1312.
+Memory Utilization :  Memory used 460 out of 520 at 1313
+CPU Utilization :  cores used 110 out of 160 at 1313
+
+Memory Utilization :  Memory used 476 out of 520 at 1314
+CPU Utilization :  cores used 114 out of 160 at 1314
+
+Task(11) of Job(147) completed at1314.
+Memory Utilization :  Memory used 460 out of 520 at 1315
+CPU Utilization :  cores used 110 out of 160 at 1315
+
+Memory Utilization :  Memory used 484 out of 520 at 1316
+CPU Utilization :  cores used 114 out of 160 at 1316
+
+Task(9) of Job(35) completed at1316.
+Task(4) of Job(156) completed at1316.
+Memory Utilization :  Memory used 464 out of 520 at 1317
+CPU Utilization :  cores used 104 out of 160 at 1317
+
+Task(4) of Job(154) completed at1317.
+Task(11) of Job(159) completed at1317.
+Memory Utilization :  Memory used 468 out of 520 at 1318
+CPU Utilization :  cores used 110 out of 160 at 1318
+
+Task(9) of Job(103) completed at1318.
+Task(1) of Job(160) completed at1318.
+Memory Utilization :  Memory used 460 out of 520 at 1319
+CPU Utilization :  cores used 104 out of 160 at 1319
+
+Memory Utilization :  Memory used 480 out of 520 at 1320
+CPU Utilization :  cores used 112 out of 160 at 1320
+
+Task(6) of Job(4) completed at1321.
+Memory Utilization :  Memory used 468 out of 520 at 1322
+CPU Utilization :  cores used 104 out of 160 at 1322
+
+Memory Utilization :  Memory used 476 out of 520 at 1323
+CPU Utilization :  cores used 112 out of 160 at 1323
+
+Task(0) of Job(160) completed at1324.
+Memory Utilization :  Memory used 468 out of 520 at 1325
+CPU Utilization :  cores used 110 out of 160 at 1325
+
+Memory Utilization :  Memory used 488 out of 520 at 1326
+CPU Utilization :  cores used 114 out of 160 at 1326
+
+Task(0) of Job(148) completed at1326.
+Task(0) of Job(144) completed at1326.
+Task(12) of Job(105) completed at1326.
+Task(14) of Job(157) completed at1326.
+Memory Utilization :  Memory used 448 out of 520 at 1327
+CPU Utilization :  cores used 88 out of 160 at 1327
+
+Task(8) of Job(158) completed at1327.
+Memory Utilization :  Memory used 464 out of 520 at 1328
+CPU Utilization :  cores used 102 out of 160 at 1328
+
+Memory Utilization :  Memory used 480 out of 520 at 1329
+CPU Utilization :  cores used 110 out of 160 at 1329
+
+Task(5) of Job(152) completed at1329.
+Memory Utilization :  Memory used 468 out of 520 at 1330
+CPU Utilization :  cores used 106 out of 160 at 1330
+
+Memory Utilization :  Memory used 484 out of 520 at 1331
+CPU Utilization :  cores used 114 out of 160 at 1331
+
+Task(0) of Job(159) completed at1331.
+Task(0) of Job(155) completed at1331.
+Memory Utilization :  Memory used 468 out of 520 at 1332
+CPU Utilization :  cores used 106 out of 160 at 1332
+
+Task(0) of Job(166) completed at1332.
+Memory Utilization :  Memory used 484 out of 520 at 1333
+CPU Utilization :  cores used 114 out of 160 at 1333
+
+Memory Utilization :  Memory used 496 out of 520 at 1334
+CPU Utilization :  cores used 120 out of 160 at 1334
+
+Task(3) of Job(157) completed at1335.
+Task(0) of Job(152) completed at1335.
+Memory Utilization :  Memory used 480 out of 520 at 1336
+CPU Utilization :  cores used 116 out of 160 at 1336
+
+Task(9) of Job(165) completed at1336.
+Memory Utilization :  Memory used 472 out of 520 at 1337
+CPU Utilization :  cores used 120 out of 160 at 1337
+
+Task(1) of Job(172) completed at1337.
+Task(4) of Job(169) completed at1337.
+CPU Utilization :  cores used 116 out of 160 at 1338
+
+Task(2) of Job(116) completed at1338.
+Task(4) of Job(172) completed at1339.
+Task(5) of Job(57) completed at1339.
+Memory Utilization :  Memory used 480 out of 520 at 1340
+CPU Utilization :  cores used 114 out of 160 at 1340
+
+Task(7) of Job(94) completed at1340.
+Memory Utilization :  Memory used 472 out of 520 at 1341
+CPU Utilization :  cores used 116 out of 160 at 1341
+
+Task(9) of Job(167) completed at1342.
+Memory Utilization :  Memory used 468 out of 520 at 1343
+CPU Utilization :  cores used 110 out of 160 at 1343
+
+Task(1) of Job(97) completed at1343.
+Memory Utilization :  Memory used 472 out of 520 at 1344
+CPU Utilization :  cores used 116 out of 160 at 1344
+
+Memory Utilization :  Memory used 488 out of 520 at 1345
+CPU Utilization :  cores used 122 out of 160 at 1345
+
+Task(7) of Job(110) completed at1346.
+Task(0) of Job(151) completed at1346.
+Memory Utilization :  Memory used 476 out of 520 at 1347
+CPU Utilization :  cores used 112 out of 160 at 1347
+
+Task(9) of Job(163) completed at1347.
+Memory Utilization :  Memory used 488 out of 520 at 1348
+Task(1) of Job(166) completed at1348.
+Task(13) of Job(152) completed at1348.
+Task(0) of Job(163) completed at1348.
+Memory Utilization :  Memory used 452 out of 520 at 1349
+CPU Utilization :  cores used 106 out of 160 at 1349
+
+Task(5) of Job(151) completed at1349.
+Memory Utilization :  Memory used 492 out of 520 at 1350
+CPU Utilization :  cores used 110 out of 160 at 1350
+
+Task(4) of Job(162) completed at1350.
+Memory Utilization :  Memory used 496 out of 520 at 1351
+Task(3) of Job(165) completed at1351.
+Task(7) of Job(69) completed at1351.
+Memory Utilization :  Memory used 480 out of 520 at 1352
+CPU Utilization :  cores used 104 out of 160 at 1352
+
+Task(17) of Job(96) completed at1352.
+Memory Utilization :  Memory used 492 out of 520 at 1353
+CPU Utilization :  cores used 108 out of 160 at 1353
+
+Memory Utilization :  Memory used 504 out of 520 at 1354
+CPU Utilization :  cores used 114 out of 160 at 1354
+
+Task(13) of Job(155) completed at1354.
+Task(9) of Job(157) completed at1354.
+Memory Utilization :  Memory used 488 out of 520 at 1355
+CPU Utilization :  cores used 108 out of 160 at 1355
+
+Memory Utilization :  Memory used 508 out of 520 at 1356
+CPU Utilization :  cores used 112 out of 160 at 1356
+
+Task(14) of Job(179) completed at1356.
+Memory Utilization :  Memory used 500 out of 520 at 1357
+CPU Utilization :  cores used 108 out of 160 at 1357
+
+Task(0) of Job(164) completed at1359.
+Task(12) of Job(48) completed at1359.
+Memory Utilization :  Memory used 468 out of 520 at 1360
+CPU Utilization :  cores used 102 out of 160 at 1360
+
+Memory Utilization :  Memory used 480 out of 520 at 1361
+CPU Utilization :  cores used 108 out of 160 at 1361
+
+Task(4) of Job(177) completed at1361.
+Memory Utilization :  Memory used 472 out of 520 at 1362
+CPU Utilization :  cores used 106 out of 160 at 1362
+
+Memory Utilization :  Memory used 480 out of 520 at 1363
+CPU Utilization :  cores used 114 out of 160 at 1363
+
+Task(4) of Job(173) completed at1364.
+Memory Utilization :  Memory used 476 out of 520 at 1365
+CPU Utilization :  cores used 108 out of 160 at 1365
+
+Memory Utilization :  Memory used 488 out of 520 at 1366
+CPU Utilization :  cores used 114 out of 160 at 1366
+
+Task(4) of Job(28) completed at1366.
+Memory Utilization :  Memory used 480 out of 520 at 1367
+CPU Utilization :  cores used 112 out of 160 at 1367
+
+Task(12) of Job(93) completed at1368.
+Memory Utilization :  Memory used 472 out of 520 at 1369
+CPU Utilization :  cores used 108 out of 160 at 1369
+
+Task(2) of Job(160) completed at1369.
+Memory Utilization :  Memory used 464 out of 520 at 1370
+CPU Utilization :  cores used 102 out of 160 at 1370
+
+Task(8) of Job(156) completed at1370.
+Memory Utilization :  Memory used 460 out of 520 at 1371
+CPU Utilization :  cores used 100 out of 160 at 1371
+
+Task(2) of Job(149) completed at1371.
+Memory Utilization :  Memory used 448 out of 520 at 1372
+Memory Utilization :  Memory used 460 out of 520 at 1373
+CPU Utilization :  cores used 108 out of 160 at 1373
+
+Task(1) of Job(169) completed at1373.
+Task(8) of Job(114) completed at1373.
+Memory Utilization :  Memory used 444 out of 520 at 1374
+CPU Utilization :  cores used 102 out of 160 at 1374
+
+Task(5) of Job(153) completed at1374.
+Memory Utilization :  Memory used 440 out of 520 at 1375
+Task(8) of Job(77) completed at1375.
+Memory Utilization :  Memory used 436 out of 520 at 1376
+CPU Utilization :  cores used 106 out of 160 at 1376
+
+Task(8) of Job(6) completed at1377.
+Task(15) of Job(167) completed at1377.
+Memory Utilization :  Memory used 416 out of 520 at 1378
+CPU Utilization :  cores used 100 out of 160 at 1378
+
++Job(6) completed in1328.
+Task(9) of Job(156) completed at1378.
+Task(5) of Job(159) completed at1378.
+Memory Utilization :  Memory used 408 out of 520 at 1379
+CPU Utilization :  cores used 102 out of 160 at 1379
+
+Task(8) of Job(74) completed at1379.
+Task(14) of Job(152) completed at1379.
+Task(6) of Job(171) completed at1379.
+Task(0) of Job(157) completed at1379.
+Memory Utilization :  Memory used 372 out of 520 at 1380
+CPU Utilization :  cores used 100 out of 160 at 1380
+
+Task(4) of Job(170) completed at1380.
+Task(7) of Job(161) completed at1380.
+Memory Utilization :  Memory used 380 out of 520 at 1381
+CPU Utilization :  cores used 106 out of 160 at 1381
+
+Memory Utilization :  Memory used 388 out of 520 at 1382
+CPU Utilization :  cores used 110 out of 160 at 1382
+
+Task(2) of Job(91) completed at1382.
+Memory Utilization :  Memory used 372 out of 520 at 1383
+CPU Utilization :  cores used 104 out of 160 at 1383
+
+Memory Utilization :  Memory used 384 out of 520 at 1384
+CPU Utilization :  cores used 110 out of 160 at 1384
+
+Task(0) of Job(162) completed at1387.
+Memory Utilization :  Memory used 372 out of 520 at 1388
+CPU Utilization :  cores used 108 out of 160 at 1388
+
+Task(2) of Job(23) completed at1388.
+Memory Utilization :  Memory used 364 out of 520 at 1389
+CPU Utilization :  cores used 104 out of 160 at 1389
+
+Task(15) of Job(10) completed at1389.
+Memory Utilization :  Memory used 372 out of 520 at 1390
+Memory Utilization :  Memory used 388 out of 520 at 1391
+CPU Utilization :  cores used 110 out of 160 at 1391
+
+Task(0) of Job(165) completed at1391.
+Memory Utilization :  Memory used 380 out of 520 at 1392
+CPU Utilization :  cores used 108 out of 160 at 1392
+
+Task(0) of Job(156) completed at1392.
+Memory Utilization :  Memory used 388 out of 520 at 1393
+CPU Utilization :  cores used 112 out of 160 at 1393
+
+Task(4) of Job(171) completed at1393.
+Memory Utilization :  Memory used 376 out of 520 at 1394
+CPU Utilization :  cores used 104 out of 160 at 1394
+
+Task(1) of Job(161) completed at1394.
+Task(1) of Job(176) completed at1394.
+Memory Utilization :  Memory used 372 out of 520 at 1395
+CPU Utilization :  cores used 102 out of 160 at 1395
+
+Task(11) of Job(72) completed at1395.
+Memory Utilization :  Memory used 376 out of 520 at 1396
+CPU Utilization :  cores used 110 out of 160 at 1396
+
+Task(3) of Job(160) completed at1396.
+Memory Utilization :  Memory used 388 out of 520 at 1397
+CPU Utilization :  cores used 108 out of 160 at 1397
+
+Task(0) of Job(176) completed at1397.
+Memory Utilization :  Memory used 392 out of 520 at 1398
+CPU Utilization :  cores used 106 out of 160 at 1398
+
+Task(7) of Job(163) completed at1398.
+Memory Utilization :  Memory used 404 out of 520 at 1399
+CPU Utilization :  cores used 100 out of 160 at 1399
+
+Task(0) of Job(161) completed at1399.
+Memory Utilization :  Memory used 416 out of 520 at 1400
+Memory Utilization :  Memory used 432 out of 520 at 1401
+CPU Utilization :  cores used 106 out of 160 at 1401
+
+Task(7) of Job(169) completed at1402.
+Memory Utilization :  Memory used 428 out of 520 at 1403
+CPU Utilization :  cores used 102 out of 160 at 1403
+
+Task(7) of Job(167) completed at1403.
+Task(0) of Job(170) completed at1403.
+Task(3) of Job(51) completed at1403.
+Memory Utilization :  Memory used 408 out of 520 at 1404
+CPU Utilization :  cores used 94 out of 160 at 1404
+
+Task(8) of Job(152) completed at1404.
+Memory Utilization :  Memory used 436 out of 520 at 1405
+CPU Utilization :  cores used 108 out of 160 at 1405
+
+Memory Utilization :  Memory used 452 out of 520 at 1406
+CPU Utilization :  cores used 116 out of 160 at 1406
+
+Task(4) of Job(175) completed at1406.
+Memory Utilization :  Memory used 444 out of 520 at 1407
+CPU Utilization :  cores used 114 out of 160 at 1407
+
+Memory Utilization :  Memory used 460 out of 520 at 1408
+CPU Utilization :  cores used 122 out of 160 at 1408
+
+Task(5) of Job(172) completed at1408.
+Memory Utilization :  Memory used 456 out of 520 at 1409
+CPU Utilization :  cores used 120 out of 160 at 1409
+
+Task(4) of Job(75) completed at1413.
+Task(3) of Job(175) completed at1413.
+Memory Utilization :  Memory used 436 out of 520 at 1414
+CPU Utilization :  cores used 106 out of 160 at 1414
+
+Task(7) of Job(78) completed at1414.
+Memory Utilization :  Memory used 448 out of 520 at 1415
+CPU Utilization :  cores used 112 out of 160 at 1415
+
+Task(3) of Job(177) completed at1415.
+Memory Utilization :  Memory used 444 out of 520 at 1416
+CPU Utilization :  cores used 116 out of 160 at 1416
+
+Memory Utilization :  Memory used 452 out of 520 at 1417
+CPU Utilization :  cores used 122 out of 160 at 1417
+
+Task(2) of Job(173) completed at1421.
+Memory Utilization :  Memory used 440 out of 520 at 1422
+CPU Utilization :  cores used 118 out of 160 at 1422
+
+Task(9) of Job(96) completed at1422.
+Task(8) of Job(166) completed at1422.
+Memory Utilization :  Memory used 420 out of 520 at 1423
+CPU Utilization :  cores used 116 out of 160 at 1423
+
+Memory Utilization :  Memory used 440 out of 520 at 1424
+CPU Utilization :  cores used 128 out of 160 at 1424
+
+Task(0) of Job(174) completed at1425.
+Memory Utilization :  Memory used 424 out of 520 at 1426
+CPU Utilization :  cores used 120 out of 160 at 1426
+
+Memory Utilization :  Memory used 440 out of 520 at 1427
+CPU Utilization :  cores used 128 out of 160 at 1427
+
+Task(16) of Job(156) completed at1427.
+Memory Utilization :  Memory used 424 out of 520 at 1428
+CPU Utilization :  cores used 120 out of 160 at 1428
+
+Task(7) of Job(64) completed at1428.
+Memory Utilization :  Memory used 436 out of 520 at 1429
+CPU Utilization :  cores used 126 out of 160 at 1429
+
+Task(0) of Job(167) completed at1429.
+Memory Utilization :  Memory used 440 out of 520 at 1430
+CPU Utilization :  cores used 128 out of 160 at 1430
+
+Memory Utilization :  Memory used 456 out of 520 at 1431
+CPU Utilization :  cores used 136 out of 160 at 1431
+
+Task(0) of Job(173) completed at1432.
+Task(0) of Job(168) completed at1432.
+Memory Utilization :  Memory used 432 out of 520 at 1433
+CPU Utilization :  cores used 120 out of 160 at 1433
+
+Memory Utilization :  Memory used 456 out of 520 at 1434
+CPU Utilization :  cores used 132 out of 160 at 1434
+
+Task(3) of Job(115) completed at1434.
+Memory Utilization :  Memory used 452 out of 520 at 1435
+CPU Utilization :  cores used 126 out of 160 at 1435
+
+Task(10) of Job(72) completed at1435.
+Task(3) of Job(22) completed at1435.
+CPU Utilization :  cores used 122 out of 160 at 1436
+
+Task(5) of Job(80) completed at1436.
+Memory Utilization :  Memory used 472 out of 520 at 1437
+CPU Utilization :  cores used 126 out of 160 at 1437
+
+Task(6) of Job(119) completed at1437.
+Memory Utilization :  Memory used 480 out of 520 at 1438
+CPU Utilization :  cores used 130 out of 160 at 1438
+
+Memory Utilization :  Memory used 496 out of 520 at 1439
+CPU Utilization :  cores used 132 out of 160 at 1439
+
+Task(0) of Job(169) completed at1439.
+Memory Utilization :  Memory used 484 out of 520 at 1440
+CPU Utilization :  cores used 126 out of 160 at 1440
+
+Memory Utilization :  Memory used 500 out of 520 at 1441
+CPU Utilization :  cores used 130 out of 160 at 1441
+
+Task(12) of Job(175) completed at1442.
+Memory Utilization :  Memory used 484 out of 520 at 1443
+CPU Utilization :  cores used 126 out of 160 at 1443
+
+Memory Utilization :  Memory used 500 out of 520 at 1444
+CPU Utilization :  cores used 130 out of 160 at 1444
+
+Task(7) of Job(99) completed at1446.
+Task(7) of Job(84) completed at1446.
+Memory Utilization :  Memory used 476 out of 520 at 1447
+CPU Utilization :  cores used 114 out of 160 at 1447
+
+Memory Utilization :  Memory used 488 out of 520 at 1448
+CPU Utilization :  cores used 128 out of 160 at 1448
+
+Task(7) of Job(165) completed at1448.
+Memory Utilization :  Memory used 476 out of 520 at 1449
+CPU Utilization :  cores used 126 out of 160 at 1449
+
+Task(10) of Job(172) completed at1451.
+Memory Utilization :  Memory used 460 out of 520 at 1452
+CPU Utilization :  cores used 118 out of 160 at 1452
+
+Memory Utilization :  Memory used 464 out of 520 at 1453
+CPU Utilization :  cores used 124 out of 160 at 1453
+
+Task(4) of Job(99) completed at1454.
+Task(8) of Job(173) completed at1454.
+Memory Utilization :  Memory used 440 out of 520 at 1455
+CPU Utilization :  cores used 112 out of 160 at 1455
+
+Task(1) of Job(79) completed at1455.
+Memory Utilization :  Memory used 468 out of 520 at 1456
+CPU Utilization :  cores used 124 out of 160 at 1456
+
+Task(0) of Job(182) completed at1457.
+Memory Utilization :  Memory used 456 out of 520 at 1458
+CPU Utilization :  cores used 118 out of 160 at 1458
+
+Task(8) of Job(115) completed at1458.
+Memory Utilization :  Memory used 452 out of 520 at 1459
+CPU Utilization :  cores used 120 out of 160 at 1459
+
+Task(3) of Job(179) completed at1459.
+Memory Utilization :  Memory used 460 out of 520 at 1460
+Task(0) of Job(172) completed at1460.
+Memory Utilization :  Memory used 448 out of 520 at 1461
+CPU Utilization :  cores used 116 out of 160 at 1461
+
+Memory Utilization :  Memory used 464 out of 520 at 1462
+CPU Utilization :  cores used 122 out of 160 at 1462
+
+Task(3) of Job(163) completed at1462.
+Task(11) of Job(101) completed at1462.
+Memory Utilization :  Memory used 448 out of 520 at 1463
+CPU Utilization :  cores used 112 out of 160 at 1463
+
+Memory Utilization :  Memory used 460 out of 520 at 1464
+CPU Utilization :  cores used 120 out of 160 at 1464
+
+Task(6) of Job(113) completed at1464.
+Task(3) of Job(80) completed at1464.
+Memory Utilization :  Memory used 432 out of 520 at 1465
+CPU Utilization :  cores used 110 out of 160 at 1465
+
+Memory Utilization :  Memory used 452 out of 520 at 1466
+CPU Utilization :  cores used 122 out of 160 at 1466
+
+Task(11) of Job(100) completed at1466.
+Memory Utilization :  Memory used 444 out of 520 at 1467
+CPU Utilization :  cores used 118 out of 160 at 1467
+
+Task(10) of Job(43) completed at1467.
+Task(3) of Job(106) completed at1467.
+Memory Utilization :  Memory used 432 out of 520 at 1468
+CPU Utilization :  cores used 108 out of 160 at 1468
+
+Memory Utilization :  Memory used 448 out of 520 at 1469
+CPU Utilization :  cores used 122 out of 160 at 1469
+
+Task(9) of Job(175) completed at1469.
+Memory Utilization :  Memory used 440 out of 520 at 1470
+CPU Utilization :  cores used 118 out of 160 at 1470
+
+Task(11) of Job(161) completed at1470.
+Memory Utilization :  Memory used 436 out of 520 at 1471
+Task(11) of Job(105) completed at1471.
+Task(6) of Job(48) completed at1471.
+Memory Utilization :  Memory used 440 out of 520 at 1472
+CPU Utilization :  cores used 116 out of 160 at 1472
+
+Memory Utilization :  Memory used 472 out of 520 at 1473
+CPU Utilization :  cores used 126 out of 160 at 1473
+
+Task(1) of Job(175) completed at1477.
+Memory Utilization :  Memory used 460 out of 520 at 1478
+CPU Utilization :  cores used 124 out of 160 at 1478
+
+Memory Utilization :  Memory used 464 out of 520 at 1479
+CPU Utilization :  cores used 132 out of 160 at 1479
+
+Task(2) of Job(170) completed at1479.
+Memory Utilization :  Memory used 452 out of 520 at 1480
+CPU Utilization :  cores used 124 out of 160 at 1480
+
+Memory Utilization :  Memory used 468 out of 520 at 1481
+CPU Utilization :  cores used 130 out of 160 at 1481
+
+Task(1) of Job(82) completed at1481.
+Memory Utilization :  Memory used 460 out of 520 at 1482
+CPU Utilization :  cores used 126 out of 160 at 1482
+
+Task(2) of Job(109) completed at1482.
+Memory Utilization :  Memory used 444 out of 520 at 1483
+CPU Utilization :  cores used 120 out of 160 at 1483
+
+Task(15) of Job(3) completed at1483.
+Memory Utilization :  Memory used 448 out of 520 at 1484
+CPU Utilization :  cores used 122 out of 160 at 1484
+
+Memory Utilization :  Memory used 452 out of 520 at 1485
+CPU Utilization :  cores used 130 out of 160 at 1485
+
+Task(12) of Job(28) completed at1485.
+Memory Utilization :  Memory used 436 out of 520 at 1486
+CPU Utilization :  cores used 126 out of 160 at 1486
+
+Task(4) of Job(122) completed at1486.
+Memory Utilization :  Memory used 440 out of 520 at 1487
+CPU Utilization :  cores used 130 out of 160 at 1487
+
+Task(5) of Job(82) completed at1487.
+Memory Utilization :  Memory used 444 out of 520 at 1488
+CPU Utilization :  cores used 134 out of 160 at 1488
+
+Memory Utilization :  Memory used 460 out of 520 at 1489
+CPU Utilization :  cores used 138 out of 160 at 1489
+
+Task(0) of Job(177) completed at1489.
+Task(4) of Job(104) completed at1489.
+Memory Utilization :  Memory used 432 out of 520 at 1490
+CPU Utilization :  cores used 126 out of 160 at 1490
+
+Task(10) of Job(56) completed at1490.
+Memory Utilization :  Memory used 440 out of 520 at 1491
+CPU Utilization :  cores used 130 out of 160 at 1491
+
+Task(9) of Job(173) completed at1491.
+Task(2) of Job(106) completed at1491.
+Task(3) of Job(73) completed at1491.
+Memory Utilization :  Memory used 424 out of 520 at 1492
+CPU Utilization :  cores used 124 out of 160 at 1492
+
+Memory Utilization :  Memory used 432 out of 520 at 1493
+CPU Utilization :  cores used 130 out of 160 at 1493
+
+Task(8) of Job(184) completed at1494.
+Memory Utilization :  Memory used 424 out of 520 at 1495
+CPU Utilization :  cores used 128 out of 160 at 1495
+
+Task(7) of Job(21) completed at1498.
+Task(0) of Job(180) completed at1498.
+Memory Utilization :  Memory used 408 out of 520 at 1499
+CPU Utilization :  cores used 112 out of 160 at 1499
+
++Job(21) completed in1349.
+Task(1) of Job(115) completed at1499.
+Memory Utilization :  Memory used 420 out of 520 at 1500
+CPU Utilization :  cores used 116 out of 160 at 1500
+
+Task(2) of Job(111) completed at1500.
+Memory Utilization :  Memory used 424 out of 520 at 1501
+CPU Utilization :  cores used 118 out of 160 at 1501
+
+Memory Utilization :  Memory used 428 out of 520 at 1502
+CPU Utilization :  cores used 124 out of 160 at 1502
+
+Task(7) of Job(86) completed at1502.
+Memory Utilization :  Memory used 420 out of 520 at 1503
+CPU Utilization :  cores used 120 out of 160 at 1503
+
+Task(2) of Job(168) completed at1503.
+Memory Utilization :  Memory used 416 out of 520 at 1504
+CPU Utilization :  cores used 118 out of 160 at 1504
+
+Memory Utilization :  Memory used 424 out of 520 at 1505
+CPU Utilization :  cores used 126 out of 160 at 1505
+
+Task(4) of Job(15) completed at1505.
+Memory Utilization :  Memory used 416 out of 520 at 1506
+CPU Utilization :  cores used 122 out of 160 at 1506
+
+Task(1) of Job(179) completed at1508.
+Task(0) of Job(181) completed at1508.
+Memory Utilization :  Memory used 384 out of 520 at 1509
+CPU Utilization :  cores used 112 out of 160 at 1509
+
+Memory Utilization :  Memory used 416 out of 520 at 1510
+CPU Utilization :  cores used 126 out of 160 at 1510
+
+Task(4) of Job(118) completed at1511.
+Memory Utilization :  Memory used 412 out of 520 at 1512
+CPU Utilization :  cores used 124 out of 160 at 1512
+
+Task(0) of Job(171) completed at1512.
+Memory Utilization :  Memory used 420 out of 520 at 1513
+Memory Utilization :  Memory used 428 out of 520 at 1514
+CPU Utilization :  cores used 128 out of 160 at 1514
+
+Task(5) of Job(116) completed at1515.
+Memory Utilization :  Memory used 424 out of 520 at 1516
+CPU Utilization :  cores used 122 out of 160 at 1516
+
+Memory Utilization :  Memory used 432 out of 520 at 1517
+CPU Utilization :  cores used 126 out of 160 at 1517
+
+Task(15) of Job(179) completed at1517.
+Memory Utilization :  Memory used 424 out of 520 at 1518
+CPU Utilization :  cores used 122 out of 160 at 1518
+
+Memory Utilization :  Memory used 428 out of 520 at 1519
+CPU Utilization :  cores used 128 out of 160 at 1519
+
+Task(1) of Job(167) completed at1519.
+Memory Utilization :  Memory used 424 out of 520 at 1520
+CPU Utilization :  cores used 126 out of 160 at 1520
+
+Task(3) of Job(71) completed at1520.
+Memory Utilization :  Memory used 416 out of 520 at 1521
+CPU Utilization :  cores used 124 out of 160 at 1521
+
+Task(3) of Job(185) completed at1521.
+Memory Utilization :  Memory used 412 out of 520 at 1522
+CPU Utilization :  cores used 120 out of 160 at 1522
+
+Task(9) of Job(54) completed at1522.
+Task(2) of Job(86) completed at1522.
+Memory Utilization :  Memory used 396 out of 520 at 1523
+Task(8) of Job(116) completed at1523.
+Memory Utilization :  Memory used 428 out of 520 at 1524
+CPU Utilization :  cores used 126 out of 160 at 1524
+
+Task(0) of Job(183) completed at1524.
+Memory Utilization :  Memory used 424 out of 520 at 1525
+CPU Utilization :  cores used 122 out of 160 at 1525
+
+Memory Utilization :  Memory used 432 out of 520 at 1526
+CPU Utilization :  cores used 126 out of 160 at 1526
+
+Task(4) of Job(181) completed at1529.
+Task(5) of Job(113) completed at1529.
+Memory Utilization :  Memory used 408 out of 520 at 1530
+CPU Utilization :  cores used 116 out of 160 at 1530
+
+Memory Utilization :  Memory used 412 out of 520 at 1531
+CPU Utilization :  cores used 122 out of 160 at 1531
+
+Task(1) of Job(108) completed at1533.
+Memory Utilization :  Memory used 400 out of 520 at 1534
+CPU Utilization :  cores used 118 out of 160 at 1534
+
+Task(0) of Job(175) completed at1539.
+Memory Utilization :  Memory used 392 out of 520 at 1540
+CPU Utilization :  cores used 114 out of 160 at 1540
+
+Memory Utilization :  Memory used 396 out of 520 at 1541
+CPU Utilization :  cores used 122 out of 160 at 1541
+
+Task(9) of Job(82) completed at1541.
+Memory Utilization :  Memory used 388 out of 520 at 1542
+CPU Utilization :  cores used 118 out of 160 at 1542
+
+Task(1) of Job(107) completed at1542.
+Task(7) of Job(181) completed at1543.
+Task(2) of Job(189) completed at1543.
+Task(0) of Job(184) completed at1543.
+Task(0) of Job(187) completed at1543.
+Memory Utilization :  Memory used 368 out of 520 at 1544
+CPU Utilization :  cores used 104 out of 160 at 1544
+
+Task(13) of Job(188) completed at1544.
+Memory Utilization :  Memory used 400 out of 520 at 1545
+CPU Utilization :  cores used 114 out of 160 at 1545
+
+Task(8) of Job(41) completed at1545.
+Memory Utilization :  Memory used 412 out of 520 at 1546
+CPU Utilization :  cores used 108 out of 160 at 1546
+
++Job(41) completed in1296.
+Memory Utilization :  Memory used 416 out of 520 at 1547
+CPU Utilization :  cores used 116 out of 160 at 1547
+
+Task(8) of Job(85) completed at1552.
+Memory Utilization :  Memory used 404 out of 520 at 1553
+CPU Utilization :  cores used 112 out of 160 at 1553
+
+Memory Utilization :  Memory used 416 out of 520 at 1554
+CPU Utilization :  cores used 118 out of 160 at 1554
+
+Task(0) of Job(179) completed at1554.
+Memory Utilization :  Memory used 404 out of 520 at 1555
+CPU Utilization :  cores used 114 out of 160 at 1555
+
+Task(12) of Job(55) completed at1555.
+Memory Utilization :  Memory used 416 out of 520 at 1556
+Memory Utilization :  Memory used 436 out of 520 at 1557
+CPU Utilization :  cores used 122 out of 160 at 1557
+
+Task(2) of Job(125) completed at1558.
+Memory Utilization :  Memory used 428 out of 520 at 1559
+CPU Utilization :  cores used 118 out of 160 at 1559
+
+Task(3) of Job(104) completed at1563.
+Task(7) of Job(40) completed at1563.
+Memory Utilization :  Memory used 416 out of 520 at 1564
+CPU Utilization :  cores used 108 out of 160 at 1564
+
+Task(15) of Job(126) completed at1564.
+CPU Utilization :  cores used 112 out of 160 at 1565
+
+Task(2) of Job(89) completed at1567.
+Memory Utilization :  Memory used 412 out of 520 at 1568
+CPU Utilization :  cores used 104 out of 160 at 1568
+
+Memory Utilization :  Memory used 436 out of 520 at 1569
+CPU Utilization :  cores used 112 out of 160 at 1569
+
+Task(1) of Job(182) completed at1570.
+Task(5) of Job(30) completed at1570.
+Memory Utilization :  Memory used 408 out of 520 at 1571
+CPU Utilization :  cores used 102 out of 160 at 1571
+
++Job(30) completed in1371.
+Task(4) of Job(183) completed at1571.
+Memory Utilization :  Memory used 416 out of 520 at 1572
+CPU Utilization :  cores used 110 out of 160 at 1572
+
+Memory Utilization :  Memory used 420 out of 520 at 1573
+CPU Utilization :  cores used 116 out of 160 at 1573
+
+Task(0) of Job(178) completed at1573.
+Task(5) of Job(110) completed at1573.
+Memory Utilization :  Memory used 392 out of 520 at 1574
+CPU Utilization :  cores used 108 out of 160 at 1574
+
+Task(6) of Job(96) completed at1574.
+Memory Utilization :  Memory used 404 out of 520 at 1575
+CPU Utilization :  cores used 114 out of 160 at 1575
+
+Task(7) of Job(27) completed at1575.
+Memory Utilization :  Memory used 416 out of 520 at 1576
+CPU Utilization :  cores used 116 out of 160 at 1576
+
+Memory Utilization :  Memory used 424 out of 520 at 1577
+CPU Utilization :  cores used 122 out of 160 at 1577
+
+Task(11) of Job(49) completed at1584.
+Memory Utilization :  Memory used 412 out of 520 at 1585
+CPU Utilization :  cores used 118 out of 160 at 1585
+
+Task(3) of Job(120) completed at1585.
+Memory Utilization :  Memory used 424 out of 520 at 1586
+CPU Utilization :  cores used 116 out of 160 at 1586
+
+Memory Utilization :  Memory used 448 out of 520 at 1587
+CPU Utilization :  cores used 124 out of 160 at 1587
+
+Task(16) of Job(179) completed at1588.
+Task(11) of Job(179) completed at1588.
+Task(0) of Job(186) completed at1588.
+Memory Utilization :  Memory used 416 out of 520 at 1589
+CPU Utilization :  cores used 112 out of 160 at 1589
+
+Task(8) of Job(130) completed at1589.
+Task(12) of Job(129) completed at1589.
+Memory Utilization :  Memory used 400 out of 520 at 1590
+CPU Utilization :  cores used 110 out of 160 at 1590
+
+Memory Utilization :  Memory used 428 out of 520 at 1591
+CPU Utilization :  cores used 120 out of 160 at 1591
+
+Task(16) of Job(186) completed at1591.
+Task(5) of Job(94) completed at1591.
+Memory Utilization :  Memory used 416 out of 520 at 1592
+CPU Utilization :  cores used 110 out of 160 at 1592
+
+Memory Utilization :  Memory used 436 out of 520 at 1593
+CPU Utilization :  cores used 120 out of 160 at 1593
+
+Task(4) of Job(60) completed at1593.
+Task(2) of Job(188) completed at1593.
+Memory Utilization :  Memory used 420 out of 520 at 1594
+CPU Utilization :  cores used 110 out of 160 at 1594
+
++Job(60) completed in1244.
+Task(10) of Job(19) completed at1594.
+Task(0) of Job(194) completed at1594.
+Memory Utilization :  Memory used 424 out of 520 at 1595
++Job(19) completed in1445.
+Task(5) of Job(87) completed at1595.
+Memory Utilization :  Memory used 448 out of 520 at 1596
+CPU Utilization :  cores used 122 out of 160 at 1596
+
+Task(11) of Job(188) completed at1597.
+Memory Utilization :  Memory used 440 out of 520 at 1598
+CPU Utilization :  cores used 116 out of 160 at 1598
+
+Memory Utilization :  Memory used 448 out of 520 at 1599
+CPU Utilization :  cores used 124 out of 160 at 1599
+
+Task(9) of Job(62) completed at1601.
+Memory Utilization :  Memory used 440 out of 520 at 1602
+CPU Utilization :  cores used 120 out of 160 at 1602
+
+Memory Utilization :  Memory used 456 out of 520 at 1603
+CPU Utilization :  cores used 126 out of 160 at 1603
+
+Task(1) of Job(194) completed at1604.
+Memory Utilization :  Memory used 452 out of 520 at 1605
+CPU Utilization :  cores used 118 out of 160 at 1605
+
+Task(4) of Job(65) completed at1605.
+Memory Utilization :  Memory used 456 out of 520 at 1606
+Task(0) of Job(192) completed at1609.
+Memory Utilization :  Memory used 440 out of 520 at 1610
+CPU Utilization :  cores used 116 out of 160 at 1610
+
+Task(14) of Job(18) completed at1610.
+Memory Utilization :  Memory used 452 out of 520 at 1611
+CPU Utilization :  cores used 118 out of 160 at 1611
+
+Task(5) of Job(105) completed at1612.
+Memory Utilization :  Memory used 444 out of 520 at 1613
+CPU Utilization :  cores used 112 out of 160 at 1613
+
+Task(7) of Job(130) completed at1613.
+Task(6) of Job(38) completed at1613.
+Memory Utilization :  Memory used 436 out of 520 at 1614
+CPU Utilization :  cores used 106 out of 160 at 1614
+
+Task(2) of Job(124) completed at1614.
+Memory Utilization :  Memory used 444 out of 520 at 1615
+CPU Utilization :  cores used 116 out of 160 at 1615
+
+Task(7) of Job(135) completed at1615.
+Task(2) of Job(94) completed at1615.
+Task(6) of Job(65) completed at1615.
+Memory Utilization :  Memory used 432 out of 520 at 1616
+CPU Utilization :  cores used 112 out of 160 at 1616
+
+Task(7) of Job(132) completed at1616.
+Task(14) of Job(141) completed at1616.
+Memory Utilization :  Memory used 424 out of 520 at 1617
+CPU Utilization :  cores used 114 out of 160 at 1617
+
+Task(2) of Job(85) completed at1617.
+Memory Utilization :  Memory used 416 out of 520 at 1618
+CPU Utilization :  cores used 120 out of 160 at 1618
+
+Task(7) of Job(45) completed at1618.
+Memory Utilization :  Memory used 432 out of 520 at 1619
+CPU Utilization :  cores used 126 out of 160 at 1619
+
+Task(0) of Job(193) completed at1621.
+Memory Utilization :  Memory used 424 out of 520 at 1622
+CPU Utilization :  cores used 124 out of 160 at 1622
+
+Task(6) of Job(3) completed at1624.
+Memory Utilization :  Memory used 408 out of 520 at 1625
+CPU Utilization :  cores used 116 out of 160 at 1625
+
+Memory Utilization :  Memory used 432 out of 520 at 1626
+CPU Utilization :  cores used 122 out of 160 at 1626
+
+Task(2) of Job(112) completed at1627.
+Memory Utilization :  Memory used 424 out of 520 at 1628
+CPU Utilization :  cores used 120 out of 160 at 1628
+
+Task(10) of Job(196) completed at1631.
+Task(5) of Job(181) completed at1631.
+Memory Utilization :  Memory used 392 out of 520 at 1632
+CPU Utilization :  cores used 112 out of 160 at 1632
+
+Task(11) of Job(79) completed at1632.
+Memory Utilization :  Memory used 416 out of 520 at 1633
+CPU Utilization :  cores used 118 out of 160 at 1633
+
+Memory Utilization :  Memory used 420 out of 520 at 1634
+CPU Utilization :  cores used 122 out of 160 at 1634
+
+Task(10) of Job(34) completed at1634.
+Memory Utilization :  Memory used 412 out of 520 at 1635
+CPU Utilization :  cores used 116 out of 160 at 1635
+
+Memory Utilization :  Memory used 428 out of 520 at 1636
+CPU Utilization :  cores used 122 out of 160 at 1636
+
+Task(1) of Job(131) completed at1636.
+Memory Utilization :  Memory used 412 out of 520 at 1637
+CPU Utilization :  cores used 116 out of 160 at 1637
+
+Task(1) of Job(125) completed at1637.
+Memory Utilization :  Memory used 408 out of 520 at 1638
+CPU Utilization :  cores used 112 out of 160 at 1638
+
+Task(0) of Job(185) completed at1638.
+Task(11) of Job(90) completed at1638.
+CPU Utilization :  cores used 104 out of 160 at 1639
+
+Memory Utilization :  Memory used 444 out of 520 at 1640
+CPU Utilization :  cores used 116 out of 160 at 1640
+
+Task(2) of Job(185) completed at1641.
+Task(4) of Job(190) completed at1641.
+Memory Utilization :  Memory used 420 out of 520 at 1642
+CPU Utilization :  cores used 104 out of 160 at 1642
+
+Memory Utilization :  Memory used 452 out of 520 at 1643
+CPU Utilization :  cores used 116 out of 160 at 1643
+
+Task(2) of Job(182) completed at1643.
+Memory Utilization :  Memory used 436 out of 520 at 1644
+CPU Utilization :  cores used 110 out of 160 at 1644
+
+Task(1) of Job(193) completed at1644.
+Task(1) of Job(187) completed at1644.
+Task(8) of Job(186) completed at1644.
+Memory Utilization :  Memory used 420 out of 520 at 1645
+CPU Utilization :  cores used 106 out of 160 at 1645
+
+Task(11) of Job(201) completed at1645.
+Task(9) of Job(34) completed at1645.
+Memory Utilization :  Memory used 424 out of 520 at 1646
+CPU Utilization :  cores used 112 out of 160 at 1646
+
+Task(5) of Job(195) completed at1646.
+Memory Utilization :  Memory used 436 out of 520 at 1647
+CPU Utilization :  cores used 118 out of 160 at 1647
+
+Task(6) of Job(105) completed at1647.
+Memory Utilization :  Memory used 424 out of 520 at 1648
+CPU Utilization :  cores used 112 out of 160 at 1648
+
+Memory Utilization :  Memory used 432 out of 520 at 1649
+CPU Utilization :  cores used 120 out of 160 at 1649
+
+Task(13) of Job(17) completed at1649.
+Memory Utilization :  Memory used 416 out of 520 at 1650
+CPU Utilization :  cores used 116 out of 160 at 1650
+
+Task(8) of Job(192) completed at1650.
+Task(0) of Job(197) completed at1650.
+Memory Utilization :  Memory used 440 out of 520 at 1652
+CPU Utilization :  cores used 132 out of 160 at 1652
+
+Task(3) of Job(187) completed at1654.
+Memory Utilization :  Memory used 428 out of 520 at 1655
+CPU Utilization :  cores used 124 out of 160 at 1655
+
+Task(6) of Job(188) completed at1655.
+Task(6) of Job(138) completed at1655.
+Memory Utilization :  Memory used 408 out of 520 at 1656
+CPU Utilization :  cores used 118 out of 160 at 1656
+
+Task(5) of Job(29) completed at1656.
+Memory Utilization :  Memory used 420 out of 520 at 1657
+CPU Utilization :  cores used 126 out of 160 at 1657
+
+Task(7) of Job(33) completed at1657.
+Memory Utilization :  Memory used 428 out of 520 at 1658
+CPU Utilization :  cores used 132 out of 160 at 1658
+
++Job(33) completed in1458.
+Memory Utilization :  Memory used 432 out of 520 at 1659
+CPU Utilization :  cores used 136 out of 160 at 1659
+
+Task(7) of Job(197) completed at1659.
+Memory Utilization :  Memory used 428 out of 520 at 1660
+CPU Utilization :  cores used 134 out of 160 at 1660
+
+Task(8) of Job(68) completed at1660.
+Memory Utilization :  Memory used 420 out of 520 at 1661
+CPU Utilization :  cores used 130 out of 160 at 1661
+
+Task(2) of Job(195) completed at1661.
+CPU Utilization :  cores used 134 out of 160 at 1662
+
+Task(5) of Job(196) completed at1662.
+Memory Utilization :  Memory used 404 out of 520 at 1663
+CPU Utilization :  cores used 126 out of 160 at 1663
+
+Task(10) of Job(42) completed at1663.
+Task(6) of Job(126) completed at1663.
+Memory Utilization :  Memory used 408 out of 520 at 1665
+CPU Utilization :  cores used 130 out of 160 at 1665
+
+Task(1) of Job(123) completed at1665.
+Memory Utilization :  Memory used 392 out of 520 at 1666
+CPU Utilization :  cores used 122 out of 160 at 1666
+
+Task(0) of Job(191) completed at1666.
+Task(16) of Job(198) completed at1667.
+Memory Utilization :  Memory used 400 out of 520 at 1668
+CPU Utilization :  cores used 124 out of 160 at 1668
+
+Memory Utilization :  Memory used 416 out of 520 at 1669
+CPU Utilization :  cores used 126 out of 160 at 1669
+
+Task(8) of Job(201) completed at1670.
+Memory Utilization :  Memory used 412 out of 520 at 1671
+CPU Utilization :  cores used 124 out of 160 at 1671
+

@@ -91,7 +91,7 @@ public:
     bool IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool IsRegular);
     int numberoffreememory(int mainmemory,bool isRegular);
     int numberoffreecores(int coresnum,bool isRegular);
-    void Zerointhearrays(Task t,Task preempted_task);
+    void Zerointhearrays(Task preempted_task,Node *ptr);
     void RecordNumberOfUsedGB(int memory);
     void RecordNumberOfUsedCores(int cores);
     struct Xgreater
@@ -106,9 +106,11 @@ public:
     void UpdateCache(Block b,GlobalCache global_cache);
     bool IsPresentInCache(Block b);
     void sendCache(Node *ptr);
-    
+    void set_cachesize(int size){ cache_size = size;}
+    int get_cachesize(){return cache_size;}
 private:
     int id;
+    int cache_size;
     bool status = false;
     Node *node_ptr;
     std::vector<std::pair<Task,int> > Cores;
