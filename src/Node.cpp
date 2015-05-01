@@ -15,7 +15,7 @@ Node::Node(int _id,int num_cores,int memory): id(_id), CORESNUM(num_cores),MAINM
 Node::Node(const Node& orig) : id(orig.getId()), CORESNUM(orig.getCoreNum()), MAINMEMORY(orig.getMemory())
 {
     std::cout<<"Node constructor id = "<<orig.getId()<<std::endl;   
-    CreateExecuters();   
+    CreateExecuters();      
 }
 
 Node::~Node() {
