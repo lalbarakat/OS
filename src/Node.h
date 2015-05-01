@@ -103,7 +103,7 @@ public:
     void printtologfile(Node *ptr,Task t,time_t now);
     void addToCache(Block b,Node *ptr,GlobalCache global_cache);
     void deleteFromCache(Block b);
-    void UpdateCache(Block b,GlobalCache global_cache);
+    void UpdateCache(Block b    );
     bool IsPresentInCache(Block b);
     void sendCache(Node *ptr);
     void set_cachesize(int size){ cache_size = size;}

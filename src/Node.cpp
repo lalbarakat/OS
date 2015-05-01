@@ -395,9 +395,9 @@ bool CPU::IsScheduled(Task t,Node *ptr,int coresnum,int mainmemory,bool isRegula
            addToCache(b,ptr,global_cache);
            t.setCPU_time(t.getCPU_time()+20);
        }
-       else//If block is present in cache. Then Update the time stamp for LRU
+       else//If block is present in cache. Then Update the frequency
        {
-           UpdateCache(b,global_cache);
+           UpdateCache(b);
        }
        
        int reqdcores = 0;
@@ -499,16 +499,16 @@ bool CPU::IsPresentInCache(Block b)
 
 void CPU::addToCache(Block b,Node *ptr,GlobalCache global_cache)
 {
-    int clk;
-    clk = stats.getClock();
+    
+    
     
     set_cachesize(5);
     
     //check if the cache is full.
     if(local_cache.size()< get_cachesize())//If not full
     {
-        
-        local_cache.push_back(std::make_pair(b,clk));
+        //Adding the block for the first time. Frequency is 1.
+        local_cache.push_back(std::make_pair(b,1));
         
         /*cout<<"Node id "<<ptr->getId()<<endl;
             for(int i =0; i<local_cache.size();i++)
@@ -517,22 +517,22 @@ void CPU::addToCache(Block b,Node *ptr,GlobalCache global_cache)
             }
         */
     }
-    else //Cache is full. Find a block to Replace - Implement LRU
+    else //Cache is full. Find a block to Replace - Implement LFU. find the one with the least frequency
     {
-        int min_clock = stats.getClock()+1;
+        int min_freq = 999999999;
         int min_cache = local_cache.size();
         for(int i =0;i<local_cache.size();i++)
         {
-            if(local_cache[i].second < min_clock)
+            if(local_cache[i].second < min_freq)
             {
-                min_clock = local_cache[i].second;
+                min_freq = local_cache[i].second;
                 min_cache = i;
             }            
         }
         if(min_cache<local_cache.size())
         {
             local_cache[min_cache].first = b;
-            local_cache[min_cache].second = stats.getClock();
+            local_cache[min_cache].second = 1;
         }
         
       /*cout<<"Node id "<<ptr->getId()<<endl;
@@ -546,13 +546,14 @@ void CPU::addToCache(Block b,Node *ptr,GlobalCache global_cache)
 
     void deleteFromCache(Block b){}
     
-    void CPU::UpdateCache(Block b,GlobalCache global_cache)
+    
+    void CPU::UpdateCache(Block b)
     {
         for(int i =0;i<local_cache.size();i++)
         {
             if(local_cache[i].first.get_block_id() == b.get_block_id() && local_cache[i].first.get_file_id() == b.get_file_id())
             {
-                local_cache[i].second = stats.getClock();
+                local_cache[i].second ++ ; //Increase the frequency
                 return;
             }
         }
