@@ -517,18 +517,37 @@ void CPU::addToCache(Block b,Node *ptr,GlobalCache global_cache)
             }
         */
     }
-    else //Cache is full. Find a block to Replace - Implement LFU. find the one with the least frequency
+    else //Cache is full. Find a block to Replace - Implement LFU-F
     {
         int min_freq = 999999999;
         int min_cache = local_cache.size();
-        for(int i =0;i<local_cache.size();i++)
+        //first find the incomplete files?
+        int files_incomplete = FindNumberofIncompleteFiles();
+        
+        if(files_incomplete >= 1 ) // Atleast one incompletely cached files are there. choose the one with the least frequency among them
         {
-            if(local_cache[i].second < min_freq)
+        
+            for(int i =0;i<local_cache.size();i++)
             {
-                min_freq = local_cache[i].second;
-                min_cache = i;
-            }            
+                if( local_cache[i].first.IsPartOfIncompleteFile() && local_cache[i].second < min_freq)
+                {
+                    min_freq = local_cache[i].second;
+                    min_cache = i;
+                }            
+            }
+        }// all are complete files. choose the one with the least frequency.
+        else
+        {
+            for(int i =0;i<local_cache.size();i++)
+            {
+                if(local_cache[i].second < min_freq)
+                {
+                    min_freq = local_cache[i].second;
+                    min_cache = i;
+                }            
+            }    
         }
+        
         if(min_cache<local_cache.size())
         {
             local_cache[min_cache].first = b;
@@ -542,6 +561,19 @@ void CPU::addToCache(Block b,Node *ptr,GlobalCache global_cache)
             }*/
     }
         
+}
+
+int CPU::FindNumberofIncompleteFiles()
+{
+    int numOfIncomplFiles = 0;
+    for(int i =0;i<local_cache.size();i++)
+            {
+                if( local_cache[i].first.IsPartOfIncompleteFile())
+                {
+                    numOfIncomplFiles++;
+                }            
+            }
+    return numOfIncomplFiles;
 }
 
     void deleteFromCache(Block b){}

@@ -17,10 +17,14 @@ public:
     int get_block_id(){return block_id;}
     int get_file_id(){return file_id;}
     int get_size(){return size;}
+    bool IsPartOfIncompleteFile(){return incomplete;}
+    void SetToIncompleteFile(int iscoml){incomplete = iscoml;}
+    
 private:
     int block_id;
     int file_id;
     int size = 0.10; //0.1 GB 
+    bool incomplete = 0;
 };
 
 #endif	/* BLOCK_H */

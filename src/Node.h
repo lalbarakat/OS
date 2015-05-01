@@ -106,6 +106,7 @@ public:
     void UpdateCache(Block b    );
     bool IsPresentInCache(Block b);
     void sendCache(Node *ptr);
+    int FindNumberofIncompleteFiles();
     void set_cachesize(int size){ cache_size = size;}
     int get_cachesize(){return cache_size;}
 private:
